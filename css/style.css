@@ -3266,8 +3266,6 @@ position: relative; /* Ajout de position relative */
  }
 
 
-/* Styles spécifiques pour l'affichage des l'articles page blog.njk */
-
 /* Styles spécifiques pour le texte date de l'article page blog.njk */
 .poppins-regular-blog-date {
    font-family: "Poppins", sans-serif;
@@ -3506,6 +3504,15 @@ position: relative; /* Ajout de position relative */
    .btn-article {
        width: 100%; /* Les boutons occupent toute la largeur du conteneur */
    }
+}
+
+/* Styles pour une image dans la page article.md*/
+.article-content img {
+   display: block;       /* Assure que l'image se comporte comme un élément de bloc */
+   margin: 20px auto;    /* Centre l'image horizontalement et ajoute un espacement vertical */
+   max-width: 100%;      /* Empêche l'image de dépasser la largeur du conteneur */
+   height: auto;         /* Maintient le ratio de l'image */
+   border-radius: 10px;  /* Facultatif : ajoute des coins arrondis */
 }
 
 
