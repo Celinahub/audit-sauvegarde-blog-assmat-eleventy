@@ -3,8 +3,8 @@ layout: layouts/base.njk
 title: "Le Journal des Petits chez Céline - Activités pour Enfants à Brétigny-sur-Orge"
 description: "Articles sur les activités d'éveil, conseils et astuces pour enfants de moins de 3 ans à Brétigny-sur-Orge. Découvrez comment rendre l'apprentissage amusant avec Céline, assistante maternelle agréée."
 tags: "assistante maternelle, nounou, activités enfants, Brétigny-sur-Orge, blog"
-url: "https://test-site-statique-blog-eleventy.netlify.app/blog"
-image: "https://monsite.com/images/blog.jpg"
+url: "https://chubert91assmat.netlify.app/blog"
+image: "capture-site-blog-celine-hubert.jpg"
 eleventyNavigation:
   key: "BLOG"
   title: "BLOG"
@@ -14,12 +14,13 @@ pagination:
   size: 5
   alias: posts
   bodyClass: "blog-page"
+  permalink: "/blog/"
 ---
 
 
   <!-- Icône de défilement vers le haut utilisant une image SVG -->
   <a href="#first-article" class="scroll-to-top">
-    <img class="rocket-icon" src="{{ '/images/rocket-svgrepo-com.svg' | url }}" alt="Icône fusée - Retour en haut de la page pour découvrir les articles sur des sujets de la petite enfance">
+    <img class="rocket-icon" src="{{ '/images/rocket-svgrepo-com.svg' | url }}" alt="Icône de fusée pour remonter en haut de la page blog">
 </a>
 
 {% include "layouts/widget/header.njk" %} <!-- Inclusion de l'en-tête -->

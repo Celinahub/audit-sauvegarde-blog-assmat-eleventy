@@ -4,7 +4,6 @@
 /* Style pour toutes les pages */
 
 
-
 /* Style général du body */
 
 body {
@@ -14,7 +13,7 @@ body {
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
-   font-family: Arial, sans-serif;
+   font-family: "Poppins", Arial, sans-serif;
    box-sizing: border-box;
    min-height: 100vh; /* Assure que le corps a au moins la hauteur de la fenêtre du navigateur */
 }
@@ -117,7 +116,7 @@ h2, h3 {
 /* Styles pour les éléments span "2024 Céline Hubert Conçu avec coeur" à l'intérieur de custom-footer-section */
 .footer-text {
    font-family: 'Poppins', sans-serif; /* Change la police */
-   font-size: 10px; /* Change la taille de la police */
+   font-size: 12px; /* Change la taille de la police */
    font-weight: 400; /* Change le poids de la police */
    color: #F8F9F6; /* Change la couleur du texte */
 }
@@ -601,10 +600,19 @@ h2, h3 {
    z-index: -2; /* Assurez-vous que l'image SVG est derrière le contenu */
 }
 
-.heading-presentation {
-   color: #F8F9F6; /* Changez la couleur selon votre préférence */
-   font-size: 1px;
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
+
+
 
 
 #portrait .col-md-12 img.fond-curvy {
@@ -625,6 +633,12 @@ h2, h3 {
    width: 100%;
    z-index: -1; /* Assurez-vous que l'image SVG est derrière le contenu */
 }
+
+.background-portrait {
+   width: 100%;
+   height: auto;
+ }
+ 
 
 
 #portrait {
@@ -1080,10 +1094,6 @@ h2, h3 {
  
 }
 
-.heading-chezceline {
-   color: #F9FAF7; /* Changez la couleur selon votre préférence */
-   font-size: 1px;
-}
 
 
 #chezceline .col-md-12 img.fond-curvy {
@@ -2121,7 +2131,7 @@ position: relative; /* Ajout de position relative */
    background-color: transparent;
    color: #103754;
    padding: 5px;
-   font-size: 10px;
+   font-size: 12px;
    cursor: pointer;
 }
 
@@ -2155,7 +2165,7 @@ position: relative; /* Ajout de position relative */
 /* Ajoutez des styles spécifiques pour les écrans plus petits (par exemple, largeur inférieure à 768px) */
 @media (max-width: 768px) {
    .routine-keyword {
-      font-size: 8px;
+      font-size: 10px;
    }
 
    .routine-keywords {
@@ -2795,7 +2805,7 @@ position: relative; /* Ajout de position relative */
    background-color: transparent;
    color: #103754;
    padding: 5px;
-   font-size: 10px;
+   font-size: 12px;
    cursor: pointer;
 }
 
@@ -2829,7 +2839,7 @@ position: relative; /* Ajout de position relative */
 /* Ajoutez des styles spécifiques pour les écrans plus petits (par exemple, largeur inférieure à 768px) */
 @media (max-width: 768px) {
    .faq-keyword {
-      font-size: 8px;
+      font-size: 10px;
    }
 
    .faq-keywords {
@@ -3344,15 +3354,7 @@ position: relative; /* Ajout de position relative */
 }
 
 
-.poppins-regular-titre-section-article {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 1px;
-   font-style: normal;
-   color: transparent; /* Rend le texte complètement transparent */
-   margin-top: 50px;
-   margin-bottom: 0px;
-}
+
 
  
 .container-article {
@@ -3470,6 +3472,7 @@ position: relative; /* Ajout de position relative */
    width: 150px; /* Ajustez la taille de l'icône selon vos besoins */
    height: 150px;
 }
+
 
 
 
