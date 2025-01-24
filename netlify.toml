@@ -6,27 +6,44 @@
 [dev]
   command = "eleventy --serve"     # Commande pour lancer le serveur de développement
 
-# Si tu prévois d'utiliser des fonctions Netlify
 [functions]
   directory = "netlify/functions"  # Répertoire pour les fonctions serverless
 
-
-
-
-# Redirections (exemple pour les fonctions API et redirection 404)
+# Redirection générale pour ajouter une barre oblique aux URLs (hors fichiers statiques)
 [[redirects]]
-  from = "/api/posts"              # Redirection vers la fonction posts
-  to = "/.netlify/functions/posts"  # Cible de la redirection
-  status = 200                     # Code de statut HTTP
-  force = true                     # Forcer la redirection même si l'URL existe
+  from = "/:splat"
+  to = "/:splat/"
+  status = 301
+  force = true
+
+# Exceptions pour les fichiers spécifiques (exclure des redirections générales)
+[[redirects]]
+  from = "/favicon.ico"
+  to = "/favicon.ico"
+  status = 200
 
 [[redirects]]
-  from = "/*"                      # Redirection pour toutes les pages non trouvées
-  to = "/404.html"                 # Page 404 personnalisée
-  status = 404                     # Code de statut HTTP
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
 
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
 
+# Redirection pour les fonctions API
+[[redirects]]
+  from = "/api/posts"
+  to = "/.netlify/functions/posts"
+  status = 200
+  force = true
 
+# Gestion de la page 404 personnalisée
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
 
 # Configuration des en-têtes HTTP
 [[headers]]
