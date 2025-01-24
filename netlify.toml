@@ -10,13 +10,7 @@
 [functions]
   directory = "netlify/functions"  # Répertoire pour les fonctions serverless
 
-# Redirections
-[[redirects]]
-  from = "/:splat"
-  to = "/:splat/"
-  status = 301
-  force = true
-  conditions = ["!favicon.ico", "!robots.txt", "!*.css", "!*.js", "!*.png", "!*.jpg", "!*.svg"]
+
 
 
 # Redirections (exemple pour les fonctions API et redirection 404)
