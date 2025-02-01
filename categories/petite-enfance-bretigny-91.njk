@@ -1,26 +1,28 @@
 ---
 layout: layouts/base.njk
-title: "Pourquoi Offrir le CESU à Vos Employés ? Un Avantage Gagnant pour Tous"
-description: "Découvrez les avantages du CESU pour les entreprises et les employés. Facilitez l'accès aux services de garde d'enfant et améliorez le bien-être au travail grâce à des solutions adaptées aux familles."
-tags: "entreprises, avantages employés, bien-être au travail, équilibre vie professionnelle et personnelle, politique RH, productivité employé"
-url: "https://chubert91assmat.netlify.app/categories/entreprises"
-image: "https://chubert91assmat.netlify.app/images/blog/le-journal-des-petits-aides-cesu-salaries-bretigny-sur-orge.jpg"
-alt: "Le Journal des Petits - Aides financières CESU pour salariés et mode de garde à Brétigny-sur-Orge"
+title: "Actualités Locales de la Petite Enfance à Brétigny-sur-Orge"
+description: "Tenez-vous informé des événements et actualités locales concernant la petite enfance à Brétigny-sur-Orge. Retrouvez des conseils, des activités pour les enfants de moins de 3 ans."
+tags: "actualités locales, assistante maternelle, Brétigny-sur-Orge, petite enfance, événements"
+url: "https://chubert91assmat.netlify.app/categories/petite-enfance-bretigny-91"
+image: "https://chubert91assmat.netlify.app/images/blog/le-journal-des-petits-actualites-bretigny-sur-orge.jpg"
+alt: "Le Journal des Petits - Actualités locales petite enfance à Brétigny-sur-Orge"
 pagination:
-  data: collections.entreprises
+  data: collections.petite-enfance-bretigny-91
   size: 5  # Nombre d'articles par page
   alias: posts
   bodyClass: "blog-page"
 ---
 
+
 <!-- Icône de défilement vers le haut utilisant une image SVG -->
 <a href="#first-article" class="scroll-to-top">
-    <img class="rocket-icon" src="{{ '/images/rocket-svgrepo-com.svg' | url }}" alt="Icône de fusée pour naviguer vers le haut de la page des activités pour enfants à Brétigny-sur-Orge" />
+    <img class="rocket-icon" src="{{ '/images/rocket-svgrepo-com.svg' | url }}" alt="Icône de fusée pour naviguer vers le haut de la page des actualités locales pour enfants à Brétigny-sur-Orge" />
 </a>
+
 
 {% include "layouts/widget/header.njk" %} <!-- Inclusion de l'en-tête -->
 
-<section id="contenu-entreprises"> <!-- mt-5 ajoute de la marge supérieure -->
+<section id="contenu-petite-enfance-bretigny-91"> <!-- mt-5 ajoute de la marge supérieure -->
 <!-- Page content -->
 <div class="container"> <!-- Début du conteneur -->
     <div class="row"> <!-- Début de la ligne -->
@@ -33,41 +35,33 @@ pagination:
             <!-- Liste des autres articles avec pagination -->
             <div class="row"> <!-- Début de la ligne des autres articles -->
                 {% for post in pagination.items %}
-                    
-                        <div class="col-lg-6 mb-4"> <!-- Début de la colonne pour chaque autre article -->
-                            <div class="card-articles"> <!-- Début de la carte de l'article -->
-                                <a href="{{ post.url }}">
-
-                            {% image post.data.featuredImage | default('https://dummyimage.com/700x350/dee2e6/6c757d.jpg'), post.data.title | default('Image de l\'article'), '(min-width: 1024px) 100vw, 50vw' %} 
-
-                                </a>
-
-{% include "layouts/widget/partage-article-reseaux.njk" %} <!-- Inclusion du partage-article-reseaux -->
-
-                                <div class="card-body text-center"> <!-- Début du corps de la carte de l'article -->
-                                    <span class="badge text-bg-secondary">{{ post.data.category | default('ACTIVITE') }}</span>
-                                    <div class="poppins-regular-blog-date">{{ post.date | date('dd MMMM yyyy') }}</div>
-                                    <h2 class="poppins-regular-titre-blog">
-                                        <a href="{{ post.url }}" style="text-decoration: none; color: inherit;">{{ post.data.title | default('Titre de l\'article') }}</a>
-                                    </h2>
-
-
-                                    <div class="poppins-regular-blog">{{ post.content | truncateWords(20) }}</div><!-- Limité à 20 mots avec "..." -->
-                                   <a href="{{ post.url }}" class="btn btn-custom">
-                                <img src="{{ '/images/blog/baby-nipple-blog.svg' | url }}" class="bouton-tetine" alt="Lire l'article sur les activités pour les tout-petits chez une assistante maternelle à Brétigny-sur-Orge" />
-                                    </a>
+                   
+                        <div class="col-lg-6 mb-4">
+  <div class="card-articles"> <!-- Modifie ici de 'card' à 'card-articles' -->
+    <a href="{{ post.url }}">
+      {% image post.data.featuredImage | default('https://dummyimage.com/700x350/dee2e6/6c757d.jpg'), post.data.title | default('Image de l\'article'), '(min-width: 1024px) 100vw, 50vw' %}
+    </a>
+    {% include "layouts/widget/partage-article-reseaux.njk" %}
+    <div class="card-body text-center">
+      <span class="badge text-bg-secondary">{{ post.data.category | default('ACTIVITE') }}</span>
+      <div class="poppins-regular-blog-date">{{ post.date | date('dd MMMM yyyy') }}</div>
+      <h2 class="poppins-regular-titre-blog">
+        <a href="{{ post.url }}" style="text-decoration: none; color: inherit;">{{ post.data.title | default('Titre de l\'article') }}</a>
+      </h2>
+      <div class="poppins-regular-blog">{{ post.content | truncateWords(20) }}</div>
+      <a href="{{ post.url }}" class="btn btn-custom">
+        <img src="{{ '/images/blog/baby-nipple-blog.svg' | url }}" class="bouton-tetine" alt="Voir l'article" />
+      </a>
 </div> <!-- Fin de card-body text-center -->
 </div> <!-- Fin de la carte de l'article -->
 </div> <!-- Fin de la colonne pour chaque autre article -->
 
-               
-                
+                  
                 {% endfor %}
 
-    </div> <!-- Fin de la ligne des autres articles -->
+</div> <!-- Fin de la ligne des autres articles -->
 
-
-{% include "layouts/widget/pagination.njk" %} <!-- Inclusion de la pagination -->
+         {% include "layouts/widget/pagination.njk" %} <!-- Inclusion de la pagination -->
 
 
     </div> <!-- Fin de la colonne des articles -->
@@ -87,6 +81,7 @@ pagination:
  <script async src="https://cse.google.com/cse.js?cx=11cceee9558b14788">
     </script>
 
+
 <!-- MailerLite Universal -->
 <script>
     (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
@@ -96,6 +91,7 @@ pagination:
     ml('account', '1130594');
 </script>
 <!-- End MailerLite Universal -->
+
 
 <script>
     function copyLink(button) {
@@ -188,5 +184,4 @@ function toggleLike(button) {
 document.addEventListener('DOMContentLoaded', initializeLikes);
 
 </script>
-
 

@@ -52,12 +52,12 @@ collections:
             "publisher": {
               "@type": "Organization",
               "name": "Chubert Assmat Brétigny Blog",
-              "url": "https://test-site-statique-blog-eleventy.netlify.app/"
+              "url": "https://chubert91assmat.netlify.app/"
             },
             "keywords": ["{{tags}}"],
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://test-site-statique-blog-eleventy.netlify.app/article/{{slug}}"
+              "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
             }
           }
 
@@ -103,12 +103,12 @@ collections:
             "publisher": {
               "@type": "Organization",
               "name": "Chubert Assmat Brétigny Blog",
-              "url": "https://test-site-statique-blog-eleventy.netlify.app/"
+              "url": "https://chubert91assmat.netlify.app/"
             },
             "keywords": ["{{tags}}"],
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://test-site-statique-blog-eleventy.netlify.app/article/{{slug}}"
+              "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
             }
           }
 
@@ -154,12 +154,12 @@ collections:
             "publisher": {
               "@type": "Organization",
               "name": "Chubert Assmat Brétigny Blog",
-              "url": "https://test-site-statique-blog-eleventy.netlify.app/"
+              "url": "https://chubert91assmat.netlify.app/"
             },
             "keywords": ["{{tags}}"],
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://test-site-statique-blog-eleventy.netlify.app/article/{{slug}}"
+              "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
             }
           }
 
@@ -204,19 +204,19 @@ collections:
             "publisher": {
               "@type": "Organization",
               "name": "Chubert Assmat Brétigny Blog",
-              "url": "https://test-site-statique-blog-eleventy.netlify.app/"
+              "url": "https://chubert91assmat.netlify.app/"
             },
             "keywords": ["{{tags}}"],
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://test-site-statique-blog-eleventy.netlify.app/article/{{slug}}"
+              "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
             }
           }
 
       
       
 
-  - name: "/hygiene-soins"
+  - name: "hygiene-soins"
     label: "HYGIÈNE / SOINS"
     folder: "posts/hygiene-soins"
     create: true
@@ -254,20 +254,20 @@ collections:
             "publisher": {
               "@type": "Organization",
               "name": "Chubert Assmat Brétigny Blog",
-              "url": "https://test-site-statique-blog-eleventy.netlify.app/"
+              "url": "https://chubert91assmat.netlify.app/"
             },
             "keywords": ["{{tags}}"],
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://test-site-statique-blog-eleventy.netlify.app/article/{{slug}}"
+              "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
             }
           }
 
       
 
-  - name: "actualites-locales"
-    label: "ACTUALITES LOCALES"
-    folder: "posts/actualites-locales"
+  - name: "petite-enfance-bretigny-91"
+    label: "PETITE ENFANCE BRETIGNY-91"
+    folder: "posts/petite-enfance-bretigny-91"
     create: true
     slug: "{{slug}}"
     fields:
@@ -280,7 +280,7 @@ collections:
       - { label: "Image", name: "image", widget: "image" }  # Nouveau champ pour une image
       - { label: "Texte alternatif", name: "imageAlt", widget: "string" } # Nouveau champ pour le alt
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Catégorie", name: "category", widget: "string", default: "ACTUALITES LOCALES" }
+      - { label: "Catégorie", name: "category", widget: "string", default: "PETITE ENFANCE BRETIGNY-91" }
       - { label: "Image vedette", name: "featuredImage", widget: "image" }
       - { label: "Contenu", name: "body", widget: "markdown" }
       # Ajouter un champ JSON-LD structuré
@@ -303,12 +303,12 @@ collections:
             "publisher": {
               "@type": "Organization",
               "name": "Chubert Assmat Brétigny Blog",
-              "url": "https://test-site-statique-blog-eleventy.netlify.app/"
+              "url": "https://chubert91assmat.netlify.app/"
             },
             "keywords": ["{{tags}}"],
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://test-site-statique-blog-eleventy.netlify.app/article/{{slug}}"
+              "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
             }
           }
 
@@ -353,12 +353,12 @@ collections:
             "publisher": {
               "@type": "Organization",
               "name": "Chubert Assmat Brétigny Blog",
-              "url": "https://test-site-statique-blog-eleventy.netlify.app/"
+              "url": "https://chubert91assmat.netlify.app/"
             },
             "keywords": ["{{tags}}"],
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://test-site-statique-blog-eleventy.netlify.app/article/{{slug}}"
+              "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
             }
           }
 

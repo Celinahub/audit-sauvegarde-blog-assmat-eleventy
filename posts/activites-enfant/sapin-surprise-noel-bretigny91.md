@@ -17,8 +17,8 @@ tags:
   - activité enfant Brétigny-sur-Orge
   - sapin recyclé Brétigny-sur-Orge
   - créativité enfants Essonne
-url: "https://chubert91assmat.netlify.app/posts/sapin-surprise"
-image: "https://chubert91assmat.netlify.app/images/sapin-surprise-noel-bretigny91.jpg"
+url: "https://chubert91assmat.netlify.app/posts/activites-enfant/sapin-surprise-noel-bretigny91"
+image: "/images/uploads/sapin-surprise-noel-bretigny91.jpg"
 date: 2024-12-22
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: /images/uploads/sapin-surprise-noel-bretigny91.jpg

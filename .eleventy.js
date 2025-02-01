@@ -98,7 +98,7 @@ module.exports = function(eleventyConfig) {
     { name: "Activités pour enfant", slug: "activites-enfant", tag: "activites" },
     { name: "Sélection produits", slug: "selection-produits", tag: "produits" },
     { name: "Hygiène / soins", slug: "hygiene-soins", tag: "soins" },
-    { name: "Actualités locales", slug: "actualites-locales", tag: "local" },
+    { name: "Petite enfance bretigny-91", slug: "petite-enfance-bretigny-91", tag: "petite-enfance-bretigny-91" },
     { name: "La collectivité grâce au RPE", slug: "collectivite-rpe", tag: "rpe" },
     { name: "Entreprises", slug: "entreprises", tag: "entreprises" }
   ];
@@ -110,7 +110,7 @@ module.exports = function(eleventyConfig) {
   // Fonction pour récupérer les articles avec mise en cache
   function getCachedPosts(collectionApi) {
     if (!cachedPosts) {
-      cachedPosts = collectionApi.getFilteredByGlob("posts/**/*.md").reverse();
+      cachedPosts = collectionApi.getFilteredByGlob("posts/**/*.md").sort((a, b) => new Date(b.date) - new Date(a.date)); // Tri explicite par date décroissante
       console.log("Posts cache initialized");
     }
     return cachedPosts;
@@ -151,6 +151,8 @@ module.exports = function(eleventyConfig) {
     if (!date) return ""; // Retourner une chaîne vide si la date est non définie
     return format(new Date(date), "EEE, dd MMM yyyy HH:mm:ss 'GMT'xxx", { locale: fr });
   });
+
+
 
 
 

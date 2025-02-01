@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: "Votre enfant est-il prêt pour l’école ?"
 description: "Votre enfant fera sa rentrée scolaire à Brétigny-sur-Orge avec une transition en douceur vers l’école."
 tags: 
-  - local
+  - petite-enfance-bretigny-91
   - Brétigny-sur-Orge  
   - rentrée scolaire  
   - assistante maternelle  
@@ -14,9 +14,9 @@ tags:
   - ATSEM  
   - bien-être enfant 
 url: "https://chubert91assmat.netlify.app/posts/votre-enfant-est-il-pret-pour-l-ecole"
-image: "https://chubert91assmat.netlify.app/images/ecole-bretigny-sur-orge.jpg"
+image: "/images/uploads/ecole-bretigny-sur-orge.jpg"
 date: 2025-01-21
-category: "ACTUALITES LOCALES"
+category: "PETITE ENFANCE BRETIGNY-91" 
 featuredImage: /images/uploads/ecole-bretigny-sur-orge.jpg
 jsonLd: >
   {
