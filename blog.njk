@@ -142,67 +142,57 @@ pagination:
 
 
 <script>
-  // Initialiser les données des likes à partir du localStorage
-function initializeLikes() {
-    const allLikes = JSON.parse(localStorage.getItem('likes')) || {};
+  // Fonction d'initialisation des likes au chargement de la page
+  function initializeLikes() {
+      let allLikes = JSON.parse(localStorage.getItem('likes')) || {};
 
-    // Parcourir les articles sur la page et synchroniser les likes
-    document.querySelectorAll('.like-button').forEach(button => {
-        const postId = button.getAttribute('data-id');
-        const likeCountElement = document.getElementById(`like-count-${encodeURIComponent(postId)}`);
-        
-        if (allLikes[postId]) {
-            // Met à jour l'affichage des likes
-            likeCountElement.innerText = allLikes[postId].count;
+      document.querySelectorAll('.like-button').forEach(button => {
+          const postId = encodeURIComponent(button.getAttribute('data-id')); 
+          const likeCountElement = document.getElementById(`like-count-${postId}`);
 
-            // Met à jour l'état du bouton si déjà liké
-            if (allLikes[postId].isLiked) {
-                button.classList.add('liked');
-            }
-        }
-    });
-}
+          if (allLikes[postId]) {
+              likeCountElement.innerText = allLikes[postId].count;
+              if (allLikes[postId].isLiked) {
+                  button.classList.add('liked');
+              } else {
+                  button.classList.remove('liked');
+              }
+          } else {
+              likeCountElement.innerText = "0"; // Valeur par défaut si jamais liké
+          }
+      });
+  }
 
-// Fonction pour gérer les "likes"
-function toggleLike(button) {
-    const postId = button.getAttribute('data-id');
-    let allLikes = JSON.parse(localStorage.getItem('likes')) || {};
+  // Fonction pour gérer les "likes"
+  function toggleLike(button) {
+      let allLikes = JSON.parse(localStorage.getItem('likes')) || {};
+      const postId = encodeURIComponent(button.getAttribute('data-id')); 
+      const likeCountElement = document.getElementById(`like-count-${postId}`);
 
-    // Initialiser les données du post si nécessaire
-    if (!allLikes[postId]) {
-        allLikes[postId] = { count: 0, isLiked: false };
-    }
+      // Initialisation des données si elles n'existent pas
+      if (!allLikes[postId]) {
+          allLikes[postId] = { count: 0, isLiked: false };
+      }
 
-    // Inverser l'état du like
-    const postData = allLikes[postId];
-    if (postData.isLiked) {
-        postData.count--;
-    } else {
-        postData.count++;
-    }
-    postData.isLiked = !postData.isLiked;
+      // Mise à jour de l'état du like
+      if (allLikes[postId].isLiked) {
+          allLikes[postId].count--;
+          allLikes[postId].isLiked = false;
+          button.classList.remove('liked');
+      } else {
+          allLikes[postId].count++;
+          allLikes[postId].isLiked = true;
+          button.classList.add('liked');
+      }
 
-    // Sauvegarder les données mises à jour dans le localStorage
-    localStorage.setItem('likes', JSON.stringify(allLikes));
+      // Mettre à jour le compteur et sauvegarder les données
+      likeCountElement.innerText = allLikes[postId].count;
+      localStorage.setItem('likes', JSON.stringify(allLikes));
+  }
 
-    // Mettre à jour l'affichage
-    const likeCountElement = document.getElementById(`like-count-${encodeURIComponent(postId)}`);
-    if (likeCountElement) {
-        likeCountElement.innerText = postData.count;
-    }
-
-    if (postData.isLiked) {
-        button.classList.add('liked');
-    } else {
-        button.classList.remove('liked');
-    }
-}
-
-// Initialiser les likes au chargement de la page
-document.addEventListener('DOMContentLoaded', initializeLikes);
-
+  // Exécuter l'initialisation des likes au chargement de la page
+  document.addEventListener('DOMContentLoaded', initializeLikes);
 </script>
-
 
 
 
