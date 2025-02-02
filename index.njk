@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 title: "Céline Hubert - Assistante Maternelle Agréée à Brétigny-sur-Orge"
-description: "Découvrez l'accueil chaleureux et les services professionnels de Céline Hubert, assistante maternelle agréée à Brétigny-sur-Orge. Accueil individuel, activités ludiques et soutien administratif pour les parents."
+description: "Confiez votre enfant à Céline Hubert, assistante maternelle agréée à Brétigny-sur-Orge. Un mode de garde alternatif à la crèche, avec un accueil personnalisé."
 url: "https://chubert91assmat.netlify.app/"
 image: "presentation-assistante-maternelle-agreee.jpg"
 eleventyNavigation:
@@ -19,7 +19,7 @@ bodyClass: "bg-white presentation"
           "name": "Assistante maternelle agréée - chez Céline",
           "image": "presentation-assistante-maternelle-agreee.jpg",
           "priceRange": "Fixé en fonction de vos besoins d'accueil",
-          "description": "Assistante maternelle agréée proposant un accueil personnalisé pour les enfants. Les tarifs sont définis en fonction des besoins spécifiques de chaque famille.",
+          "description": "Assistante maternelle agréée proposant un accueil personnalisé pour les enfants à Brétigny-sur-Orge. Une alternative chaleureuse et professionnelle à la crèche.",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "22 Rue du Parc",
@@ -86,7 +86,12 @@ bodyClass: "bg-white presentation"
         </div>
         <div class="bordered-content-presentation-image">
             <div class="presentation-image mx-auto position-relative mb-4">
-                {% image "/images/presentation/celine-hubert-assistante-maternelle-bretigny.jpg", "Céline Hubert, assistante maternelle à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high", class="rounded-circle img-fluid" %}
+                <picture>
+    <!-- Balise source pour WebP -->
+    <source srcset="{{ '/images/presentation/celine-hubert-assistante-maternelle-bretigny.webp' | url }}" type="image/webp">
+    <!-- Balise img pour les navigateurs ne prenant pas en charge WebP -->
+    <img class="photo-img-portrait" src="{{ '/images/presentation/celine-hubert-assistante-maternelle-bretigny.jpg' | url }}" alt="Céline Hubert, assistante maternelle à Brétigny-sur-Orge" loading="lazy">
+</picture>
 
                 <a href="{{ '/contact/' | url }}" class="position-icon-b" aria-label="Contacter Céline Hubert via icône bulle ou bouton SVG">
                     <!-- Contenu de l'icône ou bouton -->

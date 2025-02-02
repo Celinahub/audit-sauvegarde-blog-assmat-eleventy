@@ -9,19 +9,18 @@ const htmlMinifier = require("html-minifier-terser"); // Plugin de minification 
 const BASE_URL = "https://chubert91assmat.netlify.app";
 
 // Fonction pour gérer le shortcode d'image
-async function imageShortcode(src, alt = "", sizes = "100vw", width = 300, height = null, loading = "lazy", fetchpriority = "auto") {
+async function imageShortcode(src, alt = "", sizes = "100vw", width = 300, height = null, loading = "lazy", fetchpriority = "auto", className = "") {
   if (!src) {
     console.warn(`Missing image source for: ${alt}`);
     return '';
   }
 
-  // Définir directement l'image source
   const imageSrc = src.startsWith("/") ? `.${src}` : `./images/${src}`;
 
   try {
     let metadata = await Image(imageSrc, {
-      widths: [width, 600, 1200].filter(Boolean), // Filtre les valeurs nulles ou undefined
-      formats: ["webp", "jpeg"],
+      widths: [width, 600, 1200].filter(Boolean),
+      formats: ["webp", "jpeg", "png"],
       outputDir: "./_site/images/",
       urlPath: "/images/",
       cacheOptions: {
@@ -30,14 +29,14 @@ async function imageShortcode(src, alt = "", sizes = "100vw", width = 300, heigh
       }
     });
 
-     // Attributs pour la balise <img>
-     let imageAttributes = {
+    let imageAttributes = {
       alt,
       sizes,
       loading,
       decoding: "async",
       fetchpriority,
-      ...(height ? { style: `aspect-ratio: ${width}/${height};` } : {}), // Ajoute l'aspect-ratio si `height` est défini
+      class: className,  // 👈 Ajout de la classe CSS ici !
+      ...(height ? { style: `aspect-ratio: ${width}/${height};` } : {}),
     };
 
     return Image.generateHTML(metadata, imageAttributes, {
@@ -45,9 +44,10 @@ async function imageShortcode(src, alt = "", sizes = "100vw", width = 300, heigh
     });
   } catch (e) {
     console.warn(`⚠️ Erreur lors du traitement de l'image : ${imageSrc}`, e);
-    return `<img src="${src}" alt="${alt}" loading="lazy">`;
+    return `<img src="${src}" alt="${alt}" class="${className}" loading="lazy">`;
   }
 }
+
 
 module.exports = function(eleventyConfig) {
   // Définir les données globales pour le site
