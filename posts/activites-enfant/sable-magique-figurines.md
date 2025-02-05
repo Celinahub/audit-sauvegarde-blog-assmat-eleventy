@@ -14,7 +14,7 @@ tags:
   - activités manuelles
   - figurines
   - éveil de l'imagination
-url: "https://chubert91assmat.netlify.app/posts/sable-magique-avec-figurines"
+url: "/posts/sable-magique-avec-figurines"
 image: "/images/uploads/sable-magique.jpg"
 date: 2024-10-07
 category: "ACTIVITÉS POUR ENFANT"
