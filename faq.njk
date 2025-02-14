@@ -53,12 +53,18 @@ bodyClass: "bg-white faq"
 
     <div class="faq-header">
         <h2 class="poppins-regular-faq">QU'EST CE QUE LA CONVENTION COLLECTIVE ?</h2>
-        <button class="btn-toggle" id="toggle-convention" title="Toggle Description convention" onclick="toggleDescription()">
-            <i class="fas fa-plus"></i> <span class="sr-only">Activer Description convention</span>
-        </button>
+    
+
+<button class="btn-toggle" id="toggle-convention" title="Toggle familles" onclick="toggleDescriptionmagie('convention-description', this)">
+    <img src="../images/faq/croix-en-savoir-plus-faq.svg" alt="Flèche" class="faq-icon"> 
+    <span class="sr-only">Toggle Description familles</span>
+</button>
+ 
+
+
     </div>
 
-    <div class="faq-description">
+     <div class="faq-description" id="convention-description">
         <p>Depuis le 1er janvier 2022, le secteur des particuliers employeurs et de l’emploi à domicile est régi par une nouvelle convention collective unique. Ce cadre juridique modernisé assure une relation d'emploi sereine durant la relation contractuelle.</p>
 
         <!-- Espacement entre le titre et le paragraphe -->
@@ -104,11 +110,14 @@ bodyClass: "bg-white faq"
     <hr class="faq-separator">
     <div class="faq-header">
         <h2 class="poppins-regular-faq">LEGISLATION APPLICABLE</h2>
-        <button class="btn-toggle" id="toggle-legislation" title="Toggle familles" onclick="toggleDescription()">
-            <i class="fas fa-plus"></i> <span class="sr-only">Toggle Description familles</span>
-        </button>
+        <button class="btn-toggle" id="toggle-legislation" title="Toggle familles" onclick="toggleDescriptionmagie('legislation-description', this)">
+
+    <img src="../images/faq/croix-en-savoir-plus-faq.svg" alt="Flèche" class="faq-icon"> 
+    <span class="sr-only">Toggle Description familles</span>
+</button>
+
     </div>
-    <div class="faq-description">
+    <div class="faq-description" id="legislation-description">
         <p>Le contrat de travail des assistantes maternelles est encadré par une hiérarchie de textes : le Code du travail fixe le cadre général, le CASF s'applique spécifiquement à la profession, puis vient la Convention Collective Nationale (CCN), et enfin les clauses spécifiques du contrat, qui prévalent sur tout le reste dans les limites de la loi.</p>
         
         <!-- Espacement entre le titre et le paragraphe -->
@@ -182,11 +191,16 @@ bodyClass: "bg-white faq"
     <hr class="faq-separator">
     <div class="faq-header">
         <h2 class="poppins-regular-faq">LES AIDES</h2>
-        <button class="btn-toggle" id="toggle-aides" title="Toggle aides" onclick="toggleDescription('faq-details')">
-            <i class="fas fa-plus"></i> <span class="sr-only">Toggle Description aides</span>
-        </button>
+
+
+<button class="btn-toggle" id="toggle-aides" title="Toggle familles" onclick="toggleDescriptionmagie('aides-description', this)">
+    <img src="../images/faq/croix-en-savoir-plus-faq.svg" alt="Flèche" class="faq-icon"> 
+    <span class="sr-only">Toggle Description familles</span>
+</button>
+
+
     </div>
-    <div class="faq-description">
+    <div class="faq-description" id="aides-description">
         <p><strong>• Les prestations de la PAJE et le complément de libre choix du mode de garde (CMG) :</strong> Ces aides sont versées par la CAF pour réduire le coût de la garde.</p>
 
         <p><strong>• Le crédit d’impôt :</strong> Vous pouvez bénéficier d'un crédit d'impôt pour les frais de garde d'enfants de moins de 6 ans.</p>
@@ -210,11 +224,16 @@ bodyClass: "bg-white faq"
     <hr class="faq-separator">
     <div class="faq-header">
         <h2 class="poppins-regular-faq">DEMARCHES A EFFECTUER</h2>
-        <button class="btn-toggle" id="toggle-demarches" title="Toggle demarches" onclick="toggleDescription()">
-            <i class="fas fa-plus"></i> <span class="sr-only">Toggle Description demarches</span>
-        </button>
+
+       
+<button class="btn-toggle" id="toggle-demarches" title="Toggle familles" onclick="toggleDescriptionmagie('demarches-description', this)">
+    <img src="../images/faq/croix-en-savoir-plus-faq.svg" alt="Flèche" class="faq-icon"> 
+    <span class="sr-only">Toggle Description familles</span>
+</button>
+
+
     </div>
-    <div class="faq-description">
+    <div class="faq-description" id="demarches-description">
         <h3>
             <span>
              <img src="{{ '/images/faq/check-square-svgrepo-com.svg' | url }}" class="checked-demarches" alt="icône check carré de validation démarches">
@@ -279,11 +298,15 @@ bodyClass: "bg-white faq"
     <hr class="faq-separator">
     <div class="faq-header">
         <h2 class="poppins-regular-faq">LES SITES UTILES</h2>
-        <button class="btn-toggle" id="toggle-sites" title="Toggle demarches" onclick="toggleDescription()">
-            <i class="fas fa-plus"></i> <span class="sr-only">Toggle Description demarches</span>
-        </button>
+
+<button class="btn-toggle" id="toggle-sites" title="Toggle familles" onclick="toggleDescriptionmagie('sites-description', this)">
+    <img src="../images/faq/croix-en-savoir-plus-faq.svg" alt="Flèche" class="faq-icon"> 
+    <span class="sr-only">Toggle Description familles</span>
+</button>
+
+
     </div>
-    <div class="faq-description">
+    <div class="faq-description" id="sites-description">
         <p>
             <a href="https://www.caf.fr/" target="_blank" class="styled-link-sites">https://www.caf.fr</a>
         </p>
@@ -317,11 +340,15 @@ bodyClass: "bg-white faq"
     <hr class="faq-separator">
     <div class="faq-header">
         <h2 class="poppins-regular-faq">QUEL EST LE TARIF ?</h2>
-        <button class="btn-toggle" id="toggle-disparite" title="Toggle disparite" onclick="toggleDescription()">
-            <i class="fas fa-plus"></i> <span class="sr-only">Toggle Description disparite</span>
-        </button>
+
+     <button class="btn-toggle" id="toggle-tarif" title="Toggle familles" onclick="toggleDescriptionmagie('tarif-description', this)">
+    <img src="../images/faq/croix-en-savoir-plus-faq.svg" alt="Flèche" class="faq-icon"> 
+    <span class="sr-only">Toggle Description familles</span>
+</button>
+
+
     </div>
-    <div class="faq-description">
+    <div class="faq-description" id="tarif-description">
         <p class="poppins-regular-faq-text">Le tarif est calculé en fonction de vos besoins spécifiques en matière d’accueil. Pour vous fournir une estimation précise et adaptée, nous commençons par un premier rendez-vous sans engagement. Cet échange me permet de bien comprendre vos attentes afin de vous proposer un tarif personnalisé et juste.</p>
         <p class="poppins-faq-hidden">
             <strong>Contrairement à la crèche, où votre participation augmente chaque année avec la revalorisation du plafond de ressources, mon salaire et l'indemnité d'entretien restent stables sur 2 à 3 ans sans avenant. De plus, votre reste à charge diminue progressivement grâce aux revalorisations de l'aide CMG. Ces petites économies mensuelles deviennent significatives sur 3 ans !</strong>
@@ -333,11 +360,16 @@ bodyClass: "bg-white faq"
     <hr class="faq-separator">
     <div class="faq-header">
         <h2 class="poppins-regular-faq">COMMENT CALCULER LE COÛT DE LA PLACE ET LES INDEMNITÉS ?</h2>
-        <button class="btn-toggle" id="toggle-place" title="Toggle place" onclick="toggleDescription()">
-            <i class="fas fa-plus"></i> <span class="sr-only">Toggle Description place</span>
-        </button>
+
+
+      <button class="btn-toggle" id="toggle-indemnite" title="Toggle familles" onclick="toggleDescriptionmagie('indemnite-description', this)">
+    <img src="../images/faq/croix-en-savoir-plus-faq.svg" alt="Flèche" class="faq-icon"> 
+    <span class="sr-only">Toggle Description familles</span>
+</button>
+
+
     </div>
-    <div class="faq-description">
+    <div class="faq-description" id="indemnite-description">
         <h3>
             <span>
              <img src="{{ '/images/faq/money-bag-svgrepo-com.svg' | url }}" class="checked-money" alt="icône important">
@@ -402,11 +434,17 @@ bodyClass: "bg-white faq"
     <hr class="faq-separator">
     <div class="faq-header">
         <h2 class="poppins-regular-faq">COMMENT PUIS-JE RÉGLER LE SALAIRE ?</h2>
-        <button class="btn-toggle" id="toggle-reglement" title="Toggle demarches" onclick="toggleDescription()">
-            <i class="fas fa-plus"></i> <span class="sr-only">Toggle Description demarches</span>
-        </button>
+
+
+
+<button class="btn-toggle" id="toggle-salaire" title="Toggle familles" onclick="toggleDescriptionmagie('salaire-description', this)">
+    <img src="../images/faq/croix-en-savoir-plus-faq.svg" alt="Flèche" class="faq-icon"> 
+    <span class="sr-only">Toggle Description familles</span>
+</button>
+
+
     </div>
-    <div class="faq-description">
+    <div class="faq-description" id="salaire-description">
         <h3>
             <span>
              <img src="{{ '/images/faq/credit-card-credit-svgrepo-com.svg' | url }}" class="checked-salaire" alt="icône carte de crédit paiement">
@@ -446,11 +484,16 @@ bodyClass: "bg-white faq"
     <hr class="faq-separator">
     <div class="faq-header">
         <h2 class="poppins-regular-faq">GUIDE POUR REMPLIR L'ATTESTATION EMPLOYEUR</h2>
-        <button class="btn-toggle" id="toggle-travail" title="Toggle travail" onclick="toggleDescription()">
-            <i class="fas fa-plus"></i> <span class="sr-only">Toggle Description travail</span>
-        </button>
+
+
+ <button class="btn-toggle" id="toggle-attestation" title="Toggle familles" onclick="toggleDescriptionmagie('attestation-description', this)">
+    <img src="../images/faq/croix-en-savoir-plus-faq.svg" alt="Flèche" class="faq-icon"> 
+    <span class="sr-only">Toggle Description familles</span>
+</button>
+
+
     </div>
-    <div class="faq-description">
+    <div class="faq-description" id="attestation-description">
         <p>
             Pour créer un "espace employeur" sur 
             <a href="https://www.francetravail.fr/employeur/vous-etes-un-particulier-employe.html" target="_blank" class="styled-link">le site de France Travail</a> utilisez votre identifiant URSSAF (Pajemploi), que vous pouvez trouver dans votre lettre de bienvenue, votre espace personnel en ligne, vos e-mails de confirmation, ou en contactant le service client de Pajemploi ou de l'URSSAF. Vous recevrez ensuite un code d'accès par e-mail. Je vous fournirai une saisie personnalisée pour vous guider.
@@ -542,70 +585,26 @@ bodyClass: "bg-white faq"
 
 
 <script>
-    function toggleDescription() {
-    const button = document.querySelector('.btn-toggle');
-
-    // Ajouter la classe seulement si elle n'est pas déjà présente
-    if (!button.classList.contains('button-text-visible')) {
-        button.classList.add('button-text-visible');
-    }
-}
-
-</script>
-
-
-
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Récupérez tous les boutons "+" dans la section "Diplômes"
-      const toggleButtonsfaq = document.querySelectorAll('.btn-toggle');
-      const specificTitlesfaq = document.querySelectorAll('.faq-title-specific');
-  
-      // Ajoutez un gestionnaire d'événement à chaque bouton "+"
-      toggleButtonsfaq.forEach((button, index) => {
-        button.addEventListener('click', () => {
-          // Trouvez la description de diplôme correspondante
-          const descriptions = document.querySelectorAll('.faq-description');
-          
-          // Vérifiez si l'index est valide
-          if (index < descriptions.length) {
-            const description = descriptions[index];
-  
-            // Vérifiez si la description existe et si elle est visible ou cachée
-            const isVisible = description && window.getComputedStyle(description).display !== 'none';
-  
-            // Inversez la visibilité en ajoutant ou supprimant la classe 'visible'
-            if (isVisible) {
-              description.style.display = 'none'; // Cachez la description
-              button.innerHTML = '<i class="fas fa-plus"></i>'; // Changez l'icône du bouton en "+"
-            } else {
-              description.style.display = 'block'; // Affichez la description
-              button.innerHTML = '<i class="fas fa-minus"></i>'; // Changez l'icône du bouton en "-"
-            }
-          }
-        });
-      });
-  
-     
-        });
-  
-  
-  </script>
-  
-  <script>
   function toggleDescriptionmagie(id, btn) {
   var element = document.getElementById(id);
+  var icon = btn.querySelector('.faq-icon'); // Sélectionner l'icône SVG à l'intérieur du bouton
+  
   if (element) {
     if (element.style.display === "none" || element.style.display === "") {
+      // Afficher la description et tourner l'icône
       element.style.display = "block";
-      btn.innerHTML = '<span><strong>En savoir moins</strong></span><i class="fas fa-minus"></i>';
+      icon.style.transform = "rotate(45deg)"; // Rotation de l'icône SVG
+      icon.style.transition = "transform 0.3s ease"; // Transition douce de la rotation
     } else {
+      // Masquer la description et réinitialiser l'icône
       element.style.display = "none";
-      btn.innerHTML = '<span><strong>En savoir plus</strong></span><i class="fas fa-plus"></i>';
+      icon.style.transform = "rotate(0deg)"; // Réinitialisation de la rotation
+      icon.style.transition = "transform 0.3s ease"; // Transition douce de la rotation
     }
   } else {
     console.error("Element with ID '" + id + "' not found.");
   }
 }
+
+
     </script>
