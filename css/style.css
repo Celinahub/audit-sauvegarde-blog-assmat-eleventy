@@ -2298,6 +2298,19 @@ position: relative; /* Ajout de position relative */
    cursor: pointer;
 }
 
+.routine-icon {
+   width: 15px;
+   height: 15px;
+   transition: transform 0.3s ease-in-out; /* Animation fluide */
+}
+
+/* Rotation de la flèche quand le bouton est activé */
+.routine-btn-toggle.active .routine-icon,
+.routine-picto-btn-toggle.active .routine-icon,
+.agrement-btn-toggle.active .routine-icon {
+   transform: rotate(90deg); /* Fait tourner la flèche de 90° */
+}
+
 
   
 /* Styles pour la section agrement */
