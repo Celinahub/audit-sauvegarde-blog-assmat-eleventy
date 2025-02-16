@@ -1,8 +1,8 @@
 {
-  "title": "Céline Hubert - Assistante Maternelle Agréée",
+  "title": "Céline Hubert - Assistante Maternelle",
   "url": "https://chubert91assmat.netlify.app/",
   "language": "fr",
-  "description": "Assistante maternelle agréée à Brétigny-sur-Orge. Découvrez un accueil personnalisé pour votre enfant, une alternative aux crèches et nounous. Contactez-moi !",
+  "description": "Assistante maternelle à Brétigny-sur-Orge, Céline Hubert vous accueille avec bienveillance.",
   "feed": {
     "subtitle": "Les derniers articles de mon blog",
     "filename": "atom.xml",
@@ -17,6 +17,9 @@
     "pinterest": "https://fr.pinterest.com/chubert91assmat/_profile/"
   },
   "socialImage": "/images/presentation/rpe-bretigny.jpg",
+  "pageImages": {
+    "projet-accueil": "/images/presentation/parc-bretigny.jpg"
+  },
   "navigation": [
     { "title": "Accueil", "url": "/" },
     { "title": "Projet d'accueil", "url": "/projet-accueil/" },

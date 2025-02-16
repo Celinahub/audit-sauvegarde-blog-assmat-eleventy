@@ -57,6 +57,21 @@ module.exports = function(eleventyConfig) {
     author: { name: "Céline Hubert" }
   });
 
+
+ // Ajouter un filtre pour définir une image Open Graph par défaut
+ eleventyConfig.addFilter("defaultOGImage", function(data) {
+  return data.image || "/images/presentation/rpe-bretigny.jpg";
+});
+
+
+
+  // Ajouter les images spécifiques pour chaque page
+  eleventyConfig.addGlobalData("pageImages", {
+    "/projet-accueil/": "/images/presentation/parc-bretigny.jpg",
+    "/": "/images/presentation/rpe-bretigny.jpg"
+  });
+
+
   // Ajouter le filtre absoluteUrl
   eleventyConfig.addFilter("absoluteUrl", function(url) {
     return new URL(url, BASE_URL).toString();
