@@ -12,7 +12,7 @@ tags:
   - respect de la planète
   - produit breveté
   - bien-être enfant
-url: "https://chubert91assmat.netlify.app/posts/potty-and-me-pot-ecologique"
+url: "https://chubert91assmat.netlify.app/posts/selection-produits/potty-and-me/"
 image: "/images/uploads/potty-and-me.jpg"
 date: 2024-11-28
 category: "SELECTION PRODUITS"

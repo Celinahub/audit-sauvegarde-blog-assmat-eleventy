@@ -12,7 +12,7 @@ tags:
   - Travailleur indépendant
   - Fiscalité
   - RH entreprise
-url: "https://chubert91assmat.netlify.app/posts/des-economies-grace-aux-cesu-prefinances"
+url: "https://chubert91assmat.netlify.app/posts/entreprises/cesu-prefinances/"
 image: "/images/uploads/cesu.jpg"
 date: 2024-11-23
 category: "ENTREPRISES"

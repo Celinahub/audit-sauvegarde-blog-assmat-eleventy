@@ -11,7 +11,7 @@ tags:
   - recette facile
   - recette rapide
   - cuisine maison
-url: "https://chubert91assmat.netlify.app/posts/bouillie-au-chocolat"
+url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/bouillie-chocolat/"
 image: "/images/uploads/recette-bouillie-chocolat.jpg"
 date: 2024-11-22
 category: "RECETTES / ATELIER CUISINE"

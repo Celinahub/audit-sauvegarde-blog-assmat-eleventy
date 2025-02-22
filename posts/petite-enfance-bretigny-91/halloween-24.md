@@ -11,7 +11,7 @@ tags:
   - Brétigny-sur-Orge
   - fêtes de fin d'année
   - culture mexicaine
-url: "https://chubert91assmat.netlify.app/posts/halloween-brétigny-citrouilles-día-de-los-muertos"
+url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/halloween-24/"
 image: "/images/uploads/halloween.-bretigny-24.jpg"
 date: 2024-10-24
 category: "PETITE ENFANCE BRETIGNY-91"
