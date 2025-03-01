@@ -11,6 +11,8 @@ permalink: "/contact/"
 bodyClass: "bg-white contact"
 ---
 
+
+
  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 
 <!-- Section de la rubrique LOCALISATION -->
@@ -41,7 +43,8 @@ bodyClass: "bg-white contact"
 
 
             <!-- Formulaire de contact -->
-            <div class="row justify-content-center"> <!-- Centrer le formulaire -->
+           <div class="container-fluid">
+    <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-5"> <!-- Largeur réduite du formulaire -->
                    <form name="contact" method="POST" data-netlify="true" class="p-4 shadow-lg-tablet rounded-md">
                         <input type="hidden" name="form-name" value="contact" />
@@ -71,6 +74,8 @@ bodyClass: "bg-white contact"
                     </form>
                 </div>
             </div>
+</div>
+
 
             <!-- Décoration après le formulaire -->
             <img src="{{ '/images/contact/me-contacter-form.svg' | url }}" class="contact-curvy mt-4" alt="Décor de nuages en bas du formulaire de contact de Céline, assistante maternelle agréée" />
@@ -78,6 +83,7 @@ bodyClass: "bg-white contact"
 
     </div>
 </div>
+
 
     </div>
 </section>
@@ -123,4 +129,3 @@ bodyClass: "bg-white contact"
 	</script>
 	
 	
-
