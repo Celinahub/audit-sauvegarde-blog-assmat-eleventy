@@ -7,8 +7,8 @@
 /* Définition de la police Poppins */
 @font-face {
    font-family: 'Poppins';
-   src: url('/fonts/poppins-v22-latin-regular.woff2') format('woff2'),
-        url('/fonts/poppins-v22-latin-regular.woff') format('woff');
+   src: url('../fonts/poppins-v22-latin-regular.woff2') format('woff2'),
+        url('../fonts/poppins-v22-latin-regular.woff') format('woff');
    font-weight: 400; /* Poids normal */
    font-style: normal;
    font-display: swap;
@@ -16,8 +16,8 @@
 
 @font-face {
    font-family: 'Poppins';
-   src: url('/fonts/poppins-v22-latin-700.woff2') format('woff2'),
-        url('/fonts/poppins-v22-latin-regular.woff') format('woff');
+   src: url('../fonts/poppins-v22-latin-700.woff2') format('woff2'),
+        url('../fonts/poppins-v22-latin-700.woff') format('woff');
    font-weight: 700; /* Poids gras */
    font-style: normal;
    font-display: swap;
@@ -25,8 +25,8 @@
 
 @font-face {
    font-family: 'Poppins';
-   src: url('/fonts/poppins-v22-latin-900.woff2') format('woff2'),
-        url('/fonts/poppins-v22-latin-regular.woff') format('woff');
+   src: url('../fonts/poppins-v22-latin-900.woff2') format('woff2'),
+        url('../fonts/poppins-v22-latin-900.woff') format('woff');
    font-weight: 900; /* Poids très gras */
    font-style: normal;
    font-display: swap;
@@ -35,13 +35,12 @@
 /* Définition de la police Finger Paint */
 @font-face {
    font-family: 'Finger Paint';
-   src: url('/fonts/finger-paint-v19-latin-regular.woff2') format('woff2'),
-        url('/fonts/finger-paint-v19-latin-regular.woff') format('woff');
+   src: url('../fonts/finger-paint-v19-latin-regular.woff2') format('woff2'),
+        url('../fonts/finger-paint-v19-latin-regular.woff') format('woff');
    font-weight: 400; /* Poids normal */
    font-style: normal;
    font-display: swap;
 }
-
 
 /* Appliquer Poppins (poids normal) */
 body {
@@ -66,8 +65,6 @@ h1 {
    font-family: 'Finger Paint', cursive;
    font-weight: 400;
 }
-
-
 
 
 /* Style général du body */
@@ -3689,7 +3686,7 @@ position: relative; /* Ajout de position relative */
 
 
 
-/* Styles pour le lien de 404 - Page Non Trouvée dans 404.md*/
+/* Styles pour les liens dans les articles.md*/
 .styled-link-article {
    font-family: "Poppins", sans-serif;
    font-weight: bold;
@@ -3707,6 +3704,48 @@ position: relative; /* Ajout de position relative */
       font-size: 14px;
    }
  }
+
+ #sommaire {
+   background-color: #f3f4f6;
+   padding: 15px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+
+#sommaire a {
+   display: block; /* Met chaque lien sur une nouvelle ligne */
+   margin-bottom: 5px; /* Espacement entre les liens */
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+/* Styles pour les liens dans les articles.md*/
+.styled-link-sommaire {
+   font-family: "Poppins", sans-serif;
+   font-weight: normal;
+   font-size: 14px;
+   font-style: normal;
+   color: #34556e;
+   text-decoration: none;
+}
+.styled-link-sommaire:hover {
+   text-decoration: underline;
+}
+/* Media query pour écrans plus petits */
+@media (max-width: 768px) {
+   .styled-link-sommaire  {
+      font-size: 14px;
+   }
+ }
+
+ #sommaire h2 {
+   margin-bottom: 10px; /* Réduit l'espace sous le titre */
+   font-size: 18px; /* Réduit la taille du titre */
+   color: #34556e; /* Applique la couleur */
+   font-weight: bold;
+}
 
 
 
