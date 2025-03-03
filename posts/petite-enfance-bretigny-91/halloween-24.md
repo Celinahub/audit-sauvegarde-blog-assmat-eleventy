@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: "Halloween à Brétigny : Citrouilles et Día de los Muertos"
-description: "Découvrez Halloween à Brétigny-sur-Orge : citrouilles rigolotes, décorations Día de los Muertos et expériences sensorielles idéales pour les enfants et leurs familles."
+description: "Découvrez Halloween à Brétigny-sur-Orge : citrouilles rigolotes, décorations Día de los Muertos et expériences sensorielles en famille."
 tags: 
   - enfants
   - petite-enfance-bretigny-91

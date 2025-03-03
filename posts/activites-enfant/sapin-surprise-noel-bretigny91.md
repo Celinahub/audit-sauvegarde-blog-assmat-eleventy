@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: "Sapin surprise : Activité ludique pour Nöel"
-description: "Découvrez les étapes de fabrication du sapin surprise : une activité sensorielle et créative idéale pour les tout-petits pour noël, favorisant la motricité fine par la manipulation de gommettes, de coton et de peinture."
+description: "Découvrez les étapes de fabrication du sapin surprise : une activité créative idéale pour noël, favorisant la motricité fine."
 tags: 
   - activites
   - enfants

@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: "Peindre avec des pommes : semaine du goût"
-description: "Découvrez une activité ludique et sensorielle pour les enfants : peindre avec des pommes. Un excellent moyen d'introduire la Semaine du Goût et d'éveiller les sens des tout-petits."
+description: "Pour la semaine du goût découvrez une activité ludique et sensorielle pour les enfants : peindre avec des pommes."
 tags: 
   - rpe
   - enfants

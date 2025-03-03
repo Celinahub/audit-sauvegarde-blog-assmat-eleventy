@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: "Petit salé aux lentilles"
-description: "Découvrez ma recette maison du petit salé aux lentilles, un plat équilibré qui plaît aux enfants. Préparé avec des ingrédients sains, il est idéal pour un repas familial."
+description: "Découvrez ma recette maison du petit salé aux lentilles, un plat équilibré qui plaît aux enfants, plat non transformé."
 tags: 
   - enfants
   - alimentation saine

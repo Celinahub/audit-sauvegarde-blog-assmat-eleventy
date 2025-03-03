@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: "L'acquisition de la propreté : conseils et étapes clés"
-description: "Découvrez les étapes et les signes de l'acquisition de la propreté, ainsi que des conseils pratiques pour accompagner votre enfant dans cette étape importante de son développement."
+description: "Découvrez les étapes et les signes de l'acquisition de la propreté, ainsi que des conseils pratiques pour accompagner votre enfant dans cette étape."
 tags: 
   - soins
   - acquisition de la propreté
