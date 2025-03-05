@@ -17,14 +17,14 @@ bodyClass: "bg-white presentation"
   "@context": "http://schema.org",
   "@type": "LocalBusiness",
   "name": "Assistante maternelle agréée - chez Céline",
-  "image": "presentation-assistante-maternelle-agreee.jpg",
+  "image": "https://chubert91assmat.netlify.app/images/presentation-assistante-maternelle-agreee.jpg",
   "priceRange": "Fixé en fonction de vos besoins d'accueil",
   "description": "Assistante maternelle agréée proposant un accueil personnalisé pour les enfants à Brétigny-sur-Orge. Une alternative chaleureuse et professionnelle à la crèche.",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "22 Rue du Parc",
     "addressLocality": "Brétigny-sur-Orge",
-    "addressRegion": "Essonne",
+    "addressRegion": "Île-de-France",
     "postalCode": "91220",
     "addressCountry": "FR"
   },
@@ -62,24 +62,30 @@ bodyClass: "bg-white presentation"
     "@type": "Organization",
     "name": "Céline Hubert - Assistante Maternelle Agréée",
     "url": "https://chubert91assmat.netlify.app"
-  },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Accueil",
-        "item": "https://chubert91assmat.netlify.app"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Garde d'enfants",
-        "item": "https://chubert91assmat.netlify.app/projet-accueil/h"
-      }
-    ]
-  }
+
+ }
+}
+</script>
+
+<!-- Ajout du JSON-LD pour le fil d'Ariane -->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://chubert91assmat.netlify.app"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Garde d'enfants",
+      "item": "https://chubert91assmat.netlify.app/projet-accueil/"
+    }
+  ]
 }
 </script>
 
