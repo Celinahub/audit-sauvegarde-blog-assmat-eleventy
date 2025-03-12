@@ -100,10 +100,10 @@ Heureusement, plusieurs solutions existent, chacune avec ses avantages et ses in
 
 **Inconvénients :** 
 
-- Risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).  
+- Selon la structure risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).  
 - Moins d’attention individualisée : dans un groupe aussi grand entre 20 et 60 enfants, difficile d'offrir une prise en charge vraiment personnalisée.
 - Selon la structure d'accueil, les enfants peuvent être confrontés à un environnement relativement sédentaire et peu varié, caractérisé par des sorties extérieures limitées ou répétitives, ce qui peut restreindre leurs opportunités d'exploration et de contact direct avec la nature.
-- L'accueil est parfois en surnombre, dans un cadre réglementé strict, pour pallier le manque de personnel et offrir plus de flexibilité, au risque d'impacter la qualité d'accueil. 
+- Alors que les crèches ont un taux d'encadrement d'un adulte pour 5 bébés qui ne marchent pas et d'un pour 8 enfants qui marchent, l'agrément d'assistante maternelle permet un accueil plus personnalisé avec un maximum de 4 enfants de moins de 3 ans, offrant ainsi un cadre plus sécurisant et individualisé.
 - Critères d'attribution stricts et listes d'attente souvent longues, limitant l'accessibilité.
 
 ---
@@ -128,8 +128,8 @@ Dans les deux cas, ces structures fonctionnent sous le statut juridique d'associ
 
 - Démarches administratives propres à chaque structure.
 - Gestion parfois plus complexe.
-- Risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
-- L'accueil est parfois en surnombre, dans un cadre réglementé strict, pour pallier le manque de personnel et offrir plus de flexibilité, au risque d'impacter la qualité d'accueil.
+- Selon la structure risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
+- Alors que les crèches ont un taux d'encadrement d'un adulte pour 5 bébés qui ne marchent pas et d'un pour 8 enfants qui marchent, l'agrément d'assistante maternelle permet un accueil plus personnalisé avec un maximum de 4 enfants de moins de 3 ans, offrant ainsi un cadre plus sécurisant et individualisé.
 - Les crèches parentales ont généralement une capacité d'accueil moyenne d'environ 20 enfants, pouvant aller jusqu'à 25 selon les cas, ce qui reste élevé par rapport aux micro-crèches et aux assistantes maternelles.
 - Dans une crèche parentale, les parents doivent s’impliquer activement dans le fonctionnement quotidien de la structure, en consacrant du temps chaque semaine et en contribuant financièrement via des cotisations.
 
@@ -152,9 +152,9 @@ Les crèches privées suivent les mêmes normes que les crèches publiques mais 
 
 - Certaines crèches privées non conventionnées peuvent être plus onéreuses, en particulier les structures de petite taille ou celles situées en zones urbaines. 
 - Difficulté d’adaptation pour certains enfants dans un environnement collectif jusqu'à 60 enfants, même dans des groupes plus petits que dans les grandes crèches.
-- Risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
+- Selon la structure risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
 - Certaines crèches inter-entreprises sont réservées aux employés de sociétés spécifiques, limitant l’accès à d’autres familles.
-- L'accueil est parfois en surnombre, dans un cadre réglementé strict, pour pallier le manque de personnel et offrir plus de flexibilité, au risque d'impacter la qualité d'accueil. 
+- Alors que les crèches ont un taux d'encadrement d'un adulte pour 5 bébés qui ne marchent pas et d'un pour 8 enfants qui marchent, l'agrément d'assistante maternelle permet un accueil plus personnalisé avec un maximum de 4 enfants de moins de 3 ans, offrant ainsi un cadre plus sécurisant et individualisé.
 - Selon la structure d'accueil, les enfants peuvent être confrontés à un environnement relativement sédentaire et peu varié, caractérisé par des sorties extérieures limitées ou répétitives, ce qui peut restreindre leurs opportunités d'exploration et de contact direct avec la nature.
 
 ---
@@ -175,8 +175,8 @@ Une micro-crèche fonctionne comme une crèche collective avec un nombre d'enfan
 **Inconvénients :** 
 
 - Tarification libre, pouvant être plus élevée que les crèches publiques.
-- Risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
-- L'accueil est parfois en surnombre, dans un cadre réglementé strict, pour pallier le manque de personnel et offrir plus de flexibilité, au risque d'impacter la qualité d'accueil.  
+- Selon la structure risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
+- Alors que les crèches ont un taux d'encadrement d'un adulte pour 5 bébés qui ne marchent pas et d'un pour 8 enfants qui marchent, l'agrément d'assistante maternelle permet un accueil plus personnalisé avec un maximum de 4 enfants de moins de 3 ans, offrant ainsi un cadre plus sécurisant et individualisé. 
 - Certaines structures d'accueil peinent à appliquer leurs approches pédagogiques innovantes, comme Montessori ou le bilinguisme, en raison d'un manque chronique de personnel qualifié.
 - Selon la structure d'accueil, les enfants peuvent être confrontés à un environnement relativement sédentaire et peu varié, caractérisé par des sorties extérieures limitées ou répétitives, ce qui peut restreindre leurs opportunités d'exploration et de contact direct avec la nature.
 
