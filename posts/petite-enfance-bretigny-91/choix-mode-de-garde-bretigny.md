@@ -176,7 +176,7 @@ Une micro-crèche fonctionne comme une crèche collective avec un nombre d'enfan
 
 - Tarification libre, pouvant être plus élevée que les crèches publiques.
 - Selon la structure risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
-- Alors que les crèches ont un taux d'encadrement d'un adulte pour 5 bébés qui ne marchent pas et d'un pour 8 enfants qui marchent, l'agrément d'assistante maternelle permet un accueil plus personnalisé avec un maximum de 4 enfants de moins de 3 ans, offrant ainsi un cadre plus sécurisant et individualisé. 
+- Le ratio d'encadrement en micro-crèche (généralement 1 adulte pour 3 enfants, mais pouvant aller jusqu'à 1 pour 6) offre un avantage par rapport aux crèches classiques (1 pour 5 bébés ou 1 pour 8 enfants marcheurs), tout en restant moins individualisé que chez une assistante maternelle, la flexibilité du ratio dépendant de l'organisation et de l'âge des enfants accueillis.
 - Certaines structures d'accueil peinent à appliquer leurs approches pédagogiques innovantes, comme Montessori ou le bilinguisme, en raison d'un manque chronique de personnel qualifié.
 - Selon la structure d'accueil, les enfants peuvent être confrontés à un environnement relativement sédentaire et peu varié, caractérisé par des sorties extérieures limitées ou répétitives, ce qui peut restreindre leurs opportunités d'exploration et de contact direct avec la nature.
 
