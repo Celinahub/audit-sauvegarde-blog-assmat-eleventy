@@ -104,6 +104,7 @@ Heureusement, plusieurs solutions existent, chacune avec ses avantages et ses in
 - Moins d’attention individualisée : dans un groupe aussi grand entre 20 et 60 enfants, difficile d'offrir une prise en charge vraiment personnalisée.
 - Selon la structure d'accueil, les enfants peuvent être confrontés à un environnement relativement sédentaire et peu varié, caractérisé par des sorties extérieures limitées ou répétitives, ce qui peut restreindre leurs opportunités d'exploration et de contact direct avec la nature.
 - Alors que les crèches ont un taux d'encadrement d'un adulte pour 5 bébés qui ne marchent pas et d'un pour 8 enfants qui marchent, l'agrément d'assistante maternelle permet un accueil plus personnalisé avec un maximum de 4 enfants de moins de 3 ans, offrant ainsi un cadre plus sécurisant et individualisé.
+- Risque accru de maladies infantiles en raison de la proximité des enfants, ce qui entraîne des règles d'accueil plus strictes pour les enfants malades afin de limiter la propagation des infections.
 - Critères d'attribution stricts et listes d'attente souvent longues, limitant l'accessibilité.
 
 ---
@@ -131,6 +132,7 @@ Dans les deux cas, ces structures fonctionnent sous le statut juridique d'associ
 - Selon la structure risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
 - Alors que les crèches ont un taux d'encadrement d'un adulte pour 5 bébés qui ne marchent pas et d'un pour 8 enfants qui marchent, l'agrément d'assistante maternelle permet un accueil plus personnalisé avec un maximum de 4 enfants de moins de 3 ans, offrant ainsi un cadre plus sécurisant et individualisé.
 - Les crèches parentales ont généralement une capacité d'accueil moyenne d'environ 20 enfants, pouvant aller jusqu'à 25 selon les cas, ce qui reste élevé par rapport aux micro-crèches et aux assistantes maternelles.
+- Risque accru de maladies infantiles en raison de la proximité des enfants, ce qui entraîne des règles d'accueil plus strictes pour les enfants malades afin de limiter la propagation des infections.
 - Dans une crèche parentale, les parents doivent s’impliquer activement dans le fonctionnement quotidien de la structure, en consacrant du temps chaque semaine et en contribuant financièrement via des cotisations.
 
 ---
@@ -155,6 +157,7 @@ Les crèches privées suivent les mêmes normes que les crèches publiques mais 
 - Selon la structure risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
 - Certaines crèches inter-entreprises sont réservées aux employés de sociétés spécifiques, limitant l’accès à d’autres familles.
 - Alors que les crèches ont un taux d'encadrement d'un adulte pour 5 bébés qui ne marchent pas et d'un pour 8 enfants qui marchent, l'agrément d'assistante maternelle permet un accueil plus personnalisé avec un maximum de 4 enfants de moins de 3 ans, offrant ainsi un cadre plus sécurisant et individualisé.
+- Risque accru de maladies infantiles en raison de la proximité des enfants, ce qui entraîne des règles d'accueil plus strictes pour les enfants malades afin de limiter la propagation des infections.
 - Selon la structure d'accueil, les enfants peuvent être confrontés à un environnement relativement sédentaire et peu varié, caractérisé par des sorties extérieures limitées ou répétitives, ce qui peut restreindre leurs opportunités d'exploration et de contact direct avec la nature.
 
 ---
@@ -178,6 +181,7 @@ Une micro-crèche fonctionne comme une crèche collective avec un nombre d'enfan
 - Selon la structure risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
 - Le ratio d'encadrement en micro-crèche (généralement 1 adulte pour 3 enfants, mais pouvant aller jusqu'à 1 pour 6) offre un avantage par rapport aux crèches classiques (1 pour 5 bébés ou 1 pour 8 enfants marcheurs), tout en restant moins individualisé que chez une assistante maternelle, la flexibilité du ratio dépendant de l'organisation et de l'âge des enfants accueillis.
 - Certaines structures d'accueil peinent à appliquer leurs approches pédagogiques innovantes, comme Montessori ou le bilinguisme, en raison d'un manque chronique de personnel qualifié.
+- Risque accru de maladies infantiles en raison de la proximité des enfants, ce qui entraîne des règles d'accueil plus strictes pour les enfants malades afin de limiter la propagation des infections.
 - Selon la structure d'accueil, les enfants peuvent être confrontés à un environnement relativement sédentaire et peu varié, caractérisé par des sorties extérieures limitées ou répétitives, ce qui peut restreindre leurs opportunités d'exploration et de contact direct avec la nature.
 
 ---
@@ -194,6 +198,7 @@ La crèche familiale combine l’accueil chez une **assistante maternelle agré�
 - Grâce à l'agrément qui limite le nombre d'enfants, les sorties quotidiennes et variées en extérieur sont facilitées, ce qui contribue à réduire la sédentarité et à minimiser l'exposition à la pollution.
 - En cas d’absence de l’assistante maternelle, un remplacement est assuré.
 - Pas de dépassement du nombre d’enfants autorisé grâce à l'agrément, garantissant un accueil sécurisé.
+- Les règles d'accueil sont plus flexibles pour les enfants malades car moins de risques de contagion.
 
 **Inconvénients :** 
 
@@ -233,11 +238,15 @@ La garde à domicile parentale est une solution de garde d'enfants qui consiste 
 
 - L’enfant reste dans son environnement habituel, ce qui facilite la transition après le congé maternité.
 - Idéale pour les familles avec des horaires atypiques ou des fratries.
+- Pas de transports quotidiens pour déposer vos enfants.
+- Une garde à domicile peut aussi prendre en charge certaines tâches domestiques, à définir lors de la signature du contrat.
+- Les auxiliaires parentales, ou nounous à domicile, bénéficient d'une flexibilité similaire à celle des assistantes maternelles en ce qui concerne l'accueil des enfants malades. Contrairement aux crèches, elles ne sont pas soumises à des règles d'éviction strictes et peuvent adopter des pratiques plus souples, en accord avec les parents employeurs
 
 
 **Inconvénients :** 
 
 - Moins de socialisation avec d’autres enfants.
+- Embaucher une garde à domicile implique de partager son espace privée, ce qui peut poser des enjeux d'intimité.
 - Coût généralement plus élevé que les autres options.
 - Risque de litiges administratifs ou financiers si la gestion n’est pas bien clarifiée entre parents et la nounou.
 - Contrairement aux assistantes maternelles ou aux professionnels en crèche, la plupart des nounous à domicile n'ont pas de formation ou de diplôme spécifique obligatoire.
@@ -255,9 +264,10 @@ Une **assistante maternelle agréée** accueille un petit nombre d’enfants che
 - Vous choisissez le professionnel avec lequel vous vous sentez le plus à l’aise.
 - Grâce à l'agrément qui limite le nombre d'enfants, les sorties quotidiennes et variées en extérieur sont facilitées, ce qui contribue à réduire la sédentarité et à minimiser l'exposition à la pollution.
 - Pas de dépassement du nombre d’enfants autorisé grâce à l'agrément, garantissant un accueil sécurisé.
-- Moins de risques de grèves ou d'arrêts maladie fréquents grâce aux plannings validés par les deux parties, contrairement aux crèches. Le professionnel adapte son environnement de travail en fonction de ses capacités (tous contrats confondus, sur 5, 4, 3 ou 2 jours, ou avec des semaines d'absence supérieures à 5 semaines par exemple).
+- Moins de risques de grèves ou d'arrêts maladie fréquents grâce aux plannings validés par les deux parties, contrairement aux crèches. Le professionnel adapte son environnement de travail en fonction de ses capacités (tous contrats confondus, sur 5, 4, 3 ou 2 jours, ou avec des semaines d'absence supérieures ou égales à 5 semaines par exemple).
 - Ce mode de garde peut présenter un avantage financier à long terme, notamment si le tarif horaire demeure stable toute la durée du contrat, et peut s'avérer compétitif par rapport aux crèches, en fonction de leurs politiques tarifaires respectives.
 - Professionnelle qualifiées par la formation initiale qui est obligatoire pour obtenir l'agrément et les formations continues.
+- Contrairement aux crèches, les assistantes maternelles ne sont pas soumises aux mêmes obligations strictes concernant les maladies à éviction, ce qui leur permet d'adopter des règles d'accueil plus flexibles pour les enfants malades, en fonction des accords passés avec les parents.
 
 **Inconvénients :** 
 
