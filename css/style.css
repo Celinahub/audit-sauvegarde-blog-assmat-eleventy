@@ -121,20 +121,9 @@ h2, h3 {
 }
 
 
+
+
 /* Style PIED DE PAGE */
-
-
-
-
-/* Style du logo rond chez celine */
-.logo-pied-page {
-   height: 170px;
-   width: 170px;
-   margin-top: 25px;
-   margin-bottom: 10px;
-}
-
-/* Style du pied de page */
 .index-footer-section,
 .projet-footer-section,
 .faq-footer-section,
@@ -144,23 +133,7 @@ h2, h3 {
    position: relative; 
    width: 100%; 
    background: #143854; /* Couleur de fond du pied de page */
-
-  
 }
-
-.titre-footer {
-   color: #143854; /* Changez la couleur selon votre préférence */
-   font-size: 1px;
-}
-
-
-
-.heart-icon {
-   width: 0.8rem; /* Ajustez la taille du SVG */
-   height: 0.8rem; 
-   
- }
-
 
 /* Style de la section bordure rayée au dessus du pied de page */
 .striped-section {
@@ -187,11 +160,6 @@ h2, h3 {
    color: #F8F9F6; /* Change la couleur du texte */
 }
 
-
-/* Styles spécifiques pour l'espace entre les liens PIED DE PAGE */
-.pied-page-spacer {
-   margin-bottom: 10px; /* Ajoutez de l'espace entre les éléments */
-}
 
 
 
@@ -220,6 +188,121 @@ h2, h3 {
    font-style: normal;
 }
 
+
+.acces-horaires {
+   margin-top: 20px;   /* Ajuste la marge en haut */
+   margin-bottom: 20px; /* Ajuste la marge en bas */
+}
+
+
+
+/* Styles pour l'icône et le texte des horaires */
+.horaires-footer {
+   display: flex;
+   align-items: flex-start; /* Aligne l'icône avec la première ligne de texte */
+   gap: 8px; /* Espacement entre l'icône et le texte */
+   justify-content: flex-start; /* Aligne tout à gauche par défaut */
+   margin-bottom: 30px;
+}
+
+/* Ajustement pour les petits écrans (mobile) */
+@media (max-width: 767px) {
+   .horaires-footer {
+      justify-content: flex-start; /* Aligne le bloc à gauche sur mobile */
+      align-items: flex-start; /* Garde l'icône et le texte alignés sur le haut du bloc */
+      text-align: left; /* Aligne le texte à gauche */
+   }
+}
+
+
+/* Style de l'icône svg des horaires */
+.icone-horaires {
+   flex-shrink: 0; /* Empêche l'icône de se réduire */
+   width: 40px; /* Ajuste la taille de l'icône */
+   height: auto;
+}
+
+.horaires-text {
+   text-align: left; /* Aligne le texte à gauche */
+   white-space: normal; /* Permet un retour à la ligne naturel */
+}
+
+
+
+
+
+
+/* Styles spécifiques pour l'espace entre les liens PIED DE PAGE */
+.localisation-pied-page-spacer {
+   margin-bottom: 30px; /* Ajoute de l'espace entre les éléments */
+}
+
+.localisation-footer {
+   display: flex;
+   align-items: center; /* Aligne verticalement l'icône et le texte */
+   gap: 8px; /* Espacement entre l'icône et le texte */
+   justify-content: flex-start; /* Aligne tout à gauche par défaut */
+   margin-bottom: 30px;
+}
+
+/* Ajustement pour les petits écrans */
+@media (max-width: 767px) { 
+   .localisation-footer {
+      justify-content: flex-start; /* Aligne le bloc à gauche sur mobile */
+      align-items: flex-start; /* Garde l'icône et le texte alignés sur le haut du bloc */
+      text-align: left; /* Aligne le texte à gauche */
+   }
+}
+
+/* Style de l'icône svg */
+.icone-localisation {
+   flex-shrink: 0; /* Empêche l'icône de se réduire */
+   width: 40px; /* Ajuste la taille de l'icône */
+   height: auto;
+}
+
+.localisation-text {
+   text-align: left; /* Aligne le texte à gauche */
+   white-space: normal; /* Permet un retour à la ligne naturel */
+}
+
+
+
+
+.liens-utiles {
+   margin-top: 20px;   /* Ajuste la marge en haut */
+   margin-bottom: 20px; /* Ajuste la marge en bas */
+}
+
+
+
+/* Styles pour l'icône et le texte des liens utiles */
+.liens-utiles-footer {
+   display: flex;
+   align-items: flex-start; /* Aligne l'icône avec la première ligne de texte */
+   gap: 8px; /* Espacement entre l'icône et le texte */
+   justify-content: flex-start; /* Aligne tout à gauche par défaut */
+   margin-bottom: 30px;
+}
+
+/* Ajustement pour les petits écrans (mobile) */
+@media (max-width: 767px) {
+   .liens-utiles-footer {
+      justify-content: flex-start; /* Aligne le bloc à gauche sur mobile */
+      align-items: flex-start; /* Garde l'icône et le texte alignés sur le haut du bloc */
+      text-align: left; /* Aligne le texte à gauche */
+   }
+}
+
+/* Style de l'icône svg des liens utiles */
+.icone-liens-utiles {
+   flex-shrink: 0; /* Empêche l'icône de se réduire */
+   width: 40px; /* Ajuste la taille de l'icône */
+   height: auto;
+}
+
+
+
 /* Classe pour les liens utiles */
 .liens-utiles-typo {
    color: #F8F9F6; /* Par exemple, un bleu plus foncé */
@@ -230,15 +313,11 @@ h2, h3 {
    font-style: normal;
 }
 
-
-
-
 /* Alignement du SVG avec le texte des liens */
 .liens-utiles-typo a span {
    vertical-align: middle; /* Aligne le SVG avec le texte */
    margin-right: 5px; /* Espace entre le SVG et le texte */
 }
-
 
 /* Style des liens pied de page*/
 .liens-utiles-typo a {
@@ -250,21 +329,11 @@ h2, h3 {
    color: #9786BD; /* Couleur pour l'effet hover */
 }
 
-
-.align-center {
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+.me-contacter {
+   margin-top: 20px;   /* Ajuste la marge en haut */
+   margin-bottom: 20px; /* Ajuste la marge en bas */
 }
 
-
-/* Style des icônes svg des liens pied de page*/
-.icone-liens {
-   max-height: 15px;
-   vertical-align: middle;
-   margin-right: 5px;
-}
 
 /* Style des icônes svg des liens pied de page*/
 .love-letter {
@@ -273,12 +342,38 @@ h2, h3 {
    margin-right: 5px;
 }
 
+
+
+.suivez-chez-celine {
+   margin-top: 20px;   /* Ajuste la marge en haut */
+   margin-bottom: 20px; /* Ajuste la marge en bas */
+}
+
+
 /* Style des icônes svg des liens pied de page*/
 .social-icons {
    width: 40px; /* Taille de l'icône */
    margin-right: 10px; /* Espacement entre l'icône et le texte */
    vertical-align: middle; /* Alignement vertical */
 }
+
+/* Styles spécifiques pour l'espace entre les liens PIED DE PAGE */
+.pied-page-spacer {
+   margin-bottom: 10px; /* Ajoutez de l'espace entre les éléments */
+}
+
+
+/* Style du logo rond chez celine */
+.logo-pied-page {
+   height: 170px;
+   width: 170px;
+   display: block; /* S'assurer que l'image prend toute la largeur dispo */
+   margin-left: 0; /* S'assurer qu'il n'y a pas de marge gauche automatique */
+   text-align: left; /* Alignement texte si jamais nécessaire */
+   margin-top: 40px; /* Ajuste la marge en haut */
+   margin-bottom: 40px; /* Ajuste la marge en bas */
+}
+
 
 
  /* Styles pour la ligne horizontale de séparation de la faq */
@@ -288,7 +383,11 @@ h2, h3 {
    margin: 20px 0; /* Optional: Add some margin for spacing */
  }
 
-
+ .heart-icon {
+   width: 0.8rem; /* Ajustez la taille du SVG */
+   height: 0.8rem; 
+   
+ }
 
 
  
@@ -712,6 +811,8 @@ h2, h3 {
    overflow: hidden; /* Cachez le débordement de l'image SVG */
    padding-bottom: 80px; /* Hauteur de la bande de couleur */
 }
+
+
 
 /* Définition du style pour la bande de couleur en bas de la section */
 #portrait::after {
