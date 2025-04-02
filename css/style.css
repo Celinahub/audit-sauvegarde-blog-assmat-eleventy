@@ -1026,13 +1026,34 @@ h2, h3 {
 
 
 /* Styles spécifiques le titre "CELINE ASSISTANTE MATERNELLE AGREEE" */
+
+.header-container {
+   display: flex;
+   align-items: center; /* Aligner verticalement */
+   justify-content: center; /* Centrer horizontalement */
+   gap: 20px; /* Espacement entre le H1 et le bouton */
+   flex-wrap: wrap; /* Permet le passage à la ligne sur mobile */
+   text-align: center; /* Centrer le texte pour une bonne lisibilité */
+   margin-bottom: 30px; /* Marge en bas du titre */
+}
+
 .poppins-bold-titre-accueil {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 1.5em;
+   color: #103754;
+   margin: 0; /* Supprime les marges par défaut */
+}
+
+
+
+.poppins-bold-sous-titre-accueil {
    font-family: "Poppins", sans-serif;
    font-weight: 700;
    font-style: normal;
    color: #F8F9F6;
-   font-size: 1,5em; /* Taille de la police relative */
-   margin-bottom: 10px; /* Marge en bas du titre */
+   font-size: 1.1em; /* Taille de la police relative */
+   margin-bottom: 30px; /* Marge en bas du titre */
    z-index: 1;
 }
 

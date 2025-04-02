@@ -96,7 +96,12 @@ bodyClass: "bg-white presentation"
 
 
 <section id="portrait" class="container-fluid py-5 position-relative">
- <h1 class="sr-only" aria-hidden="true">Céline, assistante maternelle à Brétigny</h1> <!-- Titre caché pour l'accessibilité -->
+  <div class="header-container">
+        <h1 class="poppins-bold-titre-accueil">Assistante Maternelle Agréée à Brétigny-sur-Orge</h1>
+        <a href="{{ '/contact/' | url }}" class="btn btn-action-primary" aria-label="Accédez au formulaire de contact pour reserver une place">
+            Réserver une place ! →
+        </a>
+    </div>
     <div class="row justify-content-center text-center position-relative">
         <div class="col-md-12">
       <img src="{{ '/images/presentation/arriere-plan-nuages-bleus-bretigny-assistante-maternelle.svg' | url }}" 
@@ -151,8 +156,7 @@ bodyClass: "bg-white presentation"
 <section id="services-garde-enfants" class="container-fluid py-5">
     <div class="services-garde-enfants-section section-wrapper">
         <div class="profile-text text-center">
-            <h2 class="poppins-bold-titre-accueil">{{ accueilTitre | default("Céline, Assistante Maternelle Agréée") }}</h2>
-            <h3 class="fade-in-out-bretigny">{{ sousTitreAccueil | default("à Brétigny-sur-Orge") }}</h3>
+            <h2 class="poppins-bold-sous-titre-accueil">Et si votre enfant bénéficiait d’un accueil plus individualisé ?</h2>
         </div>
 
         <!-- Premier ligne -->
