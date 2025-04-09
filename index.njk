@@ -444,15 +444,18 @@ bodyClass: "bg-white presentation"
 
 
 
-<section id="avis" class="container-fluid-contact py-5"> <!-- Utilisation de container-fluid -->
-
+<section id="avis" class="container-fluid-contact py-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <h2 class="google-fiche-avis"><strong>VOS AVIS COMPTENT</strong></h2>
                 <hr class="horizontal-line">
-                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-                <div class="elfsight-app-e1c8b1af-d1eb-4f3b-abba-dd006fd956c3" data-elfsight-app-lazy></div>
+                
+                <!-- Contenu vide au départ -->
+                <div id="avis-container" style="display:none;">
+                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                    <div class="elfsight-app-e1c8b1af-d1eb-4f3b-abba-dd006fd956c3" data-elfsight-app-lazy></div>
+                </div>
             </div>
         </div>
     </div>
@@ -529,10 +532,24 @@ bodyClass: "bg-white presentation"
 <!-- Autres contenus précédents -->
 
 
+<script>
+  // Fonction qui charge les avis après un délai de 10 secondes
+  setTimeout(function() {
+    // Affiche le contenu des avis
+    document.getElementById('avis-container').style.display = 'block';
+  }, 10000); // 10000 millisecondes = 10 secondes
+</script>
 
 
 
-<!-- Start of HubSpot Embed Code -->
-<script id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/144730300.js"></script>
-
+<script>
+  setTimeout(function() {
+    const script = document.createElement('script');
+    script.src = "//js-eu1.hs-scripts.com/144730300.js";
+    script.id = "hs-script-loader";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+  }, 3000); // Charger après 5 secondes
+</script>
 <!-- End of HubSpot Embed Code -->
