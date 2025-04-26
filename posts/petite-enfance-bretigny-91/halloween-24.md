@@ -53,31 +53,35 @@ jsonLd: >
   }
 ---
 
+<br><br>
 
-
-## **Une Promenade Halloweenesque :**
-La nuit d’Halloween a été l’occasion idéale pour une promenade originale à la tombée de la nuit. Pour l'occasion, la ville de Brétigny-sur-Orge avait aménagé le parc et l'avait décoré sur le thème du Día de los Muertos, une fête mexicaine célébrant la mémoire des défunts.
+Une Promenade Halloweenesque : la nuit d’Halloween a été l’occasion idéale pour une promenade originale à la tombée de la nuit. Pour l'occasion, la ville de Brétigny-sur-Orge avait aménagé le parc et l'avait décoré sur le thème du Día de los Muertos, une fête mexicaine célébrant la mémoire des défunts.
 Les enfants ont observé les citrouilles rigolotes, toute la famille des curcurbitacées était représentée au milieu du paysage automnal du parc. Les couleurs vives, les formes intriguantes, les lumières tamisées à la bougie ont captivé les enfants.
 
+<div id="sommaire">
+  <h2>Sommaire</h2>
+  <a href="#decouverte" class="styled-link-sommaire">• Une Découverte Sensorielle</a>
+  <a href="#imaginaire" class="styled-link-sommaire">• Un Pont avec l’Imaginaire et la Culture</a>
+</div>
 
-<br><br>
 
+### **<span id="decouverte">1. Une Découverte Sensorielle</span>** 
 
-## **Une Découverte Sensorielle** 
 La balade dans le parc décoré était bien plus qu’une simple activité festive :
-### 1. L’éveil visuel  :
-- Les enfants ont été captivés par les couleurs vives et les formes variées des citrouilles. La richesse du décor a offert un spectacle sensoriel. Les lumières tamisées des bougies ont également stimulé leur perception des contrastes lumineux.
 
-### 2. L’exploration tactile  :
-- Toucher les citrouilles et les feuilles d'automne aident les enfants à affiner leur sens du toucher.
+**1. L’éveil visuel :**  
+Les enfants ont été captivés par les couleurs vives et les formes variées des citrouilles. La richesse du décor a offert un spectacle sensoriel. Les lumières tamisées des bougies ont également stimulé leur perception des contrastes lumineux.
 
-### 3. L’immersion olfactive  :
-- Dans ce cadre automnal, les odeurs de terre, de végétaux et même des bougies ont permis aux enfants de développer leur sens olfactif, souvent peu sollicité dans des environnements classiques.
+**2. L’exploration tactile**  
+Toucher les citrouilles et les feuilles d'automne aident les enfants à affiner leur sens du toucher.
+
+**3. L’immersion olfactive**  
+Dans ce cadre automnal, les odeurs de terre, de végétaux et même des bougies ont permis aux enfants de développer leur sens olfactif, souvent peu sollicité dans des environnements classiques.
 
 
 <br><br>
 
+### **<span id="imaginaire">2. Un Pont avec l’Imaginaire et la Culture</span>**
 
-## **Un Pont avec l’Imaginaire et la Culture**
 Le thème du Día de los Muertos, riche en symboles a offert aux enfants une introduction ludique à une tradition culturelle différente. Les décorations, les visages peints ont permis de stimuler leur imagination. Ce type d’immersion culturelle aide les jeunes à élargir leur horizon et à comprendre la diversité des célébrations à travers le monde.
 

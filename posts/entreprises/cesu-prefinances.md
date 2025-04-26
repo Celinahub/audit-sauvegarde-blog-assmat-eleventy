@@ -52,88 +52,111 @@ jsonLd: >
 ---
 
 
-Réduire votre reste à charge et accéder à une diversité de lieux d'accueil, c'est possible grâce aux CESU préfinancés !
-
-Parents, vous avez le pouvoir de faciliter l'accès aux modes de garde pour vos enfants, mais sans information, cela peut sembler difficile. Une solution existe : les CESU préfinancés. Si votre entreprise ne les propose pas encore, vous pouvez soumettre cette demande à votre service RH, en vous appuyant sur cet article.
-
-
-## **Le CESU préfinancé : qu’est-ce que c’est et comment en bénéficier ?**
-Le CESU "préfinancé" est un moyen de paiement qui fonctionne sur le même principe que les titres restaurant financés en partie par les entreprises. Il contient le nom du bénéficiaire et est préfinancé, en totalité ou partiellement, par l'entreprise, le comité d'entreprise, les parents ou un organisme financeur (ex : conseil général). L'entreprise des parents qui emploient une assistante maternelle agréée participe à 100% ou en partie au financement des chèques CESU. En payant avec ces chèques préfinancés, les parents réduisent leurs charge liées à la garde de leur(s) enfant(s) de moins de 6 ans.
-
+Découvrez comment le CESU préfinancé peut alléger le coût de la garde d’enfants, simplifier vos démarches et offrir des avantages aussi bien aux familles qu’aux entreprises.
 
 <br><br>
 
 
-## **Qui est éligible au CESU préfinancé ?**
+<div id="sommaire">
+  <h2>Sommaire</h2>
+  <a href="#cesu-prefinance" class="styled-link-sommaire">• Qu’est-ce que le CESU préfinancé ?</a>
+  <a href="#eligibilite" class="styled-link-sommaire">• Qui peut en bénéficier ?</a>
+  <a href="#avantages-familles" class="styled-link-sommaire">• Quels sont les avantages pour les familles ?</a>
+  <a href="#avantages-entreprise" class="styled-link-sommaire">• Quels sont les avantages pour l’entreprise ?</a>
+   <a href="#comment-profiter" class="styled-link-sommaire">• Comment en profiter ?</a>
+  <a href="#a-retenir" class="styled-link-sommaire">• À retenir</a>
+</div>
+
+---
 
 
-<br><br>
+### **<span id="cesu-prefinance">1. Qu’est-ce que le CESU préfinancé ?</span>** 
+
+<br>
+
+Le CESU préfinancé (Chèque Emploi Service Universel) est un moyen de paiement, à la manière des tickets restaurant, proposé par votre employeur ou votre comité d’entreprise. Il permet de régler :
+
+- la garde de votre enfant chez une assistante maternelle agréée, 
+- la crèche ou la halte-garderie,
+- d’autres services à la personne (ménage, aide à domicile, etc.)
+
+Le CESU préfinancé est nominatif et peut être financé en tout ou partie par l’employeur, le CSE ou un organisme social. Si le montant des CESU ne couvre pas la totalité de la prestation, vous pouvez compléter avec un autre moyen de paiement.
+
+### **<span id="eligibilite">2. Qui peut en bénéficier ?</span>**  
+
+<br>
+
+Vous pouvez demander le CESU préfinancé si :
+
+- Vous êtes salarié du privé ou du public, 
+- Vous travaillez en intérim ou en CDD,
+- Vous êtes indépendant avec une structure juridique (micro-entrepreneur, EI, etc.),
+- Votre employeur ou votre comité d’entreprise propose ce service.
+
+<br>
+
+<div class="highlighted-note">
+  <p><strong>Bon à savoir :</strong> Si votre entreprise ne propose pas encore le CESU préfinancé, demandez à votre service RH s’il est possible de le mettre en place. Le CESU préfinancé est un dispositif officiel, sécurisé et encadré par l’État.</p>
+</div>
+
+<br>
+
+### **<span id="avantages-familles">3. Quels sont les avantages pour les familles ?</span>**
+
+<br>
+
+- <strong>Réduction du reste à charge :</strong> Une partie de la garde est financée par l’employeur, ce qui allège vos dépenses,
+- <strong>Paiement simple et rapide :</strong> Moins de démarches administratives, paiement direct auprès de l’assistante maternelle,
+- <strong>Crédit d’impôt :</strong> le crédit d’impôt pour les particuliers est de 50 % sur la part qu’ils financent eux-mêmes, dans la limite annuelle prévue par la loi (plafond global de 12 000 € de dépenses pour les services à la personne, soit 6 000 € de crédit d’impôt maximum),
+- <strong>Souplesse d’utilisation :</strong> Les CESU sont acceptés par de nombreux professionnels et organismes agréés.
+
+### **<span id="avantages-entreprise">4. Quels sont les avantages pour l’entreprise ?</span>**
+
+<br>
+
+- <strong>Attractivité et fidélisation :</strong> Proposer le CESU préfinancé montre l’engagement de l’entreprise envers le bien-être des salariés et favorise leur fidélisation,
+- <strong>Avantages fiscaux et sociaux :</strong> Les sommes versées sous forme de CESU préfinancé sont exonérées de cotisations sociales dans la limite de 2 540 € par an et par salarié (plafond 2025),
+- <strong>Crédit d’impôt :</strong> L’entreprise bénéficie d’un crédit d’impôt de 25 % sur les aides versées au titre du CESU préfinancé,
+- <strong>Gestion simplifiée :</strong> La mise en place et la distribution des CESU sont simples et peu chronophages pour l’entreprise,
+- <strong>Amélioration de la qualité de vie au travail :</strong> En facilitant l’accès à des solutions de garde, l’entreprise contribue à l’équilibre vie professionnelle/vie personnelle de ses salariés.
 
 
-### **1. Éligibilité totale :**
+<br>
 
-Les statuts suivants sont **complètement éligibles** au CESU préfinancé :
+<div class="highlighted-note">
+  <p><strong>Bon à savoir :</strong> Si le montant des CESU ne suffit pas, complétez avec un autre moyen de paiement. Gardez vos justificatifs pour le crédit d’impôt.  L’utilisation du CESU préfinancé est compatible avec d’autres aides à la garde d’enfants (comme la PAJE/Caf).</p>
+</div>
 
-- **Salarié du secteur privé** (en CDI, CDD) : Les salariés d'entreprises privées peuvent bénéficier du CESU préfinancé, financé par l'employeur ou le CSE.
-- **Salarié du secteur public** (fonctionnaire) : Les fonctionnaires peuvent bénéficier du CESU préfinancé si leur employeur public l'offre.
-- **Salarié en portage salarial** : Le salarié porté peut bénéficier du CESU préfinancé si l’entreprise de portage salarial l’offre comme avantage.
-- **EURL (Entreprise Unipersonnelle à Responsabilité Limitée)**  : Le gérant salarié d'une EURL (si rémunéré et minoritaire ou égalitaire) peut bénéficier du CESU préfinancé, avec des avantages fiscaux et sociaux.
-- **SASU (Société par Actions Simplifiée Unipersonnelle)** : Le président salarié d'une SASU peut bénéficier du CESU préfinancé, avec les mêmes avantages que pour un salarié.
-- **Intermittent du spectacle** : Les intermittents du spectacle peuvent bénéficier du CESU préfinancé s'ils bénéficient d’une relation d’emploi avec un employeur.
-- **Commerçant avec structure juridique** : Les commerçants ayant une structure juridique (ex : micro-entrepreneur, EI, etc.) peuvent bénéficier du CESU préfinancé.
-- **Artisan avec structure juridique** : Les artisans peuvent bénéficier du CESU préfinancé s’ils ont une structure juridique (ex : micro-entrepreneur, EI, etc.).
-- **Les TNS (Travailleurs Non Salariés) et mandataires sociaux** : peuvent bénéficier du CESU préfinancé s'ils ont une structure juridique et si l'entreprise offre cette aide.
-- **Employeur de particuliers** (salarié à domicile) : Un particulier employeur peut bénéficier du CESU préfinancé pour financer des services à la personne (garde d'enfants, aide à domicile, etc.).
-- **Salarié en CDD et contrat intérim** : Les salariés en CDD ou intérim peuvent bénéficier du CESU préfinancé si leur employeur ou le CSE le propose.
-
-### **2. Éligibilité partielle :**
-
-Les statuts suivants peuvent bénéficier du CESU préfinancé, mais **avec des limitations** :
-
-- **Micro-entrepreneur (auto-entrepreneur)** : Le micro-entrepreneur peut utiliser le CESU préfinancé uniquement si un tiers (comme un employeur, un CSE ou un particulier) le finance.
-- **Entreprise Individuelle (EI)** : Le freelance en EI peut bénéficier du CESU préfinancé, mais avec des limitations fiscales (pas de séparation entre patrimoine personnel et professionnel).
-
-### **3. Non-Éligible :**
-
-Les statuts suivants **ne sont pas éligibles** au CESU préfinancé :
-
-- **Travailleur indépendant sans statut juridique** : Impossible d'être éligible sans structure juridique légale (micro-entreprise, EI, EURL, SASU, etc.).
-- **Les travailleurs des plateformes (Uber, Deliveroo, etc.) sans statut juridique formel** formel (par exemple, micro-entrepreneur) ne sont pas éligibles au CESU préfinancé.
+<br>
 
 
-<br><br>
+### **<span id="comment-profiter">5. Comment en profiter ?</span>**
+
+<br>
+
+**1. Renseignez-vous** auprès de votre employeur ou de votre comité d’entreprise.  
+**2. Faites la demande** si le CESU préfinancé est proposé dans votre structure.  
+**3. Utilisez les CESU pré-financés** Payez votre assistante maternelle agréée directement en ligne grâce à votre numéro d’affiliation nationale (NAN).
+
+ 
+<br>
+
+<div class="highlighted-note">
+  <p><strong>Bon à savoir : Je n'accepte que les Chèques Emploi Service Universel (CESU) préfinancés dématérialisés. Je vous fournirai mon numéro d'affiliation nationale (NAN), nécessaire pour le virement en ligne.</strong></p>
+</div>
+
+<br>
 
 
-## **Une solution gagnante pour tous**
+### **<span id="a-retenir">6. À retenir</span>**
+Le CESU préfinancé est un vrai coup de pouce pour réduire vos frais de garde, simplifier vos démarches et améliorer la conciliation entre vie professionnelle et vie familiale. Il offre aussi des avantages fiscaux et sociaux aux entreprises qui le mettent en place. N’hésitez pas à en parler à votre employeur ou à votre service RH pour en bénéficier !
 
-
-<br><br>
-
-
-### **Avantages pour l’Entreprise**
-Les CESU préfinancés offrent de nombreux avantages aux entreprises, non seulement pour ses avantages financiers, mais aussi pour ses effets sur l’organisation :
-
-- **Avantages fiscaux** : Les montants versés en CESU préfinancé sont souvent déductibles des charges sociales, ce qui permet à l’entreprise de réaliser des économies.
-- **Fidélisation des employés** : Proposer ce type d’avantage aide à attirer et fidéliser des talents. C’est un atout pour montrer que l’entreprise s’engage à soutenir l’équilibre entre vie professionnelle et vie personnelle.
-- **Réduction de l’absentéisme** : En facilitant l’accès à des services comme la garde d’enfants, le CESU préfinancé permet aux employés de mieux organiser leur vie familiale, réduisant ainsi les absences imprévues.
-
-
-### **Avantages pour les Indépendants**
-Les travailleurs indépendants sans salarié peuvent également bénéficier du CESU préfinancé, bien que les conditions soient légèrement différentes :
-
-- **Souplesse dans la gestion** : Les indépendants peuvent utiliser les CESU pour payer des services à la personne dans un cadre privé, tels que la garde d’enfants, sans avoir à se soucier d’une gestion administrative complexe.
-- **Optimisation fiscale** : Bien que les conditions d’éligibilité soient spécifiques, les indépendants peuvent bénéficier d’avantages fiscaux en utilisant les CESU préfinancés pour leurs besoins personnels et familiaux, ce qui permet de réduire leur reste à charge pour ces services.
-
-
-
-### **Avantages pour les Salariés**
-Pour les salariés, le CESU préfinancé est un coup de pouce à la fois financier et pratique :
-
-- **Augmentation du pouvoir d’achat** : Grâce au cofinancement de l’entreprise, le coût final des services est allégé pour le salarié.
-- **Facilité de gestion** : Le CESU préfinancé simplifie le paiement des services à domicile, en réduisant la paperasse et les démarches administratives.
-- **Réductions d'impôts** : Les dépenses effectuées via le CESU préfinancé ouvrent droit à un crédit d’impôt, ce qui allège la facture finale pour le salarié.
-
-### **A retenir**
-Le CESU préfinancé est une solution gagnante pour tous. Il améliore le quotidien des salariés, renforce les relations entre les employeurs et leurs équipes, et permet aux assistantes maternelles de bénéficier d’un paiement fiable et sécurisé.
+<div class="source-box">
+  <strong>Sources :</strong><br>
+  <a href="https://www.servicesalapersonne.gouv.fr" target="_blank" rel="noopener noreferrer">Services à la personne</a>, 
+  <a href="https://www.urssaf.fr" target="_blank" rel="noopener noreferrer">URSSAF</a>, 
+  <a href="https://www.edenred.fr" target="_blank" rel="noopener noreferrer">Edenred</a>, 
+  <a href="https://travail-emploi.gouv.fr" target="_blank" rel="noopener noreferrer">Ministère du Travail</a>
+</div>
 
 

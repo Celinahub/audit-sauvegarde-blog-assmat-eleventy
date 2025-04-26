@@ -58,7 +58,7 @@ Le congé maternité est une période de grands changements, durant laquelle cha
 
 Heureusement, plusieurs solutions existent, chacune avec ses avantages et ses inconvénients. Voici un aperçu des options les plus courantes pour vous aider à faire le meilleur choix pour votre enfant.
 
-<br><br>
+<br>
 
 
 <div id="sommaire">
@@ -75,9 +75,6 @@ Heureusement, plusieurs solutions existent, chacune avec ses avantages et ses in
   <a href="#choix-bon" class="styled-link-sommaire">• Comment faire le bon choix ?</a>
   <a href="#votre-decision" class="styled-link-sommaire">• Votre décision</a>
 </div>
-
-
-
 
 ---
 
@@ -306,7 +303,7 @@ Vous souhaitez en savoir plus sur mon mode d’accueil et discuter de vos besoin
 <br>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Contactez-moi dès maintenant pour échanger ensemble</a>
+  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Contactez-moi dès maintenant pour échanger ensemble →</a>
 </div>
 
 <br>
