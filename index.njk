@@ -95,11 +95,20 @@ bodyClass: "bg-white presentation"
 </a>
 
 
+
+
+
+
+{% block preload %}
+  <link rel="preload" href="/images/presentation/arriere-plan-nuages-bleus-bretigny-assistante-maternelle.svg" as="image" type="image/svg+xml">
+{% endblock %}
+
+{% block content %}
 <section id="portrait" class="container-fluid py-5 position-relative">
   <div class="header-container">
         <h1 class="poppins-bold-titre-accueil">Assistante Maternelle Agréée à Brétigny-sur-Orge</h1>
         <a href="{{ '/contact/' | url }}" class="btn btn-action-primary" aria-label="Accédez au formulaire de contact pour reserver une place">
-            Réserver une place ! →
+            Demander une place ! →
         </a>
     </div>
     <div class="row justify-content-center text-center position-relative">
@@ -150,12 +159,11 @@ bodyClass: "bg-white presentation"
         </div>
     </div>
 </section>
-
-
+{% endblock %}
 
 <section id="services-garde-enfants" class="container-fluid py-5">
     <div class="services-garde-enfants-section section-wrapper">
-        <div class="profile-text text-center">
+         <div class="profile-text text-center">
             <h2 class="poppins-bold-sous-titre-accueil">Et si votre enfant bénéficiait d’un accueil plus individualisé ?</h2>
         </div>
 
@@ -173,7 +181,7 @@ bodyClass: "bg-white presentation"
                             
                             <!-- Bouton "lien interne" -->
                        <a href="{{ '/contact/' | url }}" class="btn btn-action-primary my-4" aria-label="Accédez au formulaire de contact pour envoyer un e-mail">
-    Accédez au formulaire de contact
+    Accédez au formulaire de contact →
 </a>
 
 
@@ -209,7 +217,7 @@ bodyClass: "bg-white presentation"
                             <p class="poppins-regular-accueil">{{ environnementDescription | default("Chaque enfant accueilli bénéficie de sa propre chambre dans un environnement calme, favorisant son bien-être, et profite d'interactions enrichissantes avec mes enfants plus âgés, contribuant à son développement psychomoteur, social et à son autonomie.") }}</p>
                             
                             <!-- Bouton "lien interne" -->
-                            <a href="{{ '/projet-accueil/#routine' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Découvrez notre routine") }}</a>
+                            <a href="{{ '/projet-accueil/#routine' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Découvrez notre routine →") }}</a>
                         </div>
                     </div>
                 </div>
@@ -240,7 +248,7 @@ bodyClass: "bg-white presentation"
                     <p class="poppins-regular-accueil">{{ capacitesDescription | default("Mon agrément limite le nombre d'enfants, offrant un ratio enfants/adulte plus bas que l'accueil collectif pour garantir une attention individualisée, une surveillance renforcée, et un cadre sécurisant lors des repas et de la sieste, tout en assurant un service de qualité basé sur les principes de la Protection maternelle et infantile.") }}</p>
                     
                     <!-- Bouton "lien interne" -->
-                    <a href="{{ '/projet-accueil/#agrement' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Consultez les capacités de mon agrément") }}</a>
+                    <a href="{{ '/projet-accueil/#agrement' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Consultez les capacités de mon agrément →") }}</a>
                 
                         </div>
                     </div>
@@ -272,7 +280,7 @@ bodyClass: "bg-white presentation"
                             <p class="poppins-regular-accueil">{{ activitesDescription | default("Lorsque la météo le permet, nous effectuons des sorties quotidiennes dans les parcs et grands espaces de la ville, permettant aux enfants de rencontrer leurs pairs et de stimuler leur développement du langage, tout en luttant contre la sédentarité et en favorisant leur santé physique et mentale.") }}</p>
                             
                             <!-- Bouton "lien interne" -->
-                            <a href="{{ '/projet-accueil/#activites' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Explorez nos activités") }}</a>
+                            <a href="{{ '/projet-accueil/#activites' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Explorez nos activités →") }}</a>
                         </div>
                     </div>
                 </div>
@@ -303,7 +311,7 @@ bodyClass: "bg-white presentation"
                             <p class="poppins-regular-accueil">{{ communicationDescription | default("Je privilégie une communication directe et personnalisée avec les familles, sans intermédiaires, pour assurer une coordination fluide des soins et renforcer la confiance, garantissant ainsi un environnement serein et sécurisant pour l'enfant.") }}</p>
                             
                             <!-- Bouton "lien interne" -->
-                            <a href="{{ '/projet-accueil/#role' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Découvrez comment je peux vous aider") }}</a>
+                            <a href="{{ '/projet-accueil/#coeducation-enfant-famille' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Découvrez comment je peux vous aider →") }}</a>
                         </div>
                     </div>
                 </div>
@@ -335,7 +343,7 @@ bodyClass: "bg-white presentation"
                             
                             <!-- Bouton "lien interne" -->
                            <a href="{{ '/projet-accueil/#team' | url }}" class="btn btn-action-primary my-4" aria-label="Découvrez les avantages du RPE et de l'équipe">
-    {{ boutonTexte | default("Découvrez les avantages du RPE") }}
+    {{ boutonTexte | default("Découvrez les avantages du RPE →") }}
 </a>
                         </div>
                     </div>
@@ -366,7 +374,7 @@ bodyClass: "bg-white presentation"
                         <div class="description-atout-services">
                             <p class="poppins-regular-accueil">{{ assistanceDescription | default("Je vous accompagne dans toutes vos démarches administratives, y compris la saisie Pajemploi, avec une expertise juridique spécialisée grâce à mon affiliation au syndicat UNSA PRO ASSMAT garantissant ainsi simplicité et tranquillité d'esprit. La FEPEM offre des ressources pour les particuliers-employeurs.") }}</p>
                            <a href="{{ '/projet-accueil/#team' | url }}" class="btn btn-action-primary my-4" aria-label="En savoir plus sur le syndicat, section équipe">
-    {{ boutonTexte | default("En savoir plus sur le syndicat") }}
+    {{ boutonTexte | default("En savoir plus sur le syndicat →") }}
 </a>
 
                         </div>
@@ -398,7 +406,7 @@ bodyClass: "bg-white presentation"
                 <div class="description-atout-services">
                     <p class="poppins-regular-accueil">{{ resteACargeDescription | default("Découvrez sur ma page Foire aux questions des informations détaillées sur les tarifs, les aides financières, et le reste à charge, et découvrez comment choisir une assistante maternelle peut être une option financièrement avantageuse.") }}</p>
                     <!-- Bouton "lien interne" -->
-                    <a href="{{ '/faq/' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Trouvez les réponses à toutes vos questions ici") }}</a>
+                    <a href="{{ '/faq/' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Trouvez les réponses à toutes vos questions ici →") }}</a>
                         </div>
                     </div>
                 </div>
@@ -428,12 +436,15 @@ bodyClass: "bg-white presentation"
     <div class="svg-container">
       
 
-  <img src="{{ '/images/presentation/nuage-introduction.svg' | url }}" 
-     class="nuages-bleus-curvy" 
-     alt="Décor nuages"
-     loading="eager"  
-     fetchpriority="high"
-     decoding="async">
+ <img src="{{ '/images/presentation/nuage-introduction-pc.svg' | url }}" 
+         class="nuages-bleus-curvy pc-svg" 
+         alt="Illustration de nuages pour la présentation du blog sur PC"
+         loading="lazy">
+    
+    <img src="{{ '/images/presentation/nuage-introduction-mobile.svg' | url }}" 
+         class="nuages-bleus-curvy mobile-svg" 
+         alt="Illustration de nuages pour la présentation du blog sur mobile"
+         loading="lazy">
 
 
     </div>
@@ -445,100 +456,319 @@ bodyClass: "bg-white presentation"
 
 
 <section id="avis" class="container-fluid-contact py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="google-fiche-avis"><strong>VOS AVIS COMPTENT</strong></h2>
-                <hr class="horizontal-line">
-                
-                <!-- Contenu vide au départ -->
-                <div id="avis-container" style="display:none;">
-                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-                    <div class="elfsight-app-e1c8b1af-d1eb-4f3b-abba-dd006fd956c3" data-elfsight-app-lazy></div>
-                </div>
-            </div>
-        </div>
+  <div class="container-avis">
+    <div class="row-cesu">
+      <div class="col-12">
+        <h2 class="google-fiche-avis"><strong>VOS AVIS COMPTENT</strong></h2>
+        <hr class="horizontal-line">
+       <div id="avis-container">
+  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+  <div class="elfsight-app-e1c8b1af-d1eb-4f3b-abba-dd006fd956c3" data-elfsight-app-lazy></div>
+</div>
+      </div>
     </div>
+  </div>
+</section>
+
+
+<div class="svg-banniere-background">
+     <div class="svg-container">
+    <img src="{{ '/images/presentation/nuage-cesu-pc.svg' | url }}" 
+         class="nuages-bleus-curvy pc-svg" 
+         alt="Illustration de nuages pour la présentation du blog sur PC"
+         loading="lazy">
+    
+    <img src="{{ '/images/presentation/nuage-cesu-mobile.svg' | url }}" 
+         class="nuages-bleus-curvy mobile-svg" 
+         alt="Illustration de nuages pour la présentation du blog sur mobile"
+         loading="lazy">
+</div>
+
+
+
+
+
+    
+<section id="cesu-entreprise" class="icones-cesu-container">
+  <div class="container-cesu">
+    <h2 class="poppins-bold-cesu-title">CESU PAR L'ENTREPRISE</h2>
+    <div class="row">
+
+      <!-- Bloc 1 -->
+     <div class="col-12 col-md-3 icone-cesu">
+    <img src="{{ '/images/presentation/equilibre-travail-bretigny.svg' | url }}" alt="Équilibre vie pro/perso">
+
+    <h3 class="poppins-regular-icone-cesu text-start">
+      <strong class="titre">Conciliation vie pro/perso</strong><br>
+        <span class="titre-salarie">
+      <strong>Salarié :</strong> Moins de stress, plus d’équilibre.
+      </span><br>
+      <span class="titre-entreprise">
+       <strong>Entreprise :</strong> Talents fidélisés, image valorisée.
+      </span>
+    </h3>
+  </div>
+
+
+
+ <!-- Bloc 2 -->
+     <div class="col-12 col-md-3 icone-cesu">
+    <img src="{{ '/images/presentation/reprise-travail-bretigny.svg' | url }}" alt="Reprise de travail sereine">
+    <h3 class="poppins-regular-icone-cesu text-start">
+      <strong class="titre">Retour serein</strong><br>
+ <span class="titre-salarie">
+      <strong>Salarié :</strong> Reprise facilitée après un congé.
+      </span><br>
+      <span class="titre-entreprise">
+       <strong>Entreprise :</strong> Absences mieux gérées, équipe stable.
+      </span>
+    </h3>
+  </div>
+
+
+
+
+
+      <!-- Bloc 3 -->
+      <div class="col-12 col-md-3 icone-cesu">
+        <img src="{{ '/images/presentation/economie-cesu-bretigny.svg' | url }}" alt="Pouvoir d'achat augmenté" loading="lazy">
+        <h3 class="poppins-regular-icone-cesu text-start">
+          <strong class="titre">Pouvoir d’achat</strong><br>
+<span class="titre-salarie">
+      <strong>Salarié :</strong> Reste à charge réduit, 50 % de crédit d’impôt, pouvoir d’achat augmenté.
+      </span><br>
+      <span class="titre-entreprise">
+       <strong>Entreprise :</strong> Jusqu’à 2 540 €/an exonérés de charges. Crédit d’impôt de 25 % et politique RH attractive.
+      </span>
+        </h3>
+      </div>
+
+
+
+
+      <!-- Bloc 4 -->
+      <div class="col-12 col-md-3 icone-cesu">
+        <img src="{{ '/images/presentation/bien-etre-travail-bretigny.svg' | url }}" alt="Fidélisation des salariés" loading="lazy">
+        <h3 class="poppins-regular-icone-cesu text-start">
+          <strong class="titre">Bien-être & engagement</strong><br>
+<span class="titre-salarie">
+      <strong>Salarié :</strong> Reconnu et motivé au quotidien.
+      </span><br>
+      <span class="titre-entreprise">
+       <strong>Entreprise :</strong> Engagement et performance renforcés.
+      </span>
+        </h3>
+      </div>
+
+
+
+      <!-- Bloc 5 -->
+      <div class="col-12 col-md-3 icone-cesu">
+        <img src="{{ '/images/presentation/paperasse-bretigny.svg' | url }}" alt="Gestion simplifiée" loading="lazy">
+        <h3 class="poppins-regular-icone-cesu text-start">
+          <strong class="titre">Simplicité d’utilisation</strong><br>
+<span class="titre-salarie">
+      <strong>Salarié :</strong> Avantages accessibles, démarches réduites.
+      </span><br>
+      <span class="titre-entreprise">
+       <strong>Entreprise :</strong> Moins d’administratif, gain de temps.
+      </span>
+        </h3>
+      </div>
+
+
+
+      <!-- Bloc 6 -->
+      <div class="col-12 col-md-3 icone-cesu">
+        <img src="{{ '/images/presentation/serenite-travail-bretigny.svg' | url }}" alt="Sérénité au travail" loading="lazy">
+        <h3 class="poppins-regular-icone-cesu text-start">
+          <strong class="titre">Sérénité au travail</strong><br>
+<span class="titre-salarie">
+      <strong>Salarié :</strong> Charge mentale diminuée, meilleure performance au travail.
+      </span><br>
+      <span class="titre-entreprise">
+       <strong>Entreprise :</strong> Employés sereins, meilleure efficacité
+      </span>
+        </h3>
+      </div>
+
+      <!-- Bloc 7 -->
+      <div class="col-12 col-md-3 icone-cesu">
+        <img src="{{ '/images/presentation/acces-cesu-bretigny.svg' | url }}" alt="Accès simplifié au CESU" loading="lazy">
+        <h3 class="poppins-regular-icone-cesu text-start">
+          <strong class="titre">Solution flexible</strong><br>
+<span class="titre-salarie">
+      <strong>Salarié :</strong> Accueil adapté à chaque situation familiale (horaires, besoins spécifiques).
+      </span><br>
+      <span class="titre-entreprise">
+       <strong>Entreprise :</strong> Favorise l’inclusion de tous les parents salariés, quels que soient leurs besoins de garde d’enfants.
+      </span>
+        </h3>
+      </div>
+
+      <!-- Bloc 8 -->
+      <div class="col-12 col-md-3 icone-cesu">
+        <img src="{{ '/images/presentation/image-valorisee-travail-bretigny.svg' | url }}" alt="Image RSE de l'entreprise" loading="lazy">
+        <h3 class="poppins-regular-icone-cesu text-start">
+          <strong class="titre">Image socialement responsable</strong><br>
+<span class="titre-salarie">
+      <strong>Salarié :</strong>  Fierté de contribuer à une entreprise engagée.
+      </span><br>
+      <span class="titre-entreprise">
+       <strong>Entreprise :</strong> Entreprise "socialement responsable", réputation renforcée.
+      </span>
+        </h3>
+      </div>
+
+      <!-- Bouton CTA -->
+      <div class="col-12 text-start my-4">
+
+        <a href="https://chubert91assmat.netlify.app/posts/entreprises/cesu-prefinances/" class="btn btn-action-primary-d" aria-label="Comparez et découvrez mon accueil unique !">
+          J'économise avec les CESU pré-financés ! →
+        </a>
+      </div>
+
+    </div>
+  </div>
 </section>
 
 
 
+<section id="rencontre-assistante-maternelle-bretigny-sur-orge">
+  <div class="container-rencontre">
+    <div class="row-rencontre">
+      <div class="col-12">
+        <div class="content-wrapper-rencontre">
 
+          <h3 class="titre-rencontrons-nous">
+RENDEZ-VOUS
 
-<section class="rencontre-assistante-maternelle-bretigny-sur-orge">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h3 class="titre-rencontrons-nous">
-                    <span>
-                     
-    <img src="{{ '/images/presentation/validation-rencontre-assistante-bretigny.svg' | url }}"
-     class="checked" 
-     alt="Validation rendez-vous avec Céline, assistante maternelle"
-     loading="eager"  
-     fetchpriority="high"
-     decoding="async">
-                    
-                    </span>
-                    <strong>RENCONTRONS - NOUS</strong>
-                </h3>   
-                
-                <hr class="horizontal-line">
+            <span>
+              <img src="{{ '/images/presentation/validation-rencontre-assistante-bretigny.svg' | url }}"
+                   class="checked" 
+                   alt="Validation rendez-vous avec Céline, assistante maternelle"
+                   loading="eager"  
+                   fetchpriority="high"
+                   decoding="async">
+            </span>
+           
+           
+          </h3>   
+          
+          <hr class="horizontal-line">
 
-<a href="{{ 'images/presentation/disponibilites-assistante-maternelle-bretigny-sur-orge.pdf' | url }}" 
-   class="btn btn-action-primary my-4" 
+         <a href="{{ 'images/presentation/disponibilites-assistante-maternelle-bretigny-sur-orge.pdf' | url }}" 
+   class="btn btn-action-primary-c my-4" 
    aria-label="Téléchargez le fichier des disponibilités d'accueil">
-    Découvrez mes disponibilités en un clic !
+   Découvrez mes disponibilités en un clic !
 </a>
 
+<p class="poppins-regular-rencontre">
+  <strong>Un accueil chaleureux et personnalisé à Brétigny-sur-Orge, pensé pour le bien-être de votre enfant.</strong>
+</p>
 
 
 
-                <!-- Description générale -->
-                <p class="poppins-regular-rencontre"><strong>Découvrez comment un accueil personnalisé peut répondre aux besoins de votre enfant.</strong></p>
-                
-                <div class="other-section">
-                    <!-- Sous-titres pour les différents aspects du service -->
-                    <h3 class="poppins-regular"><strong>Un Mode d'Accueil individuel à Brétigny-sur-Orge</strong></h3>
-                    <p class="poppins-regular">Si vous recherchez un mode d'accueil serein pour les temps forts comme le repas et la sieste, combiné à des moments d'éveil enrichissants au parc ou au Relais Petite Enfance à Brétigny-sur-Orge.</p>
-                    
-                    <h3 class="poppins-regular"><strong>Accueil Nomade contre la sédentarité</strong></h3>
-                    <p class="poppins-regular">Profitez d'un accueil nomade près de chez vous, où les sorties matinales favorisent le développement du langage et luttent contre la sédentarité.</p>
-                    
-                    <h3 class="poppins-regular"><strong>Un reste à charge compétitif</strong></h3>
-                    <p class="poppins-regular">Mon accueil sur-mesure, avec une gestion administrative simplifiée et un reste à charge compétitif, répondra aux besoins de votre enfant.</p>
-                </div>
-                
-                <div class="container">
-                    <p class="poppins-regular-rdv">
-                        C'est avec plaisir que j'échangerai avec vous.
-                      <a href="{{ '/contact/' | url }}" aria-label="Contacter Céline Hubert directement via l'enveloppe">
+<div class="other-section">
+  <h3 class="poppins-regular-atouts"><strong>Pourquoi choisir mon accueil ?</strong></h3>
+  <ul class="liste-avantages">
+    <li>
+      <img src="{{ '/images/presentation/accueil-cocoon-bretigny.svg' | url }}" class="rencontre-icon" alt="Icône accueil cocoon" loading="lazy">
+      Accueil individuel, calme et sécurisé à Brétigny-sur-Orge
+    </li>
+    <li>
+       <img src="{{ '/images/presentation/accueil-sorties-bretigny.svg' | url }}" class="rencontre-icon" alt="Icône accueil sorties" loading="lazy">
+      Sorties régulières au parc et au Relais Petite Enfance
+    </li>
+    <li>
+       <img src="{{ '/images/presentation/accueil-activites-bretigny.svg' | url }}" class="rencontre-icon" alt="Icône accueil activites" loading="lazy">
+      Activités d’éveil variées et adaptées à chaque âge
+    </li>
+    <li>
+       <img src="{{ '/images/presentation/accueil-nomade-bretigny.svg' | url }}" class="rencontre-icon-nomade" alt="Icône accueil nomade" loading="lazy">
+      Accueil nomade : moins d’écrans, plus de mouvement
+    </li>
+    <li>
+      <img src="{{ '/images/presentation/accueil-demarches-bretigny.svg' | url }}" class="rencontre-icon" alt="Icône accueil demarches" loading="lazy">
+      Démarches simplifiées pour les parents
+    </li>
+    <li>
+       <img src="{{ '/images/presentation/accueil-tarif-bretigny.svg' | url }}" class="rencontre-icon" alt="Icône accueil tarif" loading="lazy">
+      Un tarif accessible, reste à charge optimisé
+    </li>
+  </ul>
+</div>
 
- <img src="{{ '/images/presentation/enveloppe-contact-direct-assistante-maternelle-bretigny.svg' | url }}"
-     class="checked-localisation" 
-     alt="Icône d'enveloppe pour contacter Céline Hubert, assistante maternelle à Brétigny-sur-Orge"
-     loading="eager"  
-     fetchpriority="high"
-     decoding="async">
-</a>
-                    </p>
-                </div>
-            </div>
+
+
+
+
+  <p class="poppins-regular-rdv">
+    Discutons ensemble de vos besoins !
+    <a href="{{ '/contact/' | url }}" aria-label="Contacter Céline Hubert directement via l'enveloppe">
+      <img src="{{ '/images/presentation/enveloppe-contact-direct-assistante-maternelle-bretigny.svg' | url }}"
+           class="checked-localisation" 
+           alt="Icône d'enveloppe pour contacter Céline Hubert"
+           loading="eager"  
+           fetchpriority="high"
+           decoding="async">
+    </a>
+  </p>
+
+
+
         </div>
+      </div>
     </div>
+  </div>
 </section>
 
 
 <!-- Autres contenus précédents -->
 
 
+
 <script>
-  // Fonction qui charge les avis après un délai de 10 secondes
-  setTimeout(function() {
-    // Affiche le contenu des avis
-    document.getElementById('avis-container').style.display = 'block';
-  }, 10000); // 10000 millisecondes = 10 secondes
+document.addEventListener("DOMContentLoaded", function () {
+  const icons = document.querySelectorAll(".icone-cesu");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  }, { threshold: 0.8 });
+
+  icons.forEach((icon) => observer.observe(icon));
+});
 </script>
+
+
+
+
+
+<script>
+ document.addEventListener("DOMContentLoaded", function () {
+  const avisSection = document.getElementById("avis");
+  const avisContainer = document.getElementById("avis-container");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        avisContainer.classList.add("avis-visible");
+        observer.unobserve(avisSection);
+      }
+    });
+  }, { threshold: 0.8 }); // 40% visible
+
+  observer.observe(avisSection);
+});
+</script>
+
+
+
+
 
 
 
