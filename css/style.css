@@ -4095,12 +4095,12 @@ picture img {
    }
  }
  
-
-
-
-
-
-
+/* Quand tu remplaces class="container" par class="container-blog", tu perds toutes ces règles automatiques de Bootstrap */
+ .container {
+   position: relative; /* Pour placer le contenu au-dessus du SVG */
+   z-index: 1; /* Assure que le contenu est au-dessus de l'image */
+   padding-top: 4rem; /* Ajustez la valeur pour donner un espace au-dessus du contenu si nécessaire */
+}
 
 
 
