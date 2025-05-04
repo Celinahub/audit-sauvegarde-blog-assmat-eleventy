@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: "La chasse-aux-œufs : les sens en éveil"
+title: "La chasse aux œufs : les sens en éveil"
 description: "Découvrez la chasse aux œufs à Brétigny-sur-Orge, une activité ludique pour les enfants, favorisant l'éveil sensoriel et la motricité."
 tags: 
   - rpe
@@ -11,11 +11,11 @@ tags:
   - éveil-sensoriel
   - assistante-maternelle
   - bien-être-enfant
-url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/chasse-aux-œufs-rpe-bretigny/"
-image: "/images/uploads/chasse-aux-œufs-rpe-bretigny.jpg"
+url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/chasse-aux-oeufs-rpe-bretigny/"
+image: "/images/uploads/chasse-aux-oeufs-rpe-bretigny.jpg"
 date: 2025-04-29
 category: "LA COLLECTIVITE GRÂCE AU RPE" 
-featuredImage: /images/uploads/chasse-aux-œufs-rpe-bretigny.jpg
+featuredImage: /images/uploads/chasse-aux-oeufs-rpe-bretigny.jpg
 jsonLd: >
   {
     "@context": "https://schema.org",
@@ -35,10 +35,10 @@ jsonLd: >
       "url": "https://chubert91assmat.netlify.app/"
     },
     "keywords": [
-      "chasse aux œufs Brétigny-sur-Orge",  
+      "chasse aux oeufs Brétigny-sur-Orge",  
       "activités enfants Brétigny",  
       "éveil sensoriel enfants",  
-      "chasse aux œufs printemps",  
+      "chasse aux oeufs printemps",  
       "mode de garde Brétigny",  
       "assistante maternelle Brétigny",  
       "activité ludique enfants Brétigny",  
@@ -79,7 +79,7 @@ Une fois la chasse terminée, chacun repart avec son petit sachet de chocolats :
 
 <br>
 
-![Assistante maternelle à Brétigny-sur-Orge – les œufs sont disposés sur l'herbe en vrac](/images/uploads/chasse-aux-œufs-bretigny.jpg)
+![Assistante maternelle à Brétigny-sur-Orge – les oeufs sont disposés sur l'herbe en vrac](/images/uploads/chasse-aux-oeufs-bretigny.jpg)
 
 ### **<span id="apprentissage">3. Une activité riche en apprentissages</span>**
 
@@ -107,7 +107,7 @@ Une fois la chasse terminée, chacun repart avec son petit sachet de chocolats :
 Les enfants rient, s’observent, s’encouragent.
 L’enthousiasme est communicatif et renforce les liens sociaux dès le plus jeune âge.
 
-![Assistante maternelle à Brétigny-sur-Orge – Sachet de chocolat sur l'herbe](/images/uploads/chasse-aux-œufs-bretigny91.jpg)
+![Assistante maternelle à Brétigny-sur-Orge – Sachet de chocolat sur l'herbe](/images/uploads/chasse-aux-oeufs-bretigny91.jpg)
 
 ### **<span id="relation">4. La relation adulte-enfant renforcée</span>**
 En tant qu’assistante maternelle, je vois dans cette activité bien plus qu’un simple jeu de plein air.
