@@ -1,11 +1,11 @@
 ---
 layout: layouts/base.njk
-title: "Assistante Maternelle à Brétigny | Garde d'enfants Céline Hubert"
-description: "Confiez votre enfant à Céline, assistante maternelle agréée à Brétigny-sur-Orge. Garde d'enfants alternative à la crèche avec un accueil personnalisé."
+title: "Assistante Maternelle à Brétigny | Céline Hubert"
+description: "Céline, assistante maternelle agréée à Brétigny-sur-Orge, propose un accueil personnalisé, alternatif à la crèche, pour un environnement sécurisé en Essonne."
 url: "https://chubert91assmat.netlify.app/"
 image: "presentation-assistante-maternelle-agreee.jpg"
 eleventyNavigation:
-  key: PRESENTATION
+  key: ASSISTANTE MATERNELLE À BRÉTIGNY-SUR-ORGE
   order: 1
 permalink: "/"
 bodyClass: "bg-white presentation"
@@ -107,9 +107,10 @@ bodyClass: "bg-white presentation"
 <section id="portrait" class="container-fluid py-5 position-relative">
   <div class="header-container">
         <h1 class="poppins-bold-titre-accueil">Assistante Maternelle Agréée à Brétigny-sur-Orge</h1>
-        <a href="{{ '/contact/' | url }}" class="btn btn-action-primary" aria-label="Accédez au formulaire de contact pour reserver une place">
-            Demander une place ! →
-        </a>
+       <a href="/contact/" class="btn btn-action-primary">Réservez une rencontre →</a>
+<a href="/projet-accueil/" class="btn btn-action-primary">Voir mon projet d’accueil →</a>
+<a href="/faq/" class="btn btn-action-primary">Aides & Tarifs →</a>
+
     </div>
     <div class="row justify-content-center text-center position-relative">
         <div class="col-md-12">
@@ -161,10 +162,12 @@ bodyClass: "bg-white presentation"
 </section>
 {% endblock %}
 
-<section id="services-garde-enfants" class="container-fluid py-5">
+<section id="services-garde-enfants" class="py-5">
+  <div class="custom-container">
     <div class="services-garde-enfants-section section-wrapper">
-         <div class="profile-text text-center">
-            <h2 class="poppins-bold-sous-titre-accueil">Et si votre enfant bénéficiait d’un accueil plus individualisé ?</h2>
+      <div class="profile-text text-center">
+            <h2 class="poppins-bold-sous-titre-accueil">Un accompagnement personnalisé pour les premières années de votre enfant</h2>
+
         </div>
 
         <!-- Premier ligne -->
@@ -174,14 +177,14 @@ bodyClass: "bg-white presentation"
                 <div class="services-garde-enfants-item w-100">
                     <div class="services-garde-enfants-text-space p-4">
                         
-                        <h3 class="introduction-titre">{{ aProposTitre | default("A PROPOS") }}</h3>
+                        <h3 class="introduction-titre">{{ aProposTitre | default("MON PARCOURS") }}</h3>
                         <hr class="horizontal-line">
                         <div class="description-atout-services">
-                            <p class="poppins-regular-accueil">{{ aProposDescription | default("En 2016, après une immersion en tant que particulier-employeur, j'ai amorcé une reconversion professionnelle pour devenir assistante maternelle agréée. Trouver un mode de garde sécurisant pour notre premier enfant a renforcé ma conviction d'offrir un accueil personnalisé et de qualité aux familles.") }}</p>
+                            <p class="poppins-regular-accueil">{{ aProposDescription | default("En 2016, après une expérience en tant que parent employeur, j’ai choisi de devenir assistante maternelle à Brétigny-sur-Orge. La recherche d’un mode de garde sûr pour notre enfant m’a donné envie d’offrir aux familles un accueil à domicile, personnalisé et rassurant.") }}</p>
                             
                             <!-- Bouton "lien interne" -->
                        <a href="{{ '/contact/' | url }}" class="btn btn-action-primary my-4" aria-label="Accédez au formulaire de contact pour envoyer un e-mail">
-    Accédez au formulaire de contact →
+    Réservez une rencontre dès maintenant →
 </a>
 
 
@@ -211,10 +214,10 @@ bodyClass: "bg-white presentation"
             <div class="col-md-6 order-md-2 p-0 d-flex align-items-center">
                 <div class="services-garde-enfants-item w-100">
                     <div class="services-garde-enfants-text-space p-4">
-                        <h2 class="introduction-titre">{{ environnementTitre | default("ENVIRONNEMENT FAMILIAL") }}</h2>
+                        <h2 class="introduction-titre">{{ environnementTitre | default("ACCUEIL FAMILIAL") }}</h2>
                         <hr class="horizontal-line">
                         <div class="description-atout-services">
-                            <p class="poppins-regular-accueil">{{ environnementDescription | default("Chaque enfant accueilli bénéficie de sa propre chambre dans un environnement calme, favorisant son bien-être, et profite d'interactions enrichissantes avec mes enfants plus âgés, contribuant à son développement psychomoteur, social et à son autonomie.") }}</p>
+                            <p class="poppins-regular-accueil">{{ environnementDescription | default("À Brétigny-sur-Orge, j’accueille les enfants dans un cadre familial calme et sécurisé. Chaque enfant a sa chambre. L’accueil personnalisé favorise l’autonomie, le bien-être et les échanges avec mes enfants plus âgés.") }}</p>
                             
                             <!-- Bouton "lien interne" -->
                             <a href="{{ '/projet-accueil/#routine' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Découvrez notre routine →") }}</a>
@@ -242,10 +245,10 @@ bodyClass: "bg-white presentation"
     <div class="col-md-6 p-0 d-flex align-items-center">
         <div class="services-garde-enfants-item w-100">
             <div class="services-garde-enfants-text-space p-4">
-                <h2 class="introduction-titre">{{ capacitesTitre | default("CAPACITES D'ACCUEIL") }}</h2>
+                <h2 class="introduction-titre">{{ capacitesTitre | default("CAPACITÉ D'ACCUEIL") }}</h2>
                 <hr class="horizontal-line">
                 <div class="description-atout-services">
-                    <p class="poppins-regular-accueil">{{ capacitesDescription | default("Mon agrément limite le nombre d'enfants, offrant un ratio enfants/adulte plus bas que l'accueil collectif pour garantir une attention individualisée, une surveillance renforcée, et un cadre sécurisant lors des repas et de la sieste, tout en assurant un service de qualité basé sur les principes de la Protection maternelle et infantile.") }}</p>
+                    <p class="poppins-regular-accueil">{{ capacitesDescription | default("Assistante maternelle à BRÉTIGNY, mon ratio enfants/adulte est plus bas que l'accueil collectif pour garantir un cadre sécurisant et individualisé lors des repas et de la sieste et un accompagnement conforme aux recommandations de la PMI.") }}</p>
                     
                     <!-- Bouton "lien interne" -->
                     <a href="{{ '/projet-accueil/#agrement' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Consultez les capacités de mon agrément →") }}</a>
@@ -274,13 +277,13 @@ bodyClass: "bg-white presentation"
             <div class="col-md-6 order-md-2 p-0 d-flex align-items-center">
                 <div class="services-garde-enfants-item w-100">
                     <div class="services-garde-enfants-text-space p-4">
-                        <h2 class="introduction-titre">{{ activitesTitre | default("ACTIVITES ET PROMENADES") }}</h2>
+                        <h2 class="introduction-titre">{{ activitesTitre | default("SORTIES QUOTIDIENNES") }}</h2>
                         <hr class="horizontal-line">
                         <div class="description-atout-services">
-                            <p class="poppins-regular-accueil">{{ activitesDescription | default("Lorsque la météo le permet, nous effectuons des sorties quotidiennes dans les parcs et grands espaces de la ville, permettant aux enfants de rencontrer leurs pairs et de stimuler leur développement du langage, tout en luttant contre la sédentarité et en favorisant leur santé physique et mentale.") }}</p>
+                            <p class="poppins-regular-accueil">{{ activitesDescription | default("Nous effectuons des sorties quotidiennes dans les parcs et espaces verts de Brétigny-sur-Orge, favorisant la rencontre avec d’autres enfants. Ces activités contribuent à la lutte contre la sédentarité et soutiennent leur santé physique et mentale.") }}</p>
                             
                             <!-- Bouton "lien interne" -->
-                            <a href="{{ '/projet-accueil/#activites' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Explorez nos activités →") }}</a>
+                            <a href="{{ '/projet-accueil/#activites' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Explorez nos activités éducatives →") }}</a>
                         </div>
                     </div>
                 </div>
@@ -305,7 +308,7 @@ bodyClass: "bg-white presentation"
             <div class="col-md-6 p-0 d-flex align-items-center">
                 <div class="services-garde-enfants-item w-100">
                     <div class="services-garde-enfants-text-space p-4">
-                        <h2 class="introduction-titre">{{ communicationTitre | default("COMMUNICATION") }}</h2>
+                        <h2 class="introduction-titre">{{ communicationTitre | default("ÉCHANGE DIRECT") }}</h2>
                         <hr class="horizontal-line">
                         <div class="description-atout-services">
                             <p class="poppins-regular-accueil">{{ communicationDescription | default("Je privilégie une communication directe et personnalisée avec les familles, sans intermédiaires, pour assurer une coordination fluide des soins et renforcer la confiance, garantissant ainsi un environnement serein et sécurisant pour l'enfant.") }}</p>
@@ -339,7 +342,7 @@ bodyClass: "bg-white presentation"
                         <h2 class="introduction-titre">{{ sociabilisationTitre | default("SOCIABILISATION") }}</h2>
                         <hr class="horizontal-line">
                         <div class="description-atout-services">
-                            <p class="poppins-regular-accueil">{{ sociabilisationDescription | default("Les visites bi-mensuelles au Relais Petite Enfance (RPE) de Brétigny-sur-Orge offrent aux enfants un environnement stimulant pour enrichir leur cercle social, développer des compétences essentielles comme le partage et la communication, et renforcer le lien avec l'assistante maternelle.") }}</p>
+                            <p class="poppins-regular-accueil">{{ sociabilisationDescription | default("Les visites bi-mensuelles au Relais Petite Enfance (RPE) de Brétigny-sur-Orge permettent aux enfants de développer leurs compétences sociales. Ces rencontres renforcent leur sociabilisation, tout en conservant les avantages d’une garde personnalisée à domicile.") }}</p>
                             
                             <!-- Bouton "lien interne" -->
                            <a href="{{ '/projet-accueil/#team' | url }}" class="btn btn-action-primary my-4" aria-label="Découvrez les avantages du RPE et de l'équipe">
@@ -372,7 +375,7 @@ bodyClass: "bg-white presentation"
                         <h2 class="introduction-titre">{{ assistanceTitre | default("ASSISTANCE") }}</h2>
                         <hr class="horizontal-line">
                         <div class="description-atout-services">
-                            <p class="poppins-regular-accueil">{{ assistanceDescription | default("Je vous accompagne dans toutes vos démarches administratives, y compris la saisie Pajemploi, avec une expertise juridique spécialisée grâce à mon affiliation au syndicat UNSA PRO ASSMAT garantissant ainsi simplicité et tranquillité d'esprit. La FEPEM offre des ressources pour les particuliers-employeurs.") }}</p>
+                            <p class="poppins-regular-accueil">{{ assistanceDescription | default("Je vous accompagne dans toutes vos démarches administratives, y compris la saisie Pajemploi, avec une expertise juridique grâce à mon affiliation au syndicat UNSA PRO ASSMAT garantissant simplicité et tranquillité d'esprit. La FEPEM offre des ressources pour les particuliers-employeurs.") }}</p>
                            <a href="{{ '/projet-accueil/#team' | url }}" class="btn btn-action-primary my-4" aria-label="En savoir plus sur le syndicat, section équipe">
     {{ boutonTexte | default("En savoir plus sur le syndicat →") }}
 </a>
@@ -456,7 +459,7 @@ bodyClass: "bg-white presentation"
 
 
 <section id="avis" class="container-fluid-contact py-5">
-  <div class="container-avis">
+  <div class="container-avis container-md">
     <div class="row-cesu">
       <div class="col-12">
         <h2 class="google-fiche-avis"><strong>VOS AVIS COMPTENT</strong></h2>
@@ -490,7 +493,7 @@ bodyClass: "bg-white presentation"
 
     
 <section id="cesu-entreprise" class="icones-cesu-container">
-  <div class="container-cesu">
+  <div class="container-cesu container-md">
     <h2 class="poppins-bold-cesu-title">CESU PAR L'ENTREPRISE</h2>
     <div class="row">
 
@@ -635,7 +638,7 @@ bodyClass: "bg-white presentation"
 
 
 <section id="rencontre-assistante-maternelle-bretigny-sur-orge">
-  <div class="container-rencontre">
+  <div class="container-rencontre container-md">
     <div class="row-rencontre">
       <div class="col-12">
         <div class="content-wrapper-rencontre">

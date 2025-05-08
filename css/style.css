@@ -992,6 +992,24 @@ h2, h3 {
   
 }
 
+.custom-container {
+   width: 100%;
+   max-width: 1920px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 0;
+   padding-right: 0;
+   box-sizing: border-box;
+ }
+ 
+ @media (min-width: 768px) {
+   .custom-container {
+     padding-left: 15px;
+     padding-right: 15px;
+   }
+ }
+ 
+
 
 @media (max-width: 768px) {
    #services-garde-enfants {
@@ -1122,6 +1140,7 @@ h2, h3 {
    font-weight: 400;
    font-size: 12px;
    font-style: normal;
+   padding: 5px 10px; /* Espacement interne */
   
  }
  
@@ -1132,6 +1151,17 @@ h2, h3 {
   outline: none; /* Supprime le contour par défaut */
   border: 1px solid #103653; /* Ajoute un contour personnalisé */
  }
+
+ @media (max-width: 576px) {
+  
+   .btn-action-primary {
+       width: 100%; /* Les boutons occupent toute la largeur du conteneur */
+   }
+}
+
+
+ 
+
 
 
 .image-frame-services {
@@ -2012,13 +2042,6 @@ picture img {
    margin: 0;
 }
 
-/* Styles spécifiques de la ligne verticale en pointillé et de l'espacement du contenu */
-.adaptation-info {
-   flex: 1;
-   padding: 20px;
-   background-color: transparent; /* Fond transparent */
-   border-left: 3px dotted #F8F9F6; /* Ligne verticale en pointillé */
-}
 
 
 /* Styles spécifiques le titre "UNE ADAPTATION REUSSIE" */
@@ -2062,10 +2085,7 @@ picture img {
 
 
  
-/* Style des sous-titres à côté des icônes horloge */ 
- .adaptation-title { 
-   font-size: 16px;
- }
+
 
  /* Styles spécifiques pour le texte en gras de la frise caché */
  .poppins-bold-adaptation-hidden {
@@ -2087,15 +2107,56 @@ picture img {
  }
 
 
-
-/* Styles pour le positionnement des icônes svg et les titres de jours sur la frise verticale */
-.adaptation-icone-horloge {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 10px; /* Ajustez la position de l'icône par rapport à la ligne verticale */
-    font-size: 12px; /* Ajustez la taille de l'icône */
+/* Styles spécifiques de la ligne verticale en pointillé et de l'espacement du contenu */
+.adaptation-info {
+   flex: 1;
+   padding: 20px;
+   background-color: transparent; /* Fond transparent */
+   border-left: 3px dotted #F8F9F6; /* Ligne verticale en pointillé */
+  
  }
+ 
+ /* Styles pour le positionnement des icônes SVG et les titres de jours sur la frise verticale */
+ .adaptation-icone-horloge {
+   position: absolute; /* Positionnement absolu pour fixer l'icône */
+   left: -45px; /* Ajuste l'icône par rapport à la ligne verticale, modifie si nécessaire */
+   top: 0; /* Aligne l'icône en haut de l'élément */
+   transform: translateY(0); /* Ajuste l'icône de manière fluide, au besoin */
+   font-size: 15px; /* Ajuste la taille de l'icône si nécessaire */
+  
+ }
+ 
+ /* Assurez-vous que le titre du jour s'ajuste correctement */
+ .adaptation-title {
+   margin-left: 10px; /* Assure-toi qu'il y a assez d'espace pour le titre et l'icône */
+   font-size: 16px;
+   position: relative; /* Ajouté pour permettre à l'icône de se positionner par rapport à cet élément */
+ }
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  /* Style de la flèche  */
@@ -2150,35 +2211,30 @@ picture img {
  }
 
 
-/* Styles spécifiques le titre "BIENVENUE" */
-.poppins-bold-accueil-assistante-maternelle-title {
+ .poppins-bold-titre-bienvenue {
    font-family: "Poppins", sans-serif;
    font-weight: 700;
-   font-style: normal;
-   color: #103653;
    font-size: 1.5em;
-   margin-top: 0;
-   margin-bottom: 0;
+   color: #103754;
+   margin: 0; /* Supprime les marges par défaut */
 }
 
 
-/* Container du titre */
-.accueil-assistante-maternelle-title-container {
+
+.bienvenue-container {
    display: flex;
-   align-items: baseline;
-   justify-content: center;
-   margin-top: 0;
-   margin-bottom: 0;
+   align-items: center; /* Aligner verticalement */
+   justify-content: center; /* Centrer horizontalement */
+   gap: 20px; /* Espacement entre le H1 et le bouton */
+   flex-wrap: wrap; /* Permet le passage à la ligne sur mobile */
+   text-align: center; /* Centrer le texte pour une bonne lisibilité */
+   margin-bottom: 30px; /* Marge en bas du titre */
 }
 
-/* Mobile */
-@media (max-width: 767px) {
-   .accueil-assistante-maternelle-title-container {
-     text-align: center;
-     margin-top: 0;
-     margin-bottom: 0;
-   }
-}
+
+
+
+
 
 /* Sous-texte "chez Céline" */
 .finger-paint-accueil-assistante-maternelle {
@@ -2785,14 +2841,7 @@ picture img {
    margin: 0;
 }
 
-/* Styles spécifiques le titre "MA JOURNEE DE MINISTRE" */
-.routine-title-container {
-   display: flex;
-   align-items: baseline;
-   justify-content: flex-start;
-   text-align: left;
- }
- 
+
 /* Styles spécifiques le titre "MA JOURNEE DE MINISTRE" */
 .poppins-bold-routine-title {
    font-family: "Poppins", sans-serif;
@@ -2814,49 +2863,36 @@ picture img {
  }
  
 
+
+
 /* Styles spécifiques de la ligne verticale en pointillé et de l'espacement du contenu */
 .routine-info {
    flex: 1;
    padding: 20px;
-   background-color: #97D3CB; /* Couleur de fond pour chaque élément de la frise */
+   background-color: transparent; /* Fond transparent */
    border-left: 3px dotted #103754; /* Ligne verticale en pointillé */
-}
+  
+ }
+ 
+ /* Styles pour le positionnement des icônes SVG et les titres de jours sur la frise verticale */
 
+.routine-icone-frise {
+   position: absolute; /* Positionnement absolu pour fixer l'icône */
+   left: -45px; /* Ajuste l'icône par rapport à la ligne verticale, modifie si nécessaire */
+   top: 0; /* Aligne l'icône en haut de l'élément */
+   transform: translateY(0); /* Ajuste l'icône de manière fluide, au besoin */
+   font-size: 15px; /* Ajuste la taille de l'icône si nécessaire */
+  
+ }
+ 
+ /* Assurez-vous que le titre du jour s'ajuste correctement */
+.routine-title {
+   margin-left: 10px; /* Assure-toi qu'il y a assez d'espace pour le titre et l'icône */
+   font-size: 16px;
+   position: relative; /* Ajouté pour permettre à l'icône de se positionner par rapport à cet élément */
+ }
 
  
-
-/* Styles spécifiques le titre "MA JOURNÉE DE MINISTRE" */
-.routine-title-container {
-   display: flex;
-   align-items: baseline; /* Aligner sur la ligne de base */
-   justify-content: center;
-   margin-bottom: 50px;
-}
-
-
-
- /* Animation de fondu pour "de ministre" */
- @keyframes fadeInOutMinistre {
-   0%, 100% {
-       opacity: 0;
-   }
-   25%, 75% {
-       opacity: 1;
-   }
-}
-
-/* Appliquer l'animation " de ministre" avec une durée de 3 secondes, répétition infinie */
-.fade-in-out-ministre {
-   animation: fadeInOutMinistre 8s infinite;
-   color: #F8F9F6; /* Couleur du texte souhaitée */
-   display: inline-block; /* Maintient sur la même ligne */
-   font-family: "Finger Paint", sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 1em;
-   position: relative; /* Ajout de position relative */
-}
-
 
 
 
@@ -2918,10 +2954,7 @@ picture img {
 .vignette-routine {
    width:2.1em; 
    height:2.1em;
-   display: flex;
-   align-items: center;
-   position: absolute;
-   left: 10px; /* Ajustez la position de l'icône par rapport à la ligne verticale */
+ 
 }
  
  /* Styles spécifiques pour les sous titres "Modalité" et "Pictogrammes" */
@@ -2931,12 +2964,6 @@ picture img {
 
 
  
-/* Frise chronologique taille icônes svg et titres */ 
- .routine-title { 
-
-   font-size: 18px;
-  
- }
 
 
 /* Styles spécifiques pour "Modalité" et "Pictogrammes" */
@@ -3043,28 +3070,8 @@ picture img {
 }
 
 
-/* Styles pour le positionnement des icônes svg et les titres "Routine" et "Dejeuner" sur la frise verticale */
-.routine-icon-6,
-.routine-icon-5,
-.routine-icon-4,
- .routine-icon-3,
- .routine-icon-2,
- .routine-icon-1 {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 10px; /* Ajustez la position de l'icône par rapport à la ligne verticale */
- }
 
- .routine-icon-6 i,
- .routine-icon-5 i,
- .routine-icon-4 i,
- .routine-icon-3 i,
- .routine-icon-2 i,
- .routine-icon-1 i {
-   font-size: 20px; /* Ajustez la taille de l'icône */
-}
- 
+
 
 /* Styles pour le fond du texte caché */
  .routine-description {
@@ -3143,13 +3150,55 @@ picture img {
    margin: 0;
 }
 
+
 /* Styles spécifiques de la ligne verticale en pointillé et de l'espacement du contenu */
 .agrement-info {
    flex: 1;
    padding: 20px;
-   background-color: #F8F9F6; /* Couleur de fond pour chaque élément de la frise */
+   background-color: transparent; /* Fond transparent */
    border-left: 3px dotted #103754; /* Ligne verticale en pointillé */
+  
+ }
+ 
+ /* Styles pour le positionnement des icônes SVG et les titres de jours sur la frise verticale */
+
+.agrement-icone-frise {
+   position: absolute; /* Positionnement absolu pour fixer l'icône */
+   left: -45px; /* Ajuste l'icône par rapport à la ligne verticale, modifie si nécessaire */
+   top: 0; /* Aligne l'icône en haut de l'élément */
+   transform: translateY(0); /* Ajuste l'icône de manière fluide, au besoin */
+   font-size: 15px; /* Ajuste la taille de l'icône si nécessaire */
+  
+ }
+ 
+ /* Assurez-vous que le titre du jour s'ajuste correctement */
+.agrement-title {
+   margin-left: 10px; /* Assure-toi qu'il y a assez d'espace pour le titre et l'icône */
+   font-size: 16px;
+   position: relative; /* Ajouté pour permettre à l'icône de se positionner par rapport à cet élément */
+ }
+
+
+
+ .agrement-icon {
+   width: 15px;
+   height: 15px;
+   transition: transform 0.3s ease-in-out; /* Animation fluide */
 }
+
+/* Rotation de la flèche quand le bouton est activé */
+.routine-btn-toggle.active .routine-icon,
+.routine-picto-btn-toggle.active .routine-icon,
+.agrement-btn-toggle.active .agrement-icon, 
+.faq-btn-toggle.active .agrement-icon {
+   transform: rotate(90deg); /* Fait tourner la flèche de 90° */
+}
+
+
+
+
+
+
 
 
 /* Styles spécifiques le titre "MON AGREMENT" */
@@ -3178,29 +3227,6 @@ picture img {
    display: flex;
    align-items: baseline; /* Aligner sur la ligne de base */
    margin-bottom: 50px;
-}
-
-
- /* Animation de fondu pour "un accueil personnalisé" */
- @keyframes fadeInOutpersonnel {
-   0%, 100% {
-       opacity: 0;
-   }
-   25%, 75% {
-       opacity: 1;
-   }
-}
-
-/* Appliquer l'animation "un accueil personnalisé" avec une durée de 3 secondes, répétition infinie */
-.fade-in-out-personnel {
-   animation: fadeInOutpersonnel 8s infinite;
-   color: #97D3CB; /* Couleur du texte souhaitée */
-   display: inline-block; /* Maintient sur la même ligne */
-   font-family: "Finger Paint", sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 1em;
-   position: relative; /* Ajout de position relative */
 }
 
 
@@ -3262,14 +3288,6 @@ picture img {
 }
 
 
- 
- 
-/* Frise chronologique taille icônes svg et titres */ 
- .agrement-title { 
-
-   font-size: 18px;
-  
- }
 
 
 /* Styles spécifiques pour "En savoir plus" */
@@ -3318,22 +3336,6 @@ picture img {
 }
 
 
-/* Styles pour le positionnement des icônes svg et les titres de l'agrément sur la frise verticale */
- .agrement-icon-3,
- .agrement-icon-2,
- .agrement-icon-1 {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 10px; /* Ajustez la position de l'icône par rapport à la ligne verticale */
- }
-
- .agrement-icon-3 i,
- .agrement-icon-2 i,
- .agrement-icon-1 i {
-   font-size: 20px; /* Ajustez la taille de l'icône */
-}
- 
 
 /* Styles pour le fond du texte caché */
  .agrement-description {
@@ -4012,18 +4014,72 @@ picture img {
    background-color: rgba(20, 56, 84, 0.5); /* Couleur du voile avec opacité */
  }
  
+
+
+
  
+ .header-banniere-container {
+   display: flex;
+   align-items: center; /* Aligner verticalement */
+   justify-content: center; /* Centrer horizontalement */
+   gap: 20px; /* Espacement entre le H1 et le bouton */
+   flex-wrap: wrap; /* Permet le passage à la ligne sur mobile */
+   text-align: center; /* Centrer le texte pour une bonne lisibilité */
+   margin-bottom: 30px; /* Marge en bas du titre */
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+}
+
+
+
+/* Styles pour le bouton appel à l'action rubriques presentation de services-garde-enfants */
+.btn-action-primary-a {
+   color: #F8F9F6; /* Couleur du texte */
+   border-color: #F8F9F6; /* Couleur de la bordure */
+   font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+   
+  }
+  
+  .btn-action-primary-a:hover {
+   background-color: #F8F9F6; /* Couleur #F8F9F6 avec 40% de transparence */
+   color: #103653; /* Couleur du texte au survol */
+   outline: none; /* Supprime le contour par défaut */
+   border: 1px solid #103653; /* Ajoute un contour personnalisé */
+ 
+}
+
+
+
+
+
  /* Styles spécifiques le titre "Le journal de Céline," */
  .poppins-bold-titre-banniere {
    font-family: "Poppins", sans-serif;
    font-weight: 700;
    font-style: normal;
    color: #F8F9F6;
-   font-size: 1,5em; /* Taille de la police relative */
-   margin-bottom: 10px; /* Marge en bas du titre */
+   font-size: 1.5em; /* Taille de la police relative */
+   margin: 0; /* Supprime les marges par défaut */
    z-index: 1;
  }
  
+ .poppins-bold-sous-titre-banniere {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color: #F8F9F6;
+   font-size: 1.1em; /* Taille de la police relative */
+   margin-bottom: 30px; /* Marge en bas du titre */
+   z-index: 1;
+}
+
+
+
+
+
  
  /* Animation de fondu pour "assistante maternelle à Brétigny-sur-Orge" */
  @keyframes fadeInOutbanniere {
@@ -4492,6 +4548,11 @@ html {
    color: #34556e; /* Applique la couleur */
    font-weight: bold;
 }
+
+
+
+
+
 
 .highlighted-note {
    border-left: 4px solid #103754; /* couleur Bootstrap primary */
