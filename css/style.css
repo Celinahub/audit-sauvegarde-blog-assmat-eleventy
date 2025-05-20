@@ -1464,9 +1464,9 @@ h2, h3 {
 
 
 
-/* Style section rencontre assistante maternelle bretigny sur orge */
+/* Style section disponibilite assistante maternelle bretigny sur orge */
 
-#rencontre-assistante-maternelle-bretigny-sur-orge {
+#disponibilite-assistante-maternelle-bretigny-sur-orge {
    background-color: #F8F9F6;
    padding-left: 20px;
    padding-right: 20px;
@@ -1487,6 +1487,40 @@ h2, h3 {
    z-index: 1; /* Assure que le contenu est au-dessus de l'image */
    
 }
+
+/* Titres des sous-sections (ex. : Un Mode d'Accueil...) */
+.poppins-regular-disponibilite {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+   font-style: normal;
+   color: #103754;
+   text-align: left;
+   margin-bottom: 20px; /* Augmente l'espace sous le titre */
+ }
+ 
+.poppins-regular-informations {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   font-style: normal;
+   color: #103754;
+   text-align: left;
+   margin-bottom: 20px; /* Augmente l'espace sous le titre */
+ }
+
+/* Styles spécifiques pour les Icônes svg des titres de l'agrément */
+.bloc-note {
+width:2.2em; 
+height:2.2em;
+}
+@media (max-width: 768px) {
+.bloc-note {
+width:1.5em; 
+height:1.5em;
+   }
+ }
+
 
 .container-enveloppe {
    position: relative; /* Pour placer le contenu au-dessus du SVG */
