@@ -15,10 +15,12 @@ bodyClass: "bg-white presentation"
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "ChildCare",
   "name": "Assistante maternelle agréée - chez Céline",
+  "url": "https://chubert91assmat.netlify.app",
   "image": "https://chubert91assmat.netlify.app/images/presentation-assistante-maternelle-agreee.jpg",
   "priceRange": "Fixé en fonction de vos besoins d'accueil",
+  "currenciesAccepted": "EUR",
   "description": "Assistante maternelle agréée proposant un accueil personnalisé pour les enfants à Brétigny-sur-Orge. Une alternative chaleureuse et professionnelle à la crèche.",
   "address": {
     "@type": "PostalAddress",
@@ -50,6 +52,7 @@ bodyClass: "bg-white presentation"
       "@type": "Review",
       "itemReviewed": {
         "@type": "Service",
+        "@id": "https://chubert91assmat.netlify.app/#childcare",
         "name": "Garde d'enfants",
         "description": "Services de garde d'enfants par une assistante maternelle agréée."
       },
@@ -90,7 +93,39 @@ bodyClass: "bg-white presentation"
 }
 </script>
 
-
+<!-- Balise JSON-LD pour la FAQ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quels sont les avantages d'une assistante maternelle à Brétigny-sur-Orge ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un accueil personnalisé et sécurisé, proche de la gare RER C et du parc Clause-Bois Badeau."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Êtes-vous accessible depuis Plessis-Pâté ou Saint-Michel-sur-Orge ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, mon domicile est à quelques minutes de ces communes en voiture ou à vélo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Est-ce que vous accueillez aussi des enfants de Saint-Germain-lès-Arpajon ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, j'accueille des familles des villes voisines comme Saint-Germain-lès-Arpajon ou Le Plessis-Pâté."
+      }
+    }
+  ]
+}
+</script>
     
 
 <!-- Icône de défilement vers le haut utilisant une image SVG -->
@@ -671,44 +706,74 @@ RENDEZ-VOUS
 
 <div class="disponibilites-assistante-maternelle my-4">
 
-<h4 class="poppins-regular-disponibilite">
-<span>
-<img src="{{ '/images/presentation/bloc-note-rdv.svg' | url }}" alt="bloc note disponibilité" class="bloc-note" loading="lazy">
-</span>
-<span>Place disponible chez une assistante maternelle agréée à Brétigny-sur-Orge (Carouge-Clause)</span>
-</h4>
+  <h4 class="poppins-regular-disponibilite">
+    <span>
+      <img src="{{ '/images/presentation/bloc-note-rdv.svg' | url }}" alt="bloc note disponibilité" class="bloc-note" loading="lazy">
+    </span>
+    <span>Place disponible chez une assistante maternelle agréée à Brétigny-sur-Orge (Carouge-Clause)</span>
+  </h4>
 
-<p class="poppins-regular-informations">
-  <strong>Lieu d’accueil :</strong> Brétigny-sur-Orge (quartier Carouge-Clause, Essonne – 91220)
-</p>
+  <p class="poppins-regular-informations">
+    <strong>Adresse :</strong> Quartier Carouge-Clause à Brétigny-sur-Orge (91220), proche de Plessis-Pâté, Saint-Michel-sur-Orge et Saint-Germain-lès-Arpajon, Essonne.
+  </p>
 
-<p class="poppins-regular-informations">
-  <strong>Agrément :</strong> 3 enfants à la journée
-</p>
-<p class="poppins-regular-informations">
-  <strong>Disponibilité :</strong> 1 place disponible à partir de <strong>septembre 2026</strong>, de <strong>7h15 à 18h45</strong>
-</p>
+  <p class="poppins-regular-informations">
+    <strong>Agrément :</strong> 3 enfants à la journée
+  </p>
 
-<p class="poppins-regular-informations">
- À la recherche d’une assistante maternelle agréée à Brétigny-sur-Orge, dans le quartier Carouge-Clause ? Je propose un accueil chaleureux et sécurisé, avec une place disponible dès septembre 2026. Découvrez ici une solution d’accueil de proximité, adaptée à votre enfant.
-</p>
+  <p class="poppins-regular-informations">
+    <strong>Disponibilité :</strong> 1 place disponible à partir de <strong>septembre 2026</strong>, de <strong>7h15 à 18h45</strong>
+  </p>
+
+  <p class="poppins-regular-informations">
+    <strong>Facile d’accès</strong> depuis la gare RER C, près du parc Clause-Bois Badeau. Accueil chaleureux pour votre enfant dans un cadre sécurisé.
+  </p>
+
+  
 
 </div>
 
-  <!-- Bouton "lien interne" -->
-<a href="{{ '/contact/' | url }}" class="btn btn-action-primary my-4" aria-label="Accédez au formulaire de contact pour envoyer un e-mail">
-   Demandez dès maintenant une place pour votre enfant ! →
-</a>
+<!-- TITRE SEO LOCAL -->
+<h2 class="poppins-regular-disponibilite">
+  Assistante maternelle agréée à Brétigny-sur-Orge – Accueil familial proche RER C et communes voisines
+</h2>
+
+<p class="poppins-regular-informations">
+  Cette solution d’accueil est idéale pour les familles de Brétigny-sur-Orge, Plessis-Pâté, Saint-Michel-sur-Orge, Saint-Germain-lès-Arpajon, et des environs. Vous recherchez une assistante maternelle dans le 91220 ou près de la gare RER C ?
+</p>
 
 
+<!-- BOUTONS D'ACTION -->
+<div class="disponibilite-container">
+  <a href="{{ '/contact/' | url }}" class="btn btn-action-primary my-4" aria-label="Accédez au formulaire de contact pour envoyer un e-mail">
+    Demandez dès maintenant une place pour votre enfant ! →
+  </a>
 
+  <a href="https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/choix-mode-de-garde-bretigny/#differenciation" class="btn btn-action-primary my-4" aria-label="Lire l'article sur le choix d'un mode de garde en Essonne">
+    Un mode de garde en maison avec jardin en Essonne →
+  </a>
+</div>
 
+<!-- FAQ LOCAL SEO -->
+<div class="faq-local poppins-regular">
+  <h3 class="poppins-regular-disponibilite">Questions fréquentes sur l'accueil chez Céline à Brétigny-sur-Orge</h3>
+  <dl>
+    <dt>Quels sont les avantages d'une assistante maternelle à Brétigny-sur-Orge ?</dt>
+    <dd>Un accueil personnalisé et sécurisé, proche de la gare RER C et du parc Clause-Bois Badeau.</dd>
 
+    <dt>Êtes-vous accessible depuis Plessis-Pâté ou Saint-Michel-sur-Orge ?</dt>
+    <dd>Oui, mon domicile est à quelques minutes de ces communes en voiture ou à vélo.</dd>
+
+    <dt>Est-ce que vous accueillez aussi des enfants de Saint-Germain-lès-Arpajon ?</dt>
+    <dd>Oui, j'accueille des familles des villes voisines comme Saint-Germain-lès-Arpajon ou Le Plessis-Pâté.</dd>
+  </dl>
+</div>
+
+<!-- AVANTAGES D’ACCUEIL -->
 <div class="other-section">
- <h3 class="poppins-regular-atouts">
-<strong>Assistante maternelle ou crèche à Brétigny-sur-Orge ? Les avantages d’un accueil chez Céline</strong>
-</h3>
-
+  <h3 class="poppins-regular-atouts">
+    <strong>Assistante maternelle ou crèche à Brétigny-sur-Orge ? Les avantages d’un accueil chez Céline</strong>
+  </h3>
 
   <ul class="liste-avantages">
     <li>
@@ -716,15 +781,15 @@ RENDEZ-VOUS
       Accueil individuel, calme et sécurisé à Brétigny-sur-Orge
     </li>
     <li>
-       <img src="{{ '/images/presentation/accueil-sorties-bretigny.svg' | url }}" class="rencontre-icon" alt="Icône accueil sorties" loading="lazy">
+      <img src="{{ '/images/presentation/accueil-sorties-bretigny.svg' | url }}" class="rencontre-icon" alt="Icône accueil sorties" loading="lazy">
       Sorties régulières au parc et au Relais Petite Enfance
     </li>
     <li>
-       <img src="{{ '/images/presentation/accueil-activites-bretigny.svg' | url }}" class="rencontre-icon" alt="Icône accueil activites" loading="lazy">
+      <img src="{{ '/images/presentation/accueil-activites-bretigny.svg' | url }}" class="rencontre-icon" alt="Icône accueil activites" loading="lazy">
       Activités d’éveil variées et adaptées à chaque âge
     </li>
     <li>
-       <img src="{{ '/images/presentation/accueil-nomade-bretigny.svg' | url }}" class="rencontre-icon-nomade" alt="Icône accueil nomade" loading="lazy">
+      <img src="{{ '/images/presentation/accueil-nomade-bretigny.svg' | url }}" class="rencontre-icon-nomade" alt="Icône accueil nomade" loading="lazy">
       Accueil nomade : moins d’écrans, plus de mouvement
     </li>
     <li>
@@ -732,27 +797,23 @@ RENDEZ-VOUS
       Démarches simplifiées pour les parents
     </li>
     <li>
-       <img src="{{ '/images/presentation/accueil-tarif-bretigny.svg' | url }}" class="rencontre-icon" alt="Icône accueil tarif" loading="lazy">
+      <img src="{{ '/images/presentation/accueil-tarif-bretigny.svg' | url }}" class="rencontre-icon" alt="Icône accueil tarif" loading="lazy">
       Un tarif accessible, reste à charge optimisé
     </li>
   </ul>
 </div>
 
-
-
-
-
-  <p class="poppins-regular-rdv">
-    Discutons ensemble de vos besoins !
-    <a href="{{ '/contact/' | url }}" aria-label="Contacter Céline Hubert directement via l'enveloppe">
-      <img src="{{ '/images/presentation/enveloppe-contact-direct-assistante-maternelle-bretigny.svg' | url }}"
-           class="checked-localisation" 
-           alt="Icône d'enveloppe pour contacter Céline Hubert"
-           loading="eager"  
-           fetchpriority="high"
-           decoding="async">
-    </a>
-  </p>
+<p class="poppins-regular-rdv">
+  Discutons ensemble de vos besoins !
+  <a href="{{ '/contact/' | url }}" aria-label="Contacter Céline Hubert directement via l'enveloppe">
+    <img src="{{ '/images/presentation/enveloppe-contact-direct-assistante-maternelle-bretigny.svg' | url }}"
+         class="checked-localisation"
+         alt="Icône d'enveloppe pour contacter Céline Hubert"
+         loading="eager"
+         fetchpriority="high"
+         decoding="async">
+  </a>
+</p>
 
 
 

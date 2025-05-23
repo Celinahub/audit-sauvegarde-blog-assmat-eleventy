@@ -1522,6 +1522,21 @@ height:1.5em;
  }
 
 
+.disponibilite-container {
+   display: flex;
+   align-items: center;         /* Garde l'alignement vertical */
+   justify-content: flex-start; /* Aligne horizontalement à gauche */
+   gap: 10px;                   /* Espacement entre les éléments */
+   flex-wrap: wrap;            /* Passe à la ligne sur mobile */
+   text-align: left;           /* Aligne le texte à gauche */
+   margin-bottom: 20px;        /* Marge en bas */
+   
+}
+
+
+
+
+
 .container-enveloppe {
    position: relative; /* Pour placer le contenu au-dessus du SVG */
    z-index: 1; /* Assure que le contenu est au-dessus de l'image */
