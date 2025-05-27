@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 {% include "layouts/widget/head.njk" %} <!-- Inclusion des métadonnées  -->
-
-
+{% include "layouts/widget/breadcrumb-schema.njk" %} <!-- JSON-LD Fil d'Ariane SEO -->
 
 </head>
 <body class="{{ bodyClass or '' }}">
@@ -77,6 +76,11 @@ window.axeptioSettings = {
   t.parentNode.insertBefore(e, t);
 })(document, "script");
 </script>
+
+
+
+
+
 
 
 
