@@ -104,7 +104,7 @@ Parfois, nous avons l’opportunité de rentrer brièvement dans les locaux de m
 
 ---
 
-**La découverte d’un aliment et la prévention de la néophobie alimentaire**
+**La Préparer la rentrée en maternelle en douceur**
 
 Dans les mois qui précèdent la rentrée, j’intègre cette transition à travers des activités adaptées, comme la lecture. Les livres, très appréciés des tout-petits, permettent d’aborder de manière ludique et rassurante les grands changements à venir.
 

@@ -287,6 +287,18 @@ Chez moi, **l’accueil se fait dans un environnement cocooning et rassurant**, 
 
 Mon approche pédagoqique est basée vers la nature grâce **aux sorties quotidiennes en extérieur : parc, promenades, découvertes des camions poubelles, des bus et même des avions dans le ciel !** Ces moments de découverte **stimulent la curiosité et la sociabilisation avec les accueillis de mes collègues** tout en **encourageant à les enfants à marcher**, ce qui est bénéfique pour leur santé et contre la sédentarité. De plus, **mon grand jardin** sécurisé permet aux enfants de **profiter de moments de jeu libre** en fin de journée lorsque la météo le permet.
 
+<div class="highlighted-note">
+  <p><strong>Ma force : offrir un accueil individualisé, en adaptant mon approche à chaque enfant, au lieu d’imposer un cadre pédagogique figé.</p></strong>
+</div>
+
+En tant qu’assistante maternelle, je ne pars pas d’un projet figé que j’impose aux enfants. Bien au contraire, je m’adapte à chacun d’eux, à leur rythme, à leurs besoins et à leurs évolutions. **Contrairement à certaines structures collectives qui adoptent une pédagogie uniforme telle que l'éducation en plein air ou des journées exclusivement en intérieur, l’accueil individuel permet une réelle souplesse.**
+
+Au fil de mes années de pratique, j’ai constaté combien les besoins des enfants peuvent varier, non seulement d’un enfant à l’autre, mais aussi au fil du temps. J’ai par exemple accueilli un nourrisson de trois mois qui ne trouvait le sommeil qu’en promenade, bercé dans la poussette à l’extérieur. Vers cinq ou six mois, il s’apaisait beaucoup mieux dans le calme et l’obscurité de sa chambre.
+
+Un autre enfant avait besoin de ma présence pour s’endormir sereinement, alors que d'autres, au contraire, trouvaient plus facilement le sommeil seuls.
+
+C’est pourquoi mon projet d’accueil reste flexible et toujours à l’écoute de l’enfant. Je ne m’appuie pas sur une pédagogie unique : j’ajuste mon approche à chaque individu, avec bienveillance, observation et patience.
+
 Concernant **le tarif, je respecte le plafond journalier** de la première année de contrat pour vous permettre de bénéficier de **l’aide CMG. Je n’augmente pas mes tarifs chaque année**, mais **l'aide CMG augmente avec la revalorisation du SMIC**, ce qui **diminue votre reste à charge au fil du temps**. J’accepte cette **« perte » financière** parce que les **nouveaux contrats sont signés avec le tarif plafond journalier revalorisé**, ce qui équilibre la santé financière de mon activité et me permet de **travailler sereinement**.
 
 Ce système, compétitif par rapport au coût de la crèche, vous permet de bénéficier d’un **reste à charge dégressif** au fil du temps. Il m'offre également une stabilité financière, favorisant des décisions réfléchies et sereines. Il évite de devoir accepter un enfant précocement pour des raisons purement financières, ce qui pourrait compromettre la qualité de l’accueil. Ce modèle privilégie **la qualité de l’accueil et le bien-être de chaque enfant**.

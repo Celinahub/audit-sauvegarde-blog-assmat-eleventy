@@ -236,8 +236,17 @@ bodyClass: "bg-white presentation"
                         <div class="description-atout-services">
                             <p class="poppins-regular-accueil">{{ environnementDescription | default("À Brétigny-sur-Orge, j’accueille les enfants dans un cadre familial calme et sécurisé. Chaque enfant a sa chambre. L’accueil personnalisé favorise l’autonomie, le bien-être et les échanges avec mes enfants plus âgés.") }}</p>
                             
-                            <!-- Bouton "lien interne" -->
-                            <a href="{{ '/projet-accueil/#routine' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Découvrez notre routine →") }}</a>
+<div class="disponibilite-container">
+ <a href="{{ '/projet-accueil/#routine' | url }}" class="btn btn-action-primary my-2">{{ boutonTexte | default("Découvrez notre routine →") }}</a>
+ <a href="https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/choix-mode-de-garde-bretigny/#differenciation" class="btn btn-action-primary my-1" aria-label="Lire l'article sur le choix d'un mode de garde par une assistante maternelle en Essonne">
+              Découvrir l’accueil familial →
+            </a>
+
+</div>
+
+
+
+                          
                         </div>
                     </div>
                 </div>
@@ -767,7 +776,7 @@ bodyClass: "bg-white presentation"
           <!-- BOUTONS D'ACTION -->
           <div class="disponibilite-container">
             <a href="https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/choix-mode-de-garde-bretigny/#differenciation" class="btn btn-action-primary my-4" aria-label="Lire l'article sur le choix d'un mode de garde en Essonne">
-              Découvrir l’accueil familial →
+               Optez pour l’accueil familial →
             </a>
           </div>
 

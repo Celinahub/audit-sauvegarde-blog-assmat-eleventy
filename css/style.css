@@ -1522,6 +1522,7 @@ height:1.5em;
  }
 
 
+
 .disponibilite-container {
    display: flex;
    align-items: center;         /* Garde l'alignement vertical */
@@ -1532,7 +1533,11 @@ height:1.5em;
    margin-bottom: 20px;        /* Marge en bas */
    
 }
-
+@media (max-width: 600px) {
+  .disponibilite-container {
+    row-gap: 5px; /* Réduction uniquement sur petit écran */
+  }
+}
 
 
 
