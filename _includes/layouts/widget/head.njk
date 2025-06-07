@@ -39,10 +39,13 @@
 <link rel="icon" href="{{ '/favicon.ico' | url }}" type="image/x-icon">
 
 
+<!-- Préchargement de l’image principale (LCP) -->
+  {% block preload %}{% endblock %}
+
 
 <!-- Préchargement des polices nécessaires -->
-<!-- <link rel="preload" href="/fonts/poppins-v22-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" importance="high"> -->
-<!-- <link rel="preload" href="/fonts/poppins-v22-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous" importance="high"> -->
-<!-- <link rel="preload" href="/fonts/finger-paint-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" importance="high"> -->
+<link rel="preload" href="/fonts/poppins-v22-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" importance="high">
+<link rel="preload" href="/fonts/poppins-v22-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous" importance="high">
+<link rel="preload" href="/fonts/finger-paint-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" importance="high">
 
 
