@@ -21,48 +21,7 @@ url: "https://chubert91assmat.netlify.app/posts/activites-enfant/sapin-surprise-
 image: "/images/uploads/sapin-surprise-noel-bretigny91.jpg"
 date: 2024-12-22
 category: "ACTIVITÉS POUR ENFANT"
-featuredImage: /images/uploads/sapin-surprise-noel-bretigny91.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-      "sable magique", 
-      "activité sensorielle enfant", 
-      "jeu sensoriel", 
-      "créativité enfant", 
-      "sable à modeler", 
-      "jeux éducatifs", 
-      "éveil sensoriel enfant", 
-      "activité manuelle Noël dans le 91", 
-      "figurines pour jeux", 
-      "jeux créatifs", 
-      "activité libre enfant", 
-      "développement sensoriel"
-      "Brétigny-sur-Orge Noël"
-      "activité enfant Brétigny-sur-Orge"
-      "sapin recyclé Brétigny-sur-Orge"
-      "créativité enfants Essonne"
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/sapin-surprise-noel-bretigny91.jpg"
 ---
 
 Sapin surprise : une activité ludique et écologique pour Noël ! Cette année à Brétigny-sur-Orge, j’ai proposé aux enfants que j’accueille une animation inspirée des calendriers de l’avent, réalisée uniquement avec des matériaux recyclés. De 2 ans et demi à 9 ans, ils ont participé avec enthousiasme à la création de ce sapin unique, développant leur motricité fine, leur créativité et l’esprit d’entraide. Découvrez comment organiser facilement cette activité magique qui ravira petits et grands pendant la période des fêtes !

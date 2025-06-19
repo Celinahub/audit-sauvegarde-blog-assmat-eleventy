@@ -16,44 +16,10 @@ url: "https://chubert91assmat.netlify.app/posts/hygiene-soins/acquisition-propre
 image: "/images/uploads/pot.jpg"
 date: 2024-11-24
 category: "HYGIÈNE / SOINS"
-featuredImage: /images/uploads/pot.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-      "acquisition de la propreté",
-      "apprentissage propreté enfant",
-      "éducation enfant",
-      "soins de l'enfant",
-      "hygiène enfant",
-      "acquisition propreté conseils",
-      "étapes acquisition propreté",
-      "éducation positive",
-      "développement de l'enfant"
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/pot.jpg"
 ---
 
-<br><br>
+<br>
 
 L’acquisition de la propreté est une étape clé dans le développement de chaque enfant, mais elle suscite souvent de nombreuses questions chez les parents. Quand proposer le pot ou le réducteur ? Comment savoir si son enfant est prêt ? Dans cet article, découvrez les signes à observer, des conseils pratiques et des activités ludiques pour accompagner votre enfant avec confiance et sérénité vers cette nouvelle autonomie.
 

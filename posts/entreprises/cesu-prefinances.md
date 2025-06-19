@@ -16,39 +16,7 @@ url: "https://chubert91assmat.netlify.app/posts/entreprises/cesu-prefinances/"
 image: "/images/uploads/cesu.jpg"
 date: 2024-11-23
 category: "ENTREPRISES"
-featuredImage: /images/uploads/cesu.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-      "CESU préfinancé", 
-      "garde d'enfants", 
-      "réduire les charges", 
-      "aide entreprise", 
-      "avantages fiscaux CESU", 
-      "travailleurs indépendants", 
-      "financement garde enfants"
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/cesu.jpg"
 ---
 
 

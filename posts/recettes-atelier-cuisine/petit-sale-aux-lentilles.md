@@ -14,40 +14,7 @@ url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/petit-s
 image: "/images/uploads/recette-petit-sale-lentilles.jpg"
 date: 2025-02-06
 category: "RECETTES / ATELIER CUISINE"
-featuredImage: /images/uploads/recette-petit-sale-lentilles.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-  "petit salé aux lentilles", 
-  "recette petit salé maison", 
-  "cuisine familiale", 
-  "recette équilibrée enfants", 
-  "plat traditionnel français", 
-  "recette lentilles et viande", 
-  "cuisine maison", 
-  "recette hiver réconfortante"
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/recette-petit-sale-lentilles.jpg"
 ---
 
 Proposer des légumes aux enfants peut être un défi, mais **cette recette de petit salé aux lentilles** est une excellente solution ! En tant qu’**assistante maternelle à Brétigny-sur-Orge**, je privilégie une alimentation saine pour les enfants.  

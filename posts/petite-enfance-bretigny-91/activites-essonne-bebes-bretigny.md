@@ -16,43 +16,7 @@ image: "/images/uploads/mediatheque-bretigny.jpg"
 date: 2025-06-17
 category: "PETITE ENFANCE BRETIGNY-91" 
 featuredImage: "/images/uploads/mediatheque-bretigny.jpg"
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://chubert91assmat.netlify.app/images/presentation/rpe-bretigny.jpg"
-      }
-    },
-    "keywords": [
-      "assistante maternelle Brétigny-sur-Orge",  
-      "sorties bébé Brétigny-sur-Orge",
-      "activités petite enfance Essonne",
-      "assistante maternelle agréée Brétigny",
-      "idées promenades poussette Brétigny",
-      "sorties nature enfant Essonne"
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/"
-    }
-  }
 ---
-
 <br>
 
 
@@ -66,6 +30,15 @@ En tant qu’assistante maternelle agréée à Brétigny, je propose chaque jour
     Explorez nos activités qui rythment leurs journées →
   </a>
 </div>
+
+<br>
+
+<div class="button-wrapper">
+  <a href="/posts/petite-enfance-bretigny-91/choix-mode-de-garde-bretigny/#differenciation" class="btn btn-primary btn-article">
+    Découvrez mon approche pédagoqique →
+  </a>
+</div>
+
 
 <br>
 
@@ -172,11 +145,14 @@ J’y vais parfois avec les enfants pour lire ou simplement se poser au calme. C
 ### **<span id="amehorse">3. Le centre équestre Ame Horse</span>** 
 
 Ce centre est une vraie découverte pour les enfants !
-Nous aimons nous promener autour pour observer les chevaux et poneys. Les plus jeunes sont fascinés par ces animaux majestueux, c’est un moment d’éveil sensoriel et émotionnel à chaque fois.
+Nous aimons nous promener autour pour observer les chevaux et poneys. Les plus jeunes sont fascinés par ces animaux majestueux, c’est un moment d’éveil sensoriel et émotionnel à chaque fois. Ces moments ont parfois un vrai impact : après nos sorties, une famille avait décidé d’inscrire son enfant au poney club.
 
 <div class="button-wrapper">
-  <a href="https://centreequestreamehorse.ffe.com/" target="_blank" class="btn btn-primary btn-article">Je découvre les activités proposés par le centre equestre →</a>
+  <a href="https://centreequestreamehorse.ffe.com/" target="_blank" class="btn btn-primary btn-article">
+    Je consulte les évènements → 
+  </a>
 </div>
+
 
 ![Assistante maternelle à Brétigny-sur-Orge – photo du centre equestre](/images/uploads/centre-equestre-ame-horse-bretigny91.jpg)
 

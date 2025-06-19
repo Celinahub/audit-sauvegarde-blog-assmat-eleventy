@@ -17,45 +17,10 @@ url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/ecole
 image: "/images/uploads/ecole-bretigny-sur-orge.jpg"
 date: 2025-01-21
 category: "PETITE ENFANCE BRETIGNY-91" 
-featuredImage: /images/uploads/ecole-bretigny-sur-orge.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-      "assistante maternelle Brétigny-sur-Orge",  
-      "crèche Brétigny-sur-Orge",  
-      "préparer son enfant à l’école",  
-      "acquisition propreté Brétigny-sur-Orge",  
-      "sevrage tétine Brétigny-sur-Orge",  
-      "rentrée scolaire Brétigny-sur-Orge",  
-      "école maternelle Brétigny-sur-Orge",  
-      "transition école enfant",  
-      "bien-être enfant Brétigny-sur-Orge",  
-      "ATSEM école Brétigny-sur-Orge" 
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/ecole-bretigny-sur-orge."
 ---
 
-<br><br>
+<br>
 
 
 C’est une question que chaque parent se pose à l’approche de la rentrée scolaire. L'école devient concrète lorsque le dossier d'inscription est accessible sur le site de la mairie, mais il est important de rappeler que votre enfant a encore du temps pour évoluer. 

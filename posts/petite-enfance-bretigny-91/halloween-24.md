@@ -15,45 +15,10 @@ url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/hallo
 image: "/images/uploads/halloween.-bretigny-24.jpg"
 date: 2024-10-24
 category: "PETITE ENFANCE BRETIGNY-91"
-featuredImage: /images/uploads/halloween.-bretigny-24.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-      "Halloween Brétigny-sur-Orge", 
-      "Día de los Muertos", 
-      "activités familiales Brétigny", 
-      "fête mexicaine enfants", 
-      "promenade Halloween", 
-      "citrouilles décorations", 
-      "activités sensorielles enfants", 
-      "fêtes de la Toussaint", 
-      "décorations automnales", 
-      "fête culturelle mexicaine"
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/halloween.-bretigny-24.jpg"
 ---
 
-<br><br>
+<br>
 
 Une Promenade Halloweenesque : la nuit d’Halloween a été l’occasion idéale pour une promenade originale à la tombée de la nuit. Pour l'occasion, la ville de Brétigny-sur-Orge avait aménagé le parc et l'avait décoré sur le thème du Día de los Muertos, une fête mexicaine célébrant la mémoire des défunts.
 Les enfants ont observé les citrouilles rigolotes, toute la famille des curcurbitacées était représentée au milieu du paysage automnal du parc. Les couleurs vives, les formes intriguantes, les lumières tamisées à la bougie ont captivé les enfants.

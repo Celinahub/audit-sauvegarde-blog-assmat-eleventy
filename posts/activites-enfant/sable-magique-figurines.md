@@ -18,47 +18,10 @@ url: "https://chubert91assmat.netlify.app/posts/activites-enfant/sable-magique-f
 image: "/images/uploads/sable-magique.jpg"
 date: 2024-10-07
 category: "ACTIVITÉS POUR ENFANT"
-featuredImage: /images/uploads/sable-magique.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-      "sable magique", 
-      "activité sensorielle enfant", 
-      "jeu sensoriel", 
-      "créativité enfant", 
-      "sable à modeler", 
-      "jeux éducatifs", 
-      "éveil sensoriel enfant", 
-      "activité manuelle pour enfants", 
-      "figurines pour jeux", 
-      "jeux créatifs", 
-      "activité libre enfant", 
-      "développement sensoriel"
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/sable-magique.jpg"
 ---
 
-<br><br>
+<br>
 
 Le Sable Magique : Une Activité Ludique et Sensorielle pour les Tout-Petits: je propose régulièrement aux enfants de 2 ans le sable magique. Facile à manipuler, amusant et durable, il offre une expérience riche en découvertes sensorielles.
 

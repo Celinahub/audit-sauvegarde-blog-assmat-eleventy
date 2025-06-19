@@ -16,45 +16,10 @@ url: "https://chubert91assmat.netlify.app/posts/selection-produits/potty-and-me/
 image: "/images/uploads/potty-and-me.jpg"
 date: 2024-11-28
 category: "SELECTION PRODUITS"
-featuredImage: /images/uploads/potty-and-me.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-      "Potty and me", 
-      "acquisition propreté écologique", 
-      "pot breveté", 
-      "économie de l'eau", 
-      "position physiologique", 
-      "fabriqué en France", 
-      "solution pratique", 
-      "fabrication française durable", 
-      "éco-responsable", 
-      "quotidien simplifié"
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/potty-and-me.jpg"
 ---
 
-<br><br>
+<br>
 
 Devenir propre est une grande étape pour les enfants… et pour les parents ! Mais saviez-vous que les pots d’apprentissage traditionnels consomment énormément d’eau et ne sont pas toujours très hygiéniques ? Pour répondre à ces défis, Magalie Kangni a imaginé MyPottyTraining, un pot écologique et innovant qui simplifie l’acquisition de la propreté tout en respectant la planète. Découvrez comment cette solution pratique et durable peut transformer le quotidien des familles, tout en faisant un geste pour l’environnement.
 

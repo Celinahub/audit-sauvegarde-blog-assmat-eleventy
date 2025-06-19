@@ -14,43 +14,10 @@ url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/choix
 image: "/images/uploads/mode-de-garde-bretigny91.jpg"
 date: 2025-03-11
 category: "PETITE ENFANCE BRETIGNY-91" 
-featuredImage: /images/uploads/mode-de-garde-bretigny91.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-      "assistante maternelle Brétigny-sur-Orge",  
-      "crèche Brétigny-sur-Orge",  
-      "mode de garde Brétigny-sur-Orge",  
-      "crèche Brétigny",  
-      "garde d'enfants Brétigny",  
-      "petite enfance Essonne",  
-      "bien-être enfant",  
-      "choix mode de garde",  
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/mode-de-garde-bretigny91.jpg"
 ---
 
-<br><br>
+<br>
 
 ## **Le choix du mode d'accueil : sur quels critères se baser ?** 
 

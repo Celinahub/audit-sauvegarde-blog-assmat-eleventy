@@ -3,100 +3,64 @@ layout: layouts/base.njk
 bodyClass: "blog-posts-page"
 ---
 
-
-
 <div id="contenu-article">
-
-
 <article class="container-article my-4 visuel-content">
 
-<h1 class="poppins-regular-titre-article text-center">{{ title }}</h1>
+  <h1 class="poppins-regular-titre-article text-center">{{ title }}</h1>
 
-<div class="meta-info">
-   <p>{{ category }} - {{ date | date("dd MMMM yyyy") }}</p>
-</div>
+  <div class="meta-info">
+    <p>{{ category }} - {{ date | date("dd MMMM yyyy") }}</p>
+  </div>
 
+  <div class="content-wrapper">
+    <img src="{{ featuredImage | url }}" alt="{{ imageAlt }}" class="img-fluid mx-auto d-block">
 
-<div class="content-wrapper"> <!-- Nouveau conteneur pour l'image et le texte -->
-<img src="{{ featuredImage | url }}" alt="{{ imageAlt }}" class="img-fluid mx-auto d-block">
+    <!-- Boutons de partage -->
+    <div class="d-flex justify-content-between align-items-center mt-3">
 
-<!-- Boutons de partage -->
-<div class="d-flex justify-content-between align-items-center mt-3">
-    
-
-    <!-- Onglet Partager -->
-    <div class="dropdown share-dropdown">
+      <div class="dropdown share-dropdown">
         <button class="btn btn-light dropdown-toggle" type="button" id="dropdownShareButton" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="{{ '/images/blog/share-icon.svg' | url }}" alt="Partager" class="me-2">
-            Partager
+          <img src="{{ '/images/blog/share-icon.svg' | url }}" alt="Partager" class="me-2">
+          Partager
         </button>
 
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownShareButton">
-           
-
-
-    <li>
-    <!-- Facebook -->
-  <a class="dropdown-item" 
-   href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url | urlencode }}" 
-   target="_blank">
-    <img src="{{ '/images/blog/social-facebook-bretigny.svg' | url }}" alt="Facebook" class="me-2">
-    Facebook
-</a>
-</li>
-
-
-
-<li>
-  <!-- LinkedIn -->
-  <a class="dropdown-item" 
-     href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url | urlencode }}&title={{ page.title | urlencode }}" 
-     target="_blank">
-     <img src="{{ '/images/blog/linkedin-bretigny.svg' | url }}" alt="LinkedIn" class="me-2">
-     LinkedIn
-  </a>
-</li>
-
-
-
-
-            <li>
- <button class="dropdown-item" data-url="{{ page.url | absoluteUrl }}" onclick="copyLink(this)">
-                <img src="{{ '/images/blog/lien-article-bretigny.svg' | url }}" alt="Copier le lien" class="me-2">
-                Copier le lien
+          <li>
+            <a class="dropdown-item" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url | urlencode }}" target="_blank">
+              <img src="{{ '/images/blog/social-facebook-bretigny.svg' | url }}" alt="Facebook" class="me-2">Facebook
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url | urlencode }}&title={{ page.title | urlencode }}" target="_blank">
+              <img src="{{ '/images/blog/linkedin-bretigny.svg' | url }}" alt="LinkedIn" class="me-2">LinkedIn
+            </a>
+          </li>
+          <li>
+            <button class="dropdown-item" onclick="copyLink(this)">
+              <img src="{{ '/images/blog/lien-article-bretigny.svg' | url }}" alt="Copier le lien" class="me-2">
+              Copier le lien
             </button>
-            </li>
-
+          </li>
         </ul>
+      </div>
     </div>
-</div>
-
-
-
-
-
-
-
-
-    
 
     <div class="article-content">
-        {{ content | safe }}
+      {{ content | safe }}
     </div>
-    </div> <!-- Fin du conteneur -->
+  </div>
 </article>
 
-
-<!-- Ajout du JSON-LD pour le référencement -->
+<!-- JSON-LD pour le référencement -->
 <script type="application/ld+json">
-{
+{{ {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "{{ title }}",
-  "image": "{{ image }}",
-  "datePublished": "{{ date }}",
-  "dateModified": "{{ date }}",
-  "description": "{{ description }}",
+  "headline": title,
+  "image": image,
+  "datePublished": date,
+  "dateModified": date,
+  "description": description,
   "author": {
     "@type": "Person",
     "name": "Céline Hubert"
@@ -104,52 +68,42 @@ bodyClass: "blog-posts-page"
   "publisher": {
     "@type": "Organization",
     "name": "Chubert Assmat Brétigny Blog",
-    "url": "https://chubert91assmat.netlify.app/"
+    "url": "https://chubert91assmat.netlify.app/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://chubert91assmat.netlify.app/images/presentation/rpe-bretigny.jpg"
+    }
   },
-  "keywords": [{% for tag in tags %}"{{ tag }}"{% if not loop.last %}, {% endif %}{% endfor %}],
+  "keywords": tags,
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://chubert91assmat.netlify.app/article/{{ slug }}"
+    "@id": site.url + page.url
   }
-}
+} | dump | safe }}
 </script>
 
-
- 
-
-
-
-
-
-
-<!-- Bouton de retour à la fin de l'article -->
-  <div class="back-button">
-    <a href="javascript:history.back()" class="btn-back">
-      <img src="{{ '/images/blog/car-demi-tour-svgrepo-com.svg' | url }}" alt="Retour" class="back-icon">
-    
-    </a>
-  </div>
-
+<!-- Bouton de retour -->
+<div class="back-button">
+  <a href="javascript:history.back()" class="btn-back">
+    <img src="{{ '/images/blog/car-demi-tour-svgrepo-com.svg' | url }}" alt="Retour" class="back-icon">
+  </a>
+</div>
 
 </div>
 
-
-
-
 <script>
-    function copyLink() {
-        var tempInput = document.createElement("input");
-        tempInput.style.position = "absolute";
-        tempInput.style.left = "-1000px"; 
-        document.body.appendChild(tempInput);
-        
-        tempInput.value = window.location.href; 
-        tempInput.select();
-        document.execCommand("copy");
-        document.body.removeChild(tempInput);
-        
-        alert("Lien copié dans le presse-papier !");
-    }
-</script>
+  function copyLink() {
+    var tempInput = document.createElement("input");
+    tempInput.style.position = "absolute";
+    tempInput.style.left = "-1000px";
+    document.body.appendChild(tempInput);
 
+    tempInput.value = window.location.href;
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+
+    alert("Lien copié dans le presse-papier !");
+  }
+</script>
 

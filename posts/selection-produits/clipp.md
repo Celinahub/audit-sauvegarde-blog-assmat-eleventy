@@ -16,45 +16,10 @@ url: "https://chubert91assmat.netlify.app/posts/selection-produits/clipp/"
 image: "/images/uploads/clipp-tetine.jpg"
 date: 2024-10-18
 category: "SELECTION PRODUITS"
-featuredImage: /images/uploads/clipp-tetine.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-      "Clipp tétine", 
-      "sevrage de la tétine", 
-      "sevrage progressif enfant", 
-      "tétine pour bébé", 
-      "méthode douce pour sevrage", 
-      "produits pour enfants", 
-      "développement buccodentaire", 
-      "perte du réflexe de succion", 
-      "sevrage sans stress", 
-      "tétine avec collerettes"
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/clipp-tetine.jpg"
 ---
 
-<br><br>
+<br>
 
 Arrêter la tétine est une étape importante dans la vie de votre enfant, mais elle peut aussi susciter de nombreuses questions et inquiétudes. Comment accompagner son enfant en douceur ? Existe-t-il des solutions simples pour un sevrage sans conflit ? Découvrez la méthode progressive Clipp, une tétine innovante pensée pour aider petits et grands à franchir ce cap sereinement, tout en respectant le rythme de chacun.
 

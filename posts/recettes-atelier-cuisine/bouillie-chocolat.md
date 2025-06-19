@@ -15,41 +15,7 @@ url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/bouilli
 image: "/images/uploads/recette-bouillie-chocolat.jpg"
 date: 2024-11-22
 category: "RECETTES / ATELIER CUISINE"
-featuredImage: /images/uploads/recette-bouillie-chocolat.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-      "recette bouillie au chocolat", 
-      "dessert chocolat enfant", 
-      "recette rapide chocolat", 
-      "recette facile pour enfants", 
-      "dessert maison", 
-      "chocolat Poulain", 
-      "maïzena", 
-      "cuisine maison", 
-      "recette sans sucre ajouté"
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/recette-bouillie-chocolat.jpg"
 ---
 
 

@@ -15,45 +15,10 @@ url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/tampon-pomme/"
 image: "/images/uploads/tampon-pomme.jpg"
 date: 2024-10-20
 category: "LA COLLECTIVITE GRÂCE AU RPE"
-featuredImage: /images/uploads/tampon-pomme.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-      "Peindre avec des pommes", 
-      "Semaine du Goût enfants", 
-      "activités sensorielles pour enfants", 
-      "éveil des sens", 
-      "RPE activité enfants", 
-      "prévention néophobie alimentaire", 
-      "activité créative enfant", 
-      "peinture enfant", 
-      "découverte alimentaire", 
-      "éveil sensoriel enfants"
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/tampon-pomme.jpg"
 ---
 
-<br><br>
+<br>
 
 Cette activité est un clin d’œil à la **semaine du goût**, qui s’est déroulée du lundi 14 octobre au dimanche 20 octobre 2024.
 

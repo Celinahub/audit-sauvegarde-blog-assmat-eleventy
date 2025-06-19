@@ -15,40 +15,7 @@ url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/chasse-aux-oeuf
 image: "/images/uploads/chasse-aux-oeufs-rpe-bretigny.jpg"
 date: 2025-04-29
 category: "LA COLLECTIVITE GRÂCE AU RPE" 
-featuredImage: /images/uploads/chasse-aux-oeufs-rpe-bretigny.jpg
-jsonLd: >
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{title}}",
-    "image": "{{image}}",
-    "datePublished": "{{date}}",
-    "dateModified": "{{date}}",
-    "description": "{{description}}",
-    "author": {
-      "@type": "Person",
-      "name": "Céline Hubert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Chubert Assmat Brétigny Blog",
-      "url": "https://chubert91assmat.netlify.app/"
-    },
-    "keywords": [
-      "chasse aux oeufs Brétigny-sur-Orge",  
-      "activités enfants Brétigny",  
-      "éveil sensoriel enfants",  
-      "chasse aux oeufs printemps",  
-      "mode de garde Brétigny",  
-      "assistante maternelle Brétigny",  
-      "activité ludique enfants Brétigny",  
-      "éveil de la motricité"  
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://chubert91assmat.netlify.app/article/{{slug}}"
-    }
-  }
+featuredImage: "/images/uploads/chasse-aux-oeufs-rpe-bretigny.jpg"
 ---
 
 <br>
