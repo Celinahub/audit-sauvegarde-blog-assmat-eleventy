@@ -17,11 +17,10 @@ url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/ecole
 image: "/images/uploads/ecole-bretigny-sur-orge.jpg"
 date: 2025-01-21
 category: "PETITE ENFANCE BRETIGNY-91" 
-featuredImage: "/images/uploads/ecole-bretigny-sur-orge."
+featuredImage: "/images/uploads/ecole-bretigny-sur-orge.jpg"
 ---
 
 <br>
-
 
 C’est une question que chaque parent se pose à l’approche de la rentrée scolaire. L'école devient concrète lorsque le dossier d'inscription est accessible sur le site de la mairie, mais il est important de rappeler que votre enfant a encore du temps pour évoluer. 
 <br>
