@@ -18,7 +18,7 @@ bodyClass: "bg-white presentation"
   "@type": "ChildCare",
   "name": "Assistante maternelle agréée - chez Céline",
   "url": "https://chubert91assmat.netlify.app",
-  "image": "https://chubert91assmat.netlify.app/images/presentation-assistante-maternelle-agreee.jpg",
+  "image": "https://chubert91assmat.netlify.app/presentation-assistante-maternelle-agreee.jpg",
   "priceRange": "Fixé en fonction de vos besoins d'accueil",
   "currenciesAccepted": "EUR",
   "description": "Assistante maternelle agréée proposant un accueil personnalisé pour les enfants à Brétigny-sur-Orge. Une alternative chaleureuse et professionnelle à la crèche.",
@@ -309,7 +309,12 @@ bodyClass: "bg-white presentation"
                             <p class="poppins-regular-accueil">{{ activitesDescription | default("Nous effectuons des sorties quotidiennes dans les parcs et espaces verts de Brétigny-sur-Orge, favorisant la rencontre avec d’autres enfants. Ces activités contribuent à la lutte contre la sédentarité et soutiennent leur santé physique et mentale.") }}</p>
                             
                             <!-- Bouton "lien interne" -->
-                            <a href="{{ '/projet-accueil/#activites' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Explorez nos activités éducatives →") }}</a>
+                            <a href="{{ '/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/' | url }}" 
+   class="btn btn-action-primary my-4"
+   aria-label="Lire l'article sur les parcs préférés pour les bébés à Brétigny">
+  {{ boutonTexte | default("Découvrez nos parcs préférés →") }}
+</a>
+
                         </div>
                     </div>
                 </div>
