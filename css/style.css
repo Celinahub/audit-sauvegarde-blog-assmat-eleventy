@@ -983,6 +983,21 @@ h2, h3 {
 
 
 
+/* Styles pour la section accompagnement-petite-enfance */
+
+#accompagnement-petite-enfance {
+   background-color: #103754;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ 
+ 
+ .container-accompagnement {
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ 
+
 /* Styles pour la rubrique services-garde-enfants page index */
 
 #services-garde-enfants {
@@ -991,6 +1006,72 @@ h2, h3 {
    padding: 0; /* contenu plein ecran sans marges */
   
 }
+
+
+
+
+
+.etoiles {
+  color: #FFD700;       /* jaune doré */
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.btn-action-primary-d:hover .etoiles {
+  color: #FFD700;
+  text-shadow: 0 0 1px #103653, 0 0 2px #103653;
+}
+
+/* Centré par défaut (desktop) */
+.cta-avis {
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box; /* Ajouté ici aussi pour la sécurité */
+}
+
+/* Sur mobile : alignement à gauche avec marges internes */
+@media (max-width: 767px) {
+  .cta-avis {
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box; /* INDISPENSABLE */
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-action-primary-g {
+    width: 100%;
+    box-sizing: border-box; /* INDISPENSABLE */
+    
+  }
+}
+
+ /* Styles pour le bouton appel à l'action cesu-entreprise page index */
+ .btn-action-primary-g {
+   color: #F8F9F6; /* Couleur du texte */
+   border-color: #F8F9F6; /* Couleur de la bordure */
+   font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+   
+  }
+
+
+ .btn-action-primary-g:hover {
+   background-color: #F8F9F6; /* Couleur #F8F9F6 avec 40% de transparence */
+   color: #103653; /* Couleur du texte au survol */
+   outline: none; /* Supprime le contour par défaut */
+   border: 1px solid #103653; /* Ajoute un contour personnalisé */
+ 
+}
+
+
 
 .custom-container {
    width: 100%;
@@ -1060,14 +1141,22 @@ h2, h3 {
 
 
 .poppins-bold-sous-titre-accueil {
+    font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 1.5em;
+  color: #F8F9F6;
+   margin: 0; /* Supprime les marges par défaut */
+}
+
+
+.poppins-bold-titre-accueil {
    font-family: "Poppins", sans-serif;
    font-weight: 700;
-   font-style: normal;
-   color: #F8F9F6;
-   font-size: 1.1em; /* Taille de la police relative */
-   margin-bottom: 30px; /* Marge en bas du titre */
-   z-index: 1;
+   font-size: 1.5em;
+   color: #103754;
+   margin: 0; /* Supprime les marges par défaut */
 }
+
 
 
 .description-atout-services {
@@ -1227,18 +1316,6 @@ h2, h3 {
 
 #garde-enfant-bretigny {
    background-color: #F8F9F6;
-   padding-left: 10px;
-   padding-right: 10px;
- }
- 
-
-.icones-service-container .row {
-   display: flex;
-   flex-wrap: wrap; /* Permet aux éléments de se déplacer sur une nouvelle ligne */
-   justify-content: space-between; /* Aligne les éléments avec de l'espace entre eux */
- }
- 
- .container-service {
    padding-left: 10px;
    padding-right: 10px;
  }
