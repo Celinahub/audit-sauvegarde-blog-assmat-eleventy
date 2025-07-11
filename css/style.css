@@ -982,7 +982,6 @@ h2, h3 {
 
 
 
-
 /* Styles pour la section accompagnement-petite-enfance */
 
 #accompagnement-petite-enfance {
@@ -1057,7 +1056,7 @@ h2, h3 {
     font-size: 12px;
     font-style: normal;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     
    
   }
@@ -1072,6 +1071,62 @@ h2, h3 {
 }
 
 
+
+.custom-container {
+   width: 100%;
+   max-width: 1920px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 0;
+   padding-right: 0;
+   box-sizing: border-box;
+ }
+ 
+ @media (min-width: 768px) {
+   .custom-container {
+     padding-left: 15px;
+     padding-right: 15px;
+   }
+ }
+ 
+
+
+@media (max-width: 768px) {
+   #services-garde-enfants {
+      padding: 0; /* contenu plein ecran sans marges */
+   }
+}
+
+
+/* Styles pour le texte du titre à l'intérieur de la section services-garde-enfants */
+#services-garde-enfants .profile-text h2 {
+    text-align: center; /* Centré par défaut sur desktop */
+    margin-top: -40px; /* Valeur par défaut pour les écrans de taille moyenne et plus grande */
+}
+
+/* Sur les écrans de taille mobile, aligner à gauche */
+@media (max-width: 767px) {
+    #services-garde-enfants .profile-text h2 {
+        text-align: left; /* Alignement à gauche sur mobile */
+        margin-top: -50px; /* Réduction de la marge typo sur les écrans plus petits */
+        padding-left: 20px;
+      padding-right: 20px;
+    }
+}
+
+
+
+
+
+
+/* Styles pour la rubrique services-garde-enfants page index */
+
+#services-garde-enfants {
+   background-color: #103653;
+   margin-bottom: 0; /* Corrige le margin-bottom négatif */
+   padding: 0; /* contenu plein ecran sans marges */
+  
+}
 
 .custom-container {
    width: 100%;
@@ -1141,22 +1196,14 @@ h2, h3 {
 
 
 .poppins-bold-sous-titre-accueil {
-    font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-size: 1.5em;
-  color: #F8F9F6;
-   margin: 0; /* Supprime les marges par défaut */
-}
-
-
-.poppins-bold-titre-accueil {
    font-family: "Poppins", sans-serif;
    font-weight: 700;
-   font-size: 1.5em;
-   color: #103754;
-   margin: 0; /* Supprime les marges par défaut */
+   font-style: normal;
+   color: #F8F9F6;
+   font-size: 1.1em; /* Taille de la police relative */
+   margin-bottom: 30px; /* Marge en bas du titre */
+   z-index: 1;
 }
-
 
 
 .description-atout-services {
@@ -1316,6 +1363,18 @@ h2, h3 {
 
 #garde-enfant-bretigny {
    background-color: #F8F9F6;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+ 
+
+.icones-service-container .row {
+   display: flex;
+   flex-wrap: wrap; /* Permet aux éléments de se déplacer sur une nouvelle ligne */
+   justify-content: space-between; /* Aligne les éléments avec de l'espace entre eux */
+ }
+ 
+ .container-service {
    padding-left: 10px;
    padding-right: 10px;
  }
@@ -5608,3 +5667,339 @@ body.rss-info-page {
  
 }
 
+
+
+
+/* Styles pour la page simulateur-cout-creche-assistante-maternelle */
+
+
+/* Styles pour la section simulateur-reforme-cmg-assmat-creche */
+ #simulateur-reforme-cmg-assmat-creche {
+   background: #98D1CA; /* Création du dégradé avec bande réglable */
+   position: relative; /* Nécessaire pour l'alignement des pseudo-éléments */
+   padding-top: 300px; /* Ajustez l'espacement en haut de la section pour accueillir l'image SVG */
+   overflow: hidden; /* Cachez le débordement de l'image SVG */
+   padding-bottom: 80px; /* Hauteur de la bande de couleur */
+}
+
+#simulateur-reforme-cmg-assmat-creche .col-md-12 img.fond-curvy {
+   position: absolute;
+   width: 100%;
+   top: 100px;
+   left: 0;
+   right: 0;
+   margin: 0;
+   z-index: 1;
+}
+
+#simulateur-reforme-cmg-assmat-creche .fond-curvy {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: -1; /* Assurez-vous que l'image SVG est derrière le contenu */
+}
+
+
+.reforme-cmg-container {
+   display: flex;
+   align-items: center; /* Aligner verticalement */
+   justify-content: center; /* Centrer horizontalement */
+   gap: 20px; /* Espacement entre le H1 et le bouton */
+   flex-wrap: wrap; /* Permet le passage à la ligne sur mobile */
+   text-align: center; /* Centrer le texte pour une bonne lisibilité */
+   margin-bottom: 30px; /* Marge en bas du titre */
+}
+
+
+.poppins-bold-titre-reforme-cmg {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 1.5em;
+   color: #103754;
+   margin: 0; /* Supprime les marges par défaut */
+}
+
+
+
+/* Styles pour la section comparer-creche-assistante-maternelle */
+#comparer-creche-assistante-maternelle {
+   background-color: #F8F9F6;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
+ .comparatif-card {
+   background-color: #eaf3f0;
+   padding: 20px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   height: 100%; /* Permet à toutes les cartes de s'étirer sur la même hauteur */
+ }
+ 
+ .comparatif-card h3 {
+   display: inline-flex;
+   align-items: center;
+ }
+ 
+ 
+ .comparatif-icon-wrapper {
+   display: inline-flex;
+   align-items: center; /* Aligne verticalement l'icône et le texte */
+   margin-right: 8px; /* Ajuste l'espace entre l'icône et le texte */
+ }
+ 
+ .poppins-regular-comparatif {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   font-style: normal;
+   color: #103754;
+   text-align: left;
+   padding-left: 18px;
+   margin-top: 15px;
+ }
+
+
+
+#barometre {
+  height: 80px;
+  position: relative;
+}
+
+#curseur {
+  position: absolute;
+  top: -15px; /* position au-dessus des blocs */
+  font-size: 1.5rem;
+  transition: left 0.5s ease;
+  z-index: 5;
+}
+
+
+.poppins-regular-simulateur {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 25px;
+   font-style: normal;
+   color: #103754;
+   margin-bottom: 0px; /* Espace entre le titre et le texte */
+ }
+
+
+ /* Styles de typo pour les champs du simulateur */
+.poppins-regular-simucmg {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  color: #103754;
+}
+
+/* Styles de base pour les champs du simulateur */
+.simu-control {
+   width: 100%; /* Remplit le conteneur */
+   border: none;
+   border-bottom: 2px solid #103653; /* Couleur par défaut */
+   border-radius: 0; /* Pas de coins arrondis */
+   outline: none; /* Pas de bordure au focus */
+   padding: 10px 0; /* Espace intérieur du champ */
+   font-family: "Poppins", sans-serif;
+   background-color: #F8F9F6;
+   color: #103653; /* Couleur du texte */
+   transition: all 0.2s ease; /* Pour une transition fluide */
+}
+
+/* Quand le champ est en focus ou non vide, déplace le label vers le haut */
+.simu-control:focus + .floating-label,
+.simu-control:not(:placeholder-shown) + .floating-label {
+   top: -20px; /* Position du label lorsqu'il flotte */
+   font-size: 12px; /* Taille du texte réduite */
+   color: #103653; /* Couleur du label */
+}
+
+
+
+/* Style pour le champ de saisie lorsqu'il est en focus */
+.simu-control:focus {
+   border-bottom-color: #103653; /* Enlève la couleur de la ligne en focus */
+   outline: none; /* Enlève également l'encadrement bleu du focus */
+   box-shadow: none; /* Enlève également toute ombre portée (shadow) */
+}
+
+/* Effet pour le texte lorsqu'il y a du contenu (non vide) */
+.simu-control:not(:placeholder-shown) {
+   color: #103653; /* Couleur du texte quand du contenu est saisi */
+ }
+
+
+
+
+
+
+ /* Styles personnalisés pour le background des champs lors de la saisie sur simulateur */
+.styled-input {
+  background-color: #FDFCF7; /* Couleur du fond normale */
+  border: none;
+  border-bottom: 2px solid #103653;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+  padding: 10px 0;
+  color: #103653;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.styled-input:focus {
+  background-color: #FDFCF7 !important; /* Force la couleur même au focus */
+  border-bottom: 2px solid #103653;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Styles personnalisés pour le background du champs select lors du choix des âges sur simulateur */
+.styled-select {
+  background-color: #FDFCF7;
+  color: #103653;
+  border: none;
+  border-bottom: 2px solid #103653;
+  border-radius: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px 0;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+  box-shadow: none;
+}
+
+.styled-select:focus {
+  background-color: #FDFCF7;
+  border-bottom: 2px solid #103653;
+  outline: none;
+  box-shadow: none;
+}
+
+
+/* Bouton personnalisé */
+.custom-btn {
+  background-color: #103754;
+  border: none;
+  color: #F8F9F6;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.custom-btn:hover {
+  background-color: #0b2a3d; /* Légère variation au hover */
+  color: #F8F9F6;
+}
+
+/* Radios + labels en style cohérent */
+.form-check-input:checked {
+  background-color: #103754;
+  border-color: #103754;
+}
+
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.15rem rgba(16, 55, 84, 0.3);
+}
+
+.form-check-label {
+  color: #103754;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+
+/* Centrer l'icône SVG */
+.curseur-tetine {
+   width: 110px; /* Ajustez la largeur de l'icône selon vos besoins */
+   height: auto; /* Maintient le rapport hauteur-largeur */
+   position: absolute;
+   top: -25px;
+   transform: translateX(-50%);
+
+}
+ /* Pour les petits écrans, chaque icône prendra toute la largeur */
+@media (max-width: 767px) {
+   .curseur-tetine {
+   width: 80px; /* Ajustez la largeur de l'icône selon vos besoins */
+   top: -10px;
+   }
+   }
+
+
+
+ .bullet-dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background-color: #666; /* couleur par défaut */
+}
+
+.bullet-orange {
+  background-color: #F79927; /* orange */
+}
+
+.bullet-green {
+  background-color: #d8dd8e; /* vert pâle comme demandé */
+}
+
+ 
+
+.result-profil-1 {
+  background-color: #eaf3f0;
+  color: #103754;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  padding: 1rem;
+}
+
+.result-profil-2 {
+  background-color: #efedf2;
+  color: #103754;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  padding: 1rem;
+}
+
+
+.result-profil-3 {
+  background-color: #fef4ea;
+  color: #103754;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  padding: 1rem;
+}
+
+
+
+/* Styles personnalisés pour la section exemples-cout-reel-assistante-maternelle */
+#exemples-cout-reel-assistante-maternelle {
+   background-color: #96D2CA;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 20px;
+   padding-bottom: 80px;
+ }
+
+ .exemple-container {
+   display: flex;
+   align-items: flex-start;
+   justify-content: left; /* Centrer horizontalement */
+   gap: 20px; /* Espacement entre le H1 et le bouton */
+   flex-wrap: wrap; /* Permet le passage à la ligne sur mobile */
+   text-align: center; /* Centrer le texte pour une bonne lisibilité */
+   margin-bottom: 30px; /* Marge en bas du titre */
+}
