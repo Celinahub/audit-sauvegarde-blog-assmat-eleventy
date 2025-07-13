@@ -5797,6 +5797,20 @@ body.rss-info-page {
   color: #103754;
 }
 
+ .idee-icon {
+   width: 80px; /* Taille contrôlée de l'icône */
+   height: 80px;
+   object-fit: contain; /* Assure que l'image conserve ses proportions */
+ }
+
+.poppins-regular-comparatif li:first-child {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1.5em;
+  }
+
+
+
 /* Styles de base pour les champs du simulateur */
 .simu-control {
    width: 100%; /* Remplit le conteneur */

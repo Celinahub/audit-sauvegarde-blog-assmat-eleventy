@@ -62,7 +62,7 @@ bodyClass: "bg-white simulateur-cout-creche-assistante-maternelle"
 
    
 
- <div class="row">
+ <div class="row gy-4">
       <!-- Carte 1 -->
       <div class="col-12">
         <div class="comparatif-card h-100 p-4">
@@ -90,6 +90,28 @@ bodyClass: "bg-white simulateur-cout-creche-assistante-maternelle"
         </div>
       </div>
 
+
+     <!-- Carte 2 -->
+      <div class="col-12">
+        <div class="comparatif-card h-100 p-4">
+          <h3 class="fs-5 fw-bold poppins-regular d-flex align-items-center mb-3">
+            <span class="comparatif-icon-wrapper me-2">
+              <img src="{{ '/images/simulateur/idee-simulateur-bretigny.svg' | url }}" class="idee-icon" alt="Icône communication" loading="lazy">
+            </span>
+           Pourquoi proposer ce simulateur ?
+          </h3>
+          <ul class="poppins-regular-comparatif">
+            <li><strong>Gain de temps :</strong> Premier simulateur qui regroupe toutes les informations et calcule instantanément.</li>
+          <li><strong>Manque d’info :</strong> Les différences de calcul entre crèches PSU, crèches PAJE et assistantes maternelles rendent la comparaison difficile.</li>
+           <li><strong>Décision biaisée :</strong> Le choix du mode d’accueil se fait rarement sur le coût réel.</li>
+          <li><strong>Idée reçue :</strong> La crèche semble moins chère… mais ce n’est pas toujours vrai.</li>
+        
+          
+         
+          </ul>
+
+        </div>
+      </div>
 
 
     <div class="row">
@@ -170,9 +192,18 @@ bodyClass: "bg-white simulateur-cout-creche-assistante-maternelle"
 
   <!-- Taux horaire -->
   <div class="col-md-6">
-    <label for="tauxHoraire" class="form-label poppins-regular-simucmg">Taux horaire net (€)</label>
+    <label for="tauxHoraire" class="form-label poppins-regular-simucmg">Taux horaire net assmat (€)</label>
     <input type="number" step="0.01" class="simu-control" id="tauxHoraire" name="tauxHoraire" required>
   </div>
+
+<!-- Taux horaire complet (calculé automatiquement) -->
+<div class="col-md-6">
+  <label for="tauxComplet" class="form-label poppins-regular-simucmg">Taux horaire complet Indemnités incluses (€)</label>
+  <input type="text" class="simu-control" id="tauxComplet" name="tauxComplet" readonly>
+<div id="alertePlafondCMG" class="alert alert-warning mt-2 d-none"></div>
+</div>
+
+
 
   <!-- Salaire -->
   <div class="col-md-6">
@@ -309,8 +340,8 @@ bodyClass: "bg-white simulateur-cout-creche-assistante-maternelle"
             <li>Taux horaire net (€): 4,28.</li>
             <li>Indemnité d'entretien (€ / mois): 5,35€ X 18 jours = 96,3€.</li>
             <li>Indemnité de repas (€ / mois): 5,45€ X 18 jours = 98,1€.</li>
-            <li><strong>Reste à charge Assistante Maternelle : 766€.</strong></li>
-            <li><strong>La différence mensuelle avec le reste à charge de la crèche PSU est de seulement 62€ et vous bénéficiez d'un accueil personnalisé.</strong></li>
+            <li><strong>Reste à charge Assistante Maternelle : 782€.</strong></li>
+            <li><strong>La différence mensuelle avec le reste à charge de la crèche PSU est de seulement 78€ et vous bénéficiez d'un accueil premium personnalisé.</strong></li>
           </ul>
         </div>
       </div>
@@ -474,6 +505,38 @@ const tranche = determineTrancheMicroCreche(revenuAnnuel, nbEnfants);
   const heuresMensuellesInput = document.getElementById("heuresMensuelles");
   const tauxHoraireInput = document.getElementById("tauxHoraire");
   const salaireNetInput = document.getElementById("salaireNet");
+  const indemEntretienInput = document.getElementById("indemEntretien");
+const indemRepasInput = document.getElementById("indemRepas");
+
+
+function updateTauxComplet() {
+  const salaireNet = parseFloat(document.getElementById("salaireNet").value) || 0;
+  const indemEntretien = parseFloat(document.getElementById("indemEntretien").value) || 0;
+  const indemRepas = parseFloat(document.getElementById("indemRepas").value) || 0;
+  const tauxHoraireNet = parseFloat(document.getElementById("tauxHoraire").value) || 0;
+
+  const salaireComplet = salaireNet + indemEntretien + indemRepas;
+  let tauxComplet = 0;
+  if (salaireNet > 0) {
+    tauxComplet = (salaireComplet * tauxHoraireNet) / salaireNet;
+  }
+  // Plafonnement affichage à 7,99
+  if (tauxComplet > 7.99) {
+    tauxComplet = 7.99;
+  }
+  document.getElementById("tauxComplet").value = tauxComplet.toFixed(2);
+
+  // Message alerte
+  const alerte = document.getElementById("alertePlafondCMG");
+  if ((salaireNet > 0) && ((salaireComplet * tauxHoraireNet) / salaireNet > 7.99)) {
+    alerte.textContent = "Le plafond CMG de 8 €/h est atteint. Le CMG reste versé, seule la part au-delà du plafond reste à votre charge. Pour une estimation exacte, consultez le simulateur officiel URSSAF (notre simulateur ne prend pas en compte les montants au-delà du plafond).";
+    alerte.classList.remove("d-none");
+  } else {
+    alerte.textContent = "";
+    alerte.classList.add("d-none");
+  }
+}
+
 
   function updateHeuresMensuellesEtSalaire() {
     const heuresHebdo = parseFloat(heuresHebdoInput.value) || 0;
@@ -484,6 +547,7 @@ const tranche = determineTrancheMicroCreche(revenuAnnuel, nbEnfants);
 
     heuresMensuellesInput.value = heuresMensuelles.toFixed(2);
     salaireNetInput.value = salaireNet.toFixed(2);
+    updateTauxComplet();
   }
 
   heuresHebdoInput.addEventListener("input", updateHeuresMensuellesEtSalaire);
@@ -494,8 +558,25 @@ const tranche = determineTrancheMicroCreche(revenuAnnuel, nbEnfants);
   const barometre = document.getElementById("barometre-wrapper");
  const curseur = document.getElementById("curseur");
 
- form.addEventListener("submit", function (e) {
-  e.preventDefault();
+form.addEventListener("submit", function (e) {
+  e.preventDefault(); // Toujours empêcher le rechargement natif du formulaire
+
+  const tauxCompletAffiche = parseFloat(document.getElementById("tauxComplet").value);
+  const alerte = document.getElementById("alertePlafondCMG");
+
+  if (tauxCompletAffiche >= 7.99) {
+    if (alerte) {
+      alerte.textContent = "Le plafond CMG de 8 €/h est atteint. Le CMG reste versé, seule la part au-delà du plafond reste à votre charge. Pour une estimation exacte, consultez le simulateur officiel URSSAF (notre simulateur ne prend pas en compte les montants au-delà du plafond).";
+      alerte.classList.remove("d-none");
+    }
+    // On ne fait rien d'autre, le formulaire reste affiché
+    return;
+  } else {
+    if (alerte) {
+      alerte.textContent = "";
+      alerte.classList.add("d-none");
+    }
+  }
 
   const typeFamille = document.querySelector("input[name='situation']:checked")?.value;
   const nbEnfants = parseInt(document.getElementById("nbEnfants").value, 10);
@@ -685,12 +766,12 @@ if (resteAssmat <= minVal) {
 }
 
 curseur.style.left = `${positionPercent}%`;
-barometre.classList.remove("d-none");
-
-
-
-
-
+if (profil === 3) {
+  barometre.classList.add("d-none");
+} else {
+  barometre.classList.remove("d-none");
+  curseur.style.left = `${positionPercent}%`;
+}
 
 
 });
