@@ -5852,6 +5852,44 @@ body.rss-info-page {
 
 
 
+/* Styles de base pour les champs AUTOMATIQUES du simulateur */
+.simu-auto-control {
+   width: 100%; /* Remplit le conteneur */
+   border: none;
+   border-bottom: 2px solid #3b5c6e; /* Couleur par défaut */
+   border-radius: 0; /* Pas de coins arrondis */
+   outline: none; /* Pas de bordure au focus */
+   padding: 10px 0; /* Espace intérieur du champ */
+   font-family: "Poppins", sans-serif;
+   background-color: #eaf3f0;
+   color: #3b5c6e; /* Couleur du texte */
+   transition: all 0.2s ease; /* Pour une transition fluide */
+}
+
+/* Quand le champ est en focus ou non vide, déplace le label vers le haut */
+.simu-auto-control:focus + .floating-label,
+.simu-auto-control:not(:placeholder-shown) + .floating-label {
+   top: -20px; /* Position du label lorsqu'il flotte */
+   font-size: 12px; /* Taille du texte réduite */
+   color: #3b5c6e; /* Couleur du label */
+}
+
+/* Style pour le champ de saisie lorsqu'il est en focus */
+.simu-auto-control:focus {
+   border-bottom-color: #3b5c6e; /* Enlève la couleur de la ligne en focus */
+   outline: none; /* Enlève également l'encadrement bleu du focus */
+   box-shadow: none; /* Enlève également toute ombre portée (shadow) */
+}
+
+/* Effet pour le texte lorsqu'il y a du contenu (non vide) */
+.simu-auto-control:not(:placeholder-shown) {
+   color: #3b5c6e; /* Couleur du texte quand du contenu est saisi */
+ }
+
+
+
+
+
  /* Styles personnalisés pour le background des champs lors de la saisie sur simulateur */
 .styled-input {
   background-color: #FDFCF7; /* Couleur du fond normale */
