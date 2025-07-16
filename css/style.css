@@ -6040,7 +6040,7 @@ body.rss-info-page {
   .result-profil-1,
   .result-profil-2,
   .result-profil-3 {
-    padding: 0.75rem; /* ou même 0.5rem */
+    padding: 2.75rem; /* ou même 0.5rem */
   }
   .recap-saisie {
     padding: 6px;
