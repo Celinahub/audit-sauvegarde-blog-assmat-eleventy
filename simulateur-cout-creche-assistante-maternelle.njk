@@ -857,6 +857,40 @@ if (
 }
 
 
+
+const contenuCommunHTML = `
+  <em>Mais choisir une assistante maternelle agréée, c’est bien plus qu’une question de tarif</em><br><br>
+
+  <ul>
+    <li>Un cadre familial, rassurant et attentif aux besoins de chaque enfant</li>
+    <li>Des échanges quotidiens et une relation de confiance avec les parents</li>
+    <li>Un accompagnement éducatif respectueux de vos choix et de vos valeurs</li>
+    <li>Des temps de sociabilisation au Relais Petite Enfance et lors des sorties au parc</li>
+    <li>Des promenades quotidiennes pour favoriser l’éveil sensoriel et le lien à la nature</li>
+    <li>Contrairement aux grandes structures, je peux personnaliser l’accueil selon votre enfant : si vous avez des préférences éducatives, je les prends en compte avec souplesse.</li>
+  </ul>
+
+  <strong>Réduisez votre reste à charge :</strong>
+  <br><a href="https://chubert91assmat.netlify.app/posts/entreprises/cesu-prefinances/"
+    class="btn btn-action-primary mt-3 d-inline-block">Je découvre les CESU pré-financés ! →</a><br><br>
+
+  Je pourrais vous en dire plus, mais le mieux est de laisser parler ceux qui m’ont confié leur enfant : découvrez leurs avis
+  sur Google :
+  <br><a href="https://chubert91assmat.netlify.app/#avis"
+    class="btn btn-action-primary mt-3 d-inline-block"><span
+      class="etoiles">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 100% de parents satisfaits →</a><br><br>
+
+  N'hésitez pas à me contacter pour discuter ensemble de votre situation :
+  <br><a href="/contact/" class="btn btn-action-primary mt-3 d-inline-block">Discutons ensemble de vos besoins →</a><br><br>
+`;
+
+
+
+
+
+
+
+
 // Affichage selon le profil
 if (profil === 1) {
    // Récupère les valeurs saisies
@@ -914,23 +948,13 @@ if (profil === 1) {
     <img src="{{ '/images/faq/money-bag-svgrepo-com.svg' | url }}" class="checked-money" alt="icône tirelire">
     Micro-crèche PAJE : <strong>${resultats.cmgMicroCreche} €</strong><br><br>
 
-<strong>Réduisez votre reste à charge :</strong>
-    <br><a href="https://chubert91assmat.netlify.app/posts/entreprises/cesu-prefinances/" class="btn btn-action-primary mt-3 d-inline-block">
-    Je découvre les CESU pré-financés ! →
-    </a><br><br>
 
-    Je pourrais vous en dire plus, mais le mieux est de laisser parler ceux qui m’ont confié leur enfant : découvrez leurs avis sur Google :
-    <br><a href="https://chubert91assmat.netlify.app/#avis" class="btn btn-action-primary mt-3 d-inline-block">
-    <span class="etoiles">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 100% de parents satisfaits →
-    </a><br><br>
-    N'hésitez pas à me contacter pour discuter ensemble de votre situation :
-    <br><a href="/contact/" class="btn btn-action-primary mt-3 d-inline-block">
-    Discutons ensemble de vos besoins →
-    </a><br><br>
 
 
     <em>Ce niveau d’aide vous permet de profiter d’un accueil de qualité avec un tarif particulièrement compétitif chez une assistante maternelle agréée.</em>
   `;
+
+
 document.getElementById("btn-pdf").classList.remove("d-none");
 document.getElementById("btn-reset").classList.remove("d-none");
 
@@ -991,22 +1015,9 @@ document.getElementById("btn-reset").classList.remove("d-none");
     Micro-crèche PAJE : <strong>${resultats.cmgMicroCreche} €</strong><br><br>
 
 
-<strong>Réduisez votre reste à charge :</strong>
-    <br><a href="https://chubert91assmat.netlify.app/posts/entreprises/cesu-prefinances/" class="btn btn-action-primary mt-3 d-inline-block">
-    Je découvre les CESU pré-financés ! →
-    </a><br><br>
 
-    Je pourrais vous en dire plus, mais le mieux est de laisser parler ceux qui m’ont confié leur enfant : découvrez leurs avis sur Google :
-    <br><a href="https://chubert91assmat.netlify.app/#avis" class="btn btn-action-primary mt-3 d-inline-block">
-    <span class="etoiles">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 100% de parents satisfaits →
-    </a><br><br>
-    N'hésitez pas à me contacter pour discuter ensemble de votre situation :
-    <br><a href="/contact/" class="btn btn-action-primary mt-3 d-inline-block">
-    Discutons ensemble de vos besoins →
-    </a><br><br>
-
-    <em>Votre profil est intermédiaire : l’aide reste limitée mais utile pour réduire les coûts d’accueil.</em>
   `;
+
 
 document.getElementById("btn-pdf").classList.remove("d-none");
 document.getElementById("btn-reset").classList.remove("d-none");
@@ -1115,39 +1126,11 @@ if (cmg > ancienCMG) {
 }
   }
 
-  // On continue ensuite le reste du contenu HTML
-  resultBox.innerHTML += `
-    <em>Mais choisir une assistante maternelle agréée, c’est bien plus qu’une question de tarif</em><br><br>
-
-<ul>
-  <li>Un cadre familial, rassurant et attentif aux besoins de chaque enfant</li>
-  <li>Des échanges quotidiens et une relation de confiance avec les parents</li>
-  <li>Un accompagnement éducatif respectueux de vos choix et de vos valeurs</li>
-  <li>Des temps de sociabilisation au Relais Petite Enfance et lors des sorties au parc</li>
-  <li>Des promenades quotidiennes pour favoriser l’éveil sensoriel et le lien à la nature</li>
-  <li>Contrairement aux grandes structures, je peux personnaliser l’accueil selon votre enfant : si vous avez des préférences éducatives, je les prends en compte avec souplesse.</li>
-</ul>
-
-
-
-    <strong>Réduisez votre reste à charge :</strong>
-    <br><a href="https://chubert91assmat.netlify.app/posts/entreprises/cesu-prefinances/" class="btn btn-action-primary mt-3 d-inline-block">
-      Je découvre les CESU pré-financés ! →
-    </a><br><br>
-        
-    Je pourrais vous en dire plus, mais le mieux est de laisser parler ceux qui m’ont confié leur enfant : découvrez leurs avis sur Google :
-    <br><a href="https://chubert91assmat.netlify.app/#avis" class="btn btn-action-primary mt-3 d-inline-block">
-      <span class="etoiles">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 100% de parents satisfaits →
-    </a><br><br>
-
-    N’hésitez pas à me contacter pour discuter ensemble de votre situation :
-    <br><a href="/contact/" class="btn btn-action-primary mt-3 d-inline-block">
-     Discutons ensemble de votre situation →
-    </a>
-  `;
-
+  
+resultBox.innerHTML += contenuCommunHTML;
 document.getElementById("btn-pdf").classList.remove("d-none");
 document.getElementById("btn-reset").classList.remove("d-none");
+
 
 
 const minVal = Math.min(restePSU, resteMC);
