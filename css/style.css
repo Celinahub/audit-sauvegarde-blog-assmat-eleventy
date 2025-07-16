@@ -6035,6 +6035,20 @@ body.rss-info-page {
   padding: 1rem;
 }
 
+/* Styles correction fond colore des resultats ajuste sur mobile */
+@media (max-width: 767px) {
+  .result-profil-1,
+  .result-profil-2,
+  .result-profil-3 {
+    padding: 0.75rem; /* ou même 0.5rem */
+  }
+  .recap-saisie {
+    padding: 6px;
+    margin-bottom: 8px;
+  }
+}
+
+
 
 
 /* Styles personnalisés pour la section exemples-cout-reel-assistante-maternelle */
