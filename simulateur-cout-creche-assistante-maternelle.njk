@@ -242,7 +242,7 @@ bodyClass: "bg-white simulateur-cout-creche-assistante-maternelle"
  
   <!-- Bouton unique -->
   <div class="col-12 mb-5 text-center">
-    <button type="submit" class="btn custom-btn">Voir mon profil</button>
+    <button type="submit" class="btn btn-primary btn-simu">Voir mon profil</button>
   </div>
 </form>
 
@@ -257,9 +257,10 @@ bodyClass: "bg-white simulateur-cout-creche-assistante-maternelle"
   <div id="result-message"></div>
 </div>
 
-<button id="btn-pdf" class="btn custom-btn mt-3 d-none">Télécharger le PDF</button>
-<button id="btn-reset" class="btn custom-btn mt-3 d-none">↻ Recommencer</button>
-
+<div class="button-wrapper">
+<button id="btn-pdf" class="btn btn-primary btn-simu mt-3 d-none">Télécharger le PDF</button>
+<button id="btn-reset" class="btn btn-primary btn-simu mt-3 d-none">↻ Recommencer</button>
+</div>
 
 
 <!-- Baromètre visuel (affiché uniquement si CMG favorable) -->
@@ -538,6 +539,40 @@ bodyClass: "bg-white simulateur-cout-creche-assistante-maternelle"
     couple: 7540,
     mono: 10556
   };
+
+
+ // 👉 Ensuite on ajoute (si condition) le comparatif CMG AVANT le reste du contenu
+const anciensBarèmesCMG = {
+  1: [
+    { seuil: 22809, montant: 529.28 },
+    { seuil: 50686, montant: 333.75 },
+    { seuil: Infinity, montant: 200.22 }
+  ],
+  2: [
+    { seuil: 26046, montant: 529.28 },
+    { seuil: 57881, montant: 333.75 },
+    { seuil: Infinity, montant: 200.22 }
+  ],
+  3: [
+    { seuil: 29283, montant: 529.28 },
+    { seuil: 65076, montant: 333.75 },
+    { seuil: Infinity, montant: 200.22 }
+  ],
+  4: [
+    { seuil: 32520, montant: 529.28 },
+    { seuil: 72271, montant: 333.75 },
+    { seuil: Infinity, montant: 200.22 }
+  ]
+};
+
+function getAncienCMG(nbEnfants, revenu) {
+  const bareme = anciensBarèmesCMG[Math.min(nbEnfants, 4)];
+  return bareme.find(bracket => revenu <= bracket.seuil).montant;
+}
+
+
+
+
 
   const seuilsHeures = {
     "0-3": 100,
@@ -924,10 +959,33 @@ if (profil === 1) {
     </div>
   `;
 
+
+// Calcul comparatif CMG
+  const ancienCMG = getAncienCMG(Number(nbEnfants), Number(revenu));
+  let messageComparatifCMG = "";
+  if (cmg > ancienCMG) {
+    const gain = (cmg - ancienCMG).toFixed(2).replace('.', ',');
+    messageComparatifCMG = `
+      <div class="alert alert-info" role="alert">
+        <img src="{{ '/images/simulateur/gain-simulateur-bretigny.svg' | url }}" class="bien-etre-icon" alt="icône tirelire">
+        Grâce à la réforme du CMG, vous bénéficiez d'une aide <strong>plus élevée</strong> que celle prévue auparavant pour votre niveau de revenus et votre composition familiale.<br>
+        <strong>Ancien CMG barème 2023 :</strong> ${ancienCMG.toFixed(2)} €<br>
+        <strong>Nouveau CMG :</strong> ${cmg} €<br>
+        <strong>Soit +${gain} €/mois d’aide supplémentaire</strong> avec la réforme cmg 2025.
+      </div><br>
+    `;
+  }
+
+
+
+
+
+
+
   // Injecte le récapitulatif + le résultat
   resultBox.classList.add("result-profil-1");
   resultBox.classList.add("poppins-regular-simucmg");
-  resultBox.innerHTML = recapSaisie + `
+  resultBox.innerHTML = recapSaisie + messageComparatifCMG + `
 
 
     Vous êtes <strong>éligible</strong> à un <strong>CMG très avantageux</strong> permettant un reste à charge comparable ou identique à celui d'une crèche subventionnée.<br><br>
@@ -991,10 +1049,28 @@ document.getElementById("btn-reset").classList.remove("d-none");
     </div>
   `;
 
+// Calcul comparatif CMG
+  const ancienCMG = getAncienCMG(Number(nbEnfants), Number(revenu));
+  let messageComparatifCMG = "";
+  if (cmg > ancienCMG) {
+    const gain = (cmg - ancienCMG).toFixed(2).replace('.', ',');
+    messageComparatifCMG = `
+      <div class="alert alert-info" role="alert">
+        <img src="{{ '/images/simulateur/gain-simulateur-bretigny.svg' | url }}" class="bien-etre-icon" alt="icône tirelire">
+        Grâce à la réforme du CMG, vous bénéficiez d'une aide <strong>plus élevée</strong> que celle prévue auparavant pour votre niveau de revenus et votre composition familiale.<br>
+        <strong>Ancien CMG barème 2023 :</strong> ${ancienCMG.toFixed(2)} €<br>
+        <strong>Nouveau CMG :</strong> ${cmg} €<br>
+        <strong>Soit +${gain} €/mois d’aide supplémentaire</strong> avec la réforme cmg 2025.
+      </div><br>
+    `;
+  }
+
+
+
   // Injecte le récapitulatif + le résultat
   resultBox.classList.add("result-profil-2");
   resultBox.classList.add("poppins-regular-simucmg");
-  resultBox.innerHTML = recapSaisie + `
+  resultBox.innerHTML = recapSaisie + messageComparatifCMG + `
 
    Le CMG auquel vous avez droit représente une aide conséquente pour faciliter l’accueil de votre enfant. 
     Vous bénéficiez d’une aide partielle mais significative pour avoir accès à un accueil personnalisé.<br><br>
@@ -1059,7 +1135,7 @@ document.getElementById("btn-reset").classList.remove("d-none");
   // Injecte le récapitulatif + le résultat
   resultBox.classList.add("result-profil-3");
   resultBox.classList.add("poppins-regular-simucmg");
-  resultBox.innerHTML = recapSaisie + `
+  resultBox.innerHTML = recapSaisie + messageComparatifCMG + `
 
 
     <strong>Un accueil de qualité pour votre enfant, dans un cadre chaleureux et sécurisé</strong><br><br>
@@ -1080,35 +1156,7 @@ document.getElementById("btn-reset").classList.remove("d-none");
     <strong>Vous bénéficiez d'un crédit d'impôt.</strong><br><br>
   `;
 
-  // 👉 Ensuite on ajoute (si condition) le comparatif CMG AVANT le reste du contenu
-const anciensBarèmesCMG = {
-  1: [
-    { seuil: 22809, montant: 529.28 },
-    { seuil: 50686, montant: 333.75 },
-    { seuil: Infinity, montant: 200.22 }
-  ],
-  2: [
-    { seuil: 26046, montant: 529.28 },
-    { seuil: 57881, montant: 333.75 },
-    { seuil: Infinity, montant: 200.22 }
-  ],
-  3: [
-    { seuil: 29283, montant: 529.28 },
-    { seuil: 65076, montant: 333.75 },
-    { seuil: Infinity, montant: 200.22 }
-  ],
-  4: [
-    { seuil: 32520, montant: 529.28 },
-    { seuil: 72271, montant: 333.75 },
-    { seuil: Infinity, montant: 200.22 }
-  ]
-};
-
-function getAncienCMG(nbEnfants, revenu) {
-  const bareme = anciensBarèmesCMG[Math.min(nbEnfants, 4)];
-  return bareme.find(bracket => revenu <= bracket.seuil).montant;
-}
-
+ 
 const ancienCMG = getAncienCMG(nbEnfants, revenu);
 
 if (cmg > ancienCMG) {

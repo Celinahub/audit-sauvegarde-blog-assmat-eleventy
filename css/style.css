@@ -6105,3 +6105,36 @@ body.rss-info-page {
   -webkit-column-break-inside: avoid;
   display: block;
 }
+
+
+
+
+/* Style pour les boutons de la simulation*/
+.btn-simu {
+   text-align: center;
+   background-color: #103754; /* Couleur de fond */
+   color: #F8F9F6; /* Couleur du texte */
+   border-radius: 5px; /* Coins arrondis */
+   border: none; /* Retirer la bordure par défaut */
+   padding: 5px 10px; /* Espacement interne */
+   font-size: 16px; /* Taille du texte */
+   cursor: pointer; /* Changer le curseur au survol */
+   transition: background-color 0.3s; /* Transition pour un effet au survol */
+  
+}
+
+.btn-simu:hover {
+   background-color: #041427; /* Couleur au survol */
+   color: #F8F9F6; /* Couleur du texte */
+}
+
+@media (max-width: 576px) {
+   .btn-simu-wrapper {
+       flex-direction: column; /* Aligne les boutons verticalement */
+       width: 100%; /* Assure que le conteneur occupe toute la largeur */
+   }
+   
+   .btn-simu {
+       width: 100%; /* Les boutons occupent toute la largeur du conteneur */
+   }
+}
