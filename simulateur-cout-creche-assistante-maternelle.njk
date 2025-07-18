@@ -239,6 +239,47 @@ bodyClass: "bg-white simulateur-cout-creche-assistante-maternelle"
 
 
 
+
+
+
+<!-- ⬇️ CASE À COCHER -->
+<div class="col-md-6">
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" id="connaitPrixAccueil">
+    <label class="form-check-label poppins-regular-simucmg" for="connaitPrixAccueil">
+     
+    Tarif connu sur devis micro-crèche <strong>PAJE</strong>
+    (Les simulateurs indiquent souvent le tarif PSU, qui ne s’applique pas ici.)
+
+    </label>
+  </div>
+</div>
+
+<!-- ⬇️ CHAMP SAAISI OU AUTOCALCULÉ -->
+<div class="col-md-6 d-none" id="prixAccueilWrapper">
+  <label for="prixAccueil" class="form-label poppins-regular-simucmg">Montant total mensuel facturé par la crèche sur devis <strong>(aide CAF non déduite)</strong> (€)</label>
+  <input 
+    type="number" 
+    step="0.01" 
+    class="simu-control styled-input" 
+    id="prixAccueil" 
+    name="prixAccueil"
+    placeholder="Saisir un montant personnalisé"
+  >
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
  
   <!-- Bouton unique -->
   <div class="col-12 mb-5 text-center">
@@ -333,7 +374,7 @@ bodyClass: "bg-white simulateur-cout-creche-assistante-maternelle"
   <div class="comparatif-card h-100 p-4">
    
  <p class="poppins-regular-simucmg mb-3">
-    <strong>Contrairement aux micro-crèches PAJE souvent au forfait annuel, les crèches PSU et les assistantes maternelles peuvent proposer des contrats plus souples, adaptés au nombre réel de semaines de garde souhaitées. </strong>
+    <strong>Contrairement aux micro-crèches PAJE souvent au forfait annuel, les crèches PSU et les assistantes maternelles peuvent proposer des contrats plus souples, adaptés au nombre réel de semaines de garde souhaitées.</strong>
     </p>
 
 
@@ -677,7 +718,15 @@ const tranche = determineTrancheMicroCreche(revenuAnnuel, nbEnfants);
 
 
  const tarifMC = tarifsMicro[tranche].find(([limite]) => heuresHebdoMicro <= limite)[1];
-const coutMC = tarifMC * hMicro;
+let coutMC;
+const prixAccueilSaisi = parseFloat(document.getElementById("prixAccueil")?.value);
+
+if (checkboxPrixManuel.checked && !isNaN(prixAccueilSaisi)) {
+  coutMC = prixAccueilSaisi;
+} else {
+  coutMC = tarifMC * hMicro;
+}
+
 
 
     const plafonds = { 1: 984.26, 2: 848.47, 3: 712.72 };
@@ -997,7 +1046,7 @@ if (profil === 1) {
 
 <span class="bullet-dot bullet-green"></span>Reste à charge Crèche PSU : <strong>${restePSU} €</strong><br>
 <span class="bullet-dot"></span>Reste à charge Assistante Maternelle : <strong>${resteAssmat} €</strong><br>
-<span class="bullet-dot bullet-orange"></span>Reste à charge Micro-crèche PAJE : <strong>${resteMC} €</strong> <em>(estimation moyenne locale, tarif réel à confirmer)</em><br><br>
+<span class="bullet-dot bullet-orange"></span>Reste à charge Micro-crèche PAJE : <strong>${resteMC} €</strong> <em>(Estimation moyenne locale – à confirmer avec la crèche sauf si vous avez saisi un devis.)</em><br><br>
 
 
  <em>Grâce à ce niveau d’aide, vous pouvez choisir la solution la plus adaptée à votre famille, sans contrainte de budget.</em><br><br>
@@ -1070,7 +1119,7 @@ document.getElementById("btn-reset").classList.remove("d-none");
 
 <span class="bullet-dot bullet-green"></span>Reste à charge Crèche PSU : <strong>${restePSU} €</strong><br>
 <span class="bullet-dot"></span>Reste à charge Assistante Maternelle : <strong>${resteAssmat} €</strong><br>
-<span class="bullet-dot bullet-orange"></span>Reste à charge Micro-crèche PAJE : <strong>${resteMC} €</strong> <em>(estimation moyenne locale, tarif réel à confirmer)</em><br><br>
+<span class="bullet-dot bullet-orange"></span>Reste à charge Micro-crèche PAJE : <strong>${resteMC} €</strong> <em>(Estimation moyenne locale – à confirmer avec la crèche sauf si vous avez saisi un devis.)</em><br><br>
 
 
  <em>Vous pouvez ainsi choisir la solution la plus adaptée à votre famille, selon vos priorités.</em><br><br>
@@ -1221,18 +1270,47 @@ function resetSimulation() {
   document.getElementById("result-box").classList.add("d-none");
   document.getElementById("result-box").innerHTML = "";
   document.getElementById("barometre-wrapper").classList.add("d-none");
-  
+
   // Masque les boutons d’action
   document.getElementById("btn-pdf").classList.add("d-none");
   document.getElementById("btn-reset").classList.add("d-none");
-  
+
   // Réinitialise le formulaire (vide tous les champs)
   document.getElementById("simulateur-form").reset();
-  
+
+  // ➕ Remise à zéro manuelle des champs calculés de #calculs-automatiques-assistante-maternelle
+  document.getElementById("heuresMensuelles").value = "";
+  document.getElementById("heuresMensuellesPSU").value = "";
+  document.getElementById("heuresMensuellesMicro").value = "";
+  document.getElementById("tauxComplet").value = "";
+  document.getElementById("salaireNet").value = "";
+
+  // Cache l’alerte du plafond CMG si visible
+  const alertePlafond = document.getElementById("alertePlafondCMG");
+  if (alertePlafond) {
+    alertePlafond.classList.add("d-none");
+    alertePlafond.textContent = "";
+  }
+
+  // Remet le curseur à gauche
+  const curseur = document.getElementById("curseur");
+  if (curseur) {
+    curseur.style.left = "0%";
+  }
+
+  // Coche démanuellement la case « Connaît le prix d’accueil » + cache champ saisie
+  const prixAccueil = document.getElementById("prixAccueil");
+  const checkboxPrix = document.getElementById("connaitPrixAccueil");
+  const wrapperPrix = document.getElementById("prixAccueilWrapper");
+  if (checkboxPrix && prixAccueil && wrapperPrix) {
+    checkboxPrix.checked = false;
+    prixAccueil.value = "";
+    wrapperPrix.classList.add("d-none");
+  }
+
   // Remonte en haut du formulaire pour une nouvelle saisie
   document.getElementById("simulateur-form").scrollIntoView({ behavior: "smooth" });
 }
-
 
 
 
@@ -1286,6 +1364,18 @@ setTimeout(() => {
 
 document.getElementById("btn-reset").addEventListener("click", resetSimulation);
 
+// ➕ Ton code ici
+const checkboxPrixManuel = document.getElementById("connaitPrixAccueil");
+const prixAccueilWrapper = document.getElementById("prixAccueilWrapper");
+
+checkboxPrixManuel.addEventListener("change", () => {
+  if (checkboxPrixManuel.checked) {
+    prixAccueilWrapper.classList.remove("d-none");
+  } else {
+    prixAccueilWrapper.classList.add("d-none");
+    document.getElementById("prixAccueil").value = ""; // 🧼 reset du champ personnalisé
+  }
+});
 
 
 </script>
