@@ -581,33 +581,60 @@ bodyClass: "bg-white simulateur-cout-creche-assistante-maternelle"
   };
 
 // 👉 Ensuite on ajoute (si condition) le comparatif CMG AVANT le reste du contenu
-const anciensBarèmesCMG = {
+const anciensBarèmesCMG_couple = {
   1: [
-    { seuil: 23903, montant: 529.28 },
-    { seuil: 53119, montant: 333.75 },
-    { seuil: Infinity, montant: 200.22 }
+    { seuil: 23903, montant: 538.27 },
+    { seuil: 53119, montant: 339.42 },
+    { seuil: Infinity, montant: 203.62 }
   ],
   2: [
-    { seuil: 27295, montant: 529.28 },
-    { seuil: 60659, montant: 333.75 },
-    { seuil: Infinity, montant: 200.22 }
+    { seuil: 27295, montant: 538.27 },
+    { seuil: 60659, montant: 339.42 },
+    { seuil: Infinity, montant: 203.62 }
   ],
   3: [
-    { seuil: 30687, montant: 529.28 },
-    { seuil: 68199, montant: 333.75 },
-    { seuil: Infinity, montant: 200.22 }
+    { seuil: 30687, montant: 538.27 },
+    { seuil: 68199, montant: 339.42 },
+    { seuil: Infinity, montant: 203.62 }
   ],
   4: [
-    { seuil: 34079, montant: 529.28 },
-    { seuil: 75739, montant: 333.75 },
-    { seuil: Infinity, montant: 200.22 }
+    { seuil: 34079, montant: 538.27 },
+    { seuil: 75739, montant: 339.42 },
+    { seuil: Infinity, montant: 203.62 }
   ]
 };
 
-function getAncienCMG(nbEnfants, revenu) {
-  const bareme = anciensBarèmesCMG[Math.min(nbEnfants, 4)];
-  return bareme.find(bracket => revenu <= bracket.seuil).montant;
+const anciensBarèmesCMG_mono = {
+  1: [
+    { seuil: 33464, montant: 699.75 },    // Tranche 1 jusqu'à 33 464 €
+    { seuil: 74367, montant: 441.25 },    // Tranche 2 jusqu'à 74 367 €
+    { seuil: Infinity, montant: 264.71 }  // Tranche 3 au-delà
+  ],
+  2: [
+    { seuil: 38213, montant: 699.75 },
+    { seuil: 84923, montant: 441.25 },
+    { seuil: Infinity, montant: 264.71 }
+  ],
+  3: [
+    { seuil: 42962, montant: 699.75 },
+    { seuil: 95479, montant: 441.25 },
+    { seuil: Infinity, montant: 264.71 }
+  ],
+  4: [
+    { seuil: 47711, montant: 699.75 },
+    { seuil: 106035, montant: 441.25 },
+    { seuil: Infinity, montant: 264.71 }
+  ]
+};
+
+
+function getAncienCMG(nbEnfants, revenu, situation) {
+  const baremes = situation === 'mono' ? anciensBarèmesCMG_mono : anciensBarèmesCMG_couple;
+  const bareme = baremes[Math.min(nbEnfants, 4)] || [];
+  const found = bareme.find(bracket => revenu <= bracket.seuil);
+  return found ? found.montant : 0;
 }
+
 
 
   const seuilsHeures = {
@@ -1068,7 +1095,7 @@ if (profil === 1) {
 
 
 // Calcul ancien CMG
-const ancienCMG = getAncienCMG(nbEnfants, revenu);
+const ancienCMG = getAncienCMG(nbEnfants, revenu, typeFamille);
 const messageReforme = afficherMessageReforme(cmg, ancienCMG);
 resultBox.innerHTML += messageReforme;
 
