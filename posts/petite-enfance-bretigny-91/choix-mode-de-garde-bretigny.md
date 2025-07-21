@@ -34,7 +34,7 @@ Heureusement, plusieurs solutions existent, chacune avec ses avantages et ses in
   <a href="#creche-associative" class="styled-link-sommaire">• La crèche associative</a>
   <a href="#creche-privee" class="styled-link-sommaire">• La crèche privée</a>
   <a href="#micro-creche" class="styled-link-sommaire">• La micro-crèche</a>
-   <a href="#creche-familiale" class="styled-link-sommaire">• La crèche familiale</a>
+  <a href="#creche-familiale" class="styled-link-sommaire">• La crèche familiale</a>
   <a href="#mam" class="styled-link-sommaire">• La Maison d'Assistantes Maternelles (MAM)</a>
   <a href="#garde-domicile" class="styled-link-sommaire">• La garde à domicile</a>
   <a href="#assmat-independante" class="styled-link-sommaire">• L’assistante maternelle agréée indépendante</a>
@@ -45,32 +45,48 @@ Heureusement, plusieurs solutions existent, chacune avec ses avantages et ses in
 
 ---
 
-### **<span id="creche-collective">1. La crèche collective</span>** 
+<div class="highlighted-note">
+  <p><strong>Quand vous cherchez un mode de garde pour votre enfant, plusieurs types de crèches ou d’accueils sont possibles. Voici les aides que vous pouvez recevoir selon le mode choisi :</strong></p>
+
+  <ul class="poppins-regular">
+          <li><strong>CAF :</strong> Caisse d’Allocations Familiales. Elle verse des aides pour alléger le coût de la garde d’enfants.</li>
+          <li><strong>PSU :</strong> Prestation de Service Unique, permet à certaines crèches de vous facturer un tarif réduit selon vos revenus.</li>
+          <li><strong>PAJE :</strong> Prestation d’Accueil du Jeune Enfant, une aide de la CAF versée directement à la famille, pour les assistantes maternelles ou micro-crèches privées.</li>
+          <li><strong>CMG :</strong> Complément de libre choix du Mode de Garde, aide mensuelle de la CAF pour la micro-crèche ou l’assistante maternelle.</li>
+          <li><strong>MAM :</strong>  Maison d’Assistantes Maternelles, où plusieurs assistantes se regroupent pour accueillir des enfants.</li>
+          <li><strong>EAJE :</strong> Établissements d'Accueil du Jeune Enfant. Ce sont les crèches, micro-crèches, haltes-garderies, etc.</li>
+          </ul>
+
+</div>
+
+
+
+### **<span id="creche-collective">1. La crèche collective (publique)</span>** 
 
 <br>
 
-**Types de crèches publiques :** 
+**Qui accueille mon enfant ?** 
+Des professionnels qualifiés, dans une structure gérée la plupart du temps par la mairie, le département ou une association missionnée par une collectivité.
 
-**1. Crèche départementale :** : Gérée par les Conseils Départementaux.  
-**2. Crèche municipale** : Gérée par la mairie, priorité aux habitants de la commune.   
-**3. Crèche en délégation de service public (DSP)** : Gérée par un organisme privé ou associatif, mais sous la responsabilité de la collectivité. 
+**Quel tarif ?** 
+Un tarif réduit selon vos revenus, grâce à la PSU (aide CAF incluse dans le tarif).
 
 **Avantages :** 
 
-- Une solution généralement plus économique, tarification réglementée et subventionnée par la CAF. 
-- Encadrée par des professionnels qualifiés.
-- Respect d'un cadre éducatif et pédagogique structurant.
-- Accessibilité pour les familles résidant dans la commune ou le département
+- Moins chère pour la majorité des familles.
+- Structure éducative encadrée, avec un projet pédagogique clair.
+- Encadrement professionnel reconnu par la CAF.
+
 
 **Inconvénients :** 
 
-- Selon la structure risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).  
-- Moins d’attention individualisée : dans un groupe aussi grand entre 20 et 60 enfants, difficile d'offrir une prise en charge vraiment personnalisée.
-- Selon la structure d'accueil, les enfants peuvent être confrontés à un environnement relativement sédentaire et peu varié, caractérisé par des sorties extérieures limitées ou répétitives, ce qui peut restreindre leurs opportunités d'exploration et de contact direct avec la nature.
+- Fermetures possibles (grèves, journées pédagogiques, épidémies comme lors du Covid).  
+- Moins de personnalisation : 20 à 60 enfants en simultané selon la crèche.
+- Sorties parfois rares ou peu variées (environnement peu stimulant dehors).
 - Alors que les crèches ont un taux d'encadrement d'un adulte pour 5 bébés qui ne marchent pas et d'un pour 8 enfants qui marchent, l'agrément d'assistante maternelle permet un accueil plus personnalisé avec un maximum de 4 enfants de moins de 3 ans, offrant ainsi un cadre plus sécurisant et individualisé.
 - Le financement des crèches par la CAF, conditionné par leur taux de remplissage, peut inciter certaines structures à recourir à l'accueil en surnombre encadré (jusqu'à 115% de la capacité journalière, mais sans dépasser 100% de la capacité hebdomadaire), une pratique réglementée permettant de répondre à la demande mais pouvant impacter la qualité d’accueil et le bien-être des enfants.
-- Risque accru de maladies infantiles en raison de la proximité des enfants, ce qui entraîne des règles d'accueil plus strictes pour les enfants malades afin de limiter la propagation des infections.
-- Critères d'attribution stricts et listes d'attente souvent longues, limitant l'accessibilité.
+- Règles plus strictes pour les enfants malades.
+- Accès limité : priorités communales, listes d’attente longues.
 
 ---
 
@@ -78,28 +94,30 @@ Heureusement, plusieurs solutions existent, chacune avec ses avantages et ses in
 
 <br>
 
-**1. La crèche associative classique** : Elle est gérée par un conseil d'administration ou un bureau élu, composé de membres de l'association. Ces membres peuvent inclure des parents, mais aussi d'autres personnes de la communauté intéressées par le projet.  
-**2. La crèche parentale** : C'est un type spécifique de crèche associative où seuls les parents des enfants accueillis sont membres de l'association. Ils participent activement à la gestion quotidienne et à la direction de la structure, en plus des professionnels de la petite enfance employés.  
+**Qui gère ?** 
+Par des parents ou des bénévoles. Il existe des crèches classiques et des crèches parentales, où les familles sont co-gestionnaires.
 
-Dans les deux cas, ces structures fonctionnent sous le statut juridique d'association, mais diffèrent par le degré d'implication directe des parents dans leur fonctionnement.
+**Quel tarif ?** 
+Le même que les crèches municipales, si la structure est conventionnée CAF (PSU).
 
 **Avantages :** 
 
-- Les parents s'impliquent dans le projet éducatif.
-- Les tarifs des crèches associatives conventionnées sont réglementés par la CAF.
-- Alternative aux crèches publiques en cas de manque de places.
-- Encadrement professionnel.
+- Souvent plus souples en termes de projet éducatif.
+- Tarification encadrée si convention avec la CAF.
+- Implication possible des parents.
+
 
 **Inconvénients :** 
 
 - Démarches administratives propres à chaque structure.
-- Gestion parfois plus complexe.
-- Selon la structure risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
+- Fonctionnement parfois plus complexe pour les familles.
+- Fermetures possibles (grèves, journées pédagogiques, épidémies comme lors du Covid).  
 - Alors que les crèches ont un taux d'encadrement d'un adulte pour 5 bébés qui ne marchent pas et d'un pour 8 enfants qui marchent, l'agrément d'assistante maternelle permet un accueil plus personnalisé avec un maximum de 4 enfants de moins de 3 ans, offrant ainsi un cadre plus sécurisant et individualisé.
 - Le financement des crèches par la CAF, conditionné par leur taux de remplissage, peut inciter certaines structures à recourir à l'accueil en surnombre encadré (jusqu'à 115% de la capacité journalière, mais sans dépasser 100% de la capacité hebdomadaire), une pratique réglementée permettant de répondre à la demande mais pouvant impacter la qualité d’accueil et le bien-être des enfants.
-- Les crèches parentales ont généralement une capacité d'accueil moyenne d'environ 20 enfants, pouvant aller jusqu'à 25 selon les cas, ce qui reste élevé par rapport aux micro-crèches et aux assistantes maternelles.
-- Risque accru de maladies infantiles en raison de la proximité des enfants, ce qui entraîne des règles d'accueil plus strictes pour les enfants malades afin de limiter la propagation des infections.
-- Dans une crèche parentale, les parents doivent s’impliquer activement dans le fonctionnement quotidien de la structure, en consacrant du temps chaque semaine et en contribuant financièrement via des cotisations.
+- Moins de personnalisation : 20 à 25 enfants ce qui reste élevé par rapport aux micro-crèches et aux assistantes maternelles
+- Règles plus strictes pour les enfants malades.
+- Participation des familles demandée, notamment en crèches parentales.
+- Place limitée et souvent sur liste d'attente aussi.
 
 ---
 
@@ -107,25 +125,31 @@ Dans les deux cas, ces structures fonctionnent sous le statut juridique d'associ
 
 <br>
 
-Les crèches privées suivent les mêmes normes que les crèches publiques mais sont gérées par des entreprises privées.
+**Qui gère ?** 
+Une entreprise privée. Certaines sont conventionnées avec la CAF, d’autres sont entièrement privées.
+
+**Quel tarif ?** 
+
+**1. Si conventionnée CAF →** : tarif réduit comme dans une crèche publique (PSU).  
+**2. Si non conventionnée →** : tarif libre + aide directe CAF (CMG).  
 
 **Avantages :** 
 
-- Admissions possibles tout au long de l'année.
-- Pas de contrainte géographique pour l'inscription.
-- Les tarifs des crèches privées conventionnées sont réglementés par la CAF.
-- Possibilité pour les employeurs de réserver des places pour leurs salariés.
+- Admission possible toute l’année.
+- Pas besoin d’habiter la commune.
+- Parfois des places proposées par l’employeur.
 
 **Inconvénients :** 
 
-- Certaines crèches privées non conventionnées peuvent être plus onéreuses, en particulier les structures de petite taille ou celles situées en zones urbaines. 
-- Difficulté d’adaptation pour certains enfants dans un environnement collectif jusqu'à 60 enfants, même dans des groupes plus petits que dans les grandes crèches.
-- Selon la structure risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
-- Certaines crèches inter-entreprises sont réservées aux employés de sociétés spécifiques, limitant l’accès à d’autres familles.
+- Si non conventionnée, tarif souvent plus élevé (et aide CMG inférieure au tarif).
+- Moins de personnalisation : jusqu'à 60 enfants en simultané selon la crèche.
+- Fermetures possibles (grèves, journées pédagogiques, épidémies comme lors du Covid).  
+- Certaines réservées aux familles d’une entreprise, limitant l’accès à d’autres familles.
 - Alors que les crèches ont un taux d'encadrement d'un adulte pour 5 bébés qui ne marchent pas et d'un pour 8 enfants qui marchent, l'agrément d'assistante maternelle permet un accueil plus personnalisé avec un maximum de 4 enfants de moins de 3 ans, offrant ainsi un cadre plus sécurisant et individualisé.
 - Le financement des crèches par la CAF, conditionné par leur taux de remplissage, peut inciter certaines structures à recourir à l'accueil en surnombre encadré (jusqu'à 115% de la capacité journalière, mais sans dépasser 100% de la capacité hebdomadaire), une pratique réglementée permettant de répondre à la demande mais pouvant impacter la qualité d’accueil et le bien-être des enfants.
-- Risque accru de maladies infantiles en raison de la proximité des enfants, ce qui entraîne des règles d'accueil plus strictes pour les enfants malades afin de limiter la propagation des infections.
-- Selon la structure d'accueil, les enfants peuvent être confrontés à un environnement relativement sédentaire et peu varié, caractérisé par des sorties extérieures limitées ou répétitives, ce qui peut restreindre leurs opportunités d'exploration et de contact direct avec la nature.
+- Règles plus strictes pour les enfants malades.
+- Sorties parfois rares ou peu variées (environnement peu stimulant dehors).
+
 
 ---
 
@@ -133,24 +157,35 @@ Les crèches privées suivent les mêmes normes que les crèches publiques mais 
 
 <br>
 
-Une micro-crèche fonctionne comme une crèche collective avec un nombre d'enfant plus réduit.
+**Qui accueille mon enfant ?** 
+Des professionnels petite enfance, dans une structure de 12 enfants maximum.
+
+**Quel tarif ?** 
+Tarif libre fixé par la structure. L'aide CAF est versée en direct à la famille (CMG – PAJE).
 
 **Avantages :** 
 
-- Capacité réduite (12 enfants maximum), favorisant un suivi plus personnalisé 
-- Effectif encadrant plus important.
-- Approche pédagogique souvent innovante (Montessori, bilinguisme, bio...).
-- Plus grande souplesse d'accueil.
+- Moins stressant qu’une grande crèche.
+- Pédagogies innovantes possibles (Montessori, bilingue…).
+- Souplesse horaire.
 
 **Inconvénients :** 
 
-- Tarification libre, pouvant être plus élevée que les crèches publiques.
-- Selon la structure risques potentiels de fermetures occasionnelles (journées pédagogiques, grèves, épidémies ou mesures de sécurité, comme lors du Covid).
+- Prix plus élevé (même avec l’aide CMG).
+- L’aide CAF (CMG) ne couvre jamais 100%. Le reste à charge peut grimper.
+- La plupart des micro-crèches PAJE prévoient contractuellement une révision annuelle de leur grille tarifaire ( pour tenir compte de l'inflation, des charges, etc ...) Le montant peut donc augmenter d'une année sur l'autre indépendamment de la revalorisation du CMG par la CAF, le parent supporte la différence éventuelle.
+- Fermetures possibles (grèves, journées pédagogiques, épidémies comme lors du Covid).  
 - Le ratio d'encadrement en micro-crèche (généralement 1 adulte pour 3 enfants, mais pouvant aller jusqu'à 1 pour 6) offre un avantage par rapport aux crèches classiques (1 pour 5 bébés ou 1 pour 8 enfants marcheurs), tout en restant moins individualisé que chez une assistante maternelle, la flexibilité du ratio dépendant de l'organisation et de l'âge des enfants accueillis.
 - Le financement des crèches par la CAF, conditionné par leur taux de remplissage, peut inciter certaines structures à recourir à l'accueil en surnombre encadré (jusqu'à 115% de la capacité journalière, mais sans dépasser 100% de la capacité hebdomadaire), une pratique réglementée permettant de répondre à la demande mais pouvant impacter la qualité d’accueil et le bien-être des enfants.
 - Certaines structures d'accueil peinent à appliquer leurs approches pédagogiques innovantes, comme Montessori ou le bilinguisme, en raison d'un manque chronique de personnel qualifié.
 - Risque accru de maladies infantiles en raison de la proximité des enfants, ce qui entraîne des règles d'accueil plus strictes pour les enfants malades afin de limiter la propagation des infections.
-- Selon la structure d'accueil, les enfants peuvent être confrontés à un environnement relativement sédentaire et peu varié, caractérisé par des sorties extérieures limitées ou répétitives, ce qui peut restreindre leurs opportunités d'exploration et de contact direct avec la nature.
+- Environnement parfois peu varié si fermé sur lui-même.
+
+
+<div class="highlighted-note">
+  <p><strong>Certaines micro-crèches facturent plus de 1 000 €/mois.l</strong> 
+Le CMG est souvent plafonné à 712 à 984 €/mois → le reste à payer est pour vous.</p>
+</div>
 
 ---
 
@@ -158,10 +193,16 @@ Une micro-crèche fonctionne comme une crèche collective avec un nombre d'enfan
 
 <br>
 
-La crèche familiale combine l’accueil chez une **assistante maternelle agréée** avec des temps collectifs en crèche. Ce mode d'accueil est un compromis entre la crèche collective et l'assistante maternelle.
+**Qui accueille mon enfant ?** 
+Une assistante maternelle agréée, salariée d’une crèche municipale. Garde à son domicile + quelques activités en groupe.
+
+**Quel tarif ?** 
+Tarification PSU comme en crèche publique.
+
 
 **Avantages :** 
 
+- Mode de garde plus souple.
 - Gestion administrative simplifiée par la structure, l'aspect financier n'est pas abordé entre le professionnel et la famille ce qui limite les litiges entre parents et professionnelles.  
 - Grâce à l'agrément qui limite le nombre d'enfants, les sorties quotidiennes et variées en extérieur sont facilitées, ce qui contribue à réduire la sédentarité et à minimiser l'exposition à la pollution.
 - En cas d’absence de l’assistante maternelle, un remplacement est assuré.
@@ -178,15 +219,19 @@ La crèche familiale combine l’accueil chez une **assistante maternelle agré�
 
 <br>
 
-Les MAM sont des structures où plusieurs **assistantes maternelles** se regroupent pour accueillir les enfants. Cela combine les avantages de l’accueil individuel et l’aspect plus collectif d’une crèche. 
+**Qui accueille mon enfant ?** 
+Plusieurs assistantes maternelles, regroupées dans un local professionnel.
+
+**Quel tarif ?** 
+Tarif libre négocié avec la professionnelle. Aide CMG versée par la CAF.
 
 **Avantages :** 
 
 - Un environnement plus familial et personnalisé que dans une crèche, la capacité d’accueil dépend du nombre d'assistantes maternelles et de leurs agréments individuels.
 - Professionnelles qualifiées par la formation initiale qui est obligatoire pour obtenir l'agrément et les formations continues.
-- Les assistantes maternelles travaillent en équipe, offrant un cadre dynamique.
+- Environnement familial + dynamique d’équipe.
 - Pas de dépassement du nombre d’enfants autorisé grâce à l'agrément, garantissant un accueil sécurisé.
-- En cas d'absence d'une assistante maternelle référente, la continuité de la garde peut être assurée par délégation, dans le respect des agréments.
+- Continuité en cas d’absence (roulement possible entre professionnelles).
 
 **Inconvénients :** 
 
@@ -200,13 +245,17 @@ Les MAM sont des structures où plusieurs **assistantes maternelles** se regroup
 
 <br>
 
-La garde à domicile parentale est une solution de garde d'enfants qui consiste à embaucher une auxiliaire parentale, communément appelée "nounou", au domicile des parents. Cette professionnelle peut être employée directement par la famille ou intervenir par l'intermédiaire d'une agence spécialisée. 
+**Qui accueille mon enfant ?** 
+Une professionnelle (auxiliaire parentale) chez vous, seule ou par l’intermédiaire d’une agence agréée.
+
+**Quel tarif ?** 
+Tarif libre. Aide CAF possible via le CMG à domicile (souvent plus faible que pour assmat/crèche).
 
 **Avantages :** 
 
-- L’enfant reste dans son environnement habituel, ce qui facilite la transition après le congé maternité.
-- Idéale pour les familles avec des horaires atypiques ou des fratries.
-- Pas de transports quotidiens pour déposer vos enfants.
+- L’enfant reste dans son environnement.
+- Idéal pour les fratries.
+- Adaptée aux horaires atypiques.
 - Une garde à domicile peut aussi prendre en charge certaines tâches domestiques, à définir lors de la signature du contrat.
 - Les auxiliaires parentales, ou nounous à domicile, bénéficient d'une flexibilité similaire à celle des assistantes maternelles en ce qui concerne l'accueil des enfants malades. Contrairement aux crèches, elles ne sont pas soumises à des règles d'éviction strictes et peuvent adopter des pratiques plus souples, en accord avec les parents employeurs
 
@@ -215,8 +264,8 @@ La garde à domicile parentale est une solution de garde d'enfants qui consiste 
 
 - Moins de socialisation avec d’autres enfants.
 - Embaucher une garde à domicile implique de partager son espace privée, ce qui peut poser des enjeux d'intimité.
-- Coût généralement plus élevé que les autres options.
-- Risque de litiges administratifs ou financiers si la gestion n’est pas bien clarifiée entre parents et la nounou.
+- Coût souvent élevé (plus de 1 200 €/mois).
+- Conflits possibles si contrat mal rédigé.
 - Contrairement aux assistantes maternelles ou aux professionnels en crèche, la plupart des nounous à domicile n'ont pas de formation ou de diplôme spécifique obligatoire.
 
 ---
@@ -225,13 +274,17 @@ La garde à domicile parentale est une solution de garde d'enfants qui consiste 
 
 <br>
 
-Une **assistante maternelle agréée** accueille un petit nombre d’enfants chez elle, offrant ainsi une attention personnalisée. Elle privilégie les sorties et les moments en extérieur, dans un cadre familial.
+**Qui accueille mon enfant ?** 
+Une assistante maternelle accueille un petit nombre d’enfants chez elle, selon un contrat librement négocié avec vous.
+
+**Quel tarif ?** 
+Tarif libre, défini ensemble. Aide mensuelle CMG versée par la CAF, en fonction de vos revenus.
 
 **Avantages :** 
 
 - Vous choisissez le professionnel avec lequel vous vous sentez le plus à l’aise.
 - Grâce à l'agrément qui limite le nombre d'enfants, les sorties quotidiennes et variées en extérieur sont facilitées, ce qui contribue à réduire la sédentarité et à minimiser l'exposition à la pollution.
-- Pas de dépassement du nombre d’enfants autorisé grâce à l'agrément, garantissant un accueil sécurisé.
+- Très bon ratio : max 4 enfants de moins de 3 ans.
 - Moins de risques de grèves ou d'arrêts maladie fréquents grâce aux plannings validés par les deux parties, contrairement aux crèches. Le professionnel adapte son environnement de travail en fonction de ses capacités (tous contrats confondus, sur 5, 4, 3 ou 2 jours, ou avec des semaines d'absence supérieures ou égales à 5 semaines par exemple).
 - Ce mode de garde peut présenter un avantage financier à long terme, notamment si le tarif horaire demeure stable toute la durée du contrat, et peut s'avérer compétitif par rapport aux crèches, en fonction de leurs politiques tarifaires respectives.
 - Professionnelle qualifiées par la formation initiale qui est obligatoire pour obtenir l'agrément et les formations continues.
@@ -243,6 +296,12 @@ Une **assistante maternelle agréée** accueille un petit nombre d’enfants che
 - En cas d’arrêt de l’assistante maternelle (maladie, congés), il est nécessaire de prévoir une solution de remplacement mais le parent choisi le professionnel en fonction de ses critères.
 
 ---
+
+
+
+
+
+
 
 ### **<span id="differenciation">Ce qui me différencie des autres modes d'accueil à Brétigny-sur-Orge</span>** 
 
@@ -296,6 +355,9 @@ Vous souhaitez en savoir plus sur mon mode d’accueil et discuter de vos besoin
 ![Assistante maternelle à Brétigny-sur-Orge – Decouverte des escargots, découverte de la nature avec les enfants](/images/uploads/decouverte-bretigny91.jpg)
 
 ---
+
+
+
 
 ### **<span id="choix-bon">Comment faire le bon choix ?</span>** 
 
