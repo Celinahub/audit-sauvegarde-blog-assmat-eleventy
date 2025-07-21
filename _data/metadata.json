@@ -21,11 +21,12 @@
     "projet-accueil": "/presentation/parc-bretigny.jpg"
   },
   "navigation": [
-    { "title": "Accueil", "url": "/" },
-    { "title": "Projet d'accueil", "url": "/projet-accueil/" },
-    { "title": "Faq", "url": "/faq/" },
-    { "title": "Blog", "url": "/blog/" },
-    { "title": "Contact", "url": "/contact/" },
+    { "title": "ASSISTANTE MATERNELLE À BRÉTIGNY-SUR-ORGE", "url": "/" },
+    { "title": "PROJET D'ACCUEIL", "url": "/projet-accueil/" },
+    { "title": "FAQ", "url": "/faq/" },
+    { "title": "BLOG", "url": "/blog/" },
+    { "title": "SIMULATION COÛT CRECHE/ASSMAT 2025", "url": "/simulateur-cout-creche-assistante-maternelle/" },
+    { "title": "CONTACT", "url": "/contact/" },
     { "title": "Mentions légales", "url": "/mentions-legales/" }
   ]
 }
