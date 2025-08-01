@@ -99,7 +99,7 @@ Vous n'avez pas de piscine mais vous souhaitez une activité rafraîchissante et
 Cette activité peut être proposée à partir de 2 ans, en adaptant le matériel et en restant à proximité de l’enfant.
 
 **Puis-je proposer cette activité à l’intérieur ?**  
-Oui, avec un mur noir, une grande ardoise ou un sol lisse, à condition de protéger les surfaces si besoin.
+Oui, c’est tout à fait possible ! Il existe des tableaux ou ardoises magiques spécialement conçus pour être utilisés avec un stylo à réservoir d’eau. Ils permettent de reproduire le principe de l’activité sans mouiller le sol, parfait pour les jours de pluie ou les petits espaces.
 
 **Quels pinceaux utiliser ?**  
 Des gros pinceaux de bricolage, des rouleaux, voire des éponges fixées sur un bâton : tout ce qui peut absorber un peu d’eau fonctionne très bien.
