@@ -14,7 +14,7 @@ tags:
   - activités manuelles
   - éveil de l'imagination
 url: "https://chubert91assmat.netlify.app/posts/activites-enfant/activite-trace-eau-ete-bretigny/"
-image: "/images/uploads/sable-magique.jpg"
+image: "/images/uploads/activite-trace-eau-ete-bretigny.jpg"
 date: 2025-08-01
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/activite-trace-eau-ete-bretigny.jpg"
