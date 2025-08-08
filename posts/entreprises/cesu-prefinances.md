@@ -17,6 +17,7 @@ image: "/images/uploads/cesu.jpg"
 date: 2024-11-23
 category: "ENTREPRISES"
 featuredImage: "/images/uploads/cesu.jpg"
+imageAlt: "Cesu-préfinancés acceptés mode de garde à Brétigny-sur-Orge"
 ---
 
 
@@ -33,6 +34,7 @@ Découvrez comment le CESU préfinancé peut alléger le coût de la garde d’e
   <a href="#avantages-entreprise" class="styled-link-sommaire">• Quels sont les avantages pour l’entreprise ?</a>
    <a href="#comment-profiter" class="styled-link-sommaire">• Comment en profiter ?</a>
   <a href="#a-retenir" class="styled-link-sommaire">• À retenir</a>
+  <a href="#questions" class="styled-link-sommaire">• Foire aux questions (FAQ)</a>
 </div>
 
 ---
@@ -73,9 +75,9 @@ Vous pouvez demander le CESU préfinancé si :
 
 <br>
 
-- <strong>Réduction du reste à charge :</strong> Une partie de la garde est financée par l’employeur, ce qui allège vos dépenses,
-- <strong>Paiement simple et rapide :</strong> Moins de démarches administratives, paiement direct auprès de l’assistante maternelle,
-- <strong>Crédit d’impôt :</strong> le crédit d’impôt pour les particuliers est de 50 % sur la part qu’ils financent eux-mêmes, dans la limite annuelle prévue par la loi (plafond global de 12 000 € de dépenses pour les services à la personne, soit 6 000 € de crédit d’impôt maximum),
+- <strong>Réduction du reste à charge :</strong> grâce au financement partiel par l’employeur,
+- <strong>Modalités de paiement simplifiées et rapides,</strong> 
+- <strong>Crédit d’impôt :</strong> de 50% pour la part payée par le particulier,
 - <strong>Souplesse d’utilisation :</strong> Les CESU sont acceptés par de nombreux professionnels et organismes agréés.
 
 ### **<span id="avantages-entreprise">4. Quels sont les avantages pour l’entreprise ?</span>**
@@ -118,6 +120,110 @@ Vous pouvez demander le CESU préfinancé si :
 
 ### **<span id="a-retenir">6. À retenir</span>**
 Le CESU préfinancé est un vrai coup de pouce pour réduire vos frais de garde, simplifier vos démarches et améliorer la conciliation entre vie professionnelle et vie familiale. Il offre aussi des avantages fiscaux et sociaux aux entreprises qui le mettent en place. N’hésitez pas à en parler à votre employeur ou à votre service RH pour en bénéficier !
+
+---
+
+### **<span id="questions">5. Foire aux questions (FAQ)</span>**
+
+
+
+<dl>
+  <dt><strong>Qu’est-ce que le CESU préfinancé ?</strong></dt>
+  <dd>Le CESU préfinancé est un moyen de paiement dématérialisé financé par l’employeur ou comité d’entreprise, utilisé pour payer des services à la personne comme la garde d’enfants ou le ménage.</dd>
+
+  <dt><strong>Qui peut en bénéficier ?</strong></dt>
+  <dd>Les salariés (CDI, CDD, intérim) et les indépendants peuvent en bénéficier si leur employeur ou comité d’entreprise propose ce dispositif.</dd>
+
+  <dt><strong>Quels sont les plafonds d’exonération pour les entreprises ?</strong></dt>
+  <dd>Les versements CESU préfinancés sont exonérés de cotisations sociales jusqu’à 2 540 € par salarié et par an (plafond 2025).</dd>
+
+  <dt><strong>Comment utiliser les CESU préfinancés pour payer une assistante maternelle ?</strong></dt>
+  <dd>Vous payez directement en ligne via votre compte CESU, en utilisant le numéro d’affiliation nationale (NAN) fourni par votre assistante maternelle.</dd>
+
+  <dt><strong>Le CESU préfinancé est-il cumulable avec d’autres aides ?</strong></dt>
+  <dd>Oui, il peut être combiné avec d’autres aides telles que la PAJE ou les aides de la Caf.</dd>
+</dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Qu’est-ce que le CESU préfinancé ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le CESU préfinancé est un moyen de paiement dématérialisé financé par l’employeur ou comité d’entreprise, utilisé pour payer des services à la personne comme la garde d’enfants ou le ménage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qui peut en bénéficier ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les salariés (CDI, CDD, intérim) et les indépendants peuvent en bénéficier si leur employeur ou comité d’entreprise propose ce dispositif."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels sont les plafonds d’exonération pour les entreprises ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les versements CESU préfinancés sont exonérés de cotisations sociales jusqu’à 2 540 € par salarié et par an (plafond 2025)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment utiliser les CESU préfinancés pour payer une assistante maternelle ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vous payez directement en ligne via votre compte CESU, en utilisant le numéro d’affiliation nationale (NAN) fourni par votre assistante maternelle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Le CESU préfinancé est-il cumulable avec d’autres aides ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, il peut être combiné avec d’autres aides telles que la PAJE ou les aides de la Caf."
+      }
+    }
+  ]
+}
+</script>
+
+---
+
+
+
+<div class="highlighted-note">
+  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+</div>
+
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="source-box">
   <strong>Sources :</strong><br>

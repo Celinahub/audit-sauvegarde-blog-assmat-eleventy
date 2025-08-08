@@ -3,6 +3,8 @@ layout: layouts/base.njk
 bodyClass: "blog-posts-page"
 ---
 
+
+
 <div id="contenu-article">
 <article class="container-article my-4 visuel-content">
 
@@ -13,7 +15,8 @@ bodyClass: "blog-posts-page"
   </div>
 
   <div class="content-wrapper">
-    <img src="{{ featuredImage | url }}" alt="{{ imageAlt }}" class="img-fluid mx-auto d-block">
+   {% image featuredImage, imageAlt, '(min-width: 1024px) 100vw, (min-width: 768px) 75vw, 50vw' %}
+
 
     <!-- Boutons de partage -->
     <div class="d-flex justify-content-between align-items-center mt-3">

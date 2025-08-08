@@ -3,6 +3,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { fr } = require("date-fns/locale");
 const Image = require("@11ty/eleventy-img");
+const path = require("path");
 const htmlMinifier = require("html-minifier-terser"); // Plugin de minification HTML
 
 // URL de base centralisée
@@ -18,7 +19,7 @@ async function imageShortcode(src, alt = "", sizes = "100vw", width = 300, heigh
   const imageSrc = src.startsWith("/") ? `.${src}` : `./images/${src}`;
 
   try {
-    let metadata = await Image(imageSrc, {
+     let metadata = await Image(imageSrc, {
       widths: [width, 600, 1200].filter(Boolean),
       formats: ["webp", "jpeg", "png"],
       outputDir: "./_site/images/",
@@ -26,6 +27,11 @@ async function imageShortcode(src, alt = "", sizes = "100vw", width = 300, heigh
       cacheOptions: {
         duration: "1d",
         directory: ".cache",
+      },
+      filenameFormat: function(id, src, width, format, options) {
+        // Extraire le nom de fichier sans extension
+        const name = path.parse(src).name;
+        return `${name}-${width}.${format}`;
       }
     });
 
@@ -210,7 +216,6 @@ eleventyConfig.addFilter("truncateWords", function (content, numWords) {
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("google0b7250a45fd279a1.html");
   eleventyConfig.addPassthroughCopy("_redirects");
-  eleventyConfig.addPassthroughCopy("_headers");
 
   // Ajouter des alias pour les layouts
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
