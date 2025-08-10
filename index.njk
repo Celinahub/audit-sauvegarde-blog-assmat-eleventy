@@ -903,17 +903,42 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
-
-
 <script>
-  setTimeout(function() {
-    const script = document.createElement('script');
-    script.src = "//js-eu1.hs-scripts.com/144730300.js";
-    script.id = "hs-script-loader";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-  }, 3000); // Charger après 5 secondes
+document.addEventListener('DOMContentLoaded', function () {
+  if (typeof tarteaucitron !== 'undefined') {
+    tarteaucitron.services.hubspot_chatbot = {
+      "key": "hubspot_chatbot",
+      "type": "api",
+      "name": "Chatbot HubSpot",
+      "needConsent": true,
+      "cookies": ['hubspotutk', '__hssc', '__hssrc', '__hstc'],
+      "readmoreLink": "https://legal.hubspot.com/fr/privacy-policy",
+      "js": function () {
+        "use strict";
+        setTimeout(function() {
+          var script = document.createElement('script');
+          script.src = "//js-eu1.hs-scripts.com/144730300.js"; 
+          script.id = "hs-script-loader";
+          script.async = true;
+          script.defer = true;
+          document.body.appendChild(script);
+        }, 3000);
+      },
+      "fallback": function () {}
+    };
+
+    tarteaucitron.job = tarteaucitron.job || [];
+    tarteaucitron.job.push('hubspot_chatbot');
+
+  } else {
+    console.error("tarteaucitron n'est pas défini");
+  }
+});
 </script>
-<!-- End of HubSpot Embed Code -->
+
+
+
+
+
+
+

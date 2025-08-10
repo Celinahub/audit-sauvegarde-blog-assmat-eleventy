@@ -27,7 +27,7 @@
  <!-- Scripts JavaScript avec defer -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" defer></script>
   <script src="https://unpkg.com/scrollreveal"></script>
-
+  <script src="/tarteaucitron/tarteaucitron.min.js"></script>
 
 
 
@@ -64,17 +64,41 @@ var a = "chubert.assmat91";
 </script>
 
 
+
 <script>
-window.axeptioSettings = {
-  clientId: "677bdfe88af3f66f0fdf7b78",
-  cookiesVersion: "fr-06-01-2025",
-};
- 
-(function(d, s) {
-  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
-  e.async = true; e.src = "//static.axept.io/sdk.js";
-  t.parentNode.insertBefore(e, t);
-})(document, "script");
+  document.addEventListener('DOMContentLoaded', function () {
+    if (typeof tarteaucitron !== 'undefined') {
+      tarteaucitron.init({
+        "privacyUrl": "/politique-de-confidentialite",
+        "bodyPosition": "bottom",
+        "hashtag": "#tarteaucitron",
+        "cookieName": "tarteaucitron",
+        "orientation": "bottom",
+        "groupServices": true,
+        "showDetailsOnClick": true,
+        "serviceDefaultState": "wait",
+        "showAlertSmall": false,
+        "cookieslist": true,
+        "showIcon": true,
+        "iconPosition": "BottomLeft",
+        "DenyAllCta": true,
+        "AcceptAllCta": true,
+        "highPrivacy": true,
+        "mandatory": true,
+        "mandatoryCta": true,
+        "removeCredit": true,
+        "moreInfoLink": true,
+        "googleConsentMode": true,
+        "bingConsentMode": true,
+        "partnersList": true
+      });
+
+      tarteaucitron.job = tarteaucitron.job || [];
+      tarteaucitron.job.push('youtube');
+    } else {
+      console.error("tarteaucitron n'est pas défini");
+    }
+  });
 </script>
 
 

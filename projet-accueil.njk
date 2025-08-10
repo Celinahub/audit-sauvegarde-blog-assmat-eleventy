@@ -2061,23 +2061,59 @@ document.addEventListener("DOMContentLoaded", function () {
 </button>
 
 
-<script>
-  // Fonction pour charger le script HubSpot
-  function loadChatbot() {
-    const script = document.createElement('script');
-    script.src = "//js-eu1.hs-scripts.com/144730300.js";
-    script.id = "hs-script-loader";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-  }
 
-  // Ajouter l'événement au bouton
-  document.getElementById('load-chatbot').addEventListener('click', function() {
-    loadChatbot();
-    this.style.display = 'none'; // Cache le bouton une fois le script chargé
-  });
+
+
+
+
+<script>
+tarteaucitron.services.hubspot_chatbot = {
+  "key": "hubspot_chatbot",
+  "type": "api",
+  "name": "Chatbot HubSpot",
+  "needConsent": true,
+  "cookies": ['hubspotutk', '__hssc', '__hssrc', '__hstc'],
+  "readmoreLink": "https://legal.hubspot.com/fr/privacy-policy",
+  "js": function () {
+    "use strict";
+
+    // Fonction pour charger le script
+    function loadHubspotScript() {
+      if (!document.getElementById('hs-script-loader')) {
+        var script = document.createElement('script');
+        script.src = "//js-eu1.hs-scripts.com/144730300.js"; 
+        script.id = "hs-script-loader";
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+      }
+    }
+
+    // Attendre que le DOM soit prêt
+    document.addEventListener('DOMContentLoaded', function() {
+      var button = document.getElementById('load-chatbot');
+      if (button) {
+        button.addEventListener('click', function() {
+          loadHubspotScript();
+          button.style.display = 'none';
+        });
+      } else {
+        // Au cas où le bouton n'existe pas, charger directement (optionnel)
+        // loadHubspotScript();
+      }
+    });
+  },
+  "fallback": function () {}
+};
+
+tarteaucitron.job.push('hubspot_chatbot');
+
 </script>
+
+
+
+
+
 
 
 <!-- End of HubSpot Embed Code -->
