@@ -18,6 +18,7 @@ image: "/images/uploads/activite-trace-eau-ete-bretigny.jpg"
 date: 2025-08-01
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/activite-trace-eau-ete-bretigny.jpg"
+imageAlt: "Dessin de traces au pinceau à l'eau à Brétigny-sur-Orge"
 ---
 
 <br>
@@ -61,7 +62,7 @@ Il s'agit d'utiliser de l'eau à la place de la peinture, avec des pinceaux de d
 
 ---
 
-![Un pinceau posé sur une caisse remplie d'eau à l'ombre – Activité d'été à Brétigny-sur-Orge](/images/uploads/activite-eau-ete-bretigny.jpg)
+{% image "/images/uploads/activite-eau-ete-bretigny.jpg", "Un pinceau posé sur une caisse remplie d'eau à l'ombre – Activité d'été à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
 
 <br>
 
@@ -95,19 +96,70 @@ Vous n'avez pas de piscine mais vous souhaitez une activité rafraîchissante et
 
 ### <span id="questions">7. Foire aux questions (FAQ)</span>
 
-**À partir de quel âge proposer cette activité ?**  
-Cette activité peut être proposée à partir de 2 ans, en adaptant le matériel et en restant à proximité de l’enfant.
+<dl>
+  <dt><strong>À partir de quel âge proposer cette activité ?</strong></dt>
+  <dd>Cette activité peut être proposée à partir de 2 ans, en adaptant le matériel et en restant à proximité de l’enfant.</dd>
 
-**Puis-je proposer cette activité à l’intérieur ?**  
-Oui, c’est tout à fait possible ! Il existe des tableaux ou ardoises magiques spécialement conçus pour être utilisés avec un stylo à réservoir d’eau. Ils permettent de reproduire le principe de l’activité sans mouiller le sol, parfait pour les jours de pluie ou les petits espaces.
+  <dt><strong>Puis-je proposer cette activité à l’intérieur ?</strong></dt>
+  <dd>Oui c'est tout à fait possible ! Il existe des tableaux ou ardoises magiques spécialement conçus pour être utilisés avec un stylo à réservoir d’eau. Ils permettent de reproduire le principe de l’activité sans mouiller le sol, parfait pour les jours de pluie ou les petits espaces.</dd>
 
-**Quels pinceaux utiliser ?**  
-Des gros pinceaux de bricolage, des rouleaux, voire des éponges fixées sur un bâton : tout ce qui peut absorber un peu d’eau fonctionne très bien.
+  <dt><strong>Quels pinceaux utiliser ?</strong></dt>
+  <dd>Des gros pinceaux de bricolage, des rouleaux, voire des éponges fixées sur un bâton : tout ce qui peut absorber un peu d’eau fonctionne très bien.</dd>
+
+</dl>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "À partir de quel âge proposer cette activité ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cette activité peut être proposée à partir de 2 ans, en adaptant le matériel et en restant à proximité de l’enfant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je proposer cette activité à l’intérieur ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui c'est tout à fait possible ! Il existe des tableaux ou ardoises magiques spécialement conçus pour être utilisés avec un stylo à réservoir d’eau. Ils permettent de reproduire le principe de l’activité sans mouiller le sol, parfait pour les jours de pluie ou les petits espaces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels pinceaux utiliser ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Des gros pinceaux de bricolage, des rouleaux, voire des éponges fixées sur un bâton : tout ce qui peut absorber un peu d’eau fonctionne très bien."
+      }
+    }
+  ]
+}
+</script>
+
+
+
+
+
 
 ---
 
 ### Envie d'autres idées créatives pour occuper vos enfants ?
 
 <div class="button-wrapper">
-  <a href="/projet-accueil/#activites" target="_blank" class="btn btn-primary btn-article">Ma section activités →</a>
+  <a href="/projet-accueil/#activites" target="_blank" class="btn btn-primary btn-article">Consultez toutes mes activités pour les tout-petits →</a>
+</div>
+
+
+<br>
+
+<div class="highlighted-note">
+  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+</div>
+
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>

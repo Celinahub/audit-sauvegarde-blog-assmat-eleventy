@@ -16,9 +16,10 @@ image: "/images/uploads/mediatheque-bretigny.jpg"
 date: 2025-06-17
 category: "PETITE ENFANCE BRETIGNY-91" 
 featuredImage: "/images/uploads/mediatheque-bretigny.jpg"
+imageAlt: "Enfants à la médathèque à Brétigny-sur-Orge"
 ---
-<br>
 
+<br>
 
 Vous habitez Brétigny-sur-Orge ou ses environs et vous cherchez des idées de sorties adaptées à un bébé ou un tout-petit ?
 
@@ -53,6 +54,7 @@ Si vous êtes jeunes parents ou en recherche d’une assistante maternelle atten
   <a href="#amehorse" class="styled-link-sommaire">• Le centre équestre Ame Horse</a>
   <a href="#famille" class="styled-link-sommaire">• Sorties en Essonne en famille : mes lieux visités</a>
   <a href="#sorties" class="styled-link-sommaire">• Pourquoi ces sorties comptent pour les tout-petits</a>
+  <a href="#questions" class="styled-link-sommaire">• Foire aux questions (FAQ)</a>
 </div>
 
 ---
@@ -198,6 +200,69 @@ Ces sorties quotidiennes ne sont pas que de simples promenades :
 
 
 Ces idées de balades peuvent aussi inspirer les parents qui recherchent une assistante maternelle à Brétigny, ou simplement des activités adaptées aux bébés en Essonne.
+
+---
+
+### **<span id="questions">7. Foire aux questions (FAQ)</span>**
+
+
+
+<dl>
+  <dt><strong>Quels parcs sont adaptés aux bébés à Brétigny-sur-Orge ?</strong></dt>
+  <dd>Le Parc Claudie Haigneré, le Square Joliot-Curie et le Parc du Carouge sont particulièrement adaptés grâce à leurs espaces sécurisés, jeux adaptés et zones ombragées.</dd>
+
+  <dt><strong>La médiathèque Marguerite Duras accepte-t-elle les poussettes ?</strong></dt>
+  <dd>Oui, la médiathèque est facilement accessible aux poussettes et dispose d’un espace jeunesse calme et accueillant.</dd>
+
+  <dt><strong>Quelles activités faire avec un bébé en Essonne l’hiver ?</strong></dt>
+  <dd>Les sorties à la médiathèque, la visite d’événements comme le marché de Noël de Janvry, ou encore des promenades courtes dans les parcs restent idéales même en hiver.</dd>
+
+  <dt><strong>Les activités proposées sont-elles gratuites ?</strong></dt>
+  <dd>La plupart des parcs sont en accès libre. Certaines animations ou événements peuvent être payants, selon l’organisateur.</dd>
+</dl>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quels parcs sont adaptés aux bébés à Brétigny-sur-Orge ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le Parc Claudie Haigneré, le Square Joliot-Curie et le Parc du Carouge sont particulièrement adaptés grâce à leurs espaces sécurisés, jeux adaptés et zones ombragées."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "La médiathèque Marguerite Duras accepte-t-elle les poussettes ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, la médiathèque est facilement accessible aux poussettes et dispose d’un espace jeunesse calme et accueillant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelles activités faire avec un bébé en Essonne l’hiver ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les sorties à la médiathèque, la visite d’événements comme le marché de Noël de Janvry, ou encore des promenades courtes dans les parcs restent idéales même en hiver."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Les activités proposées sont-elles gratuites ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La plupart des parcs sont en accès libre. Certaines animations ou événements peuvent être payants, selon l’organisateur."
+      }
+    }
+  ]
+}
+</script>
+
+
+
 
 <br>
 

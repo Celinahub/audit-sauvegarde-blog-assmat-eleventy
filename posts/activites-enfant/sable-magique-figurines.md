@@ -19,6 +19,7 @@ image: "/images/uploads/sable-magique.jpg"
 date: 2024-10-07
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/sable-magique.jpg"
+imageAlt: "Manipulation du sable magique à Brétigny-sur-Orge"
 ---
 
 <br>
@@ -34,6 +35,8 @@ Le Sable Magique : Une Activité Ludique et Sensorielle pour les Tout-Petits: je
   <a href="#pourquoi" class="styled-link-sommaire">• Pourquoi proposer le sable magique ?</a>
   <a href="#seance" class="styled-link-sommaire">• Comment organiser une séance ?</a>
   <a href="#durable" class="styled-link-sommaire">• Une activité durable</a>
+  <a href="#recette" class="styled-link-sommaire">• Comment faire du sable magique maison ?</a>
+  <a href="#questions" class="styled-link-sommaire">• Foire aux questions (FAQ)</a>
 </div>
 
 ---
@@ -77,5 +80,128 @@ Le sable magique également appelé sable lunaire ou sable à modeler, est une m
 ### **<span id="durable">4. Une activité durable</span>**
 
 Le sable magique se conserve longtemps à condition de le garder dans un contenant hermétique. Cela en fait une activité à proposer régulièrement, adaptée aussi bien pour les jeux en solo que pour les ateliers en petit groupe.
+
+
+### **<span id="recette">5. Comment faire du sable magique maison ?</span>**
+
+### Ingrédients :
+- 7 tasses (ou mesures) de farine
+- 1 tasse (ou mesure) d’huile végétale (olive, tournesol, jojoba, amande douce… selon ce que vous avez)
+- Optionnel : colorants alimentaires ou craies colorées râpées pour ajouter de la couleur
+
+### Préparation :
+1. Dans un grand récipient, versez 7 tasses de farine. 
+2. Ajoutez 1 tasse d’huile végétale.  
+3. Mélangez avec les mains ou une cuillère jusqu’à obtenir une pâte sableuse qui ressemble à du sable mouillé : friable mais compacte quand on la presse.
+4. Si vous voulez colorer le sable, râpez des craies ou ajoutez quelques gouttes de colorant alimentaire, puis mélangez bien pour répartir la couleur.
+5. Conservez votre sable magique dans un contenant hermétique pour qu’il reste souple et prêt à l’emploi.
+
+
+---
+
+### **<span id="questions">4. Foire aux questions (FAQ)</span>**
+
+<dl>
+  <dt><strong>À partir de quel âge proposer le sable magique ?</strong></dt>
+  <dd>Dès 18-24 mois, avec surveillance et selon la motricité de l’enfant.</dd>
+
+  <dt><strong>Le sable magique est-il toxique ?</strong></dt>
+  <dd>Non, il est conçu pour les enfants, mieux vaut vérifier l’emballage et éviter l’ingestion.</dd>
+
+  <dt><strong>Comment nettoyer après l’activité ?</strong></dt>
+  <dd>Grâce à sa texture, le sable ne colle pas. Un coup de balayette suffit pour nettoyer la zone.</dd>
+
+  <dt><strong>Peut-on fabriquer du sable magique maison ?</strong></dt>
+  <dd>Oui, je partage une recette simple à base de farine et d’huile, pour une alternative économique et ludique.</dd>
+
+  <dt><strong>Comment conserver le sable magique ?</strong></dt>
+  <dd>Dans une boîte hermétique, à température ambiante, à l’abri de l’humidité.</dd>
+</dl>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "À partir de quel âge proposer le sable magique ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dès 18-24 mois, avec surveillance et selon la motricité de l’enfant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Le sable magique est-il toxique ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non, il est conçu pour les enfants, mieux vaut vérifier l’emballage et éviter l’ingestion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment nettoyer après l’activité ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Grâce à sa texture, le sable ne colle pas. Un coup de balayette suffit pour nettoyer la zone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on fabriquer du sable magique maison ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, je partage une recette simple à base de farine et d’huile, pour une alternative économique et ludique."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment conserver le sable magique ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dans une boîte hermétique, à température ambiante, à l’abri de l’humidité."
+      }
+    }
+  ]
+}
+</script>
+
+
+
+
+---
+
+### Envie d'autres idées créatives pour occuper vos enfants ?
+
+
+
+<div class="button-wrapper">
+   <a href="/projet-accueil/#activites" target="_blank" class="btn btn-primary btn-article">Consultez mes activités pour les tout-petits →</a>
+</div>
+
+<br>
+
+<div class="button-wrapper">
+ <a href="/posts/collectivite-rpe/recette-pate-a-patouille/" target="_blank" class="btn btn-primary btn-article">Consultez la recette de la pâte à patouille →</a>
+</div>
+
+
+
+
+
+
+
+<br>
+
+<div class="highlighted-note">
+  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+</div>
+
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+</div>
+
+
+
 
 

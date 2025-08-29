@@ -17,6 +17,7 @@ image: "/images/uploads/pot.jpg"
 date: 2024-11-24
 category: "HYGIÈNE / SOINS"
 featuredImage: "/images/uploads/pot.jpg"
+imageAlt: "Enfant sur le pot à Brétigny-sur-Orge"
 ---
 
 <br>
@@ -33,6 +34,7 @@ L’acquisition de la propreté est une étape clé dans le développement de ch
    <a href="#facteurs" class="styled-link-sommaire">• Plusieurs facteurs peuvent perturber ou ralentir la réussite de l'acquisition de la propreté</a>
   <a href="#processus" class="styled-link-sommaire">• Les processus d’évolution vers l’acquisition de la propreté</a>
   <a href="#activites" class="styled-link-sommaire">• Les activités en lien avec l'acquisition de la propreté</a>
+  <a href="#questions" class="styled-link-sommaire">• Foire aux questions (FAQ)</a>
 </div>
 
 ---
@@ -112,6 +114,91 @@ Si je devais résumer cet article en trois mots, ce seraient : observation, conf
 
 
 <br><br>
+
+
+---
+
+### **<span id="questions">7. Foire aux questions (FAQ)</span>**
+
+
+
+<dl>
+  <dt><strong>À quel âge commencer l’apprentissage de la propreté ?</strong></dt>
+  <dd>Chaque enfant évolue à son rythme. Il est préférable d’attendre que des signes de préparation apparaissent.</dd>
+
+  <dt><strong>Mon enfant refuse le pot, que faire ?</strong></dt>
+  <dd>Ne forcez pas. Proposez régulièrement mais sans pression. Laissez l’enfant observer, manipuler le pot et associez cette étape à des moments positifs.</dd>
+
+  <dt><strong>Combien de temps dure l’acquisition de la propreté ?</strong></dt>
+  <dd>Cela varie : certains enfants sont propres en quelques semaines, d’autres mettent plusieurs mois. Patience et constance sont essentielles.</dd>
+
+  <dt><strong>Faut-il enlever la couche la nuit en même temps que le jour ?</strong></dt>
+  <dd>Il est préférable d’attendre que l’enfant ait des nuits sèches régulières avant de supprimer la couche nocturne.</dd>
+
+  <dt><strong>Les accidents sont-ils normaux après l’acquisition ?</strong></dt>
+  <dd>Oui, une régression peut survenir en cas de stress, de changement ou de fatigue. Rassurez votre enfant et poursuivez l’accompagnement.</dd>
+</dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "À quel âge commencer l’apprentissage de la propreté ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chaque enfant évolue à son rythme. Il est préférable d’attendre que des signes de préparation apparaissent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Mon enfant refuse le pot, que faire ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ne forcez pas. Proposez régulièrement mais sans pression. Laissez l’enfant observer, manipuler le pot et associez cette étape à des moments positifs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps dure l’acquisition de la propreté ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cela varie : certains enfants sont propres en quelques semaines, d’autres mettent plusieurs mois. Patience et constance sont essentielles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Faut-il enlever la couche la nuit en même temps que le jour ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Il est préférable d’attendre que l’enfant ait des nuits sèches régulières avant de supprimer la couche nocturne."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Les accidents sont-ils normaux après l’acquisition ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, une régression peut survenir en cas de stress, de changement ou de fatigue. Rassurez votre enfant et poursuivez l’accompagnement."
+      }
+    }
+  ]
+}
+</script>
+
+---
+
+
+
+<div class="highlighted-note">
+  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+</div>
+
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+</div>
 
 
 ---

@@ -18,6 +18,7 @@ image: "/images/uploads/ecole-bretigny-sur-orge.jpg"
 date: 2025-01-21
 category: "PETITE ENFANCE BRETIGNY-91" 
 featuredImage: "/images/uploads/ecole-bretigny-sur-orge.jpg"
+imageAlt: "Enfant rentrant à l’école maternelle de Brétigny-sur-Orge"
 ---
 
 <br>
@@ -38,6 +39,7 @@ C’est une question que chaque parent se pose à l’approche de la rentrée sc
   <a href="#familiarisation" class="styled-link-sommaire">• Une familiarisation progressive avec l’école</a>
   <a href="#administratif" class="styled-link-sommaire">• Démarches administratives</a>
   <a href="#profitez" class="styled-link-sommaire">• Profitez de la petite enfance, un âge d’exploration</a>
+  <a href="#questions" class="styled-link-sommaire">• Foire aux questions (FAQ)</a>
 </div>
 
 ---
@@ -92,6 +94,84 @@ Les inscriptions scolaires pour la rentrée à Brétigny-sur-Orge sont ouvertes 
 
 Avant de nouvelles aventures à l'école, votre enfant a encore beaucoup à explorer "Chez Céline". La petite enfance est une période riche en découvertes et en apprentissages, et chaque moment contribue à préparer cette étape importante qu’est l’entrée à l’école.
 
+---
 
+### **<span id="questions">Foire aux questions (FAQ)</span>**
+
+
+
+<dl>
+  <dt><strong>Mon enfant doit-il être propre pour l’entrée en maternelle ?</strong></dt>
+  <dd>La propreté est encouragée mais pas obligatoire. L’école accueille tous les enfants dès 3 ans, même si l’apprentissage est encore en cours.</dd>
+
+  <dt><strong>Comment préparer mon enfant à se séparer de moi ?</strong></dt>
+  <dd>Habituez-le à de petites séparations, parlez-lui du déroulement de sa journée avec des étapes simples et rassurantes, et précisez toujours qui viendra le chercher en fin de journée (papa ou maman).</dd>
+
+  <dt><strong>À quel âge faut-il inscrire son enfant à l’école maternelle de Brétigny-sur-Orge ?</strong></dt>
+  <dd>L’inscription en maternelle se fait au début de l’année civile de la rentrée, généralement entre janvier et février, directement sur le site de la mairie. Par exemple, pour une rentrée en septembre 2025, les inscriptions sont ouvertes en janvier 2025.</dd>
+
+  <dt><strong>Qu’est-ce qu’une ATSEM et quel est son rôle ?</strong></dt>
+  <dd>L’ATSEM (Agent Territorial Spécialisé des Écoles Maternelles) est une professionnelle qui accompagne l’enseignant au quotidien. Elle aide les enfants dans les gestes de la vie courante (habillage, passage aux toilettes, mise en place des activités), ce qui rassure les plus jeunes lors de leur première rentrée.</dd>
+
+ 
+</dl>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Mon enfant doit-il être propre pour l’entrée en maternelle ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La propreté est encouragée mais pas obligatoire. L’école accueille tous les enfants dès 3 ans, même si l’apprentissage est encore en cours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment préparer mon enfant à se séparer de moi ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Habituez-le à de petites séparations, parlez-lui du déroulement de sa journée avec des étapes simples et rassurantes, et précisez toujours qui viendra le chercher en fin de journée (papa ou maman)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "À quel âge faut-il inscrire son enfant à l’école maternelle de Brétigny-sur-Orge ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "L’inscription en maternelle se fait au début de l’année civile de la rentrée, généralement entre janvier et février, directement sur le site de la mairie. Par exemple, pour une rentrée en septembre 2025, les inscriptions sont ouvertes en janvier 2025."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qu’est-ce qu’une ATSEM et quel est son rôle ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "L’ATSEM (Agent Territorial Spécialisé des Écoles Maternelles) est une professionnelle qui accompagne l’enseignant au quotidien. Elle aide les enfants dans les gestes de la vie courante (habillage, passage aux toilettes, mise en place des activités), ce qui rassure les plus jeunes lors de leur première rentrée."
+      }
+    }
+  ]
+}
+</script>
+
+
+---
+
+
+<div class="highlighted-note">
+  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+</div>
+
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+</div>
+
+
+
+
+
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
 
 

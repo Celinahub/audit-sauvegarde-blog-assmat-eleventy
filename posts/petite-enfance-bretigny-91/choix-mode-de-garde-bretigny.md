@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
-title: "Le choix du mode d'accueil : sur quels critères ?"
-description: "Découvrez les différents modes de garde disponibles à Brétigny-sur-Orge : crèche, assistante maternelle, MAM, garde à domicile. Avantages, inconvénients et conseils pour bien choisir."
+title: "Mode de garde à Brétigny-sur-Orge : crèche ou assistante maternelle ?"
+description: "Comparez crèche, assistante maternelle, MAM ou garde à domicile à Brétigny-sur-Orge (91). Avantages, tarifs, aides CAF et conseils pour choisir le mode de garde idéal."
 tags: 
   - petite-enfance-bretigny-91
   - Brétigny-sur-Orge  
@@ -15,6 +15,7 @@ image: "/images/uploads/mode-de-garde-bretigny91.jpg"
 date: 2025-03-11
 category: "PETITE ENFANCE BRETIGNY-91" 
 featuredImage: "/images/uploads/mode-de-garde-bretigny91.jpg"
+imageAlt: "Enfants chez une assistante maternelle à Brétigny-sur-Orge"
 ---
 
 <br>
@@ -40,6 +41,7 @@ Heureusement, plusieurs solutions existent, chacune avec ses avantages et ses in
   <a href="#assmat-independante" class="styled-link-sommaire">• L’assistante maternelle agréée indépendante</a>
   <a href="#differenciation" class="styled-link-sommaire">• Ce qui me différencie des autres modes d'accueil à Brétigny-sur-Orge</a>
   <a href="#choix-bon" class="styled-link-sommaire">• Comment faire le bon choix ?</a>
+  <a href="#questions" class="styled-link-sommaire">• Foire aux questions (FAQ)</a>
   <a href="#votre-decision" class="styled-link-sommaire">• Votre décision</a>
 </div>
 
@@ -372,12 +374,97 @@ Le choix du mode d’accueil dépend de plusieurs critères :
 Je conseille de visiter les structures et de rencontrer les professionnels avant de faire votre choix. Échanger avec d’autres parents peut également apporter un éclairage intéressant. Les avantages/inconvénients de chaque solution peuvent évoluer en fonction de la structure et du professionnel. Assurez-vous que le projet d’accueil soit bien mis en place et durable afin d’éviter toute déception.
 
 
+---
+
+### **<span id="questions">Foire aux questions (FAQ)</span>**
+
+
+
+<dl>
+  <dt><strong>Quels sont les modes de garde les moins chers à Brétigny-sur-Orge ?</strong></dt>
+  <dd>En général, les crèches municipales ou associatives conventionnées CAF sont les plus économiques. Les assistantes maternelles indépendantes peuvent aussi être très compétitives selon le tarif horaire et les aides CMG.</dd>
+
+  <dt><strong>Quelles aides puis-je recevoir de la CAF pour la garde de mon enfant ?</strong></dt>
+  <dd>Selon le mode de garde choisi, vous pouvez bénéficier de la PSU (tarif réduit en crèche conventionnée), du CMG (complément de libre choix du mode de garde) ou de la PAJE. Ces aides allègent considérablement le reste à charge.</dd>
+
+  <dt><strong>Puis-je trouver une assistante maternelle avec jardin à Brétigny-sur-Orge ?</strong></dt>
+  <dd>Oui, certaines assistantes maternelles, dont moi-même, proposent un accueil en maison individuelle avec jardin, permettant aux enfants de profiter de sorties quotidiennes et de jeux en extérieur.</dd>
+
+  <dt><strong>En quoi l’accueil chez une assistante maternelle diffère-t-il de la crèche ?</strong></dt>
+  <dd>Chez moi, l’accueil est familial et cocooning, avec maximum 3 enfants accueillis à la journée, chacun ayant sa propre chambre. C’est un cadre plus rassurant et individualisé que les locaux collectifs impersonnels.</dd>
+
+  <dt><strong>Quelles sont vos qualifications ?</strong></dt>
+  <dd>Je suis titulaire du CAP AEPE (Accompagnant éducatif petite enfance) et j’effectue régulièrement des formations continues pour améliorer la qualité de mon accueil.</dd>
+</dl>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quels sont les modes de garde les moins chers à Brétigny-sur-Orge ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En général, les crèches municipales ou associatives conventionnées CAF sont les plus économiques. Les assistantes maternelles indépendantes peuvent aussi être très compétitives selon le tarif horaire et les aides CMG."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelles aides puis-je recevoir de la CAF pour la garde de mon enfant ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Selon le mode de garde choisi, vous pouvez bénéficier de la PSU (tarif réduit en crèche conventionnée), du CMG (complément de libre choix du mode de garde) ou de la PAJE. Ces aides allègent considérablement le reste à charge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je trouver une assistante maternelle avec jardin à Brétigny-sur-Orge ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, certaines assistantes maternelles, dont moi-même, proposent un accueil en maison individuelle avec jardin, permettant aux enfants de profiter de sorties quotidiennes et de jeux en extérieur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "En quoi l’accueil chez une assistante maternelle diffère-t-il de la crèche ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chez moi, l’accueil est familial et cocooning, avec maximum 3 enfants accueillis à la journée, chacun ayant sa propre chambre. C’est un cadre plus rassurant et individualisé que les locaux collectifs impersonnels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelles sont vos qualifications ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Je suis titulaire du CAP AEPE (Accompagnant éducatif petite enfance) et j’effectue régulièrement des formations continues pour améliorer la qualité de mon accueil."
+      }
+    }
+  ]
+}
+</script>
+
 
 ---
 
 ### **<span id="votre-decision">Votre décision</span>** 
 
 Le choix du mode de garde est une décision influencée par de nombreux facteurs : budget, besoins spécifiques de l’enfant, flexibilité et proximité. Chaque famille a des priorités différentes, et il n’existe pas de solution idéale pour tout le monde. L’essentiel est de trouver une option qui vous permettra de reprendre le travail en toute sérénité, tout en garantissant le bien-être de votre enfant.
+
+---
+
+
+
+<div class="highlighted-note">
+  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+</div>
+
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+</div>
+
+
 
 
 

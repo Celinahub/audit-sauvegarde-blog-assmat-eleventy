@@ -11,11 +11,12 @@ tags:
   - éveil-sensoriel
   - assistante-maternelle
   - bien-être-enfant
-url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/chasse-aux-oeufs-rpe-bretigny/"
+url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/chasse-aux-oeufs-bretigny/"
 image: "/images/uploads/chasse-aux-oeufs-rpe-bretigny.jpg"
 date: 2025-04-29
 category: "LA COLLECTIVITE GRÂCE AU RPE" 
 featuredImage: "/images/uploads/chasse-aux-oeufs-rpe-bretigny.jpg"
+imageAlt: "Récolte de la chasse aux oeufs à Brétigny-sur-Orge"
 ---
 
 <br>
@@ -31,6 +32,7 @@ Rendez-vous incontournable pour les grands et les petits, la chasse aux œufs an
   <a href="#deroulement" class="styled-link-sommaire">• Comment se déroule l’activité ?</a>
   <a href="#apprentissage" class="styled-link-sommaire">• Une activité riche en apprentissages</a>
   <a href="#relation" class="styled-link-sommaire">• La relation adulte-enfant renforcée</a>
+  <a href="#questions" class="styled-link-sommaire">• Foire aux questions (FAQ)</a>
 </div>
 
 ---
@@ -46,7 +48,9 @@ Une fois la chasse terminée, chacun repart avec son petit sachet de chocolats :
 
 <br>
 
-![Assistante maternelle à Brétigny-sur-Orge – les oeufs sont disposés sur l'herbe en vrac](/images/uploads/chasse-aux-oeufs-bretigny.jpg)
+
+{% image "/images/uploads/chasse-aux-oeufs-bretigny.jpg", "Les oeufs sont disposés sur l'herbe en vrac – Activité pour pâques à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
+
 
 ### **<span id="apprentissage">3. Une activité riche en apprentissages</span>**
 
@@ -74,11 +78,81 @@ Une fois la chasse terminée, chacun repart avec son petit sachet de chocolats :
 Les enfants rient, s’observent, s’encouragent.
 L’enthousiasme est communicatif et renforce les liens sociaux dès le plus jeune âge.
 
-![Assistante maternelle à Brétigny-sur-Orge – Sachet de chocolat sur l'herbe](/images/uploads/chasse-aux-oeufs-bretigny91.jpg)
+
+{% image "/images/uploads/chasse-aux-oeufs-bretigny.jpg", "Sachet de chocolat sur l'herbe – Activité pour pâques à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
+
 
 ### **<span id="relation">4. La relation adulte-enfant renforcée</span>**
 En tant qu’assistante maternelle, je vois dans cette activité bien plus qu’un simple jeu de plein air.
 C’est une occasion d’observer l’enfant en mouvement, dans un cadre stimulant et sécurisant.
 C’est aussi un moment qui nourrit la relation adulte-enfant par l’accompagnement et l’encouragement.
 
-Bonne dégustation à nos petits gourmands!
+### **<span id="questions">5. Foire aux questions (FAQ)</span>**
+
+<dl>
+  <dt><strong>À partir de quel âge participer à la chasse aux œufs ?</strong></dt>
+  <dd>Dès 18 mois, avec accompagnement, sinon dès 2-3 ans pour une participation active.</dd>
+
+  <dt><strong>Peut-on organiser une chasse aux œufs en intérieur ?</strong></dt>
+  <dd>Oui, en cachant des œufs dans la salle ou sous des coussins, idéal en cas de pluie.</dd>
+
+  <dt><strong>Quels œufs privilégier ?</strong></dt>
+  <dd>Des œufs plastiques réutilisables ou des petits chocolats adaptés à l’âge des enfants.</dd>
+</dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "À partir de quel âge participer à la chasse aux œufs ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dès 18 mois, avec accompagnement, sinon dès 2-3 ans pour une participation active."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on organiser une chasse aux œufs en intérieur ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, en cachant des œufs dans la salle ou sous des coussins, idéal en cas de pluie."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels œufs privilégier ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Des œufs plastiques réutilisables ou des petits chocolats adaptés à l’âge des enfants."
+      }
+    }
+  ]
+}
+</script>
+
+
+---
+
+### Envie d'autres idées créatives pour occuper vos enfants ?
+
+<div class="button-wrapper">
+  <a href="/projet-accueil/#activites" target="_blank" class="btn btn-primary btn-article">Consultez toutes mes activités pour les tout-petits →</a>
+</div>
+
+
+<br>
+
+<div class="highlighted-note">
+  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+</div>
+
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+</div>
+
+<br>
+
+Et bonne dégustation à nos petits gourmands!

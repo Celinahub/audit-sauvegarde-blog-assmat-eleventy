@@ -16,6 +16,7 @@ image: "/images/uploads/tampon-pomme.jpg"
 date: 2024-10-20
 category: "LA COLLECTIVITE GRÂCE AU RPE"
 featuredImage: "/images/uploads/tampon-pomme.jpg"
+imageAlt: "Activité peinture à l'aide de pommes au rpe à Brétigny-sur-Orge"
 ---
 
 <br>
@@ -27,6 +28,7 @@ Cette activité est un clin d’œil à la **semaine du goût**, qui s’est dé
   <a href="#semaine" class="styled-link-sommaire">• Qu'est ce que la semaine du goût ?</a>
   <a href="#deroulement" class="styled-link-sommaire">• Déroulement de l’activité</a>
   <a href="#benefices" class="styled-link-sommaire">• Les bénéfices de cette activité</a>
+  <a href="#questions" class="styled-link-sommaire">• Foire aux questions (FAQ)</a>
 </div>
 
 
@@ -73,6 +75,94 @@ Les premières créations artistiques des tout-petits rappellent les traces lais
 
 Cette initiative combine découverte sensorielle, créativité et exploration alimentaire, tout en rappelant l’importance des textures et des couleurs qui se mélangent comme lors des repas.
 
+---
+
+### **<span id="questions">4. Foire aux questions (FAQ)</span>**
+
+<dl>
+  <dt><strong>À partir de quel âge proposer cette activité ?</strong></dt>
+  <dd>Dès 18-24 mois, en surveillant la manipulation des pommes.</dd>
+
+  <dt><strong>La peinture utilisée doit-elle être spéciale ?</strong></dt>
+  <dd>Oui, l'idéal est d’utiliser une peinture alimentaire ou lavable, adaptée aux tout-petits.</dd>
+
+  <dt><strong>Quels sont les bienfaits de peindre avec une pomme ?</strong></dt>
+  <dd>Découverte sensorielle, prévention de la néophobie alimentaire, stimulation de la créativité et de la motricité fine.</dd>
+
+  <dt><strong>Peut-on faire cette activité avec d’autres fruits ?</strong></dt>
+  <dd>Bien sûr ! Les poires, oranges ou pommes de terre offrent des textures et empreintes différentes.</dd>
+
+  <dt><strong>Cette activité salit-elle beaucoup ?</strong></dt>
+  <dd>Non, il suffit de protéger la table et d’habiller les enfants avec des tabliers pour limiter les salissures.</dd>
+</dl>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "À partir de quel âge proposer cette activité ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dès 18-24 mois, en surveillant la manipulation des pommes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "La peinture utilisée doit-elle être spéciale ?
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, l'idéal est d’utiliser une peinture alimentaire ou lavable, adaptée aux tout-petits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels sont les bienfaits de peindre avec une pomme ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Découverte sensorielle, prévention de la néophobie alimentaire, stimulation de la créativité et de la motricité fine."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on faire cette activité avec d’autres fruits ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bien sûr ! Les poires, oranges ou pommes de terre offrent des textures et empreintes différentes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cette activité salit-elle beaucoup ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non, il suffit de protéger la table et d’habiller les enfants avec des tabliers pour limiter les salissures."
+      }
+    }
+  ]
+}
+</script>
+
+
+---
+
+### Envie d'autres idées créatives pour occuper vos enfants ?
+
+<div class="button-wrapper">
+  <a href="/projet-accueil/#activites" target="_blank" class="btn btn-primary btn-article">Consultez toutes mes activités pour les tout-petits →</a>
+</div>
+
+
+<br>
+
+<div class="highlighted-note">
+  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+</div>
+
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+</div>
 
 
 

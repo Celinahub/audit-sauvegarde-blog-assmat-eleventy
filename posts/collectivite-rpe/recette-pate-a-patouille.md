@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
-title: "La recette de la pâte à patouille : texture à découvrir"
-description: "Matière visqueuse et très étrange, les enfants découvriront une texture unique qui change selon la manipulation."
+title: "Pâte à patouille : activité sensorielle à Brétigny"
+description: "Activité sensorielle simple à base de Maïzena, à réaliser avec les enfants dès 2 ans à la maison ou chez l'assistante maternelle à Brétigny-sur-Orge."
 tags: 
   - rpe
   - enfants
@@ -9,7 +9,7 @@ tags:
   - semaine du goût
   - éveil des sens
   - motricité fine
-  - travailler le concentration
+  - travailler la concentration
   - activité sensorielle maison
   - recette pâte étrange
   - pâte à patouille comestible
@@ -20,6 +20,7 @@ image: "/images/uploads/pate-patouille-rpe-bretigny.jpg"
 date: 2025-08-04
 category: "LA COLLECTIVITE GRÂCE AU RPE"
 featuredImage: "/images/uploads/pate-patouille-rpe-bretigny.jpg"
+imageAlt: "Enfant jouant avec de la pâte à patouille à Brétigny-sur-Orge"
 ---
 
 <br>
@@ -27,6 +28,7 @@ featuredImage: "/images/uploads/pate-patouille-rpe-bretigny.jpg"
 ## Une activité sensorielle facile à préparer
 
 Votre enfant a déjà expérimenté de nombreuses textures, mais vous cherchez une idée nouvelle, simple et amusante ? Ne cherchez pas plus loin : la pâte à patouille est une expérience sensorielle fascinante à base d’ingrédients du quotidien. Et bonus : vous pouvez impliquer votre enfant dès la préparation !
+En tant qu’assistante maternelle agréée à Brétigny-sur-Orge, je propose souvent des activités sensorielles simples comme celle-ci, faciles à refaire à la maison avec peu de matériel.
 
 ---
 
@@ -66,15 +68,64 @@ Ajoutez un peu de colorant ou de cacao pour varier les textures et stimuler enco
 
 ---
 
+### Foire aux questions (FAQ)
+
+<dl>
+  <dt><strong>Cette activité est-elle adaptée à un bébé de moins de 2 ans ?</strong></dt>
+  <dd>Mieux vaut attendre 18 à 24 mois, car la manipulation demande un peu de contrôle moteur.</dd>
+
+  <dt><strong>La pâte à patouille est-elle comestible ?</strong></dt>
+  <dd>Elle ne l’est pas, mais elle est sans danger si l’enfant porte les doigts à la bouche. Évitez le colorant non alimentaire.</dd>
+</dl>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Cette activité est-elle adaptée à un bébé de moins de 2 ans ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mieux vaut attendre 18 à 24 mois, car la manipulation demande un peu de contrôle moteur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "La pâte à patouille est-elle comestible ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Elle ne l’est pas, mais elle est sans danger si l’enfant porte les doigts à la bouche. Évitez le colorant non alimentaire."
+      }
+    }
+  ]
+}
+</script>
+
+
+
+
+---
+
+
 ## Envie d’autres idées d’activités à faire à la maison ?
 
 <div class="button-wrapper">
-  <a href="/projet-accueil/#activites" target="_blank" class="btn btn-primary btn-article">Consultez toutes mes activités pour les tout-petits →</a>
+  <a href="/projet-accueil/#activites" target="_blank" class="btn btn-primary btn-article">Consultez mes activités pour les tout-petits →</a>
+</div>
+<br>
+
+<div class="button-wrapper">
+ <a href="/posts/activites-enfant/sable-magique-figurines/" target="_blank" class="btn btn-primary btn-article">Découvrir le sable magique →</a>
 </div>
 
 
+<br>
 
+<div class="highlighted-note">
+  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+</div>
 
-
-
-
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+</div>

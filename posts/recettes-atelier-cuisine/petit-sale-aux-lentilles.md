@@ -15,6 +15,7 @@ image: "/images/uploads/recette-petit-sale-lentilles.jpg"
 date: 2025-02-06
 category: "RECETTES / ATELIER CUISINE"
 featuredImage: "/images/uploads/recette-petit-sale-lentilles.jpg"
+imageAlt: "Recette du petit salé aux lentilles fait maison à Brétigny-sur-Orge"
 ---
 
 Proposer des légumes aux enfants peut être un défi, mais **cette recette de petit salé aux lentilles** est une excellente solution ! En tant qu’**assistante maternelle à Brétigny-sur-Orge**, je privilégie une alimentation saine pour les enfants.  
@@ -31,6 +32,7 @@ Ce plat, riche en protéines et en fibres, est idéal pour un **repas complet et
   <a href="#preparation" class="styled-link-sommaire">• Préparation</a>
   <a href="#degustation" class="styled-link-sommaire">• Dégustation et conservation</a>
   <a href="#partage" class="styled-link-sommaire">• Pourquoi je partage cette recette ?</a>
+  <a href="#questions" class="styled-link-sommaire">• Foire aux questions (FAQ)</a>
 </div>
 
 ---
@@ -102,12 +104,109 @@ En tant qu’**assistante maternelle à Brétigny-sur-Orge**, je veille à propo
 
 <br><br>
 
+
+### **<span id="questions">6. Foire aux questions (FAQ)</span>**
+
+
+
+<dl>
+  <dt><strong>Peut-on préparer cette recette à l’avance et la conserver ?</strong></dt>
+  <dd>Oui, cette recette se conserve bien au réfrigérateur pendant 2 à 3 jours. Le goût est souvent meilleur après repos.</dd>
+
+  <dt><strong>Cette recette convient-elle aux enfants ?</strong></dt>
+  <dd>Oui, la recette est pensée pour plaire aux enfants tout en respectant leurs besoins nutritionnels et leurs goûts.</dd>
+
+  <dt><strong>Peut-on remplacer la saucisse de Montbéliard ?</strong></dt>
+  <dd>Oui, vous pouvez utiliser d’autres saucisses fumées ou des alternatives végétariennes selon vos préférences.</dd>
+
+</dl>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "Petit salé aux lentilles",
+  "image": "https://chubert91assmat.netlify.app/images/uploads/recette-petit-sale-lentilles.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Chubert91 Assmat"
+  },
+  "datePublished": "2025-02-06",
+  "description": "Recette familiale et équilibrée de petit salé aux lentilles, idéale pour un repas complet qui plaît aux enfants.",
+  "recipeYield": "6",
+  "prepTime": "PT20M",
+  "cookTime": "PT2H",
+  "totalTime": "PT2H20M",
+  "recipeCategory": "Plat principal",
+  "recipeCuisine": "Française",
+  "recipeIngredient": [
+    "2 carottes",
+    "2 oignons",
+    "2 clous de girofle",
+    "1 bouquet garni",
+    "Poivre et sel",
+    "1 kg de petit salé (échine, travers, palette)",
+    "600 g de lentilles vertes",
+    "4 saucisses de Montbéliard"
+  ],
+  "recipeInstructions": [
+    {"@type": "HowToStep", "text": "Dessaler la viande si nécessaire puis la cuire 2h dans l'eau frémissante."},
+    {"@type": "HowToStep", "text": "Préparer et cuire les légumes et lentilles 15-20min sous pression."},
+    {"@type": "HowToStep", "text": "Découper la viande, l'ajouter aux lentilles avec les saucisses, faire mijoter 20-30min."}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Peut-on préparer cette recette à l’avance et la conserver ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, cette recette se conserve bien au réfrigérateur pendant 2 à 3 jours. Le goût est souvent meilleur après repos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cette recette convient-elle aux enfants ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, la recette est pensée pour plaire aux enfants tout en respectant leurs besoins nutritionnels et leurs goûts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on remplacer la saucisse de Montbéliard ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, vous pouvez utiliser d’autres saucisses fumées ou des alternatives végétariennes selon vos préférences."
+      }
+    }
+  ]
+}
+</script>
+
+
 ---
 
 <a href="https://www.marmiton.org/recettes/recette_petit-sale-aux-lentilles_19044.aspx" target="_blank" rel="noopener noreferrer" class="styled-link-article">
     Retrouvez cette recette sur marmiton.org
 </a>
 
+---
+
+
+
+<div class="highlighted-note">
+  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+</div>
+
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+</div>
 
 
 
