@@ -32,7 +32,9 @@ Découvrez comment le CESU préfinancé peut alléger le coût de la garde d’e
   <a href="#eligibilite" class="styled-link-sommaire">• Qui peut en bénéficier ?</a>
   <a href="#avantages-familles" class="styled-link-sommaire">• Quels sont les avantages pour les familles ?</a>
   <a href="#avantages-entreprise" class="styled-link-sommaire">• Quels sont les avantages pour l’entreprise ?</a>
-   <a href="#comment-profiter" class="styled-link-sommaire">• Comment en profiter ?</a>
+  <a href="#demarches" class="styled-link-sommaire">• Quelles sont les démarches ?</a>
+  <a href="#organismes" class="styled-link-sommaire">• Quels sont les principaux organismes agréés pour émettre des CESU préfinancés?</a>
+  <a href="#pajemploi" class="styled-link-sommaire">• Comment déclarer le CESU préfinancé avec ou sans Pajemploi+</a>
   <a href="#a-retenir" class="styled-link-sommaire">• À retenir</a>
   <a href="#questions" class="styled-link-sommaire">• Foire aux questions (FAQ)</a>
 </div>
@@ -56,20 +58,21 @@ Le CESU préfinancé est nominatif et peut être financé en tout ou partie par 
 
 <br>
 
-Vous pouvez demander le CESU préfinancé si :
+Le CESU préfinancé concerne plusieurs situations :
 
-- Vous êtes salarié du privé ou du public, 
-- Vous travaillez en intérim ou en CDD,
-- Vous êtes indépendant avec une structure juridique (micro-entrepreneur, EI, etc.),
-- Votre employeur ou votre comité d’entreprise propose ce service.
+- <strong>Salariés du privé ou du public :</strong> par exemple un employé, un fonctionnaire, un enseignant…,
+- <strong>Personnes en mission temporaire :</strong> intérimaires ou salariés en CDD,
+- <strong>Indépendants :</strong> micro-entrepreneurs, professions libérales, artisans… uniquement si leur caisse de retraite, mutuelle ou organisme professionnel propose le CESU préfinancé,
+- <strong>Comité d’entreprise ou employeur :</strong> si votre structure le propose comme avantage aux salariés.
 
 <br>
 
 <div class="highlighted-note">
-  <p><strong>Bon à savoir :</strong> Si votre entreprise ne propose pas encore le CESU préfinancé, demandez à votre service RH s’il est possible de le mettre en place. Le CESU préfinancé est un dispositif officiel, sécurisé et encadré par l’État.</p>
+  <p><strong>Bon à savoir :</strong> Un indépendant ne reçoit pas automatiquement de CESU préfinancé. Il doit vérifier si sa caisse ou mutuelle le met à disposition. Exemple : un infirmier libéral peut en profiter si sa mutuelle en propose, mais pas si aucun organisme ne lui en donne accès.</p>
 </div>
 
 <br>
+
 
 ### **<span id="avantages-familles">3. Quels sont les avantages pour les familles ?</span>**
 
@@ -79,6 +82,14 @@ Vous pouvez demander le CESU préfinancé si :
 - <strong>Modalités de paiement simplifiées et rapides,</strong> 
 - <strong>Crédit d’impôt :</strong> de 50% pour la part payée par le particulier,
 - <strong>Souplesse d’utilisation :</strong> Les CESU sont acceptés par de nombreux professionnels et organismes agréés.
+
+<br>
+
+<div class="highlighted-note">
+  <p><strong>Bon à savoir :</strong> Si votre entreprise ne propose pas encore le CESU préfinancé, demandez à votre service RH s’il est possible de le mettre en place. Le CESU préfinancé est un dispositif officiel, sécurisé et encadré par l’État.</p>
+</div>
+
+<br>
 
 ### **<span id="avantages-entreprise">4. Quels sont les avantages pour l’entreprise ?</span>**
 
@@ -100,14 +111,46 @@ Vous pouvez demander le CESU préfinancé si :
 <br>
 
 
-### **<span id="comment-profiter">5. Comment en profiter ?</span>**
+### **<span id="demarches">6. Quelles sont les démarches pour en profiter ?</span>**
+
+**Côté Parent-Employeur:**
+
+
+- <strong>1. Vérifier que l’assistante maternelle accepte les CESU préfinancés:</strong> Demander à l’assmat si elle accepte ce mode de paiement car elle peut refuser,
+- <strong>2. Obtenir vos CESU préfinancés:</strong> Ces chèques peuvent être donnés par votre entreprise, votre comité d’entreprise, ou l’État (fonction publique). Ce sont des chèques spéciaux pour aider à payer la garde,
+- <strong>3. Déclarer l’emploi de l’assistante maternelle :</strong> Obligatoire, même si vous payez en CESU préfinancés. La déclaration se fait sur Pajemploi (site officiel) pour les cotisations sociales et le bulletin de salaire,
+- <strong>4. Payer une partie du salaire avec les CESU préfinancés :</strong> Faire le virement via le site du CRCESU en ayant retrouvé l'assistante maternelle grâce à son code NAN,
+- <strong>5. Payer le complément du salaire par un autre moyen:</strong> Le CESU ne couvre pas toujours la totalité du salaire. Reste à payer par virement la part restante.
+
+**Côté Assistante Maternelle Agréée:**
+
+- <strong>1. Être affiliée au CRCESU (Centre de Remboursement CESU):</strong> Sans cette affiliation, elle ne peut pas recevoir le virement des CESU préfinancés,
+- <strong>2. Informer le parent de son numéro d’affiliation CRCESU:</strong> Ce numéro sert pour valider et recevoir les virements,
+- <strong>3. Comparer le total perçu avec le salaire dû:</strong> Si le CESU ne couvre pas toute la somme, demander au parent de payer le complément par un autre moyen,
+- <strong>5. Veiller à ce que le parent fasse la déclaration sur Pajemploi:</strong> Pour que les cotisations Sociales soient payées et le contrat respecté,
+<br>
+
+
+### **<span id="organismes">7. Quels sont les principaux organismes agréés pour émettre des CESU préfinancés?</span>**
+
+Vous recevrez vos CESU via un des organismes spécialisés agréés. Voici les principaux : 
+
+- <strong>Domiserve :</strong> (Groupe La Banque Postale),
+- <strong>Edenred France,</strong> 
+- <strong>Group UP :</strong> (incluant Chèque Domicile),
+- <strong>Bimpli by Natixis :</strong> (ou Natixis Intertitres),
+- <strong>Sodexo Chèques et Cartes de Services,</strong>
+- <strong>Chèque Domicile.</strong>
 
 <br>
 
-**1. Renseignez-vous** auprès de votre employeur ou de votre comité d’entreprise.  
-**2. Faites la demande** si le CESU préfinancé est proposé dans votre structure.  
-**3. Utilisez les CESU pré-financés** Payez votre assistante maternelle agréée directement en ligne grâce à votre numéro d’affiliation nationale (NAN).
+### **<span id="pajemploi">8. Comment déclarer le CESU préfinancé avec ou sans Pajemploi+</span>**
 
+Lorsque vous utilisez Pajemploi+, il est necessaire de noter le montant payé en CESU préfinancé dans la déclaration comme un acompte. Cela permet que cette somme soit déduite du virement que Pajemploi effectue à l'assistante maternelle. Sans cette mention, vous risqueriez un double paiement puisque le virement indiquerait la totalité du salaire sans tenir compte du paiement déjà effectué en CESU préfinancé.
+
+En revanche, si le paiement est fait manuellement hors Pajemploi+ ( par exemple un virement direct indépendant de Pajemploi), cette mention n'est pas nécessaire puisque la gestion du paiement est distincte et n'est pas géré par Pajemploi.
+
+Cette précision est importante pour éviter tout problème lors du calcul et versement des salaires.
  
 <br>
 
@@ -118,12 +161,21 @@ Vous pouvez demander le CESU préfinancé si :
 <br>
 
 
-### **<span id="a-retenir">6. À retenir</span>**
+### **<span id="a-retenir">9. À retenir</span>**
 Le CESU préfinancé est un vrai coup de pouce pour réduire vos frais de garde, simplifier vos démarches et améliorer la conciliation entre vie professionnelle et vie familiale. Il offre aussi des avantages fiscaux et sociaux aux entreprises qui le mettent en place. N’hésitez pas à en parler à votre employeur ou à votre service RH pour en bénéficier !
+
+<br>
+
+<div class="highlighted-note">
+  <p><strong>Exemple :</strong> Si le salaire de votre assistante maternelle est de 800 €, et que vous disposez de 200 € de CESU préfinancés, vous ne paierez que 600 € de votre poche avant de bénéficier d’autres aides comme le CMG. En plus, vous pourrez profiter d’un crédit d’impôt sur la somme que vous avez déboursée.</p>
+</div>
+
+<br>
+
 
 ---
 
-### **<span id="questions">5. Foire aux questions (FAQ)</span>**
+### **<span id="questions">10. Foire aux questions (FAQ)</span>**
 
 
 
@@ -132,7 +184,7 @@ Le CESU préfinancé est un vrai coup de pouce pour réduire vos frais de garde,
   <dd>Le CESU préfinancé est un moyen de paiement dématérialisé financé par l’employeur ou comité d’entreprise, utilisé pour payer des services à la personne comme la garde d’enfants ou le ménage.</dd>
 
   <dt><strong>Qui peut en bénéficier ?</strong></dt>
-  <dd>Les salariés (CDI, CDD, intérim) et les indépendants peuvent en bénéficier si leur employeur ou comité d’entreprise propose ce dispositif.</dd>
+  <dd>Les salariés (CDI, CDD, intérim) peuvent en bénéficier si leur employeur ou comité d’entreprise le propose. Les indépendants peuvent en bénéficier uniquement si leur mutuelle, caisse ou organisme professionnel en fait la distribution.</dd>
 
   <dt><strong>Quels sont les plafonds d’exonération pour les entreprises ?</strong></dt>
   <dd>Les versements CESU préfinancés sont exonérés de cotisations sociales jusqu’à 2 540 € par salarié et par an (plafond 2025).</dd>
@@ -162,7 +214,7 @@ Le CESU préfinancé est un vrai coup de pouce pour réduire vos frais de garde,
       "name": "Qui peut en bénéficier ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Les salariés (CDI, CDD, intérim) et les indépendants peuvent en bénéficier si leur employeur ou comité d’entreprise propose ce dispositif."
+        "text": "Les salariés (CDI, CDD, intérim) peuvent en bénéficier si leur employeur ou comité d’entreprise le propose. Les indépendants peuvent en bénéficier uniquement si leur mutuelle, caisse ou organisme professionnel en fait la distribution."
       }
     },
     {
@@ -195,11 +247,8 @@ Le CESU préfinancé est un vrai coup de pouce pour réduire vos frais de garde,
 
 ---
 
+  <p>Découvrons ensemble comment optimiser vos aides et sécuriser la garde de votre enfant à Brétigny-sur-Orge</p>
 
-
-<div class="highlighted-note">
-  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
-</div>
 
 <div class="button-wrapper">
   <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
