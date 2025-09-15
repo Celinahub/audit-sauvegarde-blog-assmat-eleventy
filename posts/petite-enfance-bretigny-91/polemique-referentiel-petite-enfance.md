@@ -38,6 +38,7 @@ En tant qu’assistante maternelle, je souhaite partager une réflexion de terra
   <a href="#adulte" class="styled-link-sommaire">• Référentiel petite enfance : le bien-être des parents et professionnels trop peu développé</a>
   <a href="#deculpabilisation" class="styled-link-sommaire">• Message de déculpabilisation</a>
   <a href="#questions" class="styled-link-sommaire">• FAQ : tout comprendre sur le référentiel national d’accueil du jeune enfant 2025</a>
+  <a href="#retenir" class="styled-link-sommaire">• À retenir pour les familles de Brétigny-sur-Orge</a>
 </div>
 
 ---
@@ -202,7 +203,7 @@ La bienveillance commence par prendre soin de soi pour ensuite s'occuper des aut
 
 ---
 
-### **<span id="retenir">À retenir pour les familles de Brétigny-sur-Orge</span>** 
+### **<span id="retenir">8. À retenir pour les familles de Brétigny-sur-Orge</span>** 
 
 - **Le référentiel doit être vu comme une boussole, pas comme une injonction.**
 - Le bien-être des adultes (parents et pros) est tout aussi essentiel que celui de l’enfant.
