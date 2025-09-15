@@ -206,7 +206,7 @@ La bienveillance commence par prendre soin de soi pour ensuite s'occuper des aut
 
 - **Le référentiel doit être vu comme une boussole, pas comme une injonction.**
 - Le bien-être des adultes (parents et pros) est tout aussi essentiel que celui de l’enfant.
-- Chaque famille a le droit de chercher un mode d’accueil qui lui correspond, sans **culpabilité.**
+- Chaque famille a le droit de choisir un projet d’accueil qui lui correspond, sans **culpabilité.**
 - Un adulte imparfait mais présent aura toujours plus de valeur pour un enfant qu’un « modèle parfait » qui s’oublie et subit sa journée en voulant trop bien faire.
 - Comprendre que le cerveau de l’enfant est immature dans la gestion des émotions aide naturellement à développer plus de patience et à adapter nos pratiques éducatives sans pression.
 
