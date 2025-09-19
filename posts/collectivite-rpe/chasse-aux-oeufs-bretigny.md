@@ -79,7 +79,7 @@ Les enfants rient, s’observent, s’encouragent.
 L’enthousiasme est communicatif et renforce les liens sociaux dès le plus jeune âge.
 
 
-{% image "/images/uploads/chasse-aux-oeufs-bretigny.jpg", "Sachet de chocolat sur l'herbe – Activité pour pâques à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
+{% image "/images/uploads/chasse-aux-oeufs-bretigny91.jpg", "Sachet de chocolat sur l'herbe – Activité pour pâques à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
 
 
 ### **<span id="relation">4. La relation adulte-enfant renforcée</span>**
