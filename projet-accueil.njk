@@ -2075,52 +2075,50 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <script>
-tarteaucitron.services.hubspot_chatbot = {
-  "key": "hubspot_chatbot",
-  "type": "api",
-  "name": "Chatbot HubSpot",
-  "needConsent": true,
-  "cookies": ['hubspotutk', '__hssc', '__hssrc', '__hstc'],
-  "readmoreLink": "https://legal.hubspot.com/fr/privacy-policy",
-  "js": function () {
-    "use strict";
+document.addEventListener('DOMContentLoaded', function () {
+  if (typeof tarteaucitron !== 'undefined') {
 
-    // Fonction pour charger le script
-    function loadHubspotScript() {
-      if (!document.getElementById('hs-script-loader')) {
-        var script = document.createElement('script');
-        script.src = "//js-eu1.hs-scripts.com/144730300.js"; 
-        script.id = "hs-script-loader";
-        script.async = true;
-        script.defer = true;
-        document.body.appendChild(script);
-      }
-    }
+    tarteaucitron.services.hubspot_chatbot = {
+      "key": "hubspot_chatbot",
+      "type": "api",
+      "name": "Chatbot HubSpot",
+      "needConsent": true,
+      "cookies": ['hubspotutk', '__hssc', '__hssrc', '__hstc'],
+      "readmoreLink": "https://legal.hubspot.com/fr/privacy-policy",
+      "js": function () {
+        "use strict";
 
-    // Attendre que le DOM soit prêt
-    document.addEventListener('DOMContentLoaded', function() {
-      var button = document.getElementById('load-chatbot');
-      if (button) {
-        button.addEventListener('click', function() {
-          loadHubspotScript();
-          button.style.display = 'none';
-        });
-      } else {
-        // Au cas où le bouton n'existe pas, charger directement (optionnel)
-        // loadHubspotScript();
-      }
-    });
-  },
-  "fallback": function () {}
-};
+        function loadHubspotScript() {
+          if (!document.getElementById('hs-script-loader')) {
+            var script = document.createElement('script');
+            script.src = "//js-eu1.hs-scripts.com/144730300.js";
+            script.id = "hs-script-loader";
+            script.async = true;
+            script.defer = true;
+            document.body.appendChild(script);
+          }
+        }
 
-tarteaucitron.job.push('hubspot_chatbot');
+        var button = document.getElementById('load-chatbot');
+        if (button) {
+          button.addEventListener('click', function() {
+            loadHubspotScript();
+            button.style.display = 'none';
+          });
+        } 
+        // sinon, on ne fait rien (ou on peut charger automatiquement)
+      },
+      "fallback": function () {}
+    };
 
+    tarteaucitron.job = tarteaucitron.job || [];
+    tarteaucitron.job.push('hubspot_chatbot');
+
+  } else {
+    console.error("⚠️ tarteaucitron n'est pas défini — vérifie que tarteaucitron.min.js est bien inclus avant ce script");
+  }
+});
 </script>
-
-
-
-
 
 
 
