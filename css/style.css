@@ -3552,6 +3552,49 @@ picture img {
    cursor: pointer;
 }
 
+
+
+.button-agrement-wrapper {
+   display: flex;
+   justify-content: flex-start; /* Aligne les boutons à gauche */
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 15px;
+   padding-bottom: 15px; /* pour avoir un espace en bas du groupe */
+ }
+ 
+/* Style pour le bouton liens des fichiers md article dans agrement*/
+.btn-article-agrement {
+   text-align: center;
+   background-color: #40413E; /* Couleur de fond */
+   color: #F8F9F6; /* Couleur du texte */
+   border-radius: 5px; /* Coins arrondis */
+   border: none; /* Retirer la bordure par défaut */
+   padding: 5px 10px; /* Espacement interne */
+   font-size: 12px; /* Taille du texte */
+   cursor: pointer; /* Changer le curseur au survol */
+   transition: background-color 0.3s; /* Transition pour un effet au survol */
+  
+}
+
+.btn-article-agrement:hover {
+   background-color: #353937; /* Couleur au survol */
+   color: #F8F9F6; /* Couleur du texte */
+}
+
+@media (max-width: 576px) {
+   .btn-agrement-wrapper {
+       flex-direction: column; /* Aligne les boutons verticalement */
+       width: 100%; /* Assure que le conteneur occupe toute la largeur */
+   }
+   
+   .btn-agrement {
+       width: 100%; /* Les boutons occupent toute la largeur du conteneur */
+   }
+}
+
+
+
 /* Page mentions-legales.html */
 
 
@@ -4738,8 +4781,6 @@ html {
    color: #34556e; /* Applique la couleur */
    font-weight: bold;
 }
-
-
 
 
 
