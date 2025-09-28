@@ -327,10 +327,16 @@ Un autre enfant avait besoin de ma présence pour s’endormir sereinement, alor
 
 C’est pourquoi mon projet d’accueil reste flexible et toujours à l’écoute de l’enfant. Je ne m’appuie pas sur une pédagogie unique : j’ajuste mon approche à chaque individu, avec bienveillance, observation et patience.
 
-Concernant **le tarif, je respecte le plafond journalier** de la première année de contrat pour vous permettre de bénéficier de **l’aide CMG. Je n’augmente pas mes tarifs chaque année**, mais **l'aide CMG augmente avec la revalorisation du SMIC**, ce qui **diminue votre reste à charge au fil du temps**. J’accepte cette **« perte » financière** parce que les **nouveaux contrats sont signés avec le tarif plafond journalier revalorisé**, ce qui équilibre la santé financière de mon activité et me permet de **travailler sereinement**.
+Concernant le tarif, en fonction de votre situation familiale et de vos besoins d’accueil, qu’ils soient proches d’un contrat plein temps (environ 45 heures par semaine) ou à temps partiel significatif, **je vous propose un service au coût intermédiaire entre une crèche collective et une micro-crèche PAJE en Essonne, complété par un accueil personnalisé et des séances en collectivité proposées en partenariat avec le Relais Petite Enfance.** 
 
-Ce système, compétitif par rapport au coût de la crèche, vous permet de bénéficier d’un **reste à charge dégressif** au fil du temps. Il m'offre également une stabilité financière, favorisant des décisions réfléchies et sereines. Il évite de devoir accepter un enfant précocement pour des raisons purement financières, ce qui pourrait compromettre la qualité de l’accueil. Ce modèle privilégie **la qualité de l’accueil et le bien-être de chaque enfant**.
 
+ **Je n’augmente pas mes tarifs en cours d’année, sauf avenant de votre part, tandis que l’aide CMG est régulièrement revalorisée. Cette dynamique réduit progressivement votre reste à charge.** J’accepte cette **« perte » financière** parce que les **nouveaux contrats sont signés avec le tarif de l'année en cours**, garantissant ainsi un équilibre financier sain qui me permet de **travailler sereinement**.
+
+**Ce système compétitif par rapport au coût d’une crèche vous assure un reste à charge dégressif** au fil du temps, tout en m’offrant une stabilité financière favorable à des décisions réfléchies. Il évite également la nécessité d’accepter un enfant trop tôt pour des raisons purement financières, préservant ainsi la qualité de l’accueil. Ce modèle privilégie avant tout **la qualité de l’accueil et le bien-être de chaque enfant**.
+
+<div class="highlighted-note">
+  <p><strong>Points de vigilance:</strong> Les simulateurs de crèches, notamment ceux des grands groupes privés, peuvent sous-estimer le coût réel en ne tenant pas toujours compte des places limitées réservées aux salariés, des frais annexes, des spécificités contractuelles, ni des variations de qualité d’accueil, d’où l’importance de vérifier attentivement les conditions réelles avant de se fier uniquement à ces estimations.</p>
+</div>
 
 
 Je suis **une professionnelle qualifiée**, titulaire d’un **CAP AEPE**, et je m'engage à **compléter régulièrement ma formation** par des formations continues **pour offrir un accueil toujours plus adapté et de qualité.**
