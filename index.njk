@@ -398,12 +398,25 @@ bodyClass: "bg-white presentation"
                         <h2 class="introduction-titre">{{ sociabilisationTitre | default("SOCIABILISATION") }}</h2>
                         <hr class="horizontal-line">
                         <div class="description-atout-services">
-                            <p class="poppins-regular-accueil">{{ sociabilisationDescription | default("Les visites bi-mensuelles au Relais Petite Enfance (RPE) de Brétigny-sur-Orge permettent aux enfants de développer leurs compétences sociales. Ces rencontres renforcent leur sociabilisation, tout en conservant les avantages d’une garde personnalisée à domicile.") }}</p>
+                            <p class="poppins-regular-accueil">{{ sociabilisationDescription | default("Les visites bi-mensuelles au Relais Petite Enfance de Brétigny-sur-Orge favorisent la sociabilisation des enfants tout en conservant les avantages d’une garde personnalisée à domicile.") }}</p>
                             
                             <!-- Bouton "lien interne" -->
-                           <a href="{{ '/projet-accueil/#team' | url }}" class="btn btn-action-primary my-4" aria-label="Découvrez les avantages du RPE et de l'équipe">
+               
+<div class="disponibilite-container">
+   <a href="{{ '/projet-accueil/#team' | url }}" class="btn btn-action-primary my-4" aria-label="Découvrez les avantages du RPE et de l'équipe">
     {{ boutonTexte | default("Découvrez les avantages du RPE →") }}
 </a>
+ <a href="https://chubert91assmat.netlify.app/categories/collectivite-rpe/#gsc.tab=0" class="btn btn-action-primary my-1" aria-label="Lire l'article sur le choix d'un mode de garde par une assistante maternelle en Essonne">
+              Découvrir les activités au RPE →
+            </a>
+
+</div>
+
+
+
+
+
+
                         </div>
                     </div>
                 </div>
