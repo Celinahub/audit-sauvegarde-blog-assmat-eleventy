@@ -72,7 +72,7 @@ Si vous êtes jeunes parents ou en recherche d’une assistante maternelle atten
 Le tout à proximité de l’école primaire, dans un cadre calme et pratique.
 
 
-![Assistante maternelle à Brétigny-sur-Orge – photo du parc Claudie Haigneré](/images/uploads/parc-claudie-haignere-bretigny.jpg)
+{% image "/images/uploads/parc-claudie-haignere-bretigny.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du parc Claudie Haigneré", "(min-width: 1024px) 100vw, 50vw" %}
 
 ---
 
@@ -83,7 +83,8 @@ Le tout à proximité de l’école primaire, dans un cadre calme et pratique.
 - Balançoire une place uniquement.
 - Coin ombragé sous un arbre et petit coin de pelouse.
 
-![Assistante maternelle à Brétigny-sur-Orge – photo du parc Langevin Wallon](/images/uploads/parc-langevin-wallon-bretigny91.jpg)
+
+{% image "/images/uploads/parc-langevin-wallon-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du parc Langevin Wallon", "(min-width: 1024px) 100vw, 50vw" %}
 
 ---
 
@@ -93,7 +94,8 @@ Le tout à proximité de l’école primaire, dans un cadre calme et pratique.
 - Parc ombragé, idéal l’été.
 - Ambiance paisible et familiale.
 
-![Assistante maternelle à Brétigny-sur-Orge – photo du square Joliot Curie](/images/uploads/square-joliot-curie-bretigny91.jpg)
+
+{% image "/images/uploads/square-joliot-curie-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du square Joliot Curie", "(min-width: 1024px) 100vw, 50vw" %}
 
 ---
 
@@ -101,13 +103,15 @@ Le tout à proximité de l’école primaire, dans un cadre calme et pratique.
 
 - Présence d’animaux : chèvres, canards, poules d’eau.  
 - Jeux accessibles pour les plus grands.
-- Lieu ombragé idéal pendant la canicule.
+- Lieu ombragé idéal pendant la canicule et pour un pique-nique.
 
 Un lieu très apprécié pour développer curiosité et langage.
 
-![Assistante maternelle à Brétigny-sur-Orge – photo du parc du Carouge](/images/uploads/parc-carouge-bretigny91.jpg)
+{% image "/images/uploads/parc-carouge-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du parc du Carouge", "(min-width: 1024px) 100vw, 50vw" %}
 
-![Assistante maternelle à Brétigny-sur-Orge – photo du parc du Carouge visite chèvres](/images/uploads/parc-carouge-chevre-bretigny91.jpg)
+
+{% image "/images/uploads/parc-carouge-chevre-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du parc du Carouge visite chèvres", "(min-width: 1024px) 100vw, 50vw" %}
+
 
 ---
 
@@ -117,7 +121,8 @@ Un lieu très apprécié pour développer curiosité et langage.
 - Grands toboggans pour les plus grands.
 - Aires de jeux pour les plus petits.
 
-![Assistante maternelle à Brétigny-sur-Orge – photo du parc Bois Badeau](/images/uploads/parc-bois-badeau-bretigny91.jpg)
+{% image "/images/uploads/parc-bois-badeau-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du parc Bois Badeau", "(min-width: 1024px) 100vw, 50vw" %}
+
 
 ---
 
@@ -127,7 +132,24 @@ Un lieu très apprécié pour développer curiosité et langage.
 - Espace dégagé et jeux classiques pour les tout-petits.
 - Ambiance conviviale en période chaude.
 
-![Assistante maternelle à Brétigny-sur-Orge – photo du square René Bourgeron](/images/uploads/square-rene-bourgeron-bretigny91.jpg)
+{% image "/images/uploads/square-rene-bourgeron-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du square René Bourgeron", "(min-width: 1024px) 100vw, 50vw" %}
+
+
+---
+
+**7. Parc La Fontaine** : Allée du Château La Fontaine.
+
+- Véritable écrin de nature au cœur du quartier.  
+- Grand espace boisé apaisant et calme, idéal pour un pique-nique.
+- Les enfants peuvent croiser des moutons qui participent à entretenir le parc dans le cadre de la politique d'éco-pâturage développée par la ville.
+- Quelques aires de jeux pour les enfants à l'ombre.
+
+
+{% image "/images/uploads/allee-chateau-fontaine-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo de l'allée du château de la Fontaine", "(min-width: 1024px) 100vw, 50vw" %}
+
+{% image "/images/uploads/parc-fontaine-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du parc de la Fontaine", "(min-width: 1024px) 100vw, 50vw" %}
+
+{% image "/images/uploads/parc-mouton-fontaine-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo d'un mouton au parc de la Fontaine", "(min-width: 1024px) 100vw, 50vw" %}
 
 ---
 
@@ -140,7 +162,9 @@ J’y vais parfois avec les enfants pour lire ou simplement se poser au calme. C
   <a href="https://mediatheques.coeuressonne.fr/" target="_blank" class="btn btn-primary btn-article">Je consulte les évènements proposés par la médiathèque →</a>
 </div>
 
-![Assistante maternelle à Brétigny-sur-Orge – photo de la médiathèque](/images/uploads/mediatheque-bretigny.jpg)
+
+{% image "/images/uploads/mediatheque-bretigny.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo de la médiathèque", "(min-width: 1024px) 100vw, 50vw" %}
+
 
 ---
 
@@ -155,8 +179,8 @@ Nous aimons nous promener autour pour observer les chevaux et poneys. Les plus j
   </a>
 </div>
 
+{% image "/images/uploads/centre-equestre-ame-horse-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du centre equestre", "(min-width: 1024px) 100vw, 50vw" %}
 
-![Assistante maternelle à Brétigny-sur-Orge – photo du centre equestre](/images/uploads/centre-equestre-ame-horse-bretigny91.jpg)
 
 ---
 
@@ -172,7 +196,8 @@ Nous aimons nous promener autour pour observer les chevaux et poneys. Les plus j
   <a href="https://winnoland.fr/" target="_blank" class="btn btn-primary btn-article">Je découvre le parc Winnoland →</a>
 </div>
 
-![Assistante maternelle à Brétigny-sur-Orge – photo du parc d'attraction Winnoland](/images/uploads/winnoland-essonne.jpg)
+{% image "/images/uploads/winnoland-essonne.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du parc d'attraction Winnoland", "(min-width: 1024px) 100vw, 50vw" %}
+
 
 ---
 
@@ -186,7 +211,8 @@ Nous aimons nous promener autour pour observer les chevaux et poneys. Les plus j
   <a href="https://www.essonne.fr/culture-loisirs-tourisme/lactualite-culture-loisirs-tourisme/les-feeries-de-janvry" target="_blank" class="btn btn-primary btn-article">En savoir plus sur le marché de Noël à Janvry →</a>
 </div>
 
-![Assistante maternelle à Brétigny-sur-Orge – photo du parc du marché de noël de Janvry](/images/uploads/noel-janvry-essonne.jpg)
+{% image "/images/uploads/noel-janvry-essonne.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du parc du marché de noël de Janvry", "(min-width: 1024px) 100vw, 50vw" %}
+
 
 ---
 
