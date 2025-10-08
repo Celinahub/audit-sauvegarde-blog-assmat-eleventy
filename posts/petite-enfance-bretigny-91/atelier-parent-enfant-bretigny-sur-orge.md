@@ -90,6 +90,10 @@ Ces ateliers et lectures pour bébés à Brétigny-sur-Orge offrent une expérie
 
 Ces moments partagés contribuent à renforcer le lien parent-enfant dans un cadre sécurisant et stimulant.
 
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/" target="_blank" class="btn btn-primary btn-article">Découvrez nos lieux préférés à Brétigny →</a>
+</div>
+
 ---
 
 ### **<span id="questions">5. FAQ – Atelier « Main dans la main »</span>** 
