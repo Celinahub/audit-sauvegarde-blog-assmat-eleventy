@@ -23,6 +23,14 @@ imageAlt: "Enfants à la médathèque à Brétigny-sur-Orge"
 
 Vous habitez Brétigny-sur-Orge ou ses environs et vous cherchez des idées de sorties adaptées à un bébé ou un tout-petit ?
 
+<div class="button-wrapper">
+  <a href="/posts/petite-enfance-bretigny-91/atelier-parent-enfant-bretigny-sur-orge/" class="btn btn-primary btn-article">
+Partagez un moment unique avec votre enfant à Brétigny →
+  </a>
+</div>
+
+<br>
+
 En tant qu’assistante maternelle agréée à Brétigny, je propose chaque jour aux enfants que j’accueille des promenades et activités pensées pour leur bien-être, leur éveil et leur sécurité.
 
 

@@ -42,38 +42,67 @@ bodyClass: "bg-white contact"
 
 
 
-            <!-- Formulaire de contact -->
-           <div class="container-fluid">
-    <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-5"> <!-- Largeur réduite du formulaire -->
-                   <form name="contact" method="POST" data-netlify="true" class="p-4 shadow-lg-tablet rounded-md">
-                        <input type="hidden" name="form-name" value="contact" />
+          <!-- Formulaire de contact -->
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-5">
+      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" class="p-4 shadow-lg-tablet rounded-md">
+        <input type="hidden" name="form-name" value="contact">
 
-                        <h1 class="contact-label">ME CONTACTER</h1>
-                        <h2 class="fade-in-out-contact">C'est avec plaisir que j'échangerai avec vous ...</h2>
+        <!-- Honeypot invisible -->
+        <p class="d-none">
+          <label>Ne pas remplir : <input name="bot-field"></label>
+        </p>
 
-                        <div class="row g-3">
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prénom" required autocomplete="off">
-                                <label class="floating-label" for="prenom">Prénom</label>
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="email" class="form-control" id="email" name="email" placeholder=" " required>
-                                <label class="floating-label" for="email">E-mail</label>
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <input type="text" class="form-control" id="message" name="message" placeholder=" " required>
-                                <label class="floating-label" for="message">Message</label>
-                            </div>
-                        </div>
-                        <div class="text-center mt-4">
-                            <button type="submit" class="btn btn-custom">
-                                <img src="{{ '/images/contact/car-police-security-svgrepo-com.svg' | url }}" class="car-send" alt="Icône pour envoyer le formulaire de contact" />
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        <!-- Titre principal -->
+        <h1 class="contact-label">ME CONTACTER</h1>
+
+        <!-- H2 accueil fluide et chaleureux -->
+        <h2 class="fade-in-contact">
+          Je serai ravie de vous aider et d’échanger avec vous.
+        </h2>
+       
+
+        <div class="row g-3">
+          <!-- Prénom -->
+          <div class="col-md-6 form-group">
+            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prénom" required autocomplete="off">
+            <label class="floating-label" for="prenom">Prénom</label>
+          </div>
+
+          <!-- E-mail -->
+          <div class="col-md-6 form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder=" " required autocomplete="off">
+            <label class="floating-label" for="email">E-mail</label>
+          </div>
+
+          <!-- Message -->
+          <div class="col-md-12 form-group">
+            <textarea 
+              class="form-control" 
+              id="message" 
+              name="message" 
+              rows="5" 
+              placeholder=" " 
+              autocomplete="off"
+              required
+            ></textarea>
+            <label class="floating-label" for="message">Message</label>
+            <small class="form-text text-muted">
+              Par exemple : précisez vos jours et horaires souhaités, la durée d’accueil (année complète ou 46 semaines ou moins) et l’âge de votre enfant au début de l’accueil souhaité.
+            </small>
+          </div>
+        </div>
+
+        <!-- Bouton envoyer -->
+        <div class="text-center mt-4">
+          <button type="submit" class="btn btn-custom">
+            <img src="{{ '/images/contact/car-police-security-svgrepo-com.svg' | url }}" class="car-send" alt="Icône pour envoyer le formulaire de contact" />
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
 
 

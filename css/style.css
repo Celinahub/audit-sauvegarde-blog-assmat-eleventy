@@ -732,27 +732,48 @@ h2, h3 {
         
       }
       
+/* Fade-in unique pour le H2 d’accueil */
+@keyframes fadeInContact {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
-/* Animation de fondu pour le texte dynamique du formulaire */
-@keyframes fadeInOutContact {
-   0%, 100% {
-     opacity: 0; /* Début et fin à opacité 0 */
-   }
-   25%, 75% {
-     opacity: 1; /* Apparition à opacité 1 */
-   }
- }
- 
- /* Appliquer l'animation de fondu à l'élément avec répétition infinie */
- .fade-in-out-contact {
-   animation: fadeInOutContact 8s infinite; /* Durée de l'animation et répétition */
-   color: #F79927; /* Couleur du texte */
-   font-family: "Finger Paint", sans-serif; /* Police personnalisée */
-   font-weight: 400; /* Poids de la police */
-   font-size: 1em; /* Taille du texte */
-   text-align: center; /* Centrer le texte */
-   margin-bottom: 40px; /* Ajoutez de l'espace entre les éléments */
- }
+.fade-in-contact {
+  animation: fadeInContact 1.5s ease-in forwards;
+  color: #F79927;
+  font-family: "Finger Paint", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Floating label custom pour tous les champs */
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 15px;
+  top: 12px;
+  transition: 0.2s ease all;
+  color: #103653;
+}
+
+/* Quand le champ est focus ou rempli */
+.form-control:focus + .floating-label,
+.form-control:not(:placeholder-shown) + .floating-label {
+  top: -10px;
+  left: 12px;
+  font-size: 0.85em;
+  color: #333333;
+}
+
+/* Texte d’aide sous le champ message */
+.form-text.text-muted {
+  color: #6c757d;
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
 
 
 
