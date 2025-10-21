@@ -22,6 +22,15 @@ imageAlt: "Recette de la bouillie au chocolat un dessert fait maison à Brétign
 
 Cette bouillie au chocolat est un véritable retour en enfance, une recette qui figurait dans les fiches de ma maman, à une époque où la couture et l’art de cuisiner étaient encore enseignés à l'école. Si votre frigo est presque vide mais que vous cherchez un dessert rapide, économique, et sans sucre ajouté comme dans les crèmes industrielles, cette bouillie est la solution idéale ! Attention à la texture pour qu'elle soit parfaite, les deux cuillères de maïzena doivent être bien bombées. Les enfants l’adorent et en redemandent toujours !
 
+<div class="highlighted-note">
+  <p>Je peux fournir les repas.  
+Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comment calculer le coût de la place et les indemnités?</strong></p>
+</div>
+
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/faq/" target="_blank" class="btn btn-primary btn-article">Tout savoir sur l’indemnité de repas →</a>
+</div>
+
 ---
 
 ### **Ingrédients pour une bouillie au chocolat maison (5 pots)**  

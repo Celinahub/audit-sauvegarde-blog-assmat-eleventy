@@ -22,6 +22,15 @@ Proposer des légumes aux enfants peut être un défi, mais **cette recette de p
 
 Ce plat, riche en protéines et en fibres, est idéal pour un **repas complet et équilibré**. Il peut être préparé en grande quantité et se conserve parfaitement.  
 
+<div class="highlighted-note">
+  <p>Je peux fournir les repas.  
+Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comment calculer le coût de la place et les indemnités?</strong></p>
+</div>
+
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/faq/" target="_blank" class="btn btn-primary btn-article">Tout savoir sur l’indemnité de repas →</a>
+</div>
+
 <br>
 
 
