@@ -45,7 +45,7 @@ bodyClass: "bg-white presentation"
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
-    "reviewCount": "1"
+    "reviewCount": "2"
   },
   "review": [
     {
@@ -66,6 +66,25 @@ bodyClass: "bg-white presentation"
         "bestRating": "5"
       },
       "reviewBody": "Très belle expérience chez Céline avec notre fils, il a appris à être en collectivité, il a gagné en autonomie et il s'est épanoui ! Les petits plats maison et les gâteaux improvisés étaient très appréciés. Il est maintenant prêt pour rentrer à l'école ! Merci Céline pour l'accueil !"
+    },
+    {
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Service",
+        "@id": "https://chubert91assmat.netlify.app/#childcare",
+        "name": "Garde d'enfants",
+        "description": "Services de garde d'enfants par une assistante maternelle agréée."
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Emeline Gay"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "Notre fille a passé trois merveilleuses années auprès de Céline, toujours avec le sourire. Elle a pu s’épanouir au quotidien grâce aux nombreuses activités manuelles et aux sorties en plein air. Son entrée à l’école s’est faite en toute sérénité, et c’est en grande partie grâce à vous. Un immense merci !"
     }
   ]
 }
@@ -104,7 +123,7 @@ bodyClass: "bg-white presentation"
   ]
 }
 </script>
-    
+
 
 <!-- Icône de défilement vers le haut utilisant une image SVG -->
 <a href="#portrait" class="scroll-to-top">
@@ -223,10 +242,10 @@ bodyClass: "bg-white presentation"
                         <h2 class="introduction-titre">{{ aProposTitre | default("MON PARCOURS") }}</h2>
                         <hr class="horizontal-line">
                         <div class="description-atout-services">
-                            <p class="poppins-regular-accueil">{{ aProposDescription | default("Assistante maternelle à Brétigny-sur-Orge, mon domicile, une maison avec jardin proche du RER C, offre aux familles un accueil tourné vers l’extérieur. Forte de mon expérience de parent-employeur, je me suis lancée dans cette belle aventure en 2017.") }}</p>
+                            <p class="poppins-regular-accueil">{{ aProposDescription | default("Assistante maternelle à Brétigny-sur-Orge en Essonne, ma maison avec jardin proche du RER C, offre aux familles un accueil tourné vers l’extérieur. Forte de mon expérience de parent-employeur, je me suis lancée dans cette belle aventure en 2017.") }}</p>
                             
                             <!-- Bouton "lien interne" -->
-                            <a href="{{ '/#disponibilite-assistante-maternelle-bretigny-sur-orge' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Complet pour l’instant, restons en contact →") }}</a>
+                            <a href="{{ '/#disponibilite-assistante-maternelle-bretigny-sur-orge' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Contactez-moi pour futur créneau →") }}</a>
 
 
 
