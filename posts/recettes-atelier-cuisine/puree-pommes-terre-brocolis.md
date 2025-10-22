@@ -76,7 +76,7 @@ Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comme
 **1. Préparation des légumes**
 
 - Épluchez et laver les pommes de terre.
-- Laver les les brocolis
+- Laver les brocolis
 - Dans une cocotte-minute, ajoutez les pommes de terre et le brocolis et un fond d'eau.
 - Faites cuire à la vapeur 30 minutes.
 
