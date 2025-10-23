@@ -60,7 +60,12 @@ Le CESU préfinancé (Chèque Emploi Service Universel) est un moyen de paiement
 - la crèche ou la halte-garderie,
 - d’autres services à la personne (ménage, aide à domicile, etc.)
 
-Le CESU préfinancé est nominatif et peut être financé en tout ou partie par l’employeur, le CSE ou un organisme social. Si le montant des CESU ne couvre pas la totalité de la prestation, vous pouvez compléter avec un autre moyen de paiement.
+Le CESU préfinancé est nominatif et peut être financé en tout ou partie par l’employeur, le CSE (comité social et économique) ou un organisme social. Si le montant des CESU ne couvre pas la totalité de la prestation, vous pouvez compléter avec un autre moyen de paiement.
+
+
+<div class="highlighted-note important">   <p><strong>Réforme du Complément de libre choix du mode de garde (CMG) :</strong> Depuis septembre 2025, la réforme du CMG a modifié les modalités d’aide aux familles, qui ont augmenté le reste à charge pour de nombreux foyers. Cette situation met certaines familles dans une position difficile, à la limite de devoir envisager l’arrêt du travail faute de garde abordable. Le CESU préfinancé apparaît alors comme une solution précieuse, complémentaire aux aides publiques, permettant de compenser une partie de la baisse d’aides et de préserver le maintien d’une activité professionnelle.</p> </div> 
+
+Le CESU préfinancé joue un rôle clé pour aider les familles à surmonter les difficultés engendrées par la récente réforme du CMG. Il permet de réduire le reste à charge lié à la garde d’enfant et d’éviter que des parents ne soient contraints d’arrêter de travailler faute de solutions financières adaptées.
 
 ### **<span id="eligibilite">2. Qui peut en bénéficier ?</span>**  
 
@@ -103,8 +108,10 @@ Le CESU préfinancé concerne plusieurs situations :
 
 <br>
 
+En complément des berceaux d’entreprise ou places en crèche réservées par l’employeur, le CESU préfinancé offre une solution financière flexible et individuelle. Ces dispositifs sont tout à fait cumulables, permettant aux salariés de choisir la solution la mieux adaptée à leur situation et besoins. Cette complémentarité renforce l’attractivité des entreprises en matière d’aide à la garde d’enfants.
+
 - <strong>Attractivité et fidélisation :</strong> Proposer le CESU préfinancé montre l’engagement de l’entreprise envers le bien-être des salariés et favorise leur fidélisation,
-- <strong>Avantages fiscaux et sociaux :</strong> Les sommes versées sous forme de CESU préfinancé sont exonérées de cotisations sociales dans la limite de 2 540 € par an et par salarié (plafond 2025),
+- <strong>Avantages fiscaux et sociaux :</strong> Les sommes versées sous forme de CESU préfinancé sont exonérées de cotisations sociales dans la limite de 2 540 € par an et par salarié en 2025, ce plafond ayant été revalorisé récemment,
 - <strong>Crédit d’impôt :</strong> L’entreprise bénéficie d’un crédit d’impôt de 25 % sur les aides versées au titre du CESU préfinancé,
 - <strong>Gestion simplifiée :</strong> La mise en place et la distribution des CESU sont simples et peu chronophages pour l’entreprise,
 - <strong>Amélioration de la qualité de vie au travail :</strong> En facilitant l’accès à des solutions de garde, l’entreprise contribue à l’équilibre vie professionnelle/vie personnelle de ses salariés.
@@ -178,6 +185,7 @@ Le CESU préfinancé est un véritable coup de pouce pour réduire vos frais de 
 
 
 
+
 <div class="highlighted-note">
   <p><strong>Exemple :</strong> Si le salaire de votre assistante maternelle est de 800 €, et que vous disposez de 200 € de CESU préfinancés, vous ne paierez que 600 € de votre poche avant de bénéficier d’autres aides comme le CMG. En plus, vous pourrez profiter d’un crédit d’impôt sur la somme que vous avez déboursée.</p>
 </div>
@@ -185,6 +193,8 @@ Le CESU préfinancé est un véritable coup de pouce pour réduire vos frais de 
 <br>
 
 Avec la récente réforme du Complément de libre choix du mode de garde (CMG), certaines familles voient leurs aides diminuer. Le CESU préfinancé prend alors tout son sens : un vrai levier pour compenser la baisse et préserver vos choix de garde.
+
+Selon votre situation familiale et vos revenus, la réforme du CMG aura un impact différent. Le CESU préfinancé reste une aide complémentaire accessible et avantageuse pour toutes les familles employeuses d’assistante maternelle. 
 
 <div class="button-wrapper">
  <a href="/faq/" target="_blank" class="btn btn-primary btn-article">Je m'informe sur la réforme CMG →</a>
