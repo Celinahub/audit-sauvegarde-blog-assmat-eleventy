@@ -62,6 +62,7 @@ Toucher la peau rugueuse d’une citrouille, ramasser une feuille craquante ou c
 **3. L’immersion olfactive**  
 Odeurs de terre humide, parfum des bougies, senteur des feuilles mortes… L’automne offre une panoplie d’effluves que les enfants découvrent rarement dans leur quotidien.
 
+{% image "/images/uploads/halloween-carouge-bretigny.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo de citrouilles dans la nuit pour les tout-petits", "(min-width: 1024px) 100vw, 50vw" %}
 
 <br>
 
@@ -76,6 +77,8 @@ Cette approche présente plusieurs bénéfices éducatifs :
 - elle montre que les fêtes peuvent être vécues de manière joyeuse et colorée, même lorsqu’elles évoquent les défunts.
 
 Pour des parents soucieux d’éveiller leurs enfants à la curiosité et à l’ouverture d’esprit, c’est un vrai plus.
+
+{% image "/images/uploads/halloween-bretigny.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo de lanternes artisanales dans la nuit pour les tout-petits", "(min-width: 1024px) 100vw, 50vw" %}
 
 ---
 
