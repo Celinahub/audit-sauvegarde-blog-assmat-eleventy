@@ -376,6 +376,14 @@ Le choix du mode d’accueil dépend de plusieurs critères :
 - **Vos horaires de travail** : certains modes de garde, comme la garde à domicile, sont mieux adaptés aux horaires atypiques.  
 - **La proximité géographique** : la crèche ou l’assistante maternelle la plus proche peut être un facteur essentiel, en fonction de votre emploi du temps.
 
+Comparez instantanément et gratuitement les restes à charge des trois modes d’accueil (assistante maternelle, crèche, autre solution) à Brétigny-sur-Orge, réunis pour la première fois sur une seule page. 
+
+<div class="button-wrapper">
+  <a href="https://chubert91assmat.netlify.app/simulateur-cout-creche-assistante-maternelle/" target="_blank" class="btn btn-primary btn-article">Calculez et comparez les tarifs assistante maternelle vs crèche →</a>
+</div>
+
+<br>
+
 
 Je conseille de visiter les structures et de rencontrer les professionnels avant de faire votre choix. Échanger avec d’autres parents peut également apporter un éclairage intéressant. Les avantages/inconvénients de chaque solution peuvent évoluer en fonction de la structure et du professionnel. Assurez-vous que le projet d’accueil soit bien mis en place et durable afin d’éviter toute déception.
 
