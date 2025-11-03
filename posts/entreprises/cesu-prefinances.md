@@ -69,7 +69,7 @@ Le CESU préfinancé joue un rôle clé pour aider les familles à surmonter les
 
 Pour comprendre comment les parents deviennent des acteurs essentiels de l’avenir des assistantes maternelles grâce au CESU, découvrez notre article 
 <div class="button-wrapper">
- <a href="/#cesu-entreprise" target="_blank" class="btn btn-primary btn-article"> Parents, porteurs de l’avenir des assistantes maternelles →</a>
+ <a href="https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/avenir-metier-assistante-maternelle-bretigny/" target="_blank" class="btn btn-primary btn-article"> Parents, porteurs de l’avenir des assistantes maternelles →</a>
 </div>
 
 <br>
