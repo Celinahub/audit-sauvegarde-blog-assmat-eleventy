@@ -37,6 +37,7 @@ En tant qu’assistante maternelle, je souhaite partager une réflexion de terra
   <a href="#pression" class="styled-link-sommaire">• Parents et professionnels face au référentiel : pression et culpabilisation</a>
   <a href="#adulte" class="styled-link-sommaire">• Référentiel petite enfance : le bien-être des parents et professionnels trop peu développé</a>
   <a href="#deculpabilisation" class="styled-link-sommaire">• Message de déculpabilisation</a>
+  <a href="#temoignage" class="styled-link-sommaire">• Témoignage</a>
   <a href="#questions" class="styled-link-sommaire">• FAQ : tout comprendre sur le référentiel national d’accueil du jeune enfant 2025</a>
   <a href="#retenir" class="styled-link-sommaire">• À retenir pour les familles de Brétigny-sur-Orge</a>
 </div>
@@ -130,7 +131,22 @@ La bienveillance commence par prendre soin de soi pour ensuite s'occuper des aut
 
 ---
 
-### **<span id="questions">7. FAQ : tout comprendre sur le référentiel national d’accueil du jeune enfant 2025</span>** 
+### **<span id="temoignage">7. Témoignage</span>** 
+
+Lors d’une promenade au parc, j’ai échangé avec une maman qui me confiait sa culpabilité face à la télévision, elle voulait suivre les recommandations, mais le rythme familial ne le permet pas toujours. Nous avons évoqué ensemble nos parcours.  
+
+En tant qu’assistante maternelle, il m’est facile d’écarter les écrans dans un cadre professionnel, et mes enfants l’ont bien intégré.  
+
+À la maison, c’est différent, l’aîné découvre la télévision à 6 ans, car il était simple jusque-là de refuser les dessins animés, mais à cet âge, nous ne souhaitons pas l’isoler des conversations avec ses copains d’école. Le cadet, à 3 ans, s’est naturellement intéressé aux écrans en suivant l'aîné, et le petit dernier encore plus tôt.  
+
+Cette évolution, liée à la fratrie, n’est ni une faute ni un renoncement. Ce n’est pas une faiblesse, mais le reflet d’un contexte familial. Le principal est de faire de son mieux et de garder le plaisir d’être ensemble.  
+
+Grâce à cette sensibilisation aux écrans, cette maman alterne les activités à la maison et les sorties au parc avec son enfant, partager ces moments simples, sans pression ni culpabilité, c’est le plus important.  
+
+Ce moment rappelle que le bien-être des enfants naît avant tout du lien et du partage, non d’une règle appliquée à la lettre mais prise en compte, même lorsqu’elle se veut empreinte de bon sens. C’est un exemple parmi d’autres.
+
+
+### **<span id="questions">8. FAQ : tout comprendre sur le référentiel national d’accueil du jeune enfant 2025</span>** 
 
 
 <dl>
@@ -203,7 +219,7 @@ La bienveillance commence par prendre soin de soi pour ensuite s'occuper des aut
 
 ---
 
-### **<span id="retenir">8. À retenir pour les familles de Brétigny-sur-Orge</span>** 
+### **<span id="retenir">9. À retenir pour les familles de Brétigny-sur-Orge</span>** 
 
 - **Le référentiel doit être vu comme une boussole, pas comme une injonction.**
 - Le bien-être des adultes (parents et pros) est tout aussi essentiel que celui de l’enfant.

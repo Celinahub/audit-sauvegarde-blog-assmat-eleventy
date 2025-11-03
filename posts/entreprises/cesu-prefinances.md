@@ -67,6 +67,13 @@ Le CESU préfinancé est nominatif et peut être financé en tout ou partie par 
 
 Le CESU préfinancé joue un rôle clé pour aider les familles à surmonter les difficultés engendrées par la récente réforme du CMG. Il permet de réduire le reste à charge lié à la garde d’enfant et d’éviter que des parents ne soient contraints d’arrêter de travailler faute de solutions financières adaptées.
 
+Pour comprendre comment les parents deviennent des acteurs essentiels de l’avenir des assistantes maternelles grâce au CESU, découvrez notre article 
+<div class="button-wrapper">
+ <a href="/#cesu-entreprise" target="_blank" class="btn btn-primary btn-article"> Parents, porteurs de l’avenir des assistantes maternelles →</a>
+</div>
+
+<br>
+
 ### **<span id="eligibilite">2. Qui peut en bénéficier ?</span>**  
 
 <br>
