@@ -199,7 +199,7 @@ Lors d’une promenade au parc, j’ai échangé avec une maman qui me confiait 
 
 En tant qu’assistante maternelle, il m’est facile d’écarter les écrans dans un cadre professionnel, et mes enfants l’ont bien intégré.  
 
-À la maison, c’est différent, l’aîné découvre la télévision à 6 ans, car il était simple jusque-là de refuser les dessins animés, mais à cet âge, nous ne souhaitons pas l’isoler des conversations avec ses copains d’école. Le cadet, à 3 ans, s’est naturellement intéressé aux écrans en suivant l'aîné, et le petit dernier encore plus tôt tout en fixant des limites sur la durée. Le partage de mon expérience personnelle l'a rassuré.
+Sur le temps personnel, c’est différent, l’aîné découvre la télévision à 6 ans, car il était simple jusque-là de refuser les dessins animés, mais à cet âge, nous ne souhaitons pas l’isoler des conversations avec ses copains d’école. Le cadet, à 3 ans, s’est naturellement intéressé aux écrans en suivant l'aîné, et le petit dernier encore plus tôt tout en fixant des limites sur la durée. Le partage de mon expérience personnelle l'a rassuré.
 
 Cette évolution, liée à la fratrie, n’est ni une faute ni un renoncement. Ce n’est pas une faiblesse, mais le reflet d’un contexte familial. Le principal est de faire de son mieux et de garder le plaisir d’être ensemble.  
 
