@@ -216,13 +216,7 @@ eleventyConfig.addFilter("truncateWords", function (content, numWords) {
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("google0b7250a45fd279a1.html");
   eleventyConfig.addPassthroughCopy("_redirects");
-eleventyConfig.addPassthroughCopy({
-  "node_modules/tarteaucitronjs/tarteaucitron.min.js": "tarteaucitron/tarteaucitron.min.js",
-  "node_modules/tarteaucitronjs/tarteaucitron.services.min.js": "tarteaucitron/tarteaucitron.services.min.js",
-  "node_modules/tarteaucitronjs/css/tarteaucitron.min.css": "tarteaucitron/css/tarteaucitron.min.css",
-  "node_modules/tarteaucitronjs/lang/tarteaucitron.fr.min.js": "tarteaucitron/lang/tarteaucitron.fr.min.js"
-});
-
+  eleventyConfig.addPassthroughCopy("tarteaucitron");
 
 
 
