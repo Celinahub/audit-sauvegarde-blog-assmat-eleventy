@@ -4578,7 +4578,10 @@ picture img {
 }
 
 
-
+.youtube_player iframe {
+    width: 100%;
+    height: 100%;
+  }
 
  
 .container-article {
