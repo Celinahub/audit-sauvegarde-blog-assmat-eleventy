@@ -3810,7 +3810,7 @@ font-size: 0.75rem; /* Taille de la police relative */
  }
  @media (max-width: 768px) {
    .faq-header h2.poppins-regular-faq {
-      font-size: 0.75rem;
+      font-size: 14px;
    }
 }
 
@@ -4006,15 +4006,6 @@ font-size: 0.75rem; /* Taille de la police relative */
   margin-bottom: 80px;  /* Adjust the value as needed */
 }
 
-/* Styles pour le texte de présentation de la faq */
-.poppins-regular-faq {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  font-style: normal;
-  color: #103754;
-  margin-top: 20px;
-}
 
 
 
