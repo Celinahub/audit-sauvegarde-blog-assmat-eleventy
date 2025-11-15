@@ -3831,7 +3831,7 @@ font-size: 0.75rem; /* Taille de la police relative */
 }
  @media (max-width: 768px) {
    .faq-description {
-      font-size: 0.75rem;
+      font-size: 14px;
    }
 }
 
