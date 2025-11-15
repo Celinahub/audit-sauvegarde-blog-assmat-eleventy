@@ -65,6 +65,8 @@ Organisé par la Médiathèque de Brétigny-sur-Orge, le rendez-vous "Des petits
   <a href="https://mediatheques.coeuressonne.fr/agenda/agenda-et-programme/" target="_blank" class="btn btn-primary btn-article">Je consulte les évènements de la médiathèque →</a>
 </div>
 
+<br>
+
 {% image "/images/uploads/mediatheque-evenements-bretigny-91.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo d'une animation lecture d'histoire à la médiathèque pour les tout-petits", "(min-width: 1024px) 100vw, 50vw" %}
 
 ---

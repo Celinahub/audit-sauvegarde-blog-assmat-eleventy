@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ metadata.language or 'fr' }}">
 <head>
+<meta charset="UTF-8">
 
 
 <script src="/tarteaucitron/tarteaucitron.min.js"></script>
 
-   <script type="text/javascript">
+   <script>
         tarteaucitron.init({
     	  "privacyUrl": "/mentions-legales/#politique-de-confidentialite", /* Url de la politique de confidentialité */
           "bodyPosition": "top", /* top place le bandeau de consentement au début du code html, mieux pour l'accessibilité */
@@ -100,7 +101,7 @@ tarteaucitron.services.youtube = {
 
 
 
-  <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 {% include "layouts/widget/head.njk" %} <!-- Inclusion des métadonnées  -->

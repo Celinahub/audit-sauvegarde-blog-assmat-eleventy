@@ -170,6 +170,7 @@ J’y vais parfois avec les enfants pour lire ou simplement se poser au calme. C
   <a href="https://mediatheques.coeuressonne.fr/" target="_blank" class="btn btn-primary btn-article">Je consulte les évènements proposés par la médiathèque →</a>
 </div>
 
+<br>
 
 {% image "/images/uploads/mediatheque-bretigny.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo de la médiathèque", "(min-width: 1024px) 100vw, 50vw" %}
 
@@ -186,6 +187,8 @@ Nous aimons nous promener autour pour observer les chevaux et poneys. Les plus j
     Je consulte les évènements → 
   </a>
 </div>
+
+<br>
 
 {% image "/images/uploads/centre-equestre-ame-horse-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du centre equestre", "(min-width: 1024px) 100vw, 50vw" %}
 
@@ -204,6 +207,8 @@ Nous aimons nous promener autour pour observer les chevaux et poneys. Les plus j
   <a href="https://winnoland.fr/" target="_blank" class="btn btn-primary btn-article">Je découvre le parc Winnoland →</a>
 </div>
 
+<br>
+
 {% image "/images/uploads/winnoland-essonne.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du parc d'attraction Winnoland", "(min-width: 1024px) 100vw, 50vw" %}
 
 
@@ -218,6 +223,8 @@ Nous aimons nous promener autour pour observer les chevaux et poneys. Les plus j
 <div class="button-wrapper">
   <a href="https://www.essonne.fr/culture-loisirs-tourisme/lactualite-culture-loisirs-tourisme/les-feeries-de-janvry" target="_blank" class="btn btn-primary btn-article">En savoir plus sur le marché de Noël à Janvry →</a>
 </div>
+
+<br>
 
 {% image "/images/uploads/noel-janvry-essonne.jpg", "Assistante maternelle à Brétigny-sur-Orge – photo du parc du marché de noël de Janvry", "(min-width: 1024px) 100vw, 50vw" %}
 

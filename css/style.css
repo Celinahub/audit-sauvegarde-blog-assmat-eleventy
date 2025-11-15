@@ -45,6 +45,279 @@
    font-display: swap;
 }
 
+
+
+
+
+
+ .poppins-bold-titre-h1 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   color: #103754;
+   
+}
+@media (max-width: 768px) {
+   .poppins-bold-titre-h1 {
+     font-size: 24px; /* réduction par rapport à 1.5rem */
+   }
+ }
+
+.poppins-bold-titre-h2 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color: #103653;
+   font-size: 24px; /* Taille de la police relative */
+   margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+   .poppins-bold-titre-h2 {
+     font-size: 24px; /* réduction par rapport à 1.5rem */
+   }
+ }
+
+
+
+
+
+.poppins-regular-titre-h3 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #103754;
+   font-size: 16px;
+ }
+ @media (max-width: 768px) {
+   .poppins-regular-titre-h3 {
+     font-size: 16px; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
+
+
+/* Styles spécifiques pour "Modalité" et "Pictogrammes" */
+.poppins-bold-titre-h3 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color: #103754;
+   font-size: 16px;
+ }
+ @media (max-width: 768px) {
+   .poppins-bold-titre-h3 {
+     font-size: 16px; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
+
+.poppins-regular-balise-p {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   font-style: normal;
+   color: #103754;
+ }
+@media (max-width: 768px) {
+   .poppins-regular-balise-p {
+     font-size: 14px; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
+ /* Styles spécifiques pour le texte en gras de la frise caché */
+ .poppins-bold-balise-p {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color: #103754;
+   font-size: 14px;
+ }
+@media (max-width: 768px) {
+   .poppins-bold-balise-p {
+     font-size: 14px; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
+
+.poppins-regular {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   font-style: normal;
+   color: #103754;
+ }
+@media (max-width: 768px) {
+   .poppins-regular {
+     font-size: 14px; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
+
+
+
+/* Styles spécifiques le titre h1 typo blanc" */
+.poppins-bold-titre-blanc-h1 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color: #F8F9F6;
+   font-size: 24px; /* Taille de la police relative */
+}
+
+@media (max-width: 768px) {
+   .poppins-bold-titre-blanc-h1 {
+     font-size: 24px; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
+
+.poppins-bold-titre-blanc-h2 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color: #F8F9F6;
+   font-size: 24px; /* Taille de la police relative */
+   margin-bottom: 20px;
+ 
+}
+@media (max-width: 768px) {
+   .poppins-bold-titre-h2 {
+     font-size: 24px; /* réduction par rapport à 1.5rem */
+   }
+ }
+
+.poppins-regular-blanc-balise-p {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   font-style: normal;
+   color: #F8F9F6;
+ }
+@media (max-width: 768px) {
+   .poppins-regular-blanc-balise-p {
+     font-size: 14px; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
+
+
+
+/* Styles spécifiques pour le texte marron de la frise caché */
+ .poppins-regular-marron-balise-p {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   font-style: normal;
+   color: #40413E;
+ }
+@media (max-width: 768px) {
+   .poppins-regular-marron-balise-p {
+     font-size: 14px; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
+
+/* Styles spécifiques pour le texte marron en gras de la frise caché */
+ .poppins-bold-marron-balise-p {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color: #40413E;
+   font-size: 14px;
+ }
+@media (max-width: 768px) {
+   .poppins-bold-marron-balise-p {
+     font-size: 14px; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
+
+
+/* Styles pour les liens du site */
+
+.style-liens {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #025a75; /* bleu vif plus distinct */
+  font-size: 1rem;
+  background: none;
+  text-decoration: underline; /* souligné par défaut */
+  padding: 2px 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s, outline 0.3s;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* léger relief */
+}
+
+.style-liens:hover,
+.style-liens:active {
+  color: #016d8b; /* bleu encore plus vif au hover */
+  background-color: #c0e7e1; /* fond légèrement plus prononcé */
+  text-decoration: underline;
+}
+
+.style-liens:focus {
+ 
+  outline-offset: 3px;
+  color: #013f4d;
+  background-color: #d7f1ef;
+  text-decoration: underline;
+}
+
+/* Adaptation responsive */
+@media (max-width: 768px) {
+  .style-liens {
+    font-size: 0.85rem;
+  }
+}
+
+
+
+
+
+
+
+/* Styles pour les liens du site */
+.styled-link {
+   font-weight: bold;
+   color: #103754;
+   text-decoration: none;
+   font-size: 0.875rem;
+}
+
+.styled-link:hover {
+   text-decoration: underline;
+}
+
+/* Media query pour écrans plus petits */
+@media (max-width: 768px) {
+   .styled-link  {
+      font-size: 0.75rem;
+   }
+ }
+
+
+
+
+
+ /* Styles spécifiques pour l'espace entre deux contenus */
+.espace-force {
+   margin-bottom: 50px; /* Ajoutez de l'espace entre les éléments */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Appliquer Poppins (poids normal) */
 body {
    font-family: 'Poppins', sans-serif;
@@ -98,7 +371,6 @@ header {
 
 .navbar {
    background-color: #fff; /* Couleur de fond */
-   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre sous le menu */
    position: fixed; /* Rendre le menu fixe */
    top: 0; /* En haut de la page */
    left: 0; /* Aligné à gauche */
@@ -415,15 +687,7 @@ h2, h3 {
    border-image: url('../images/navbar/bordure-main multicolor.svg') 30 repeat; /* Image tremblante */
 }
 
- /* Styles pour la typo du menu déroulant */
-.poppins-regular-nav-link {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 12px; /* Taille de la police relative */
-   font-weight: bold; /* Épaisseur de la police */
-   color: #103754;
- }
+ 
 
 /* Styles pour le logo chez celine du menu déroulant */
  .navbar-logo {
@@ -512,31 +776,6 @@ h2, h3 {
 }
 
 
-.header-main-contact {
-   background-color: #96D2CA;
-   padding: 1px 0; /* Réduisez le padding au minimum nécessaire */
-   text-align: center;
-}
-
-.heading-main-contact {
-   font-size: 1px; /* Utilisez une taille de police lisible, mais plus petite */
-   color: #96D2CA;
-   margin: 0; /* Supprimez les marges verticales */
-   
-}
-
-
-.heading-contact {
-   font-size: 1px; /* Ajoutez cette règle pour rétrécir la taille de la police */
-   color: #96D2CA;
-   margin: 0; /* Ajoutez cette règle pour supprimer les marges par défaut */
-}
-
-/* Style pour la section de contact pour éviter les espaces indésirables */
-.contact-section {
-   margin: 0; /* Pas de marge */
-   padding: 0; /* Pas de padding */
-}
 
 
 .container-fluid-contact {
@@ -777,24 +1016,6 @@ h2, h3 {
 
 
 
-/* Styles spécifiques pour l'espace entre les titres "ME CONTACTER" et le texte "'c'est avec plaisir que j'échangerai avec vous." */
-.contact-spacer {
-   margin-bottom: 40px; /* Ajoutez de l'espace entre les éléments */
-}
-
-
-  /* Styles personnalisés pour le texte "ME CONTACTER:" */
-  .contact-label {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   text-align: center; /* Centrer le texte */
-   font-size: 1.2em; /* Taille de la police */
-   font-weight: bold; /* Épaisseur de la police */
-   color: #103754; /* Couleur du texte */
-   margin: 0 auto; /* Centre le texte en supprimant l'espace vertical */
-   padding: 0; /* Supprimez le padding */
-}
 
 
 
@@ -1074,14 +1295,16 @@ h2, h3 {
    border-color: #F8F9F6; /* Couleur de la bordure */
    font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1rem;
     font-style: normal;
     margin-top: 10px;
     margin-bottom: 40px;
-    
-   
   }
-
+ @media (max-width: 768px) {
+   .btn-action-primary-g {
+     font-size: 0.875rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
 
  .btn-action-primary-g:hover {
    background-color: #F8F9F6; /* Couleur #F8F9F6 avec 40% de transparence */
@@ -1206,25 +1429,7 @@ h2, h3 {
    margin-bottom: 30px; /* Marge en bas du titre */
 }
 
-.poppins-bold-titre-accueil {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-size: 1.5em;
-   color: #103754;
-   margin: 0; /* Supprime les marges par défaut */
-}
 
-
-
-.poppins-bold-sous-titre-accueil {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #F8F9F6;
-   font-size: 1.1em; /* Taille de la police relative */
-   margin-bottom: 30px; /* Marge en bas du titre */
-   z-index: 1;
-}
 
 
 .description-atout-services {
@@ -1239,15 +1444,6 @@ h2, h3 {
    text-align: left; /* le texte a gauche */
 }
  
-
-.poppins-regular-accueil {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
-   margin-bottom: 0px; /* Espace entre le titre et le texte */
- }
 
 
 
@@ -1295,12 +1491,15 @@ h2, h3 {
   border-color: #103653; /* Couleur de la bordure */
   font-family: "Poppins", sans-serif;
    font-weight: 400;
-   font-size: 12px;
+   font-size: 1rem;
    font-style: normal;
    padding: 5px 10px; /* Espacement interne */
-  
  }
- 
+ @media (max-width: 768px) {
+   .btn-action-primary {
+     font-size: 0.875rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
  
  .btn-action-primary:hover {
   background-color: rgba(150, 210, 202, 0.4); /* Couleur de fond au survol */
@@ -1413,22 +1612,7 @@ h2, h3 {
 
 
 
-/* Styles spécifiques le titre "UNE ADAPTATION REUSSIE" */
-.poppins-bold-service-title {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103653;
-   font-size: 2.5em; /* Taille de la police relative */
-  
-}
 
-@media (max-width: 768px) {
-   .poppins-bold-service-title {
-     font-size: 1.8em; /* ou une autre taille plus adaptée au mobile */
-   }
- }
- 
 
  .icone-service {
    display: flex;
@@ -1461,20 +1645,31 @@ h2, h3 {
  
  .titre-icone-service {
    font-weight: bold;
-   font-size: 1.1rem;
+   font-size: 0.875rem;
    margin-bottom: 0.5rem;
    display: block;
  }
- 
+ @media (max-width: 768px) {
+   .titre-icone-service {
+     font-size: 0.75rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
 
  .poppins-regular-icone-service {
    font-family: "Poppins", sans-serif;
    font-weight: 400;
-   font-size: 14px;
+   font-size: 0.875rem;
    font-style: normal;
    color: #103653;
    margin-top: 10px; /* Ajoute un espace entre l'icône et le texte */
 }
+@media (max-width: 768px) {
+   .poppins-regular-icone-service {
+     font-size: 14px; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
+
 .icone-service a {
    text-decoration: none; /* Supprime le soulignement du lien */
    color: inherit; /* Garde la couleur du texte normale */
@@ -1563,23 +1758,7 @@ h2, h3 {
  }
  
 
-.google-fiche-avis {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103653;
-   font-size: 2.5em; /* Taille de la police relative */
-   margin-top: 20px; /* Marge en haut du titre */
-   margin-bottom: 20px; /* Marge en bas du titre */
-   margin-left: 0px;
 
-
-}
-@media (max-width: 768px) {
-   .google-fiche-avis {
-     font-size: 1.8em; /* ou une autre taille plus adaptée au mobile */
-   }
- }
 
 
 .horizontal-line {
@@ -1645,26 +1824,8 @@ h2, h3 {
    
 }
 
-/* Titres des sous-sections (ex. : Un Mode d'Accueil...) */
-.poppins-regular-disponibilite {
-   font-family: "Poppins", sans-serif;
-   font-weight: 600;
-   font-size: 16px;
-   font-style: normal;
-   color: #103754;
-   text-align: left;
-   margin-bottom: 20px; /* Augmente l'espace sous le titre */
- }
+
  
-.poppins-regular-informations {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
-   text-align: left;
-   margin-bottom: 20px; /* Augmente l'espace sous le titre */
- }
 
 /* Styles spécifiques pour les Icônes svg des titres de l'agrément */
 .bloc-note {
@@ -1714,11 +1875,15 @@ height:1.5em;
    border-color: #103653; /* Couleur de la bordure */
    font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1rem;
     font-style: normal;
-   
   }
-  
+   @media (max-width: 768px) {
+   .btn-action-primary-c {
+     font-size: 0.875rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
   
   .btn-action-primary-c:hover {
    background-color: rgba(150, 210, 202, 0.4); /* Couleur de fond au survol */
@@ -1816,56 +1981,7 @@ height:1.5em;
  }
  
 
- .poppins-regular-rencontre {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
-   margin-bottom: 50px; /* Espace entre le titre et le texte */
-   margin-top: 50px; /* Espace entre le titre et le texte */
-   text-align: left; /* Alignement à gauche */
-  
- }
 
-
-/* Titres des sous-sections (ex. : Un Mode d'Accueil...) */
-.poppins-regular-atouts {
-   font-family: "Poppins", sans-serif;
-   font-weight: 600;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
-   margin-top: 30px;
-   margin-bottom: 10px;
-   text-align: left;
-   margin-bottom: 20px; /* Augmente l'espace sous le titre */
- }
- 
- /* Paragraphes explicatifs sous les titres */
- .poppins-regular-atouts + p {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
-   margin-bottom: 20px;
-   text-align: left;
- }
- 
-
-
-/* Paragraphe d’invitation à l’échange (avec enveloppe) */
-.poppins-regular-rdv {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
-   display: inline-flex;
-   align-items: center;
- }
- 
  .checked-localisation {
    margin-left: 10px; /* Ajoute de l'espace entre le texte et le SVG */
    width: 4.5rem; /* Ajustez la taille du SVG */
@@ -1993,6 +2109,7 @@ height:1.5em;
 .bien-etre-securite-section,
 .coeducation-enfant-famille-section,
 .garde-enfant-bretigny-section,
+.faq-projet-accueil,
 .accueil-assistante-maternelle-section {
    padding-left: 20px; /* Ajoutez une marge de 20px à gauche */
    padding-right: 20px; /* Ajoutez une marge de 20px à droite */
@@ -2072,13 +2189,9 @@ picture img {
 
 }
 
-.poppins-regular {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
- }
+
+
+
 
 
 
@@ -2095,25 +2208,7 @@ picture img {
     
 
 
-/* Styles spécifiques le titre "POURQUOI ME CHOISIR ?" */
-.poppins-bold-coeducation-title {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103653;
-   font-size: 2.5em; /* Taille de la police relative */
-   margin-top: 20px; /* Marge en haut du titre */
-   margin-bottom: 20px; /* Marge en bas du titre */
-   margin-left: 0px;
 
-
-}
-@media (max-width: 768px) {
-   .poppins-bold-coeducation-title {
-     font-size: 1.8em; /* ou une autre taille plus adaptée au mobile */
-   }
- }
- 
 
 
 /* Styles spécifiques le titre "DOUDOU" */
@@ -2122,14 +2217,14 @@ picture img {
    font-weight: 700;
    font-style: normal;
    color: #103653;
-   font-size: 1.8em; /* Taille de la police relative */
+   font-size: 1em; /* Taille de la police relative */
    margin-top: 20px; /* Marge en haut du titre */
    margin-bottom: 20px; /* Marge en bas du titre */
 
 }
 @media (max-width: 768px) {
    .poppins-bold-doudou-title {
-     font-size: 1.2em; /* ou une autre taille plus adaptée au mobile */
+     font-size: 0.875em; /* ou une autre taille plus adaptée au mobile */
    }
  }
 
@@ -2154,12 +2249,17 @@ picture img {
    border-color: #103653; /* Couleur de la bordure */
    font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1rem;
     font-style: normal;
     margin-top: 10px;
     margin-bottom: 20px;
-   
   }
+@media (max-width: 768px) {
+   .btn-action-primary-b {
+     font-size: 0.875rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
 
 
  .btn-action-primary-b:hover {
@@ -2219,33 +2319,6 @@ picture img {
 
 
 
-/* Styles spécifiques le titre "UNE ADAPTATION REUSSIE" */
-.poppins-bold-adaptation-title {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #F8F9F6;
-   font-size: 2.5em; /* Taille de la police relative */
-   margin-top: 20px; /* Marge en haut du titre */
-   margin-bottom: 20px; /* Marge en bas du titre */
-}
-
-@media (max-width: 768px) {
-   .poppins-bold-adaptation-title {
-     font-size: 1.8em; /* ou une autre taille plus adaptée au mobile */
-   }
- }
- 
-
-/* Styles spécifiques pour texte introduction section adaptation */
-.poppins-adaptation {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   color: #F8F9F6;
-   font-size: 14px;
- }
-
 
 .timeline {
    list-style: none;
@@ -2260,7 +2333,7 @@ picture img {
    display: flex;
    align-items: baseline; /* Aligner sur la ligne de base */
    justify-content: flex-start; /* Aligner à gauche */
-   margin-bottom: 50px;
+   margin-bottom: 20px;
 }
 
 
@@ -2271,7 +2344,7 @@ picture img {
    font-weight: 400;
    font-style: normal;
    color: #F8F9F6;
-   font-size: 0.9em; /* Taille de la police relative */
+   font-size: 1rem; /* Taille de la police relative */
    margin-top: 20px; /* Marge en haut du titre */
    margin-bottom: 20px; /* Marge en bas du titre */
 
@@ -2279,7 +2352,7 @@ picture img {
 
 @media (max-width: 768px) {
    .poppins-bold-jour-title {
-     font-size: 0.9em; /* ou une autre taille plus adaptée au mobile */
+     font-size: 0.875rem; /* ou une autre taille plus adaptée au mobile */
    }
  }
  
@@ -2296,26 +2369,6 @@ picture img {
 
 
  
-
-
- /* Styles spécifiques pour le texte en gras de la frise caché */
- .poppins-bold-adaptation-hidden {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103754;
-   font-size: 14px;
- }
-
-
-/* Styles spécifiques pour le texte de la frise caché */
- .poppins-regular-adaptation-hidden {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
- }
 
 
 /* Styles spécifiques de la ligne verticale en pointillé et de l'espacement du contenu */
@@ -2422,13 +2475,6 @@ picture img {
  }
 
 
- .poppins-bold-titre-bienvenue {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-size: 1.5em;
-   color: #103754;
-   margin: 0; /* Supprime les marges par défaut */
-}
 
 
 
@@ -2461,6 +2507,34 @@ picture img {
    margin-bottom: 0;
 }
 
+/* Styles pour la section projet-accueil */
+
+#projet-accueil-bretigny {
+   background-color: #98D1CA;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+    }
+    
+/* Styles spécifiques le titre "projet accueil assistante maternelle" */
+.poppins-bold-projet-accueil-title {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color: #103653;
+   font-size: 1.5rem; /* Taille de la police relative */
+   margin-top: 20px; /* Marge en haut du titre */
+   margin-bottom: 20px; /* Marge en bas du titre */
+   margin-left: 0px;
+}
+@media (max-width: 768px) {
+   .poppins-bold-coeducation-title {
+     font-size: 1.2rem; /* réduction par rapport à 1.5rem */
+   }
+ }
+ 
+
 
 
 
@@ -2478,14 +2552,14 @@ picture img {
    font-weight: 700;
    font-style: normal;
    color: #103653;
-   font-size: 2.5em; /* Taille de la police relative */
+   font-size: 1.5em; /* Taille de la police relative */
    margin-top: 20px; /* Marge en haut du titre */
    margin-bottom: 0px; /* Marge en bas du titre */
 }
 
 @media (max-width: 768px) {
    .poppins-bold-securite-title {
-     font-size: 1.8em; /* ou une autre taille plus adaptée au mobile */
+     font-size: 1.2em; /* ou une autre taille plus adaptée au mobile */
    }
  }
  
@@ -2527,7 +2601,14 @@ picture img {
  }
  
  
-
+ .custom-font-size {
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+   .custom-font-size {
+     font-size: 0.875em; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
 
 /* Styles pour la section chat-enfant-accueil */
 
@@ -2571,43 +2652,6 @@ picture img {
   
 }
 
-/* Styles spécifiques le titre "LE CHAT" */
-.poppins-bold-chat-title {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103653;
-   font-size: 1.8em; /* Taille de la police relative */
-   margin-top: 20px; /* Marge en haut du titre */
-   margin-bottom: 20px; /* Marge en bas du titre */
-
-}
-@media (max-width: 768px) {
-   .poppins-bold-chat-title {
-     font-size: 1.5em; /* ou une autre taille plus adaptée au mobile */
-   }
- }
-
- .poppins-regular-chat {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
-   text-align: left;
- }
-
- .poppins-regular-atout-chat {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
-   text-align: left;
-   padding-left: 18px;
-   margin-top: 15px;
- }
-
 
 /* Style pour l'image dans la section chat */
 .image-chat img {
@@ -2645,10 +2689,15 @@ picture img {
    border-color: #103653; /* Couleur de la bordure */
    font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1rem;
     font-style: normal;
   }
-  
+  @media (max-width: 768px) {
+   .btn-action-primary-e {
+     font-size: 0.875rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
   
   .btn-action-primary-e:hover {
    background-color: rgba(150, 210, 202, 0.4); /* Couleur de fond au survol */
@@ -2679,14 +2728,14 @@ picture img {
    font-weight: 700;
    font-style: normal;
    color: #103754;
-   font-size: 2.5em; /* Taille de la police relative */
+   font-size: 1.5em; /* Taille de la police relative */
    margin-top: 20px; /* Marge en haut du titre */
    margin-bottom: 20px; /* Marge en bas du titre */
 }
 
 @media (max-width: 768px) {
    .poppins-bold-activites-title {
-     font-size: 1.8em; /* ou une autre taille plus adaptée au mobile */
+     font-size: 1.2em; /* ou une autre taille plus adaptée au mobile */
    }
  }
  
@@ -2709,7 +2758,7 @@ picture img {
 .next-button-c,
 .next-button-b,
 .next-button-a {
-   font-size: 5vw; /* Utilisation de vw pour une taille de police responsive */
+   font-size: 1rem; /* Utilisation de vw pour une taille de police responsive */
    cursor: pointer;
    display: flex;
    align-items: center; /* Centrer verticalement */
@@ -2727,7 +2776,7 @@ picture img {
    .next-button-c,
    .next-button-b,
    .next-button-a {
-     font-size: 10vw; /* Taille de police plus grande pour les petits écrans */
+     font-size: 0.875rem; /* Taille de police plus grande pour les petits écrans */
   }
 }
 
@@ -2830,14 +2879,14 @@ picture img {
    font-weight: 700;
    font-style: normal;
    color: #103754;
-   font-size: 2.5em; /* Taille de la police relative */
+   font-size: 1.5rem; /* Taille de la police relative */
    margin-top: 20px; /* Marge en haut du titre */
    margin-bottom: 20px; /* Marge en bas du titre */
 }
 
 @media (max-width: 768px) {
    .poppins-bold-team-title {
-     font-size: 1.8em; /* ou une autre taille plus adaptée au mobile */
+     font-size: 1.2rem; /* ou une autre taille plus adaptée au mobile */
    }
  }
  
@@ -2871,20 +2920,14 @@ picture img {
    font-weight: 400;
    font-style: normal;
    color: #103754;
-   font-size: 0.9em; /* Taille de la police relative */
+   font-size: 0.875rem; /* Taille de la police relative */
    margin-bottom: 50px; /* Marge en bas du titre */
 }
 
 @media screen and (max-width: 768px) {
-   
-
-   .poppins-team-text {
-     
-      font-size: 0.7em; /* Taille de la police relative */
-      
-   }
-   
-   
+.poppins-team-text {
+font-size: 0.75rem; /* Taille de la police relative */
+   } 
 }
 
 
@@ -2894,9 +2937,15 @@ picture img {
    font-weight: 700;
    font-style: normal;
    color: #103754;
-   font-size: 1.2em; /* Taille de la police relative */
+   font-size: 0.875rem; /* Taille de la police relative */
  }
- 
+ @media (max-width: 768px) {
+   .poppins-bold-team {
+     font-size: 0.75rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
+
  
 /* Styles spécifiques aux bordures des collaborateurs */
 .team-item-4,
@@ -2978,10 +3027,15 @@ picture img {
    margin-left: 2vw; /* Utilisation de vw pour une marge relative à la largeur de la vue */
    margin-right: 2vw;
    white-space: normal;
-   font-size: 1vw; /* Utilisation de vw pour la taille de la police relative à la largeur de la vue */
+   font-size: 0.875rem; /* Utilisation de vw pour la taille de la police relative à la largeur de la vue */
    min-width: 140px; /* Taille minimale pour le texte en pixels */
    color: #F9F4F0;
 }
+  @media (max-width: 768px) {
+   .team-text {
+     font-size: 0.75rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
 
 .team-item-1,
 .team-item-2,
@@ -3010,10 +3064,14 @@ picture img {
    border-color: #103653; /* Couleur de la bordure */
    font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1rem;
     font-style: normal;
   }
-  
+   @media (max-width: 768px) {
+   .btn-action-primary-f {
+     font-size: 0.875rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
   
   .btn-action-primary-f:hover {
    background-color: rgba(248, 249, 246, 0.4); /* Couleur #F8F9F6 avec 40% de transparence */
@@ -3053,25 +3111,7 @@ picture img {
 }
 
 
-/* Styles spécifiques le titre "MA JOURNEE DE MINISTRE" */
-.poppins-bold-routine-title {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103754;
-   font-size: 2.5em;
-   margin-top: 20px;
-   margin-bottom: 20px;
-   text-align: left;
-   width: 100%; /* <-- clé ici */
- }
- 
 
-@media (max-width: 768px) {
-   .poppins-bold-routine-title {
-     font-size: 1.8em; /* ou une autre taille plus adaptée au mobile */
-   }
- }
  
 
 
@@ -3113,7 +3153,7 @@ picture img {
    font-family: "Finger Paint", sans-serif;
    font-weight: 400;
    font-style: normal;
-   font-size: 1em;
+   font-size: 1rem;
    position: relative; /* Ajout de position relative */
    z-index: 1;
 }
@@ -3136,10 +3176,7 @@ picture img {
 }
 
 
-/* Styles spécifiques pour l'espace entre les titres "Routine" et "Dejeuner" et le texte */
-.routine-spacer {
-   margin-bottom: 30px; /* Ajoutez de l'espace entre les éléments */
-}
+
 
 /* Styles spécifiques pour les Icônes svg des titres "Routine" et "Dejeuner" */
 .temps-forts {
@@ -3177,43 +3214,8 @@ picture img {
  
 
 
-/* Styles spécifiques pour "Modalité" et "Pictogrammes" */
-.poppins-bold-routine {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103754;
-   font-size: 14px;
- }
 
-/* Styles spécifiques pour le texte de la frise */
-.poppins-regular-routine {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
- }
-
- /* Styles spécifiques pour le texte en gras de la frise caché */
- .poppins-bold-routine-hidden {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #40413E;
-   font-size: 14px;
- }
-
-
-/* Styles spécifiques pour le texte de la frise caché */
- .poppins-regular-routine-hidden {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #40413E;
- }
-
+ 
  
  
  
@@ -3385,10 +3387,15 @@ picture img {
  /* Assurez-vous que le titre du jour s'ajuste correctement */
 .agrement-title {
    margin-left: 10px; /* Assure-toi qu'il y a assez d'espace pour le titre et l'icône */
-   font-size: 16px;
+   font-size: 1rem;
    position: relative; /* Ajouté pour permettre à l'icône de se positionner par rapport à cet élément */
  }
-
+@media (max-width: 768px) {
+   .agrement-title {
+     font-size: 0.875em; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+ 
 
 
  .agrement-icon {
@@ -3407,30 +3414,6 @@ picture img {
 
 
 
-
-
-
-
-
-/* Styles spécifiques le titre "MON AGREMENT" */
-.poppins-bold-agrement-title {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103754;
-   font-size: 2.5em;
-   margin-top: 20px;
-   margin-bottom: 20px;
-   text-align: left;
-   width: 100%; /* <-- clé ici */
- }
- 
-
-@media (max-width: 768px) {
-   .poppins-bold-agrement-title {
-     font-size: 1.8em; /* ou une autre taille plus adaptée au mobile */
-   }
- }
 
 
 /* Styles spécifiques le titre "MON AGREMENT un accueil personnalisé" */
@@ -3472,10 +3455,7 @@ picture img {
 }
 
 
-/* Styles spécifiques pour l'espace entre les titres de l'agrément */
-.agrement-spacer {
-   margin-bottom: 30px; /* Ajoutez de l'espace entre les éléments */
-}
+
 
 /* Styles spécifiques pour les Icônes svg des titres de l'agrément */
 .day-agrement {
@@ -3507,37 +3487,17 @@ picture img {
    font-weight: 700;
    font-style: normal;
    color: #103754;
-   font-size: 14px;
+   font-size: 0.875rem;
  }
-
-/* Styles spécifiques pour le texte de la frise */
-.poppins-regular-agrement {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
- }
-
- /* Styles spécifiques pour le texte en gras de la frise caché */
- .poppins-bold-agrement-hidden {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #40413E;
-   font-size: 14px;
+@media (max-width: 768px) {
+   .poppins-bold-agrement {
+     font-size: 0.75rem; /* ou une autre taille plus adaptée au mobile */
+   }
  }
 
 
-/* Styles spécifiques pour le texte de la frise caché */
- .poppins-regular-agrement-hidden {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #40413E;
- }
 
+ 
  
 
 /* Styles pour la taille les icônes dans les pictogrammes */
@@ -3592,11 +3552,16 @@ picture img {
    border-radius: 5px; /* Coins arrondis */
    border: none; /* Retirer la bordure par défaut */
    padding: 5px 10px; /* Espacement interne */
-   font-size: 12px; /* Taille du texte */
+   font-size: 1rem; /* Taille du texte */
    cursor: pointer; /* Changer le curseur au survol */
    transition: background-color 0.3s; /* Transition pour un effet au survol */
-  
 }
+@media (max-width: 768px) {
+   .btn-article-agrement {
+     font-size: 0.875rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
 
 .btn-article-agrement:hover {
    background-color: #353937; /* Couleur au survol */
@@ -3615,6 +3580,61 @@ picture img {
 }
 
 
+/* Styles pour la section coeducation-enfant-famille */
+ 
+#faq-projet-accueil {
+   background-color: #98D1CA;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 3rem; /* ou margin-bottom */
+   padding-bottom: 3rem; /* ou margin-bottom */
+    }
+    
+
+
+ 
+#faq-projet-accueil .accordion-button.collapsed {
+  background-color: #AEDBD5; /* couleur de fond quand bouton fermé, jaune pastel */
+  color: #103754; /* couleur du texte */
+}
+
+#faq-projet-accueil .accordion-button:not(.collapsed) {
+  background-color: #AEDBD5; /* couleur de fond quand bouton ouvert, jaune plus vif */
+  color: #103754;
+}
+
+#faq-projet-accueil .accordion-button:focus {
+  background-color: #AEDBD5;
+  outline: none;
+  box-shadow: none;
+}
+
+
+.accordion-projet-accueil-body {
+  background-color: #98D1CA;
+  padding: 1rem;
+}
+
+.accordion-projet-accueil-item {
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem; /* possible si tu veux arrondir */
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Page mentions-legales.html */
 
@@ -3626,52 +3646,9 @@ picture img {
 }
 
 
-.header-main-mentions {
-   background-color: #96D2CA;
-   padding: 1px 0; /* Réduisez le padding au minimum nécessaire */
-   text-align: center;
-}
-
-.heading-main-mentions {
-   font-size: 1px; /* Utilisez une taille de police lisible, mais plus petite */
-   color: #96D2CA;
-   margin: 0; /* Supprimez les marges verticales */
-   
-}
 
 
-/* Dans votre fichier CSS */
-.heading-mentions-legales {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103653;
-   font-size: 3em; /* Taille de la police relative */
-   margin-bottom: 50px; /* Marge en bas du titre */
-   margin-top: 50px; /* Marge en haut du titre */
-}
 
-@media screen and (max-width: 768px) {
-   
-   .heading-mentions-legales {
-      font-size: 2em; /* Taille de la police relative */
-   }
-   
-}
-
-
-.poppins-regular-mentions {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
- }
-
- /* Styles spécifiques pour l'espace entre les titres "Routine" et "Dejeuner" et le texte */
-.mentions-spacer {
-   margin-bottom: 80px; /* Ajoutez de l'espace entre les éléments */
-}
 
 
 
@@ -3742,40 +3719,6 @@ picture img {
 }
 
 
-
-/* Styles spécifiques le titre "VOS QUESTIONS" */
-.poppins-bold-faq-title {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103653;
-   font-size: 1,5em; /* Taille de la police relative */
-   margin-bottom: 10px; /* Marge en bas du titre */
-
-}
-
-
- /* Animation de fondu pour "nos réponses" */
- @keyframes fadeInOutfaq {
-   0%, 100% {
-       opacity: 0;
-   }
-   25%, 75% {
-       opacity: 1;
-   }
-}
-
-/* Appliquer l'animation "nos réponses" avec une durée de 3 secondes, répétition infinie */
-.fade-in-out-faq {
-   animation: fadeInOutfaq 8s infinite;
-   color: #F8F9F6; /* Couleur du texte souhaitée */
-   display: inline-block; /* Maintient sur la même ligne */
-   font-family: "Finger Paint", sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 1em;
-   position: relative; /* Ajout de position relative */
-}
 
 
 /* Cachez initialement la description faq */
@@ -3857,7 +3800,7 @@ picture img {
 .faq-header h2.poppins-regular-faq {
    font-family: "Poppins", sans-serif;
    font-weight: 400;
-   font-size: 14px;
+   font-size: 0.875rem;
    font-style: normal;
    color: #103754;
    margin: 0; /* Supprime les marges par défaut des balises h2 */
@@ -3865,7 +3808,12 @@ picture img {
    margin-top: 20px;  /* Ajoute de l'espace au-dessus du texte */
    margin-bottom: 20px;  /* Ajoute de l'espace en dessous du texte */
  }
- 
+ @media (max-width: 768px) {
+   .faq-header h2.poppins-regular-faq {
+      font-size: 0.75rem;
+   }
+}
+
 
 
 
@@ -3879,19 +3827,16 @@ picture img {
    font-family: "Poppins", sans-serif;
    font-weight: 400;
    font-style: normal;
-   font-size: 14px;
+   font-size: 0.875rem;
 }
-
-/* Ajoutez des styles spécifiques pour les écrans plus petits (par exemple, largeur inférieure à 768px) */
-@media (max-width: 768px) {
-   .faq-description h4,
-   .faq-description h3,
-   .faq-description h4 strong,
-   .faq-description h3 strong,
+ @media (max-width: 768px) {
    .faq-description {
-      font-size: 12px;
+      font-size: 0.75rem;
    }
 }
+
+
+
 
 .poppins-faq-hidden.espace-h3 {
    margin-top: 40px;
@@ -3899,38 +3844,8 @@ picture img {
  }
  
  
-.faq-description h4,
-.faq-description h3 {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   color: #40413E; /* Assurez-vous que la couleur est compatible avec le fond */
-   margin-top: 0;
-   margin-bottom: 10px;
-   padding: 0;
-}
-
-.faq-description h4 strong,
-.faq-description h3 strong {
-   font-weight: 700; /* Pour rendre le texte en gras si nécessaire */
-}
 
 
-/* Styles spécifiques pour le texte de la frise caché */
-.poppins-regular-faq-text {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #40413E;
- }
-
-/* Ajoutez des styles spécifiques pour les écrans plus petits (par exemple, largeur inférieure à 768px) */
-@media (max-width: 768px) {
-   .poppins-regular-faq-text {
-      font-size: 12px;
-   }
-}
 
 
 /* Styles pour la typo du texte caché de la faq */
@@ -4112,24 +4027,7 @@ picture img {
    
 }
 
-/* Styles pour les liens de la faq */
-.styled-link {
-   font-weight: bold;
-   color: #103754;
-   text-decoration: none;
-   font-size: 14px;
-}
 
-.styled-link:hover {
-   text-decoration: underline;
-}
-
-/* Media query pour écrans plus petits */
-@media (max-width: 768px) {
-   .styled-link  {
-      font-size: 12px;
-   }
- }
 
 
 /* Styles pour les liens de la faq */
@@ -4292,11 +4190,15 @@ picture img {
    border-color: #F8F9F6; /* Couleur de la bordure */
    font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1rem;
     font-style: normal;
-   
   }
-  
+   @media (max-width: 768px) {
+   .btn-action-primary-a {
+     font-size: 0.875rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
   .btn-action-primary-a:hover {
    background-color: #F8F9F6; /* Couleur #F8F9F6 avec 40% de transparence */
    color: #103653; /* Couleur du texte au survol */
@@ -4488,62 +4390,38 @@ picture img {
  
  /* Styles pour la TYPO des cards blog */
  
- /* Styles spécifiques le titre "Je suis Céline," */
- .poppins-bold-blog {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103653;
-   font-size: 1.5em; /* Taille de la police relative */
-   margin-bottom: 10px; /* Marge en bas du titre */
  
- }
-
-
 /* Styles spécifiques pour le texte date de l'article page blog.njk */
 .poppins-regular-blog-date {
    font-family: "Poppins", sans-serif;
    font-weight: 400;
    font-style: normal;
    color: #40413E;
-   font-size: 14px;
+   font-size: 0.875rem;
  }
-
-
- /* Styles spécifiques pour le titre de l'article page blog.njk */
- .poppins-regular-titre-blog {
-   font-family: "Poppins", sans-serif;
-   font-weight: 600;
-   font-size: 25px;
-   font-style: normal;
-   color: #103754;
- }
-
  @media screen and (max-width: 768px) {
-   .poppins-regular-titre-blog {
-      font-size: 20px;
+   .fade-in-out-banniere {
+      font-size: 0.75rem;
     }
-   
  }
 
- 
- /* Styles spécifiques pour le texte Limité à 100 caractères */
- .poppins-regular-blog {
+/* Styles pour les titres des cards blog */
+
+.poppins-bold-titre-blog-h2 {
    font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 16px;
+   font-weight: 700;
    font-style: normal;
-   color: #103754;
+   color: #103653;
+   font-size: 1.5rem; /* Taille de la police relative */
+}
+@media (max-width: 768px) {
+   .poppins-bold-titre-blog-h2 {
+     font-size: 1.2rem; /* réduction par rapport à 1.5rem */
+   }
  }
- 
-
-
 
 
  /* Styles pour les svg tétines */
- 
-
- 
 
  .bouton-tetine {
    width: 100px; /* Ajustez la largeur de l'icône selon vos besoins */
@@ -4596,21 +4474,6 @@ picture img {
    }
  }
 
-/* Style pour le contenu du titre au dessus du visuel articles.md dans base.njk*/
-.poppins-regular-titre-article {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 35px;
-   font-style: normal;
-   color: #103754;
-   margin-top: 20px;
-   margin-bottom: 20px;
-}
-@media screen and (max-width: 768px) {
-   .poppins-regular-titre-article {
-      font-size: 20px;
-   }
- }
 
 
 .meta-info {
@@ -4642,51 +4505,9 @@ picture img {
    height: auto;
 }
 
-.article-content {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   color: #103754;
-   margin-top: 20px;
-   margin-bottom: 80px;
-   padding: 0 20px; /* Ajoute du padding pour éviter que le texte touche les bords */
-   text-align: left;  /* Aligne le texte à gauche */
 
 
-}
 
-@media screen and (max-width: 768px) {
-   .content-wrapper {
-      padding: 0 10px; /* Réduit les marges latérales pour les petits écrans */
-   }
-}
-
-
- .article-content h1 {
-   font-size: 2rem; /* Style spécifique pour h1 dans article-content */
-}
-
-.article-content h2 {
-   font-size: 1.8rem; /* Style spécifique pour h2 dans article-content */
-}
-
-.article-content h3 {
-   font-size: 1.5rem; /* Style spécifique pour h3 dans article-content */
-}
-
-@media screen and (max-width: 768px) {
-   .article-content h1 {
-      font-size: 1.3rem; /* Style spécifique pour h1 dans article-content */
-   }
-   
-   .article-content h2 {
-      font-size: 1.1rem; /* Style spécifique pour h2 dans article-content */
-   }
-   
-   .article-content h3 {
-      font-size: 0.9rem; /* Style spécifique pour h3 dans article-content */
-   }
-}
 
 /* Style pour le bouton svg retour des articles.md dans post.njk*/
 .back-button {
@@ -4712,11 +4533,16 @@ picture img {
    border-radius: 5px; /* Coins arrondis */
    border: none; /* Retirer la bordure par défaut */
    padding: 5px 10px; /* Espacement interne */
-   font-size: 12px; /* Taille du texte */
+   font-size: 0.875rem; /* Taille du texte */
    cursor: pointer; /* Changer le curseur au survol */
    transition: background-color 0.3s; /* Transition pour un effet au survol */
-  
 }
+@media (max-width: 768px) {
+   .btn-article {
+     font-size: 0.75rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
+
 
 .btn-article:hover {
    background-color: #041427; /* Couleur au survol */
@@ -5453,27 +5279,6 @@ body.rss-info-page {
 }
 
 
-/* Styles pour le lien de 404 - Page Non Trouvée dans 404.md*/
-.styled-link-rss {
-   font-family: "Poppins", sans-serif;
-   font-weight: bold;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
-   text-decoration: none;
-   display: inline-block; /* Permet d'ajouter du margin */
-   margin: 20px 0; /* Ajustez cette valeur pour espacer le lien */
-}
-
-.styled-link-rss:hover {
-   text-decoration: underline;
-}
-/* Media query pour écrans plus petits */
-@media (max-width: 768px) {
-   .styled-link-rss  {
-      font-size: 14px;
-   }
- }
 
 
  .button-wrapper {
@@ -5512,51 +5317,8 @@ body.rss-info-page {
 }
  
 
-.poppins-regular-titre-page-flux-rss {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103653;
-   font-size: 3em; /* Taille de la police relative */
-   margin-bottom: 50px; /* Marge en bas du titre */
-   margin-top: 50px; /* Marge en haut du titre */
-}
-
-@media screen and (max-width: 768px) {
-   .poppins-regular-titre-page-flux-rss {
-      font-size: 2em; /* Taille de la police relative */
-   }
-}
 
 
-.poppins-regular-sous-titre-page-flux-rss {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   color: #103653;
-   font-size: 2em; /* Taille de la police relative */
-   margin-bottom: 50px; /* Marge en bas du titre */
-   margin-top: 50px; /* Marge en haut du titre */
-}
-
-@media screen and (max-width: 768px) {
-   .poppins-regular-sous-titre-page-flux-rss {
-      font-size: 1.2em; /* Taille de la police relative */
-   }
-}
-
-.poppins-regular-texte-page-flux-rss {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
- }
-
- /* Styles spécifiques pour l'espace entre les titres et le texte */
-.flux-spacer {
-   margin-bottom: 80px; /* Ajoutez de l'espace entre les éléments */
-}
 
 .rss-icon {
    width: 50px;
@@ -5716,12 +5478,16 @@ body.rss-info-page {
    border-color: #F8F9F6; /* Couleur de la bordure */
    font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1rem;
     font-style: normal;
     margin-top: 10px;
     margin-bottom: 20px;
-   
   }
+ @media (max-width: 768px) {
+   .btn-action-primary-d {
+     font-size: 0.875rem; /* ou une autre taille plus adaptée au mobile */
+   }
+ }
 
 
  .btn-action-primary-d:hover {
@@ -5742,9 +5508,11 @@ body.rss-info-page {
  #simulateur-reforme-cmg-assmat-creche {
    background: #98D1CA; /* Création du dégradé avec bande réglable */
    position: relative; /* Nécessaire pour l'alignement des pseudo-éléments */
-   padding-top: 300px; /* Ajustez l'espacement en haut de la section pour accueillir l'image SVG */
+  
    overflow: hidden; /* Cachez le débordement de l'image SVG */
-   padding-bottom: 80px; /* Hauteur de la bande de couleur */
+   padding-left: 20px; /* Ajoutez une marge de 20px à gauche */
+   padding-right: 20px; /* Ajoutez une marge de 20px à droite */
+   padding-bottom: 40px; /* Ajoutez une marge de 20px en bas */
 }
 
 #simulateur-reforme-cmg-assmat-creche .col-md-12 img.fond-curvy {
@@ -5777,14 +5545,6 @@ body.rss-info-page {
 }
 
 
-.poppins-bold-titre-reforme-cmg {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-size: 1.5em;
-   color: #103754;
-   margin: 0; /* Supprime les marges par défaut */
-}
-
 
 
 /* Styles pour la section comparer-creche-assistante-maternelle */
@@ -5816,16 +5576,7 @@ body.rss-info-page {
    margin-right: 8px; /* Ajuste l'espace entre l'icône et le texte */
  }
  
- .poppins-regular-comparatif {
-   font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   font-style: normal;
-   color: #103754;
-   text-align: left;
-   padding-left: 18px;
-   margin-top: 15px;
- }
+ 
 
 
 
@@ -5843,24 +5594,9 @@ body.rss-info-page {
 }
 
 
-.poppins-regular-simulateur {
-   font-family: "Poppins", sans-serif;
-   font-weight: 700;
-   font-size: 25px;
-   font-style: normal;
-   color: #103754;
-   margin-bottom: 0px; /* Espace entre le titre et le texte */
- }
 
 
- /* Styles de typo pour les champs du simulateur */
-.poppins-regular-simucmg {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  font-style: normal;
-  color: #103754;
-}
+
 
  .idee-icon {
    width: 80px; /* Taille contrôlée de l'icône */
@@ -6202,4 +5938,81 @@ body.rss-info-page {
    .btn-simu {
        width: 100%; /* Les boutons occupent toute la largeur du conteneur */
    }
+}
+
+/* Styles pour la section FAQ simulateur */
+
+#faq-simulateur-section {
+   background-color: #F8F9F6;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 3rem; /* ou margin-bottom */
+   padding-bottom: 3rem; /* ou margin-bottom */
+ }
+ 
+ 
+.accordion-body {
+  background-color: #F8F9F6;
+}
+
+/* Couleur de fond du bouton accordéon fermé */
+.accordion-button.collapsed {
+  background-color: #F8F9F6;
+  color: #103754; /* texte */
+}
+
+/* Couleur de fond du bouton accordéon ouvert */
+.accordion-button:not(.collapsed) {
+  background-color: #eaf3f0;
+  color: #103754;
+}
+
+/* Focus */
+.accordion-button:focus {
+  background-color: #eaf3f0;
+  outline: none;
+  box-shadow: none;
+}
+
+
+/* Enlève les bordures */
+.accordion-flush .accordion-item {
+  border: none;
+  
+}
+
+
+/* Styles pour la rubrique services-garde-enfants page index */
+
+
+.simulateur-garde-enfants-text-space {
+   background-color: #98D1CA;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start; /* aligne tout à gauche */
+   justify-content: center;
+   padding: 20px;
+   box-sizing: border-box;
+   text-align: left; /* texte aligné à gauche */
+
+}
+
+
+
+
+.simulateur-garde-enfants-item {
+   height: 100%; /* Assure que le contenu remplit toute la hauteur */
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+
+
+.simulateur-garde-enfants-image {
+   height: 100%; /* S'assure que l'image prend toute la hauteur disponible */
+   padding: 0px; /* espace entre l'image */
+   text-align: center;
+   padding: 0;
 }
