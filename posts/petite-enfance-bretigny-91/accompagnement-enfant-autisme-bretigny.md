@@ -12,14 +12,13 @@ tags:
   - inclusion petite enfance
   - soutien parental
   - éveil enfant
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/accompagnement-enfant-autisme-bretigny/"
-image: "/images/uploads/espace-snoezelen-bretigny.jpg"
 date: 2025-09-21
-category: "PETITE ENFANCE BRETIGNY-91"
+category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/espace-snoezelen-bretigny.jpg"
 imageAlt: "Assistante maternelle à Brétigny-sur-Orge qui accompagne un enfant avec autisme en proposant un espace calme"
-author: "Assistante maternelle à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/accompagnement-enfant-autisme-bretigny/"
 ---
+
 
 <br>
 

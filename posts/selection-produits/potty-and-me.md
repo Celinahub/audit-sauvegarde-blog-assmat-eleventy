@@ -12,13 +12,14 @@ tags:
   - respect de la planète
   - produit breveté
   - bien-être enfant
-url: "https://chubert91assmat.netlify.app/posts/selection-produits/potty-and-me/"
-image: "/images/uploads/potty-and-me.jpg"
 date: 2024-11-28
 category: "SELECTION PRODUITS"
 featuredImage: "/images/uploads/potty-and-me.jpg"
 imageAlt: "Magalie Kangni présente le pot écologique MyPottyTraining pour accompagner l’acquisition de la propreté de manière durable et hygiénique"
+url: "https://chubert91assmat.netlify.app/posts/selection-produits/potty-and-me/"
 ---
+
+
 
 <br>
 

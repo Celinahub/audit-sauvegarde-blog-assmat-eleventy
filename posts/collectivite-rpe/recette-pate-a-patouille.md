@@ -15,13 +15,14 @@ tags:
   - pâte à patouille comestible
   - activité motricité fine 2 ans
   - jouer avec les textures
-url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/pate-patouille-rpe-bretigny/"
-image: "/images/uploads/pate-patouille-rpe-bretigny.jpg"
 date: 2025-08-04
 category: "LA COLLECTIVITE GRÂCE AU RPE"
 featuredImage: "/images/uploads/pate-patouille-rpe-bretigny.jpg"
 imageAlt: "Enfant jouant avec de la pâte à patouille à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/pate-patouille-rpe-bretigny/"
 ---
+
+
 
 <br>
 

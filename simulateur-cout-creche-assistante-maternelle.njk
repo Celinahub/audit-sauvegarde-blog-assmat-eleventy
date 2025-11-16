@@ -3,12 +3,23 @@ layout: layouts/base.njk
 title: "Coût crèche vs assistante maternelle 2025 | Simulation"
 description: "Comparez le coût d’une crèche et d’une assistante maternelle à Brétigny. Simulation claire avec aides CAF et reste à charge."
 url: "https://chubert91assmat.netlify.app/simulateur-cout-creche-assistante-maternelle/"
-image: "simulateur-comparatif-creche-assistante-maternelle.jpg"
+image: "/images/uploads/simulateur-comparatif-creche-assistante-maternelle.jpg"
 eleventyNavigation:
-  key: Simulation coût crèche/assmat 2025
+  key: "Simulation coût crèche/assmat 2025"
   order: 5
 permalink: "/simulateur-cout-creche-assistante-maternelle/"
 bodyClass: "bg-white simulateur-cout-creche-assistante-maternelle"
+
+jsonld: |
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Simulation coût crèche vs assistante maternelle 2025",
+    "url": "https://chubert91assmat.netlify.app/simulateur-cout-creche-assistante-maternelle/",
+    "description": "Comparez le coût d’une crèche et d’une assistante maternelle à Brétigny avec aides CAF et reste à charge. Simulation claire et pratique pour les parents."
+  }
+  </script>
 ---
 
     
@@ -162,7 +173,7 @@ bodyClass: "bg-white simulateur-cout-creche-assistante-maternelle"
  <!-- Âge enfant -->
 <div class="col-md-6">
   <label class="form-label poppins-regular-balise-p">Âge de l’enfant à garder</label>
-  <div class="form-control-plaintext">0 à 3 ans</div>
+  <div class="form-control-plaintext poppins-regular-titre-h3">0 à 3 ans</div>
   <input type="hidden" id="ageEnfant" name="ageEnfant" value="0-3">
 </div>
 

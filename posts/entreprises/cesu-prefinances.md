@@ -12,13 +12,14 @@ tags:
   - Travailleur indépendant
   - Fiscalité
   - RH entreprise
-url: "https://chubert91assmat.netlify.app/posts/entreprises/cesu-prefinances/"
-image: "/images/uploads/cesu.jpg"
 date: 2024-11-23
 category: "ENTREPRISES"
 featuredImage: "/images/uploads/cesu.jpg"
 imageAlt: "Cesu-préfinancés acceptés mode de garde à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/entreprises/cesu-prefinances/"
 ---
+
+
 
 
 Certaines entreprises réservent des places en crèche pour leurs salariés, un avantage très recherché.

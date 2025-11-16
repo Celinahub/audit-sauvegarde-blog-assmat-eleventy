@@ -267,7 +267,7 @@
 /* Adaptation responsive */
 @media (max-width: 768px) {
   .style-liens {
-    font-size: 0.85rem;
+    font-size: 16px;
   }
 }
 
@@ -276,25 +276,6 @@
 
 
 
-
-/* Styles pour les liens du site */
-.styled-link {
-   font-weight: bold;
-   color: #103754;
-   text-decoration: none;
-   font-size: 0.875rem;
-}
-
-.styled-link:hover {
-   text-decoration: underline;
-}
-
-/* Media query pour écrans plus petits */
-@media (max-width: 768px) {
-   .styled-link  {
-      font-size: 0.75rem;
-   }
- }
 
 
 

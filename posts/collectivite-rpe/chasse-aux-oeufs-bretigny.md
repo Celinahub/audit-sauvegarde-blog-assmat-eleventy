@@ -11,13 +11,13 @@ tags:
   - éveil-sensoriel
   - assistante-maternelle
   - bien-être-enfant
-url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/chasse-aux-oeufs-bretigny/"
-image: "/images/uploads/chasse-aux-oeufs-rpe-bretigny.jpg"
 date: 2025-04-29
 category: "LA COLLECTIVITE GRÂCE AU RPE" 
 featuredImage: "/images/uploads/chasse-aux-oeufs-rpe-bretigny.jpg"
 imageAlt: "Récolte de la chasse aux oeufs à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/chasse-aux-oeufs-bretigny/"
 ---
+
 
 <br>
 

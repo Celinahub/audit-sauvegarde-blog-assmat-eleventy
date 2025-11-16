@@ -12,13 +12,13 @@ tags:
   - méthode de sevrage
   - produits certifiés
   - bien-être enfant
-url: "https://chubert91assmat.netlify.app/posts/selection-produits/clipp/"
-image: "/images/uploads/clipp-tetine.jpg"
 date: 2024-10-18
 category: "SELECTION PRODUITS"
 featuredImage: "/images/uploads/clipp-tetine.jpg"
 imageAlt: "La tétine Clipp avec collerettes empilables pour arrêter la tétine à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/selection-produits/clipp/"
 ---
+
 
 <br>
 

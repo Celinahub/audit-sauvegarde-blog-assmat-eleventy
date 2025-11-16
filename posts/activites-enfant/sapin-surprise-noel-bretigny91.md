@@ -17,13 +17,13 @@ tags:
   - activité enfant Brétigny-sur-Orge
   - sapin recyclé Brétigny-sur-Orge
   - créativité enfants Essonne
-url: "https://chubert91assmat.netlify.app/posts/activites-enfant/sapin-surprise-noel-bretigny91/"
-image: "/images/uploads/sapin-surprise-noel-bretigny91.jpg"
 date: 2024-12-22
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/sapin-surprise-noel-bretigny91.jpg"
 imageAlt: "Sapin surprise fabriqué par les enfants à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/activites-enfant/sapin-surprise-noel-bretigny91/"
 ---
+
 
 Sapin surprise : une activité ludique et écologique pour Noël ! Cette année à Brétigny-sur-Orge, j’ai proposé aux enfants que j’accueille une animation inspirée des calendriers de l’avent, réalisée uniquement avec des matériaux recyclés. De 2 ans et demi à 9 ans, ils ont participé avec enthousiasme à la création de ce sapin unique, développant leur motricité fine, leur créativité et l’esprit d’entraide. Découvrez comment organiser facilement cette activité magique qui ravira petits et grands pendant la période des fêtes !
 

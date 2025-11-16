@@ -11,13 +11,15 @@ tags:
   - recette facile
   - recette rapide
   - cuisine maison
-url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/bouillie-chocolat/"
-image: "/images/uploads/recette-bouillie-chocolat.jpg"
 date: 2024-11-22
 category: "RECETTES / ATELIER CUISINE"
 featuredImage: "/images/uploads/recette-bouillie-chocolat.jpg"
 imageAlt: "Recette de la bouillie au chocolat un dessert fait maison à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/bouillie-chocolat/"
 ---
+
+
+
 
 
 Cette bouillie au chocolat est un véritable retour en enfance, une recette qui figurait dans les fiches de ma maman, à une époque où la couture et l’art de cuisiner étaient encore enseignés à l'école. Si votre frigo est presque vide mais que vous cherchez un dessert rapide, économique, et sans sucre ajouté comme dans les crèmes industrielles, cette bouillie est la solution idéale ! Attention à la texture pour qu'elle soit parfaite, les deux cuillères de maïzena doivent être bien bombées. Les enfants l’adorent et en redemandent toujours !

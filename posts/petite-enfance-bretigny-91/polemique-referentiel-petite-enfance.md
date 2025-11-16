@@ -12,14 +12,14 @@ tags:
   - bien-être enfant
   - éducation positive
   - aide aux parents
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/polemique-referentiel-petite-enfance/"
-image: "/images/uploads/referentiel-national-qualite-accueil-bretigny-91.jpg"
 date: 2025-09-15
 category: "PETITE ENFANCE BRETIGNY-91"
 featuredImage: "/images/uploads/referentiel-national-qualite-accueil-bretigny-91.jpg"
 imageAlt: "Assistante maternelle en promenade raconte se qu'elle pense du référentiel petite enfance à Brétigny-sur-Orge"
-author: "Assistante maternelle à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/polemique-referentiel-petite-enfance/"
 ---
+
+
 
 <br>
 

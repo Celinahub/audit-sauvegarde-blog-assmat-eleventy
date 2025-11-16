@@ -11,13 +11,14 @@ tags:
   - promenade enfant Brétigny
   - lieux enfants Essonne
   - petite enfance Essonne
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/"
-image: "/images/uploads/mediatheque-bretigny.jpg"
 date: 2025-06-17
 category: "PETITE ENFANCE BRETIGNY-91" 
 featuredImage: "/images/uploads/mediatheque-bretigny.jpg"
 imageAlt: "Enfants à la médathèque à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/"
 ---
+
+
 
 <br>
 

@@ -10,13 +10,13 @@ tags:
   - crèche Brétigny 
   - petite enfance 91 
   - bien-être enfant 
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/choix-mode-de-garde-bretigny/"
-image: "/images/uploads/mode-de-garde-bretigny91.jpg"
 date: 2025-03-11
 category: "PETITE ENFANCE BRETIGNY-91" 
 featuredImage: "/images/uploads/mode-de-garde-bretigny91.jpg"
 imageAlt: "Enfants chez une assistante maternelle à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/choix-mode-de-garde-bretigny/"
 ---
+
 
 <br>
 

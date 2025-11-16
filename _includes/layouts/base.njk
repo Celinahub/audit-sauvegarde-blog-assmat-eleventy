@@ -107,6 +107,8 @@ tarteaucitron.services.youtube = {
 {% include "layouts/widget/head.njk" %} <!-- Inclusion des métadonnées  -->
 {% include "layouts/widget/breadcrumb-schema.njk" %} <!-- JSON-LD Fil d'Ariane SEO -->
 
+{{ jsonld | safe }}
+
 </head>
 <body class="{{ bodyClass or '' }}">
      

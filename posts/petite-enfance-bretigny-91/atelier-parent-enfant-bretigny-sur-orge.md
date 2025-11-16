@@ -14,13 +14,13 @@ tags:
   - atelier parents enfants petite enfance
   - événements bébés Brétigny
   - médiathèque Brétigny petits
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/main-dans-la-main-bretigny-91/"
-image: "/images/uploads/mediatheque-bretigny.jpg"
 date: 2025-10-08
-category: "PETITE ENFANCE BRETIGNY-91" 
+category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/main-dans-la-main-bretigny-91.jpg"
 imageAlt: "Moment de partage autour d'une activite parents-enfants à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/main-dans-la-main-bretigny-91/"
 ---
+
 
 <br>
 

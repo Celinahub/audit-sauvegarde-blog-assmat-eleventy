@@ -13,9 +13,44 @@ pagination:
   data: collections.posts
   size: 5
   alias: posts
-  bodyClass: "blog-page"
-  permalink: "/blog/"
+bodyClass: "blog-page"
+permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}/{% endif %}"
+jsonld: |
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "url": "{{ url }}",
+    "name": "Blog parentalité et petite enfance à Brétigny | Céline Hubert",
+    "description": "{{ description }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Chubert Assmat Brétigny",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://chubert91assmat.netlify.app/images/presentation/rpe-bretigny.jpg"
+      }
+    },
+    "blogPost": [
+      {% for post in posts %}
+      {
+        "@type": "BlogPosting",
+        "headline": "{{ post.data.title | safe }}",
+        "url": "{{ url }}{{ post.url | replace('#gsc.tab=0','') }}",
+        "datePublished": "{{ post.data.date }}",
+        "dateModified": "{{ post.data.date }}",
+        "description": "{{ post.data.description | safe }}",
+        "author": {
+          "@type": "Person",
+          "name": "Céline Hubert"
+        }
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
 ---
+
 
 
   <!-- Icône de défilement vers le haut utilisant une image SVG -->

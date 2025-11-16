@@ -12,13 +12,14 @@ tags:
   - parents
   - éducation bienveillante
   - psychologie de l'enfant
-url: "https://chubert91assmat.netlify.app/posts/hygiene-soins/acquisition-proprete/"
-image: "/images/uploads/pot.jpg"
 date: 2024-11-24
 category: "HYGIÈNE / SOINS"
 featuredImage: "/images/uploads/pot.jpg"
 imageAlt: "Enfant sur le pot à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/hygiene-soins/acquisition-proprete/"
 ---
+
+
 
 <br>
 

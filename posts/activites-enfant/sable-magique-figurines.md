@@ -14,13 +14,13 @@ tags:
   - activités manuelles
   - figurines
   - éveil de l'imagination
-url: "https://chubert91assmat.netlify.app/posts/activites-enfant/sable-magique-figurines/"
-image: "/images/uploads/sable-magique.jpg"
 date: 2024-10-07
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/sable-magique.jpg"
 imageAlt: "Manipulation du sable magique à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/activites-enfant/sable-magique-figurines/"
 ---
+
 
 <br>
 

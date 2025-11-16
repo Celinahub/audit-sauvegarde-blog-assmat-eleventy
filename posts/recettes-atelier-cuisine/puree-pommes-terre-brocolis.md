@@ -10,13 +10,14 @@ tags:
   - repas équilibré
   - cuisine maison
   - assistante maternelle Brétigny-sur-Orge
-url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/recette-puree-brocolis-pomme-de-terre/"
-image: "/images/uploads/recette-puree-brocolis-pomme-de-terre.jpg"
 date: 2025-10-22
 category: "RECETTES / ATELIER CUISINE"
 featuredImage: "/images/uploads/recette-puree-brocolis-pomme-de-terre.jpg"
 imageAlt: "Recette de la purée brocolis et pomme de terre fait maison à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/recette-puree-brocolis-pomme-de-terre/"
 ---
+
+
 
 
 En général mes accueillis apprécient cette recette et l'ingrédient secret est ... le brocolis!

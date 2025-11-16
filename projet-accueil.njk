@@ -9,7 +9,19 @@ eleventyNavigation:
   order: 2
 permalink: "/projet-accueil/"
 bodyClass: "bg-white projet-accueil"
+
+jsonld: |
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Projet d'accueil",
+    "url": "https://chubert91assmat.netlify.app/projet-accueil/",
+    "description": "Découvrez le projet d’accueil de Céline : valeurs éducatives, développement, activités, respect du rythme de l’enfant."
+  }
+  </script>
 ---
+
 
     
 <!-- Icône de défilement vers le haut utilisant une image SVG -->
@@ -798,7 +810,7 @@ bodyClass: "bg-white projet-accueil"
             <span class="routine-icone-frise">
          <img src="{{ '/images/projet-accueil/routine/icone-modalite-soin.svg' | url }}" class="modalite" alt="Icône couche" loading="lazy">
         </span>
-        <span class="poppins-bold-titre-h3">Modalité du soin</span>
+        <span class="poppins-bold-balise-p">Modalité du soin</span>
 
            <button class="routine-btn-toggle" aria-label="Activer routine">
             <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="routine-icon" alt="Flèche" loading="lazy">
@@ -827,7 +839,7 @@ bodyClass: "bg-white projet-accueil"
             <span class="routine-icone-frise">
           <img src="{{ '/images/projet-accueil/routine/icone-vignette-routine-matin.svg' | url }}" class="vignette-routine" alt="Icône horloge routine chez Céline Hubert" loading="lazy">
         </span>
-       <span class="poppins-bold-titre-h3">Vignettes de routine</span>
+       <span class="poppins-bold-balise-p">Vignettes de routine</span>
 
     <button class="routine-picto-btn-toggle" aria-label="Activer pictogrammes">
    <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="routine-icon" alt="Flèche" loading="lazy">
@@ -922,7 +934,7 @@ bodyClass: "bg-white projet-accueil"
             <span class="routine-icone-frise">
          <img src="{{ '/images/projet-accueil/routine/icone-modalite-repas.svg' | url }}" class="modalite" alt="Icône assiette" loading="lazy">
         </span>
-        <span class="poppins-bold-titre-h3">Modalité du repas</span>
+        <span class="poppins-bold-balise-p">Modalité du repas</span>
 
            <button class="routine-btn-toggle" aria-label="Activer routine">
             <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="routine-icon" alt="Flèche" loading="lazy">
@@ -956,7 +968,7 @@ bodyClass: "bg-white projet-accueil"
             <span class="routine-icone-frise">
           <img src="{{ '/images/projet-accueil/routine/icone-vignette-routine-midi.svg' | url }}" class="vignette-routine" alt="Icône horloge routine chez Céline Hubert" loading="lazy">
         </span>
-       <span class="poppins-bold-titre-h3">Vignettes temps du midi</span>
+       <span class="poppins-bold-balise-p">Vignettes temps du midi</span>
 
     <button class="routine-picto-btn-toggle" aria-label="Activer pictogrammes">
    <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="routine-icon" alt="Flèche" loading="lazy">
@@ -1075,7 +1087,7 @@ bodyClass: "bg-white projet-accueil"
             <span class="routine-icone-frise">
          <img src="{{ '/images/projet-accueil/routine/icone-modalite-repos.svg' | url }}" class="modalite" alt="Icône lune en sommeil" loading="lazy">
         </span>
-       <span class="poppins-bold-titre-h3">Modalité repos, sommeil</span>
+       <span class="poppins-bold-balise-p">Modalité repos, sommeil</span>
 
            <button class="routine-btn-toggle" aria-label="Activer routine">
             <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="routine-icon" alt="Flèche" loading="lazy">
@@ -1100,7 +1112,7 @@ bodyClass: "bg-white projet-accueil"
             <span class="routine-icone-frise">
           <img src="{{ '/images/projet-accueil/routine/icone-vignette-routine-soir.svg' | url }}" class="vignette-routine" alt="Icône horloge routine chez Céline Hubert" loading="lazy">
         </span>
-       <span class="poppins-bold-titre-h3">Vignettes de routine</span>
+       <span class="poppins-bold-balise-p">Vignettes de routine</span>
 
     <button class="routine-picto-btn-toggle" aria-label="Activer pictogrammes">
    <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="routine-icon" alt="Flèche" loading="lazy">
@@ -1533,7 +1545,7 @@ Le syndicat, géré par des assistantes maternelles, soutient et rassemble les p
            <span class="agrement-icone-frise">
         <img src="{{ '/images/projet-accueil/agrement/loupe-savoir-plus.svg' | url }}" class="modalite" alt="Icône loupe" loading="lazy">
         </span>                   
-        <span class="poppins-bold-titre-h3">En savoir plus</span>
+        <span class="poppins-bold-balise-p">En savoir plus</span>
         <button class="agrement-btn-toggle routine-btn-toggle" aria-label="Activer agrément">
             <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="agrement-icon" alt="Flèche" loading="lazy">
             </button>
@@ -1559,7 +1571,7 @@ Le syndicat, géré par des assistantes maternelles, soutient et rassemble les p
            <span class="agrement-icone-frise">
         <img src="{{ '/images/projet-accueil/agrement/formation-bretigny.svg' | url }}" class="modalite" alt="Icône loupe" loading="lazy">
         </span>                   
-            <span class="poppins-bold-titre-h3">Formations</span>
+            <span class="poppins-bold-balise-p">Formations</span>
   <button class="agrement-btn-toggle routine-btn-toggle" aria-label="Activer agrément">
             <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="agrement-icon" alt="Flèche" loading="lazy">
             </button>
@@ -1619,7 +1631,7 @@ Le syndicat, géré par des assistantes maternelles, soutient et rassemble les p
            <span class="agrement-icone-frise">
         <img src="{{ '/images/projet-accueil/agrement/loupe-savoir-plus.svg' | url }}" class="modalite" alt="Icône loupe" loading="lazy">
         </span>                 
-            <span class="poppins-bold-titre-h3">En savoir plus</span>
+            <span class="poppins-bold-balise-p">En savoir plus</span>
   <button class="agrement-btn-toggle routine-btn-toggle" aria-label="Activer agrément">
             <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="agrement-icon" alt="Flèche" loading="lazy">
             </button>
@@ -1667,7 +1679,7 @@ Le syndicat, géré par des assistantes maternelles, soutient et rassemble les p
            <span class="agrement-icone-frise">
         <img src="{{ '/images/projet-accueil/agrement/loupe-savoir-plus.svg' | url }}" class="modalite" alt="Icône loupe" loading="lazy">
         </span>              
-        <span class="poppins-bold-titre-h3">En savoir plus</span>
+        <span class="poppins-bold-balise-p">En savoir plus</span>
   <button class="agrement-btn-toggle routine-btn-toggle" aria-label="Activer agrément">
             <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="agrement-icon" alt="Flèche" loading="lazy">
             </button>
@@ -1728,7 +1740,7 @@ Le syndicat, géré par des assistantes maternelles, soutient et rassemble les p
         <span class="agrement-icone-frise">
         <img src="{{ '/images/projet-accueil/agrement/loupe-savoir-plus.svg' | url }}" class="modalite" alt="Icône loupe" loading="lazy">
         </span>                
-        <span class="poppins-bold-titre-h3">En savoir plus</span>
+        <span class="poppins-bold-balise-p">En savoir plus</span>
   <button class="agrement-btn-toggle routine-btn-toggle" aria-label="Activer agrément">
             <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="agrement-icon" alt="Flèche" loading="lazy">
             </button>
@@ -1772,7 +1784,7 @@ Le syndicat, géré par des assistantes maternelles, soutient et rassemble les p
         <span class="agrement-icone-frise">
         <img src="{{ '/images/projet-accueil/agrement/loupe-savoir-plus.svg' | url }}" class="modalite" alt="Icône loupe" loading="lazy">
         </span>                
-        <span class="poppins-bold-titre-h3">En savoir plus</span>
+        <span class="poppins-bold-balise-p">En savoir plus</span>
   <button class="agrement-btn-toggle routine-btn-toggle" aria-label="Activer agrément">
             <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="agrement-icon" alt="Flèche" loading="lazy">
             </button>
@@ -1807,7 +1819,7 @@ Le syndicat, géré par des assistantes maternelles, soutient et rassemble les p
         <span class="agrement-icone-frise">
         <img src="{{ '/images/projet-accueil/agrement/loupe-savoir-plus.svg' | url }}" class="modalite" alt="Icône loupe" loading="lazy">
         </span>                 
-        <span class="poppins-bold-titre-h3">En savoir plus</span>
+        <span class="poppins-bold-balise-p">En savoir plus</span>
   <button class="agrement-btn-toggle routine-btn-toggle" aria-label="Activer agrément">
             <img src="{{ '/images/projet-accueil/fleche-en-savoir-plus.svg' | url }}" class="agrement-icon" alt="Flèche" loading="lazy">
             </button>

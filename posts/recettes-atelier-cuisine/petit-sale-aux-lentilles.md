@@ -10,13 +10,14 @@ tags:
   - repas équilibré
   - cuisine maison
   - assistante maternelle Brétigny-sur-Orge
-url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/petit-sale-aux-lentilles/"
-image: "/images/uploads/recette-petit-sale-lentilles.jpg"
 date: 2025-02-06
 category: "RECETTES / ATELIER CUISINE"
 featuredImage: "/images/uploads/recette-petit-sale-lentilles.jpg"
 imageAlt: "Recette du petit salé aux lentilles fait maison à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/petit-sale-aux-lentilles/"
 ---
+
+
 
 Proposer des légumes aux enfants peut être un défi, mais **cette recette de petit salé aux lentilles** est une excellente solution ! En tant qu’**assistante maternelle à Brétigny-sur-Orge**, je privilégie une alimentation saine pour les enfants.  
 

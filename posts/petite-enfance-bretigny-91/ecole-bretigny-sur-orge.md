@@ -13,13 +13,14 @@ tags:
   - transition école maternelle  
   - ATSEM  
   - bien-être enfant 
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/ecole-bretigny-sur-orge/"
-image: "/images/uploads/ecole-bretigny-sur-orge.jpg"
 date: 2025-01-21
 category: "PETITE ENFANCE BRETIGNY-91" 
 featuredImage: "/images/uploads/ecole-bretigny-sur-orge.jpg"
 imageAlt: "Enfant rentrant à l’école maternelle de Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/ecole-bretigny-sur-orge/"
 ---
+
+
 
 <br>
 

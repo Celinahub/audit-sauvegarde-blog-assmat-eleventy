@@ -11,13 +11,13 @@ tags:
   - peinture pour enfants
   - néophobie alimentaire
   - activités éducatives
-url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/tampon-pomme/"
-image: "/images/uploads/tampon-pomme.jpg"
 date: 2024-10-20
 category: "LA COLLECTIVITE GRÂCE AU RPE"
 featuredImage: "/images/uploads/tampon-pomme.jpg"
 imageAlt: "Activité peinture à l'aide de pommes au rpe à Brétigny-sur-Orge"
+url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/tampon-pomme/"
 ---
+
 
 <br>
 
