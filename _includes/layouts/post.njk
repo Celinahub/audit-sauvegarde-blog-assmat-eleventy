@@ -3,30 +3,25 @@ layout: layouts/base.njk
 bodyClass: "blog-posts-page"
 ---
 
-
-
 <div id="contenu-article">
 <article class="container-article my-4 visuel-content">
 
-  <h1 class="poppins-regular-titre-article text-center">{{ title }}</h1>
+  <h1 class="poppins-bold-titre-h1 text-center">{{ title }}</h1>
 
   <div class="meta-info">
     <p>{{ category }} - {{ date | date("dd MMMM yyyy") }}</p>
   </div>
 
   <div class="content-wrapper">
-   {% image featuredImage, imageAlt, '(min-width: 1024px) 100vw, (min-width: 768px) 75vw, 50vw' %}
-
+    {% image featuredImage, imageAlt, '(min-width: 1024px) 100vw, (min-width: 768px) 75vw, 50vw' %}
 
     <!-- Boutons de partage -->
     <div class="d-flex justify-content-between align-items-center mt-3">
-
       <div class="dropdown share-dropdown">
         <button class="btn btn-light dropdown-toggle" type="button" id="dropdownShareButton" data-bs-toggle="dropdown" aria-expanded="false">
           <img src="{{ '/images/blog/share-icon.svg' | url }}" alt="Partager" class="me-2">
           Partager
         </button>
-
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownShareButton">
           <li>
             <a class="dropdown-item" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url | urlencode }}" target="_blank">
@@ -48,26 +43,32 @@ bodyClass: "blog-posts-page"
       </div>
     </div>
 
-    <div class="article-content">
+    <div class="poppins-regular-balise-p">
       {{ content | safe }}
     </div>
   </div>
 </article>
 
-<!-- JSON-LD pour le référencement -->
+<!-- JSON-LD pour référencement optimisé -->
 <script type="application/ld+json">
-{{ {
+{
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": title,
-  "image": image,
-  "datePublished": date,
-  "dateModified": date,
-  "description": description,
+  "@type": "BlogPosting",
+
+  "headline": "{{ title | truncate(110) | safe }}",
+  "url": "{{ url | default(site.url ~ page.url) | replace('#gsc.tab=0','') }}",
+  "image": "{{ site.url }}{{ featuredImage | safe }}",
+
+  "description": "{{ description | safe }}",
+  "datePublished": "{{ date | date('yyyy-MM-dd') }}",
+  "dateModified": "{{ date | date('yyyy-MM-dd') }}",
+  "articleSection": "{{ category | safe }}",
+
   "author": {
     "@type": "Person",
     "name": "Céline Hubert"
   },
+
   "publisher": {
     "@type": "Organization",
     "name": "Chubert Assmat Brétigny Blog",
@@ -77,13 +78,16 @@ bodyClass: "blog-posts-page"
       "url": "https://chubert91assmat.netlify.app/images/presentation/rpe-bretigny.jpg"
     }
   },
-  "keywords": tags,
+
+  "keywords": "{{ tags | join(', ') }}",
+
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": site.url + page.url
+    "@id": "{{ url | default(site.url ~ page.url) | replace('#gsc.tab=0','') }}"
   }
-} | dump | safe }}
+}
 </script>
+
 
 <!-- Bouton de retour -->
 <div class="back-button">
@@ -109,4 +113,3 @@ bodyClass: "blog-posts-page"
     alert("Lien copié dans le presse-papier !");
   }
 </script>
-
