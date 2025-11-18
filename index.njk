@@ -29,13 +29,21 @@ bodyClass: "bg-white presentation"
 
 {% block content %}
 <section id="portrait" class="container-fluid py-5 position-relative">
-  <div class="header-container">
-        <h1 class="poppins-bold-titre-h1">Assistante Maternelle Agréée à Brétigny-sur-Orge</h1>
-       <a href="/contact/#message" class="btn btn-action-primary">Réservez une rencontre →</a>
-<a href="/projet-accueil/" class="btn btn-action-primary">Voir mon projet d’accueil →</a>
-<a href="/faq/" class="btn btn-action-primary">Aides & Tarifs →</a>
+  <div class="header-container text-center text-md-start">
+  <h1 class="poppins-bold-titre-h1 mb-3">
+    Assistante Maternelle Agréée à Brétigny-sur-Orge
+  </h1>
 
-    </div>
+  <!-- La ligne magique qui transforme « complet » en aimant à parents -->
+  <p class="poppins-regular-balise-p">
+   <strong>Complète actuellement</strong> –  Je vous préviens en priorité dès qu’une place se libère →
+  </p>
+
+
+
+
+</div>
+
     <div class="row justify-content-center text-center position-relative">
         <div class="col-md-12">
       <img src="{{ '/images/presentation/arriere-plan-nuages-bleus-bretigny-assistante-maternelle.svg' | url }}" 
@@ -81,6 +89,8 @@ bodyClass: "bg-white presentation"
                     </svg>
                 </a>
                 
+
+
             </div>
         </div>
     </div>
@@ -91,19 +101,231 @@ bodyClass: "bg-white presentation"
 
 
 
-<section id="accompagnement-petite-enfance" class="py-5">
-  <div class="container-accompagnement container-md">
 
-<div class="header-container">
-        <h2 class="poppins-bold-titre-blanc-h2">Un accompagnement personnalisé pour les premières années de votre enfant</h2>
+
+
+<section id="presentation-celine" class="py-5">
+  <div class="container-md">
+
+  <h2 class="visually-hidden">Présentation de Céline, assistante maternelle à Brétigny-sur-Orge</h2>
+
+  <p class="poppins-regular-blanc-balise-p">
+   Bonjour ! Je suis <strong>Céline</strong>, assistante maternelle agréée à <strong>Brétigny-sur-Orge</strong> (quartier Carouge–Clause). 
+      J’accueille vos enfants de <strong>10 semaines à 3 ans</strong> dans une maison avec jardin, à 8 min à pied du <strong>RER C</strong> et du parc Clause-Bois Badeau.
+    </p>
+  </p>
+
+  <p class="poppins-regular-blanc-balise-p">
+    Sorties quotidiennes et faible nombre d’enfants pour un vrai suivi individualisé.
+  </p>
+
+  <a href="{{ '/#disponibilite-assistante-maternelle-bretigny-sur-orge' | url }}" 
+       class="btn btn-action-primary-g btn-lg">
+     M’avertir en priorité si une place se libère →
+    </a>
+
+<p class="poppins-regular-blanc-balise-p">
+Rien ne vaut les témoignages des parents que j'ai eu la joie d'accompagner:
+</p>
        <a href="{{ '/#avis' | url }}" class="btn btn-action-primary-g">
   <span class="etoiles">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
   100% de parents satisfaits →
 </a>
 
-    </div>
 
 
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<section id="services-garde-enfants" class="py-5">
+  <div class="custom-container">
+    <div class="services-garde-enfants-section section-wrapper">
+
+      <!-- 1. MON PARCOURS & PHILOSOPHIE -->
+      <div class="row g-0">
+        <div class="col-md-6 p-0 d-flex align-items-center">
+          <div class="services-garde-enfants-item w-100">
+            <div class="services-garde-enfants-text-space p-4">
+             
+              <div class="description-atout-services">
+ <h2 class="poppins-bold-titre-h2">Mon parcours & ma philosophie</h2>
+              <hr class="horizontal-line">
+
+                <p class="poppins-regular-balise-p">
+                  Ancienne particulier-employeur, j’ai choisi en 2017 de me reconvertir pour devenir <strong>assistante maternelle agréée à Brétigny-sur-Orge</strong>. 
+                  J'accompagne vos enfants en favorisant l’autonomie par le jeu libre et les sorties quotidiennes.
+                </p>
+
+<a href="/projet-accueil/" class="btn btn-action-primary">Voir mon projet d’accueil →</a>
+
+        
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-0">
+          <div class="services-garde-enfants-item">
+            <div class="services-garde-enfants-image">
+              <div class="image-frame-services position-relative">
+                 {% image "/images/presentation/rpe-bretigny.jpg", "RPE Bretigny jeux libres", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
+
+                <div class="image-overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. ACCUEIL FAMILIAL + FAIBLE RATIO (fusion des 2 anciens blocs) -->
+      <div class="row g-0">
+        <div class="col-md-6 order-md-2 p-0 d-flex align-items-center">
+          <div class="services-garde-enfants-item w-100">
+            <div class="services-garde-enfants-text-space p-4">
+            <div class="description-atout-services">
+
+              <h2 class="poppins-bold-titre-h2">Un cocon familial avec jardin & faible ratio</h2>
+              <hr class="horizontal-line">
+              
+                <p class="poppins-regular-balise-p">
+                  Maison avec jardin dans le quartier calme Carouge–Clause, à 8 min à pied du RER C. 
+                  Agrément pour maximum <strong>3 enfants</strong> : un vrai suivi individualisé pendant les repas, la sieste et les moments clés plus facile à mettre en place qu'en crèche.
+                </p>
+                <a href="{{ '/projet-accueil/#agrement' | url }}" class="btn btn-action-primary my-4">
+                  Voir mon agrément complet →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-1 p-0">
+          <div class="services-garde-enfants-item">
+            <div class="services-garde-enfants-image">
+              <div class="image-frame-services position-relative">
+                {% image "/images/presentation/anniversaire-accueilli.jpg", "Anniversaire d'un enfant accueilli dans le jardin", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
+                <div class="image-overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. SORTIES QUOTIDIENNES & SOCIABILISATION -->
+      <div class="row g-0">
+        <div class="col-md-6 p-0 d-flex align-items-center">
+          <div class="services-garde-enfants-item w-100">
+            <div class="services-garde-enfants-text-space p-4">
+            <div class="description-atout-services">
+
+              <h2 class="poppins-bold-titre-h2">Sorties tous les jours & rencontres au RPE</h2>
+              <hr class="horizontal-line">
+              
+                <p class="poppins-regular-balise-p">
+                  Parcs Clause-Bois Badeau, médiathèque… nous bougeons tous les jours ! 
+                  Deux matinées par mois au Relais Petite Enfance de Brétigny pour jouer avec d’autres enfants tout en gardant les avantages d’une garde à domicile.
+                </p>
+                <div class="d-flex flex-column flex-sm-row gap-2">
+                  <a href="{{ '/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/' | url }}" class="btn btn-action-primary my-1">
+                    Nos parcs préférés →
+                  </a>
+                  <a href="{{ '/projet-accueil/#team' | url }}" class="btn btn-action-primary my-1">
+                    Le RPE en photos →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-0">
+          <div class="services-garde-enfants-item">
+            <div class="services-garde-enfants-image">
+              <div class="image-frame-services position-relative">
+                {% image "/images/presentation/parc-bretigny.jpg", "Sortie au parc Clause-Bois Badeau", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
+                <div class="image-overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. COMMUNICATION & ACCOMPAGNEMENT ADMINISTRATIF -->
+      <div class="row g-0">
+        <div class="col-md-6 order-md-2 p-0 d-flex align-items-center">
+          <div class="services-garde-enfants-item w-100">
+            <div class="services-garde-enfants-text-space p-4">
+            <div class="description-atout-services">
+
+              <h2 class="poppins-bold-titre-h2">Échanges directs & zéro paperasse pour vous</h2>
+              <hr class="horizontal-line">
+              
+                <p class="poppins-regular-balise-p">
+                  J’accompagne les parents dans la saisie Pajemploi et les calculs tout au long du contrat.
+Membre UNSA PRO ASSMAT pour être toujours à jour juridiquement.
+Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de votre enfant.
+                </p>
+                <a href="{{ '/projet-accueil/#coeducation-enfant-famille' | url }}" class="btn btn-action-primary my-4">
+                  Comment on co-éduque ensemble →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-1 p-0">
+          <div class="services-garde-enfants-item">
+            <div class="services-garde-enfants-image">
+              <div class="image-frame-services position-relative">
+              {% image "/images/presentation/syndicat-unsa-pro-assmat.jpg", "UNSA Pro Assmat", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
+                
+                <div class="image-overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. TARIFS & RESTE À CHARGE (closing fort) -->
+      <div class="row g-0">
+        <div class="col-md-6 p-0 d-flex align-items-center">
+          <div class="services-garde-enfants-item w-100">
+            <div class="services-garde-enfants-text-space p-4">
+
+  <div class="description-atout-services">
+
+              <h2 class="poppins-bold-titre-h2">Aussi avantageux financièrement qu’une crèche</h2>
+              <hr class="horizontal-line">
+            
+                <p class="poppins-regular-balise-p">
+                  Grâce au CMG CAF + crédit d’impôt 50 % + éventuels CESU entreprise, 
+                  de nombreuses familles paient <strong>un montant équivalent</strong> que la crèche tout en ayant un accueil individualisé.
+                </p>
+                <a href="{{ '/faq/' | url }}" class="btn btn-action-primary my-4">
+                  Simulation tarif & aides 2025 →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-0">
+          <div class="services-garde-enfants-item">
+            <div class="services-garde-enfants-image">
+              <div class="image-frame-services position-relative">
+                {% image "/images/presentation/tarif-assmat.jpg", "Aides CAF et reste à charge", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
+                <div class="image-overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>
@@ -114,299 +336,9 @@ bodyClass: "bg-white presentation"
 
 
 
-<section id="services-garde-enfants" class="py-5">
-  <div class="custom-container">
-
-    <div class="services-garde-enfants-section section-wrapper">
-
-
-        <!-- Premier ligne -->
-        <div class="row g-0">
-            <!-- A PROPOS (Texte à gauche) -->
-            <div class="col-md-6 p-0 d-flex align-items-center">
-                <div class="services-garde-enfants-item w-100">
-                    <div class="services-garde-enfants-text-space p-4">
-                        
-                        <h2 class="introduction-titre">{{ aProposTitre | default("MON PARCOURS") }}</h2>
-                        <hr class="horizontal-line">
-                        <div class="description-atout-services">
-                            <p class="poppins-regular-balise-p">{{ aProposDescription | default("Assistante maternelle à Brétigny-sur-Orge, j'exerce à mon domicile, proche du RER C, j'offre aux familles un accueil tourné vers l’extérieur. Forte de mon expérience de parent-employeur, je me suis lancée dans cette belle aventure en 2017.") }}</p>
-                            
-                            <!-- Bouton "lien interne" -->
-                            <a href="{{ '/#disponibilite-assistante-maternelle-bretigny-sur-orge' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Contactez-moi pour futur créneau →") }}</a>
 
 
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Image à droite -->
-            <div class="col-md-6 p-0">
-                <div class="services-garde-enfants-item">
-                    <div class="services-garde-enfants-image">
-                        <div class="image-frame-services position-relative">
-
-                {% image "/images/presentation/reconversion.jpg", "Photo illustrant la reconversion professionnelle en assistante maternelle", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
-
-                    
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Deuxième ligne -->
-        <div class="row g-0">
-            <!-- ENVIRONNEMENT FAMILIAL (Texte à droite) -->
-            <div class="col-md-6 order-md-2 p-0 d-flex align-items-center">
-                <div class="services-garde-enfants-item w-100">
-                    <div class="services-garde-enfants-text-space p-4">
-                        <h2 class="introduction-titre">{{ environnementTitre | default("ACCUEIL FAMILIAL") }}</h2>
-                        <hr class="horizontal-line">
-                        <div class="description-atout-services">
-                            <p class="poppins-regular-balise-p">{{ environnementDescription | default("Je suis une assistante maternelle proche de chez vous à Brétigny-sur-Orge. J'accueille les enfants dans un cadre familial favorisant les échanges avec mes enfants plus grands, dans une maison avec jardin.") }}</p>
-                            
-<div class="disponibilite-container">
- <a href="{{ '/projet-accueil/#routine' | url }}" class="btn btn-action-primary my-2">{{ boutonTexte | default("Découvrez notre routine →") }}</a>
- <a href="https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/choix-mode-de-garde-bretigny/#differenciation" class="btn btn-action-primary my-1" aria-label="Lire l'article sur le choix d'un mode de garde par une assistante maternelle en Essonne">
-              Découvrir l’accueil familial →
-            </a>
-
-</div>
-
-
-
-                          
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Image à gauche -->
-            <div class="col-md-6 order-md-1 p-0">
-                <div class="services-garde-enfants-item">
-                    <div class="services-garde-enfants-image">
-                        <div class="image-frame-services position-relative">
-
-               {% image "/images/presentation/anniversaire-accueilli.jpg", "Anniversaire accueilli", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-       <!-- Troisième ligne -->
-<div class="row g-0">
-    <!-- RATIO ENFANTS/ADULTES PLUS BAS (Texte à gauche) -->
-    <div class="col-md-6 p-0 d-flex align-items-center">
-        <div class="services-garde-enfants-item w-100">
-            <div class="services-garde-enfants-text-space p-4">
-                <h2 class="introduction-titre">{{ capacitesTitre | default("CAPACITÉ D'ACCUEIL") }}</h2>
-                <hr class="horizontal-line">
-                <div class="description-atout-services">
-                    <p class="poppins-regular-balise-p">{{ capacitesDescription | default("Assistante maternelle à Brétigny-sur-Orge, mon ratio enfants/adulte est inférieur à celui des crèches, garantissant un cadre sécurisant et individualisé lors des repas et de la sieste et un accompagnement conforme aux recommandations de la PMI.") }}</p>
-                    
-                    <!-- Bouton "lien interne" -->
-                    <a href="{{ '/projet-accueil/#agrement' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Consultez les capacités de mon agrément →") }}</a>
-                
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Image à droite -->
-            <div class="col-md-6 p-0">
-                <div class="services-garde-enfants-item">
-                    <div class="services-garde-enfants-image">
-                        <div class="image-frame-services position-relative">
-
-{% image "/images/presentation/agrement-limite.jpg", "Agrement Limite", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Quatrième ligne -->
-        <div class="row g-0">
-            <!-- SORTIES ET ACTIVITES EXTERIEURES (Texte à droite) -->
-            <div class="col-md-6 order-md-2 p-0 d-flex align-items-center">
-                <div class="services-garde-enfants-item w-100">
-                    <div class="services-garde-enfants-text-space p-4">
-                        <h2 class="introduction-titre">{{ activitesTitre | default("SORTIES QUOTIDIENNES") }}</h2>
-                        <hr class="horizontal-line">
-                        <div class="description-atout-services">
-                            <p class="poppins-regular-balise-p">{{ activitesDescription | default("Nous effectuons des sorties quotidiennes dans les parcs et espaces verts de Brétigny-sur-Orge, favorisant la rencontre avec d’autres enfants. Ces activités contribuent à la lutte contre la sédentarité et soutiennent leur santé physique et mentale.") }}</p>
-                            
-                            <!-- Bouton "lien interne" -->
-                            <a href="{{ '/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/' | url }}" 
-   class="btn btn-action-primary my-4"
-   aria-label="Lire l'article sur les parcs préférés pour les bébés à Brétigny">
-  {{ boutonTexte | default("Découvrez nos parcs préférés →") }}
-</a>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Image à gauche -->
-            <div class="col-md-6 order-md-1 p-0">
-                <div class="services-garde-enfants-item">
-                    <div class="services-garde-enfants-image">
-                        <div class="image-frame-services position-relative">
-
-{% image "/images/presentation/parc-bretigny.jpg", "Parc Bretigny", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Cinquième ligne -->
-        <div class="row g-0">
-            <!-- COMMUNICATION DIRECTE AVEC LES PARENTS (Texte à gauche) -->
-            <div class="col-md-6 p-0 d-flex align-items-center">
-                <div class="services-garde-enfants-item w-100">
-                    <div class="services-garde-enfants-text-space p-4">
-                        <h2 class="introduction-titre">{{ communicationTitre | default("ÉCHANGE DIRECT") }}</h2>
-                        <hr class="horizontal-line">
-                        <div class="description-atout-services">
-                            <p class="poppins-regular-balise-p">{{ communicationDescription | default("Je privilégie une communication directe et personnalisée avec les familles, sans intermédiaires, pour assurer une coordination fluide des soins et renforcer la confiance, garantissant ainsi un environnement serein et sécurisant pour l'enfant.") }}</p>
-                            
-                            <!-- Bouton "lien interne" -->
-                            <a href="{{ '/projet-accueil/#coeducation-enfant-famille' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Découvrez comment je peux vous aider →") }}</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Image à droite -->
-            <div class="col-md-6 p-0">
-                <div class="services-garde-enfants-item">
-                    <div class="services-garde-enfants-image">
-                        <div class="image-frame-services position-relative">
-
-{% image "/images/presentation/communication-directe.jpg", "Communication Directe", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Sixième ligne -->
-        <div class="row g-0">
-            <!-- SOCIABILISATION AU RELAIS PETITE ENFANCE (Texte à droite) -->
-            <div class="col-md-6 order-md-2 p-0 d-flex align-items-center">
-                <div class="services-garde-enfants-item w-100">
-                    <div class="services-garde-enfants-text-space p-4">
-                        <h2 class="introduction-titre">{{ sociabilisationTitre | default("SOCIABILISATION") }}</h2>
-                        <hr class="horizontal-line">
-                        <div class="description-atout-services">
-                            <p class="poppins-regular-balise-p">{{ sociabilisationDescription | default("Les visites bi-mensuelles au Relais Petite Enfance de Brétigny-sur-Orge favorisent la sociabilisation des enfants tout en conservant les avantages d’une garde personnalisée à domicile.") }}</p>
-                            
-                            <!-- Bouton "lien interne" -->
-               
-<div class="disponibilite-container">
-   <a href="{{ '/projet-accueil/#team' | url }}" class="btn btn-action-primary my-4" aria-label="Découvrez les avantages du RPE et de l'équipe">
-    {{ boutonTexte | default("Découvrez les avantages du RPE →") }}
-</a>
- <a href="https://chubert91assmat.netlify.app/categories/collectivite-rpe/#gsc.tab=0" class="btn btn-action-primary my-1" aria-label="Lire l'article sur le choix d'un mode de garde par une assistante maternelle en Essonne">
-              Découvrir les activités au RPE →
-            </a>
-
-</div>
-
-
-
-
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Image à gauche -->
-            <div class="col-md-6 order-md-1 p-0">
-                <div class="services-garde-enfants-item">
-                    <div class="services-garde-enfants-image">
-                        <div class="image-frame-services position-relative">
-
-{% image "/images/presentation/rpe-bretigny.jpg", "RPE Bretigny", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Septième ligne -->
-        <div class="row g-0">
-            <!-- ACCOMPAGNEMENT ADMINISTRATIF (Texte à gauche) -->
-            <div class="col-md-6 p-0 d-flex align-items-center">
-                <div class="services-garde-enfants-item w-100">
-                    <div class="services-garde-enfants-text-space p-4">
-                        <h2 class="introduction-titre">{{ assistanceTitre | default("ASSISTANCE") }}</h2>
-                        <hr class="horizontal-line">
-                        <div class="description-atout-services">
-                            <p class="poppins-regular-balise-p">{{ assistanceDescription | default("Je vous accompagne dans toutes vos démarches administratives, y compris la saisie Pajemploi, avec une expertise juridique grâce à mon affiliation au syndicat UNSA PRO ASSMAT garantissant simplicité et tranquillité d'esprit. La FEPEM offre des ressources pour les particuliers-employeurs.") }}</p>
-                           <a href="{{ '/projet-accueil/#unsa-pro-assmat' | url }}" class="btn btn-action-primary my-4" aria-label="En savoir plus sur le syndicat, section équipe">
-    {{ boutonTexte | default("En savoir plus sur le syndicat →") }}
-</a>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Image à droite -->
-            <div class="col-md-6 p-0">
-                <div class="services-garde-enfants-item">
-                    <div class="services-garde-enfants-image">
-                        <div class="image-frame-services position-relative">
-
-{% image "/images/presentation/syndicat-unsa-pro-assmat.jpg", "UNSA Pro Assmat", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Huitième ligne -->
-<div class="row g-0">
-    <!-- RESTE À CHARGE COMPÉTITIF (Texte à droite) -->
-    <div class="col-md-6 order-md-2 p-0 d-flex align-items-center">
-        <div class="services-garde-enfants-item w-100">
-            <div class="services-garde-enfants-text-space p-4">
-                <h2 class="introduction-titre">{{ resteACargeTitre | default("RESTE À CHARGE COMPÉTITIF") }}</h2>
-                <hr class="horizontal-line">
-                <div class="description-atout-services">
-                    <p class="poppins-regular-balise-p">{{ resteACargeDescription | default("Découvrez sur ma page Foire aux questions des informations détaillées sur les tarifs, les aides financières, et le reste à charge, et découvrez comment choisir une assistante maternelle peut être une option financièrement avantageuse.") }}</p>
-                    <!-- Bouton "lien interne" -->
-                    <a href="{{ '/faq/' | url }}" class="btn btn-action-primary my-4">{{ boutonTexte | default("Trouvez les réponses à toutes vos questions ici →") }}</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Image à gauche -->
-            <div class="col-md-6 order-md-1 p-0">
-                <div class="services-garde-enfants-item">
-                    <div class="services-garde-enfants-image">
-                        <div class="image-frame-services position-relative">
-
-{% image "/images/presentation/tarif-assmat.jpg", "CAF aides", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-   
-</section>
 
 
 
@@ -440,6 +372,15 @@ bodyClass: "bg-white presentation"
       <div class="col-12">
         <h2 class="poppins-bold-titre-h1"><strong>Vos avis comptent</strong></h2>
         <hr class="horizontal-line">
+
+<p class="poppins-regular-balise-p mb-3">
+  Mes familles m'ont déjà laissé plusieurs avis positifs sur Google.  
+  Ils sont visibles ci-dessous via le module d’avis vérifiés.
+</p>
+
+
+
+
        <div id="avis-container">
   
   <div class="elfsight-app-e1c8b1af-d1eb-4f3b-abba-dd006fd956c3" data-elfsight-app-lazy></div>
@@ -637,7 +578,7 @@ bodyClass: "bg-white presentation"
       <div class="espace-force"></div>
 
   <div class="disponibilites-assistante-maternelle">
-            <h3 class="poppins-bold-titre-h3 mb-4">Aucune place disponible chez Céline, assistante maternelle agréée à Brétigny-sur-Orge (Carouge-Clause)… mais une place pourrait bientôt se libérer !</h3>
+            <h3 class="poppins-bold-titre-h3 mb-4">Assistante maternelle agréée à Brétigny-sur-Orge (Carouge-Clause) – Complète… mais une place pourrait bientôt se libérer !</h3>
 
 
 
