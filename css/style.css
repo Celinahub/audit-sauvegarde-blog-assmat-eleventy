@@ -1204,6 +1204,16 @@ h2, h3 {
    }
 
 
+/* Styles pour la section presentation-celine */
+
+#presentation-celine {
+   background-color: #103754;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ 
+
+
 
 /* Styles pour la section accompagnement-petite-enfance */
 
@@ -1413,6 +1423,7 @@ h2, h3 {
 
 
 
+
 .description-atout-services {
    margin-top: 0px;
    margin-left: 2vw; /* Utilisation de vw pour une marge relative à la largeur de la vue */
@@ -1568,12 +1579,6 @@ h2, h3 {
    padding-right: 10px;
  }
  
-
-.icones-service-container .row {
-   display: flex;
-   flex-wrap: wrap; /* Permet aux éléments de se déplacer sur une nouvelle ligne */
-   justify-content: space-between; /* Aligne les éléments avec de l'espace entre eux */
- }
  
  .container-service {
    padding-left: 10px;
@@ -1582,33 +1587,49 @@ h2, h3 {
  
 
 
- /* Styles pour eviter le scroll horizontal sur mobile */
- .icones-service-container {
-   overflow-x: hidden;
-   width: 100%;
-   box-sizing: border-box;
- }
- 
+.icones-services-container .row {
+  display: flex;
+  flex-wrap: wrap; /* permet le retour à la ligne */
+  justify-content: space-between;
+  gap: 20px; /* espace homogène entre tous les blocs, horizontal et vertical */
+}
+
+.icone-service {
+  flex: 1 1 calc(22% - 20px); /* largeur tenant compte du gap */
+  background-color: rgba(234, 243, 240, 0.8);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+  margin-bottom: 0; /* supprimé car le gap gère l’espace */
+}
+.icone-service:hover,
+.icone-service:focus {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+
+/* Responsive : Passe en pleine largeur sur mobiles */
+@media (max-width: 767px) {
+  .icone-service {
+    flex: 1 1 100%;
+  }
+}
 
 
 
 
-
-
- .icone-service {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start; /* Aligne tout à gauche */
-   text-align: left;
-   opacity: 0;
-   transform: translateY(20px);
-   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-   margin: 1rem;
-   width: 22%;
- }
  @media (max-width: 767px) {
-   .icone-service img {
-     margin-bottom: 1rem; /* ou plus si besoin */
+.icone-service img {
+   width: 48px;
+   height: 48px;
+   margin-bottom: 12px;
+  object-fit: contain;
    }
  }
 
@@ -1618,23 +1639,9 @@ h2, h3 {
    transform: translateY(0);
  }
  
- .icone-service-img {
-   width: 80px;
-   height: auto;
-   margin-bottom: 0.4rem;
- }
  
- .titre-icone-service {
-   font-weight: bold;
-   font-size: 0.875rem;
-   margin-bottom: 0.5rem;
-   display: block;
- }
- @media (max-width: 768px) {
-   .titre-icone-service {
-     font-size: 0.75rem; /* ou une autre taille plus adaptée au mobile */
-   }
- }
+
+ 
 
  .poppins-regular-icone-service {
    font-family: "Poppins", sans-serif;
@@ -1651,57 +1658,13 @@ h2, h3 {
  }
 
 
-.icone-service a {
-   text-decoration: none; /* Supprime le soulignement du lien */
-   color: inherit; /* Garde la couleur du texte normale */
-}
+ 
 
- 
- /* Pour les petits écrans, chaque icône prendra toute la largeur */
-@media (max-width: 767px) {
-   .icones-service-container .col-12 {
-     flex: 0 0 100%;
-     max-width: 100%;
-   }
- 
-   .icone-service {
-     width: 100%;
-     margin-left: auto;
-     margin-right: auto;
-     padding-left: 1.5rem; /* marge gauche homogène */
-     padding-right: 1.5rem;
-     align-items: flex-start; /* aligne à gauche */
-     text-align: left; /* texte aligné à gauche */
-   }
- 
-   .icone-service-img {
-     width: 80px;
-     height: auto;
-     margin-bottom: 0.4rem;
-   }
- 
-   .poppins-regular-icone-service {
-     margin: 0;
-   }
- }
- 
- 
 .icone-service h3 strong.titre {
    display: block;
    margin-bottom: 0.75rem; /* ajuste la valeur selon l’espace souhaité */
  }
  
-
- .service-icon-wrapper {
-   display: inline-flex;
-   align-items: center;
- }
- 
- .service-icon {
-   height: 24px;
-   width: 24px;
-   object-fit: contain;
- }
  
  .titre-service {
    display: inline-block;
@@ -5303,30 +5266,93 @@ body.rss-info-page {
 /* Styles pour la section cesu-entreprise */
 
 #cesu-entreprise {
-   background-color: #103754;
-   padding-left: 20px;
-   padding-right: 20px;
- }
- 
- .icones-cesu-container .row {
-   display: flex;
-   flex-wrap: wrap; /* Permet aux éléments de se déplacer sur une nouvelle ligne */
-   justify-content: space-between; /* Aligne les éléments avec de l'espace entre eux */
- }
- 
- .container-cesu {
-   padding-left: 20px;
-   padding-right: 20px;
- }
- 
+  background-color: #103754;
+  padding: 20px;
+  color: white;
+  box-sizing: border-box;
+}
 
- /* Styles pour eviter le scroll horizontal sur mobile */
- .icones-cesu-container {
-   overflow-x: hidden;
-   width: 100%;
-   box-sizing: border-box;
- }
- 
+.icones-cesu-container {
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.icone-cesu {
+  background: rgba(255 255 255 / 0.05);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+  margin-bottom: 20px;
+}
+
+.icone-cesu:hover,
+.icone-cesu:focus {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.icone-cesu img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+
+.icone-cesu h3 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.titre-salarie,
+.titre-entreprise {
+  font-size: 0.9rem;
+  line-height: 1.3;
+  margin-bottom: 6px;
+  color: #d0e4f7;
+}
+
+.cta-container {
+  margin-top: 28px;
+  text-align: left;
+}
+
+.btn.btn-action-primary-h {
+  background-color: #F79927;
+  color: #103754;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn.btn-action-primary-h:hover,
+.btn.btn-action-primary-h:focus {
+  background-color: #e67300;
+  outline: none;
+}
+
+/* Responsive : un peu plus d'aération sur mobile */
+@media (max-width: 480px) {
+  #cesu-entreprise {
+    padding: 16px 12px;
+  }
+
+  .btn.btn-action-primary-h {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 
 /* Styles spécifiques le titre "UNE ADAPTATION REUSSIE" */
 .poppins-bold-cesu-title {
