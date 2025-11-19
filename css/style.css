@@ -1580,6 +1580,8 @@ h2, h3 {
  }
  
  
+ 
+ 
  .container-service {
    padding-left: 10px;
    padding-right: 10px;
@@ -1626,8 +1628,8 @@ h2, h3 {
 
  @media (max-width: 767px) {
 .icone-service img {
-   width: 48px;
-   height: 48px;
+   width: 60px;
+   height: 60px;
    margin-bottom: 12px;
   object-fit: contain;
    }
@@ -1660,6 +1662,13 @@ h2, h3 {
 
  
 
+.icone-service a {
+   text-decoration: none; /* Supprime le soulignement du lien */
+   color: inherit; /* Garde la couleur du texte normale */
+}
+
+
+ 
 .icone-service h3 strong.titre {
    display: block;
    margin-bottom: 0.75rem; /* ajuste la valeur selon l’espace souhaité */
@@ -1671,6 +1680,9 @@ h2, h3 {
    vertical-align: middle;
  }
  
+
+
+
 
 
 
@@ -5325,7 +5337,7 @@ body.rss-info-page {
 }
 
 .btn.btn-action-primary-h {
-  background-color: #F79927;
+  background-color: #f7b96f;
   color: #103754;
   font-weight: 600;
   padding: 12px 24px;
@@ -5337,7 +5349,7 @@ body.rss-info-page {
 
 .btn.btn-action-primary-h:hover,
 .btn.btn-action-primary-h:focus {
-  background-color: #e67300;
+  background-color: #fca779;
   outline: none;
 }
 
