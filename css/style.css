@@ -1604,9 +1604,12 @@ h2, h3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: default;
   margin-bottom: 0; /* supprimé car le gap gère l’espace */
+
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 .icone-service:hover,
 .icone-service:focus {
@@ -1621,6 +1624,11 @@ h2, h3 {
   .icone-service {
     flex: 1 1 100%;
   }
+}
+
+.icone-service.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 
