@@ -46,13 +46,14 @@ bodyClass: "bg-white presentation"
 
     <div class="row justify-content-center text-center position-relative">
         <div class="col-md-12">
-      <img src="{{ '/images/presentation/arriere-plan-nuages-bleus-bretigny-assistante-maternelle.svg' | url }}" 
+
+     <img src="{{ '/images/presentation/arriere-plan-nuages-bleus-bretigny-assistante-maternelle.svg' | url }}" 
      class="fond-curvy background-portrait" 
      alt="Nuages bleus enfantins"
-     loading="eager"  
-     fetchpriority="high"
+     loading="eager"
      decoding="async"
      width="842" height="597">
+
 
         </div>
         <div class="bordered-content-presentation-image">
@@ -63,12 +64,14 @@ bodyClass: "bg-white presentation"
   <source srcset="{{ '/images/presentation/celine-hubert-assistante-maternelle-bretigny.webp' | url }}" type="image/webp">
   
   <!-- Balise img pour les navigateurs ne prenant pas en charge WebP -->
-  <img class="photo-img-portrait" 
-       src="{{ '/images/presentation/celine-hubert-assistante-maternelle-bretigny.jpg' | url }}" 
-       alt="Céline Hubert, assistante maternelle à Brétigny-sur-Orge" 
-       loading="lazy" 
-       width="399" 
-       height="399">
+ <img class="photo-img-portrait"
+     src="/images/presentation/celine-hubert-assistante-maternelle-bretigny.jpg"
+     alt="Céline Hubert, assistante maternelle à Brétigny-sur-Orge"
+     loading="eager"
+     fetchpriority="high"
+     width="399"
+     height="399">
+
 </picture>
 
                 <a href="/contact/#message" class="position-icon-b" aria-label="Envoyer un message à Céline Hubert">
