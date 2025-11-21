@@ -178,7 +178,7 @@ Rien ne vaut les témoignages des parents que j'ai eu la joie d'accompagner:
           <div class="services-garde-enfants-item">
             <div class="services-garde-enfants-image">
               <div class="image-frame-services position-relative">
-                 {% image "/images/presentation/rpe-bretigny.jpg", "Jeux libres au Relais Petite Enfance de Brétigny-sur-Orge avec Céline, assistante maternelle agréée", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
+                 {% image "/images/presentation/rpe-bretigny.jpg", "Jeux libres au Relais Petite Enfance de Brétigny-sur-Orge avec Céline, assistante maternelle agréée", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager" %}
 
                 <div class="image-overlay"></div>
               </div>
@@ -212,7 +212,7 @@ Rien ne vaut les témoignages des parents que j'ai eu la joie d'accompagner:
           <div class="services-garde-enfants-item">
             <div class="services-garde-enfants-image">
               <div class="image-frame-services position-relative">
-                {% image "/images/presentation/anniversaire-accueilli.jpg", "Anniversaire d'un enfant accueilli dans le jardin", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
+                {% image "/images/presentation/anniversaire-accueilli.jpg", "Anniversaire d'un enfant accueilli dans le jardin", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager" %}
                 <div class="image-overlay"></div>
               </div>
             </div>
@@ -250,7 +250,7 @@ Rien ne vaut les témoignages des parents que j'ai eu la joie d'accompagner:
           <div class="services-garde-enfants-item">
             <div class="services-garde-enfants-image">
               <div class="image-frame-services position-relative">
-                {% image "/images/presentation/parc-bretigny.jpg", "Sortie au parc Clause-Bois Badeau", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
+                {% image "/images/presentation/parc-bretigny.jpg", "Sortie au parc Clause-Bois Badeau", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager" %}
                 <div class="image-overlay"></div>
               </div>
             </div>
@@ -284,7 +284,7 @@ Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de vo
           <div class="services-garde-enfants-item">
             <div class="services-garde-enfants-image">
               <div class="image-frame-services position-relative">
-              {% image "/images/presentation/syndicat-unsa-pro-assmat.jpg", "UNSA Pro Assmat", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
+              {% image "/images/presentation/syndicat-unsa-pro-assmat.jpg", "UNSA Pro Assmat", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager" %}
                 
                 <div class="image-overlay"></div>
               </div>
@@ -319,7 +319,7 @@ Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de vo
           <div class="services-garde-enfants-item">
             <div class="services-garde-enfants-image">
               <div class="image-frame-services position-relative">
-                {% image "/images/presentation/tarif-assmat.jpg", "Aides CAF et reste à charge", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager", fetchpriority="high" %}
+                {% image "/images/presentation/tarif-assmat.jpg", "Aides CAF et reste à charge", "(min-width: 1024px) 100vw, 50vw", width=800, height=600, loading="eager" %}
                 <div class="image-overlay"></div>
               </div>
             </div>
@@ -416,7 +416,12 @@ Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de vo
 
       <!-- Bloc 1 -->
       <div class="col-12 col-md-3 icone-cesu">
-        <img src="{{ '/images/presentation/equilibre-travail-bretigny.svg' | url }}" alt="Équilibre vie pro/perso" loading="lazy">
+
+        <img src="{{ '/images/presentation/equilibre-travail-bretigny.svg' | url }}"
+     alt="Équilibre vie pro/perso"
+     loading="lazy"
+     decoding="async">
+
         <h3 class="poppins-regular-icone-cesu text-start">
           <strong class="titre">Conciliation vie pro/perso</strong><br>
           <span class="titre-salarie"><strong>Salarié :</strong> Moins de stress, plus d’équilibre.</span><br>
@@ -426,7 +431,13 @@ Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de vo
 
       <!-- Bloc 2 -->
       <div class="col-12 col-md-3 icone-cesu">
-        <img src="{{ '/images/presentation/reprise-travail-bretigny.svg' | url }}" alt="Reprise de travail sereine" loading="lazy">
+
+  <img src="{{ '/images/presentation/reprise-travail-bretigny.svg' | url }}"
+     alt="Reprise de travail sereine"
+     loading="lazy"
+     decoding="async">
+
+
         <h3 class="poppins-regular-icone-cesu text-start">
           <strong class="titre">Retour serein</strong><br>
           <span class="titre-salarie"><strong>Salarié :</strong> Reprise facilitée après un congé.</span><br>
@@ -436,7 +447,13 @@ Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de vo
 
       <!-- Bloc 3 -->
       <div class="col-12 col-md-3 icone-cesu">
-        <img src="{{ '/images/presentation/economie-cesu-bretigny.svg' | url }}" alt="Pouvoir d'achat augmenté" loading="lazy">
+
+<img src="{{ '/images/presentation/economie-cesu-bretigny.svg' | url }}"
+     alt="Pouvoir d'achat augmenté"
+     loading="lazy"
+     decoding="async">
+
+       
         <h3 class="poppins-regular-icone-cesu text-start">
           <strong class="titre">Pouvoir d’achat</strong><br>
           <span class="titre-salarie"><strong>Salarié :</strong> Reste à charge réduit, 50 % de crédit d’impôt, pouvoir d’achat augmenté.</span><br>
@@ -446,7 +463,13 @@ Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de vo
 
       <!-- Bloc 4 -->
       <div class="col-12 col-md-3 icone-cesu">
-        <img src="{{ '/images/presentation/bien-etre-travail-bretigny.svg' | url }}" alt="Fidélisation des salariés" loading="lazy">
+
+<img src="{{ '/images/presentation/bien-etre-travail-bretigny.svg' | url }}"
+     alt="Fidélisation des salariés"
+     loading="lazy"
+     decoding="async">
+
+        
         <h3 class="poppins-regular-icone-cesu text-start">
           <strong class="titre">Bien-être & engagement</strong><br>
           <span class="titre-salarie"><strong>Salarié :</strong> Reconnu et motivé au quotidien.</span><br>
@@ -456,7 +479,13 @@ Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de vo
 
       <!-- Bloc 5 -->
       <div class="col-12 col-md-3 icone-cesu">
-        <img src="{{ '/images/presentation/paperasse-bretigny.svg' | url }}" alt="Gestion simplifiée" loading="lazy">
+
+<img src="{{ '/images/presentation/paperasse-bretigny.svg' | url }}"
+     alt="Gestion simplifiée"
+     loading="lazy"
+     decoding="async">
+
+       
         <h3 class="poppins-regular-icone-cesu text-start">
           <strong class="titre">Simplicité d’utilisation</strong><br>
           <span class="titre-salarie"><strong>Salarié :</strong> Avantages accessibles, démarches réduites.</span><br>
@@ -466,7 +495,13 @@ Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de vo
 
       <!-- Bloc 6 -->
       <div class="col-12 col-md-3 icone-cesu">
-        <img src="{{ '/images/presentation/serenite-travail-bretigny.svg' | url }}" alt="Sérénité au travail" loading="lazy">
+
+ <img src="{{ '/images/presentation/serenite-travail-bretigny.svg' | url }}"
+     alt="Sérénité au travail"
+     loading="lazy"
+     decoding="async">
+
+        
         <h3 class="poppins-regular-icone-cesu text-start">
           <strong class="titre">Sérénité au travail</strong><br>
           <span class="titre-salarie"><strong>Salarié :</strong> Charge mentale diminuée, meilleure performance au travail.</span><br>
@@ -476,7 +511,13 @@ Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de vo
 
       <!-- Bloc 7 -->
       <div class="col-12 col-md-3 icone-cesu">
-        <img src="{{ '/images/presentation/acces-cesu-bretigny.svg' | url }}" alt="Accès simplifié au CESU" loading="lazy">
+
+ <img src="{{ '/images/presentation/acces-cesu-bretigny.svg' | url }}"
+     alt="Accès simplifié au CESU"
+     loading="lazy"
+     decoding="async">
+
+        
         <h3 class="poppins-regular-icone-cesu text-start">
           <strong class="titre">Solution flexible</strong><br>
           <span class="titre-salarie"><strong>Salarié :</strong> Accueil adapté à chaque situation familiale (horaires, besoins spécifiques).</span><br>
@@ -486,7 +527,13 @@ Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de vo
 
       <!-- Bloc 8 -->
       <div class="col-12 col-md-3 icone-cesu">
-        <img src="{{ '/images/presentation/image-valorisee-travail-bretigny.svg' | url }}" alt="Image RSE de l'entreprise" loading="lazy">
+
+ <img src="{{ '/images/presentation/image-valorisee-travail-bretigny.svg' | url }}"
+     alt="Image RSE de l'entreprise"
+     loading="lazy"
+     decoding="async">
+
+       
         <h3 class="poppins-regular-icone-cesu text-start">
           <strong class="titre">Image socialement responsable</strong><br>
           <span class="titre-salarie"><strong>Salarié :</strong> Fierté de contribuer à une entreprise engagée.</span><br>
