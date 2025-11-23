@@ -217,7 +217,7 @@ eleventyConfig.addFilter("truncateWords", function (content, numWords) {
   eleventyConfig.addPassthroughCopy("google0b7250a45fd279a1.html");
   eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("tarteaucitron");
-
+  eleventyConfig.addPassthroughCopy("presentation-assistante-maternelle-agreee.jpg");
 
 
 
