@@ -45,10 +45,10 @@ pagination:
     <div class="card-body text-center">
       <span class="badge text-bg-secondary">{{ post.data.category | default('ACTIVITE') }}</span>
       <div class="poppins-regular-blog-date">{{ post.date | date('dd MMMM yyyy') }}</div>
-      <h2 class="poppins-regular-titre-blog">
+      <h2 class="poppins-bold-titre-blog-h2">
         <a href="{{ post.url }}" style="text-decoration: none; color: inherit;">{{ post.data.title | default('Titre de l\'article') }}</a>
       </h2>
-      <div class="poppins-regular-blog">{{ post.content | truncateWords(20) }}</div>
+      <div class="poppins-regular-titre-h3">{{ post.content | truncateWords(20) }}</div>
       <a href="{{ post.url }}" class="btn btn-custom">
         <img src="{{ '/images/blog/baby-nipple-blog.svg' | url }}" class="bouton-tetine" alt="Voir l'article" />
       </a>
