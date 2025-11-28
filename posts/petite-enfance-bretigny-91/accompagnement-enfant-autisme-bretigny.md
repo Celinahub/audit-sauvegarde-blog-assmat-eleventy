@@ -72,6 +72,9 @@ L’autisme peut parfois passer inaperçu dans les tout premiers mois. C’est s
 
 Il est important de préciser qu’un seul signe isolé (par exemple un enfant qui aime se balancer) <strong>ne suffit pas à parler d’autisme</strong>. C’est un ensemble d’éléments qui peut amener à s’interroger.
 
+Les filles sont encore trop souvent oubliées dans les diagnostics. Leurs particularités passent parfois inaperçues ou sont moins bien comprises, ce qui conduit à un sous-diagnostic important et limite ensuite l’accès aux aides dont elles pourraient bénéficier. 
+
+
 ---
 
 ### **<span id="role">2. Le rôle précieux de l’assistante maternelle et des professionnels de la petite enfance</span>** 
@@ -111,9 +114,9 @@ Beaucoup d’enfants autistes perçoivent le monde de manière différente, avec
 
 J’ai sélectionné à mon domicile des jouets adaptés, pensés pour répondre aux besoins spécifiques d’un enfant autiste:
 
-{% image "/images/uploads/jeux-sensoriels-bretigny.jpg", "Séléction de jeux sensoriels et d'encastrement – Activité adaptés aux enfants tsa à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
+{% image "/images/uploads/jeux-sensoriels-bretigny.jpg", "Séléction de jeux sensoriels et d'encastrement – Activité adaptés aux enfants TSA à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
 
-{% image "/images/uploads/puzzles-activite-tsa-bretigny.jpg", "Séléction de puzzles – Activité adaptés aux enfants tsa à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
+{% image "/images/uploads/puzzles-activite-tsa-bretigny.jpg", "Séléction de puzzles – Activité adaptés aux enfants TSA à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
 
 ---
 
@@ -166,7 +169,7 @@ Quelques exemples d'activités sensorielles que vous pouvez facilement proposer 
 
 Un exemple simple d’aménagement proposé chez moi : une tente calme avec des coussins, pensée pour favoriser la lecture, la détente et les activités sensorielles:
 
-{% image "/images/uploads/espace-calme-tsa-bretigny.jpg", "Espace aménagé calme – Aménagement adapté aux enfants tsa à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
+{% image "/images/uploads/espace-calme-tsa-bretigny.jpg", "Espace aménagé calme – Aménagement adapté aux enfants TSA à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
 
 ---
 
@@ -200,7 +203,10 @@ Les enfants autistes accueillis par une assistante maternelle à Brétigny-sur-O
 
 ### **<span id="accompagnement">8. Ressources et outils pour mieux accompagner</span>** 
 
+Cet article simplifie le sujet tout en apportant un éclairage complémentaire aux sources scientifiques et officielles, pour éveiller la curiosité des parents et les encourager à aller plus loin dans leur réflexion. 
+
 Pour les familles et les professionnels de la petite enfance à Brétigny-sur-Orge, voici une sélection de supports adaptés pour mieux comprendre l’autisme et favoriser l’accompagnement au quotidien dans un cadre professionnel ou familial.
+
 
 - **Vidéos "Deux minutes pour mieux vivre l’autisme":**
 Découvre en vidéo des conseils concrets et des astuces pour accompagner sereinement l’enfant autiste au quotidien (repas, routines, autonomie…).
