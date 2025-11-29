@@ -70,9 +70,11 @@ L’autisme peut parfois passer inaperçu dans les tout premiers mois. C’est s
 - Sélectivité alimentaire.
 
 
-Il est important de préciser qu’un seul signe isolé (par exemple un enfant qui aime se balancer) <strong>ne suffit pas à parler d’autisme</strong>. C’est un ensemble d’éléments qui peut amener à s’interroger.
+Chaque enfant autiste est unique, les signes et les besoins varient énormément d’une personne à l’autre. Les points listés ci-dessus évoquent les manifestations les plus fréquentes en petite enfance, mais l’autisme est un spectre très large qui peut se présenter de nombreuses façons différentes.
 
 Les filles sont encore trop souvent oubliées dans les diagnostics. Leurs particularités passent parfois inaperçues ou sont moins bien comprises, ce qui conduit à un sous-diagnostic important et limite ensuite l’accès aux aides dont elles pourraient bénéficier. 
+
+Il est important de préciser qu’un seul signe isolé (par exemple un enfant qui aime se balancer) <strong>ne suffit pas à parler d’autisme</strong>. C’est un ensemble d’éléments qui peut amener à s’interroger.
 
 
 ---
