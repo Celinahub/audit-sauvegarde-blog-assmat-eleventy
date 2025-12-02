@@ -3,6 +3,7 @@ layout: layouts/post.njk
 title: "Lasagnes bolognaises préférées des enfants"
 description: "Recette lasagnes bolognaises faciles pour enfants : version maison saine par assistante maternelle agréée à Brétigny-sur-Orge."
 tags: 
+  - recettes
   - recettes-enfants
   - alimentation-saine
   - lasagnes-bolognaise
