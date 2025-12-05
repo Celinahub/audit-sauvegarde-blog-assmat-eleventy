@@ -3078,8 +3078,8 @@ font-size: 0.75rem; /* Taille de la police relative */
 .legende-couleurs {
     .icone-legende {
         vertical-align: middle;
-        width: 38px;
-        height: 38px;
+        width: 28px;
+        height: 28px;
         flex-shrink: 0;
     }
 } 
