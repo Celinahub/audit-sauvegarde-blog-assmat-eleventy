@@ -119,7 +119,7 @@ Le CESU préfinancé concerne plusieurs situations :
 En complément des berceaux d’entreprise ou places en crèche réservées par l’employeur, le CESU préfinancé offre une solution financière flexible et individuelle. Ces dispositifs sont tout à fait cumulables, permettant aux salariés de choisir la solution la mieux adaptée à leur situation et besoins. Cette complémentarité renforce l’attractivité des entreprises en matière d’aide à la garde d’enfants.
 
 - <strong>Attractivité et fidélisation :</strong> Proposer le CESU préfinancé montre l’engagement de l’entreprise envers le bien-être des salariés et favorise leur fidélisation,
-- <strong>Avantages fiscaux et sociaux :</strong> Les sommes versées sous forme de CESU préfinancé sont exonérées de cotisations sociales dans la limite de 2 540 € par an et par salarié en 2025, ce plafond ayant été revalorisé récemment,
+- <strong>Avantages fiscaux et sociaux :</strong> Les sommes versées sous forme de CESU préfinancé sont exonérées de cotisations sociales dans la limite de 2 591 € par an et par salarié, ce plafond ayant été revalorisé récemment au 1er janvier 2026,
 - <strong>Crédit d’impôt :</strong> L’entreprise bénéficie d’un crédit d’impôt de 25 % sur les aides versées au titre du CESU préfinancé,
 - <strong>Gestion simplifiée :</strong> La mise en place et la distribution des CESU sont simples et peu chronophages pour l’entreprise,
 - <strong>Amélioration de la qualité de vie au travail :</strong> En facilitant l’accès à des solutions de garde, l’entreprise contribue à l’équilibre vie professionnelle/vie personnelle de ses salariés.
@@ -233,7 +233,7 @@ Il offre aussi des avantages fiscaux et sociaux aux entreprises qui le mettent e
   <dd>Les salariés (CDI, CDD, intérim) peuvent en bénéficier si leur employeur ou comité d’entreprise le propose. Les indépendants peuvent en bénéficier uniquement si leur mutuelle, caisse ou organisme professionnel en fait la distribution.</dd>
 
   <dt><strong>Quels sont les plafonds d’exonération pour les entreprises ?</strong></dt>
-  <dd>Les versements CESU préfinancés sont exonérés de cotisations sociales jusqu’à 2 540 € par salarié et par an (plafond 2025).</dd>
+  <dd>Les versements CESU préfinancés sont exonérés de cotisations sociales jusqu’à 2 591 € par salarié et par an (plafond 1er janvier 2026).</dd>
 
   <dt><strong>Comment utiliser les CESU préfinancés pour payer une assistante maternelle ?</strong></dt>
   <dd>Vous payez directement en ligne via votre compte CESU, en utilisant le numéro d’affiliation nationale (NAN) fourni par votre assistante maternelle.</dd>
@@ -268,7 +268,7 @@ Il offre aussi des avantages fiscaux et sociaux aux entreprises qui le mettent e
       "name": "Quels sont les plafonds d’exonération pour les entreprises ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Les versements CESU préfinancés sont exonérés de cotisations sociales jusqu’à 2 540 € par salarié et par an (plafond 2025)."
+        "text": "Les versements CESU préfinancés sont exonérés de cotisations sociales jusqu’à 2 591 € par salarié et par an (plafond 1er janvier 2026)."
       }
     },
     {
