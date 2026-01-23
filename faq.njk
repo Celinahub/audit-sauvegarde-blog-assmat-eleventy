@@ -6,155 +6,100 @@ url: "https://chubert91assmat.netlify.app/faq/"
 image: "faq-celine-assistante-maternelle.jpg"
 eleventyNavigation:
   key: FAQ
-  order: 3
+  order: 5
 permalink: "/faq/"
 bodyClass: "bg-white faq"
 
-jsonld: |
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Qu'est ce que la convention collective ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Depuis le 1er janvier 2022, le secteur des particuliers employeurs..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Législation applicable",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Le contrat de travail des assistantes maternelles est encadré par..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Les aides pour employer une assistante maternelle à Brétigny-sur-Orge",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "• Les prestations de la PAJE..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Quand la réforme du CMG est-elle entrée en vigueur ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "La réforme s’applique depuis le 1er septembre 2025..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Faut-il faire une nouvelle demande pour bénéficier du CMG ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Non, le calcul est automatiquement mis à jour..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Que change la réforme pour le calcul du CMG ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Le CMG est désormais calculé de façon personnalisée..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Qu’est-ce que le complément transitoire ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "C’est un dispositif automatique..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Quels changements pour les parents isolés ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Le CMG est prolongé jusqu’aux 12 ans..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Que se passe-t-il pour la résidence alternée ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "À partir de décembre 2025, chaque parent..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Quel est le seuil de 8 € mentionné ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Le CMG couvre désormais jusqu’à 8 € par heure..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Démarches à effectuer avant l’embauche",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Réserver ma place : rédigez un engagement réciproque..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Sites utiles pour particuliers employeurs",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Voici une sélection de sites officiels..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Tarifs d’une assistante maternelle à Brétigny-sur-Orge",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Le tarif d’une assistante maternelle à Brétigny-sur-Orge..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Calcul du coût de la place et des indemnités d’une assistante maternelle",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Déterminez votre montant du CMG..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Comment régler le salaire d’une assistante maternelle ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Par virement bancaire..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Comment remplir l’attestation employeur assistante maternelle ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Pour créer votre espace employeur..."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Pourquoi choisir l’accueil chez Céline à Brétigny-sur-Orge ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "L’accueil chez Céline à Brétigny-sur-Orge se distingue..."
-        }
-      }
-    ]
-  }
-  </script>
+# JSON-LD FAQ pour injection dans breadcrumb-schema.njk
+jsonldFAQ:
+  "@context": "https://schema.org"
+  "@type": "FAQPage"
+  "mainEntity":
+    - "@type": "Question"
+      name: "Qu'est ce que la convention collective ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Depuis le 1er janvier 2022, le secteur des particuliers employeurs..."
+    - "@type": "Question"
+      name: "Législation applicable"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Le contrat de travail des assistantes maternelles est encadré par..."
+    - "@type": "Question"
+      name: "Les aides pour employer une assistante maternelle à Brétigny-sur-Orge"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "• Les prestations de la PAJE..."
+    - "@type": "Question"
+      name: "Quand la réforme du CMG est-elle entrée en vigueur ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "La réforme s’applique depuis le 1er septembre 2025..."
+    - "@type": "Question"
+      name: "Faut-il faire une nouvelle demande pour bénéficier du CMG ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Non, le calcul est automatiquement mis à jour..."
+    - "@type": "Question"
+      name: "Que change la réforme pour le calcul du CMG ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Le CMG est désormais calculé de façon personnalisée..."
+    - "@type": "Question"
+      name: "Qu’est-ce que le complément transitoire ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "C’est un dispositif automatique..."
+    - "@type": "Question"
+      name: "Quels changements pour les parents isolés ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Le CMG est prolongé jusqu’aux 12 ans..."
+    - "@type": "Question"
+      name: "Que se passe-t-il pour la résidence alternée ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "À partir de décembre 2025, chaque parent..."
+    - "@type": "Question"
+      name: "Quel est le seuil de 8 € mentionné ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Le CMG couvre désormais jusqu’à 8 € par heure..."
+    - "@type": "Question"
+      name: "Démarches à effectuer avant l’embauche"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Réserver ma place : rédigez un engagement réciproque..."
+    - "@type": "Question"
+      name: "Sites utiles pour particuliers employeurs"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Voici une sélection de sites officiels..."
+    - "@type": "Question"
+      name: "Tarifs d’une assistante maternelle à Brétigny-sur-Orge"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Le tarif d’une assistante maternelle à Brétigny-sur-Orge..."
+    - "@type": "Question"
+      name: "Calcul du coût de la place et des indemnités d’une assistante maternelle"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Déterminez votre montant du CMG..."
+    - "@type": "Question"
+      name: "Comment régler le salaire d’une assistante maternelle ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Par virement bancaire..."
+    - "@type": "Question"
+      name: "Comment remplir l’attestation employeur assistante maternelle ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Pour créer votre espace employeur..."
+    - "@type": "Question"
+      name: "Pourquoi choisir l’accueil chez Céline à Brétigny-sur-Orge ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "L’accueil chez Céline à Brétigny-sur-Orge se distingue..."
 ---
 
 

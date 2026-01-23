@@ -5,16 +5,16 @@ description: "Conseils parents, recettes, aides CAF et activités enfants à Br�
 tags: "assistante maternelle, nounou, activités enfants, Brétigny-sur-Orge, blog"
 url: "https://chubert91assmat.netlify.app/blog/"
 image: "capture-site-blog-celine-hubert.jpg"
-eleventyNavigation:
-  key: "BLOG"
-  title: "Blog"
-  order: 4
 pagination:
   data: collections.posts
   size: 5
   alias: posts
 bodyClass: "blog-page"
 permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}/{% endif %}"
+
+# ⚠️ Ajouter pour générer correctement le breadcrumb
+breadcrumb:
+  key: "Blog"
 ---
 
 
@@ -195,46 +195,6 @@ permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumbe
   // Exécuter l'initialisation des likes au chargement de la page
   document.addEventListener('DOMContentLoaded', initializeLikes);
 </script>
-
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Blog",
-  "url": "{{ url }}",
-  "name": "{{ title }}",
-  "description": "{{ description }}",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Chubert Assmat Brétigny",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://chubert91assmat.netlify.app/images/presentation/rpe-bretigny.jpg"
-    }
-  },
-  "blogPost": [
-    {% for post in pagination.items %}
-    {
-      "@type": "BlogPosting",
-      "headline": "{{ post.data.title | safe }}",
-      "url": "{{ url }}{{ post.url | replace('#gsc.tab=0','') }}",
-      "datePublished": "{{ post.data.date }}",
-      "dateModified": "{{ post.data.date }}",
-      "description": "{{ post.data.description | safe }}",
-      "author": {
-        "@type": "Person",
-        "name": "Céline Hubert"
-      }
-    }{% if not loop.last %},{% endif %}
-    {% endfor %}
-  ]
-}
-</script>
-
-
-
-
 
 
 

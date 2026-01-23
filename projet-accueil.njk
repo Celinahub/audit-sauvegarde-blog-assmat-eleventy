@@ -5,21 +5,31 @@ description: "Découvrez mon projet d’accueil à Brétigny : respect du rythme
 url: "https://chubert91assmat.netlify.app/projet-accueil/"
 image: "projet-accueil-assistante-maternelle.jpg"
 eleventyNavigation:
-  key: Projet d'accueil
+  key: Mon projet d’accueil
   order: 2
 permalink: "/projet-accueil/"
 bodyClass: "bg-white projet-accueil"
 
-jsonld: |
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Projet d'accueil",
-    "url": "https://chubert91assmat.netlify.app/projet-accueil/",
-    "description": "Découvrez le projet d’accueil de Céline : valeurs éducatives, développement, activités, respect du rythme de l’enfant."
-  }
-  </script>
+# FAQ spécifique à cette page
+jsonldFAQ:
+  "@context": "https://schema.org"
+  "@type": "FAQPage"
+  "mainEntity":
+    - "@type": "Question"
+      name: "Qu’est-ce qu’un projet d’accueil d’assistante maternelle ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "C’est un document personnel qui décrit la manière dont une assistante maternelle organise l’accueil des enfants : ses valeurs, son fonctionnement, ses horaires, son cadre de vie, etc."
+    - "@type": "Question"
+      name: "Est-ce un document obligatoire ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Non. Aucun texte de loi national n’impose le projet d’accueil comme document obligatoire pour obtenir ou conserver l’agrément d’assistant maternel, contrairement par exemple au contrat de travail qui, lui, est obligatoire. En revanche, il est fortement recommandé car il permet de présenter clairement mon cadre d’accueil et mes valeurs éducatives aux parents."
+    - "@type": "Question"
+      name: "Puis-je obtenir un exemplaire du projet d’accueil ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Oui, bien sûr. Je le transmets volontiers aux familles intéressées, afin qu’elles puissent découvrir mon approche avant de commencer une collaboration."
 ---
 
 
@@ -2361,13 +2371,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-<!-- Icône de défilement vers le haut utilisant une image SVG -->
-<a href="#chezceline" class="scroll-to-top">
-    <img class="rocket-icon" src="../images/rocket-svgrepo-com.svg" alt="Icône de fusée pour remonter en haut de la page projet d'accueil" />
-</a>
-
-
-
     
 <!-- Bouton pour charger le chatbot -->
 <button id="load-chatbot" class="chatbot-launcher" aria-label="Ouvrir le chatbot">
@@ -2427,37 +2430,4 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Qu’est-ce qu’un projet d’accueil d’assistante maternelle ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "C’est un document personnel qui décrit la manière dont une assistante maternelle organise l’accueil des enfants : ses valeurs, son fonctionnement, ses horaires, son cadre de vie, etc."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Est-ce un document obligatoire ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Non. Aucun texte de loi national n’impose le projet d’accueil comme document obligatoire pour obtenir ou conserver l’agrément d’assistant maternel, contrairement par exemple au contrat de travail qui, lui, est obligatoire. En revanche, il est fortement recommandé car il permet de présenter clairement mon cadre d’accueil et mes valeurs éducatives aux parents."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Puis-je obtenir un exemplaire du projet d’accueil ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Oui, bien sûr. Je le transmets volontiers aux familles intéressées, afin qu’elles puissent découvrir mon approche avant de commencer une collaboration."
-      }
-    }
-  ]
-}
-</script>
 

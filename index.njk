@@ -4,11 +4,82 @@ title: "Assistante Maternelle à Brétigny-sur-Orge | Céline Hubert"
 description: "Assistante maternelle agréée à Brétigny-sur-Orge (Essonne). Maison avec jardin près du RER C, accueil familial qui se distingue de la crèche."
 url: "https://chubert91assmat.netlify.app/"
 image: "presentation-assistante-maternelle-agreee.jpg"
-eleventyNavigation:
-  key: Assistante maternelle à Brétigny-sur-Orge
-  order: 1
 permalink: "/"
-bodyClass: "bg-white presentation"
+bodyClass: "bg-white accueil"
+
+eleventyNavigation:
+  key: Accueil
+  order: 1
+
+# =========================
+# JSON-LD : FAQ (SEO)
+# =========================
+jsonldFAQ:
+  "@context": "https://schema.org"
+  "@type": "FAQPage"
+  mainEntity:
+    - "@type": "Question"
+      name: "Quels sont les avantages d'une assistante maternelle à Brétigny-sur-Orge ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Une assistante maternelle offre un accueil personnalisé et sécurisé à Brétigny-sur-Orge, souvent plus souple et chaleureux qu'en crèche. Céline est agréée, proche de la gare RER C et du parc Clause-Bois Badeau."
+    - "@type": "Question"
+      name: "Puis-je visiter avant de réserver ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Oui, lors d'un premier rendez-vous je propose une visite du lieu d'accueil avant toute réservation, afin de vous assurer que l'environnement correspond bien aux besoins de votre enfant et de votre famille. Cette visite permet également d'établir un premier contact, poser des questions, et discuter du projet d'accueil."
+    - "@type": "Question"
+      name: "Êtes-vous accessible depuis Le Plessis-Pâté ou Saint-Michel-sur-Orge ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Oui, mon domicile est à quelques minutes de ces communes en voiture ou en bus."
+    - "@type": "Question"
+      name: "Accueillez-vous des enfants de Saint-Germain-lès-Arpajon ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Oui, j'accueille des familles des villes voisines comme Saint-Germain-lès-Arpajon, Le Plessis-Pâté ou Saint-Michel-sur-Orge."
+
+# =========================
+# JSON-LD : Activité locale
+# =========================
+jsonldBusiness:
+  "@context": "https://schema.org"
+  "@type": "ChildCare"
+  "@id": "https://chubert91assmat.netlify.app/#business"
+  name: "Assistante maternelle agréée - chez Céline"
+  url: "https://chubert91assmat.netlify.app/"
+  image: "https://chubert91assmat.netlify.app/presentation-assistante-maternelle-agreee.webp"
+  logo: "https://chubert91assmat.netlify.app/images/navbar/logo-navbar-paint.png"
+  description: "Assistante maternelle agréée proposant un accueil personnalisé pour les enfants à Brétigny-sur-Orge. Une alternative chaleureuse et professionnelle à la crèche."
+
+  address:
+    "@type": "PostalAddress"
+    streetAddress: "30 Bis Av. Lucien Clause"
+    addressLocality: "Brétigny-sur-Orge"
+    addressRegion: "Île-de-France"
+    postalCode: "91220"
+    addressCountry: "FR"
+
+  geo:
+    "@type": "GeoCoordinates"
+    latitude: 48.609
+    longitude: 2.25
+
+  openingHoursSpecification:
+    - "@type": "OpeningHoursSpecification"
+      dayOfWeek:
+        - Monday
+        - Tuesday
+        - Thursday
+        - Friday
+      opens: "07:15"
+      closes: "18:45"
+
+  hasMap: "https://www.google.com/maps/place/30+Bis+Av.+Lucien+Clause,+Brétigny-sur-Orge"
+  priceRange: "€"
+
+  sameAs:
+    - "https://g.page/r/CQsVBcwjVgVtEBM/review"
 ---
 
 
@@ -230,20 +301,21 @@ Rien ne vaut les témoignages des parents que j'ai eu la joie d'accompagner:
             <div class="services-garde-enfants-text-space p-4">
             <div class="description-atout-services">
 
-              <h2 class="poppins-bold-titre-h2">Sorties tous les jours & rencontres au RPE</h2>
+              <h2 class="poppins-bold-titre-h2">Sorties & trajets simplifiés</h2>
               <hr class="horizontal-line">
               
                 <p class="poppins-regular-balise-p">
-                  Parcs Clause-Bois Badeau, médiathèque… nous bougeons tous les jours ! 
-                  Deux matinées par mois au Relais Petite Enfance de Brétigny pour jouer avec d’autres enfants tout en gardant les avantages d’une garde à domicile.
-                </p>
-                <div class="d-flex flex-column flex-sm-row gap-2">
-                  <a href="{{ '/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/' | url }}" class="btn btn-action-primary">
-                    Nos parcs préférés →
-                  </a>
-                  <a href="{{ '/projet-accueil/#team' | url }}" class="btn btn-action-primary">
-                    Le RPE en photos →
-                  </a>
+            Parcs Clause-Bois Badeau, RPE, médiathèque... nous bougeons tous les jours ! 
+            Mon accueil est idéalement situé à <strong>8 min du RER C et des écoles</strong> (Césaire, Jeanne d’Arc).
+          </p>
+
+          <div class="d-flex flex-column flex-sm-row gap-2">
+            <a href="{{ '/assistante-maternelle-bretigny-sur-orge/' | url }}" class="btn btn-action-primary">
+              Accès & Écoles →
+            </a>
+            <a href="{{ '/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/' | url }}" class="btn btn-action-primary">
+              Nos sorties →
+            </a>
                 </div>
               </div>
             </div>
@@ -311,7 +383,7 @@ Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de vo
                   Grâce au CMG CAF + crédit d’impôt 50 % + éventuels CESU entreprise, 
                   de nombreuses familles paient <strong>un montant équivalent</strong> que la crèche tout en ayant un accueil individualisé.
                 </p>
-                <a href="{{ '/faq/' | url }}" class="btn btn-action-primary">
+                <a href="{{ '/simulateur-cout-creche-assistante-maternelle/' | url }}" class="btn btn-action-primary">
                   Simulation tarif & aides 2025 →
                 </a>
               </div>
@@ -607,7 +679,7 @@ Moins de paperasse, plus de temps pour l’essentiel : l’épanouissement de vo
           <span class="securite-icon-wrapper">
           <img src="{{ '/images/presentation/proximite-rer-bretigny.svg' | url }}" class="bien-etre-icon" alt="Icône horloge trajet gare rer" loading="lazy">
           </span>
-          5 min du RER C
+          8 min du RER C
         </h3>
 
 <ul class="poppins-regular-balise-p"><li>Quartier Carouge–Clause, proche du parc Clause–Bois Badeau.</li></ul>
@@ -803,7 +875,6 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -853,53 +924,6 @@ document.addEventListener('DOMContentLoaded', function () {
   ]
 }
 </script>
-
-
-
-<!-- Balise JSON-LD pour la FAQ -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Quels sont les avantages d'une assistante maternelle à Brétigny-sur-Orge ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Une assistante maternelle offre un accueil personnalisé et sécurisé à Brétigny-sur-Orge, souvent plus souple et chaleureux qu'en crèche. Céline est agréée, proche de la gare RER C et du parc Clause-Bois Badeau."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Puis-je visiter avant de réserver ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Oui, lors d'un premier rendez-vous je propose une visite du lieu d'accueil avant toute réservation, afin de vous assurer que l'environnement correspond bien aux besoins de votre enfant et de votre famille. Cette visite permet également d'établir un premier contact, poser des questions, et discuter du projet d'accueil."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Êtes-vous accessible depuis Plessis-Pâté ou Saint-Michel-sur-Orge ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Oui, mon domicile est à quelques minutes de ces communes en voiture ou en bus."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Est-ce que vous accueillez aussi des enfants de Saint-Germain-lès-Arpajon ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Oui, j'accueille des familles des villes voisines comme Saint-Germain-lès-Arpajon ou Le Plessis-Pâté."
-      }
-    }
-  ]
-}
-</script>
-
-
-
 
 
 

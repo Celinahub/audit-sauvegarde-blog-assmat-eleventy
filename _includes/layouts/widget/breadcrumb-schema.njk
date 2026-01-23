@@ -5,6 +5,14 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
+    {% if page.url == "/" %}
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://chubert91assmat.netlify.app/"
+    }
+    {% else %}
     {
       "@type": "ListItem",
       "position": 1,
@@ -17,6 +25,7 @@
       "name": "{{ breadcrumb.key }}",
       "item": "https://chubert91assmat.netlify.app{{ page.url }}"
     }
+    {% endif %}
   ]
 }
 </script>
