@@ -6052,3 +6052,91 @@ body.rss-info-page {
    text-align: center;
    padding: 0;
 }
+
+/* Styles pour la page assistante maternelle bretigny sur orge */
+ 
+#assmat-bretigny {
+   background-color: #98D1CA;
+   padding-left: 20px;
+   padding-right: 20px;
+   
+    }
+
+.assmat-container {
+   display: flex;
+   align-items: center; /* Aligner verticalement */
+   justify-content: flex-start; /* Aligne horizontalement à gauche */
+   gap: 20px; /* Espacement entre le H1 et le bouton */
+   flex-wrap: wrap; /* Permet le passage à la ligne sur mobile */
+   text-align: left; /* Centrer le texte pour une bonne lisibilité */
+   margin-bottom: 30px; /* Marge en bas du titre */
+}
+
+#ecoles-rer-bretigny {
+   background-color: #F8F9F6;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
+
+
+/* Styles pour la section assmat-quartier-accueil */
+ 
+#assmat-quartier-accueil {
+   background-color: #98D1CA;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 3rem; /* ou margin-bottom */
+   padding-bottom: 3rem; /* ou margin-bottom */
+    }
+    
+
+
+ 
+#assmat-quartier-accueil .accordion-button.collapsed {
+  background-color: #AEDBD5; /* couleur de fond quand bouton fermé, jaune pastel */
+  color: #103754; /* couleur du texte */
+}
+
+#assmat-quartier-accueil .accordion-button:not(.collapsed) {
+  background-color: #AEDBD5; /* couleur de fond quand bouton ouvert, jaune plus vif */
+  color: #103754;
+}
+
+#assmat-quartier-accueil .accordion-button:focus {
+  background-color: #AEDBD5;
+  outline: none;
+  box-shadow: none;
+}
+
+
+.accordion-quartier-accueil-body {
+  background-color: #98D1CA;
+  padding: 1rem;
+}
+
+
+
+ #sommaire-quartier {
+   background-color: #AEDBD5;
+   padding: 15px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+
+#sommaire-quartier a {
+   display: block; /* Met chaque lien sur une nouvelle ligne */
+   margin-bottom: 5px; /* Espacement entre les liens */
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
