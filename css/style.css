@@ -5612,8 +5612,17 @@ body.rss-info-page {
 
 .alert-custom-info {
     background-color: #eaf3f0;
+    height: 100%; /* Permet à toutes les cartes de s'étirer sur la même hauteur */
 }
 
+.cards-equal-height {
+    align-items: stretch;
+}
+
+.card-mini-equal {
+    height: 100%;
+   
+}
 
 
 /* Styles pour la section comparer-creche-assistante-maternelle */
