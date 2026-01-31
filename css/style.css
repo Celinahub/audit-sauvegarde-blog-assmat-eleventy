@@ -1765,6 +1765,8 @@ h2, h3 {
 
 
 
+
+
 /* Style section disponibilite assistante maternelle bretigny sur orge */
 
 #disponibilite-assistante-maternelle-bretigny-sur-orge {
@@ -1787,6 +1789,11 @@ h2, h3 {
    position: relative; /* Pour placer le contenu au-dessus du SVG */
    z-index: 1; /* Assure que le contenu est au-dessus de l'image */
    
+}
+
+.card-bleu-fonce {
+    background-color: #103754;
+    color: #F8F9F6;
 }
 
 
@@ -5580,6 +5587,32 @@ body.rss-info-page {
    margin-bottom: 30px; /* Marge en bas du titre */
 }
 
+
+
+
+/* Styles pour la section conseil-expert-cmg */
+ #conseil-expert-cmg {
+   background: #F8F9F6; 
+   padding-left: 20px; /* Ajoutez une marge de 20px à gauche */
+   padding-right: 20px; /* Ajoutez une marge de 20px à droite */
+   padding-bottom: 40px; /* Ajoutez une marge de 20px en bas */
+}
+
+.astuce-cmg-card {
+   border-left: 5px solid #F79927;
+   background-color: #fffaf5;
+   border-radius: 12px; /* Coins arrondis */
+   padding-left: 20px; /* Ajoutez une marge de 20px à gauche */
+   padding-right: 20px; /* Ajoutez une marge de 20px à droite */
+}
+
+.card-strategie {
+    background-color: #F8F9F6;
+}
+
+.alert-custom-info {
+    background-color: #eaf3f0;
+}
 
 
 
