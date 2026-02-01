@@ -5596,6 +5596,7 @@ body.rss-info-page {
    padding-left: 20px; /* Ajoutez une marge de 20px à gauche */
    padding-right: 20px; /* Ajoutez une marge de 20px à droite */
    padding-bottom: 40px; /* Ajoutez une marge de 20px en bas */
+   padding-top: 40px; /* Ajoutez une marge de 20px en haut */
 }
 
 .astuce-cmg-card {
@@ -5623,6 +5624,26 @@ body.rss-info-page {
     height: 100%;
    
 }
+
+/* Styles pour la section reforme-cmg-2026 */
+ 
+#reforme-cmg-2026 {
+   background-color: #98D1CA;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+    }
+    
+
+ .card-reforme {
+   background-color: #AEDBD5; /* Votre couleur spécifique */
+   padding: 20px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+   height: 100%; /* Permet à toutes les cartes de s'étirer sur la même hauteur */
+}
+
 
 
 /* Styles pour la section comparer-creche-assistante-maternelle */
