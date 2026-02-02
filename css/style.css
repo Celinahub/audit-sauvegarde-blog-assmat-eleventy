@@ -5596,7 +5596,7 @@ body.rss-info-page {
    padding-left: 20px; /* Ajoutez une marge de 20px à gauche */
    padding-right: 20px; /* Ajoutez une marge de 20px à droite */
    padding-bottom: 40px; /* Ajoutez une marge de 20px en bas */
-   padding-top: 40px; /* Ajoutez une marge de 20px en haut */
+   padding-top: 80px; /* Ajoutez une marge de 20px en haut */
 }
 
 .astuce-cmg-card {
@@ -5605,6 +5605,7 @@ body.rss-info-page {
    border-radius: 12px; /* Coins arrondis */
    padding-left: 20px; /* Ajoutez une marge de 20px à gauche */
    padding-right: 20px; /* Ajoutez une marge de 20px à droite */
+   padding-top: 60px; /* Ajoutez une marge de 20px en haut */
 }
 
 .card-strategie {
