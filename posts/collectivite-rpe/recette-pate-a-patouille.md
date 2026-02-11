@@ -19,7 +19,7 @@ date: 2025-08-04
 category: "LA COLLECTIVITE GRÂCE AU RPE"
 featuredImage: "/images/uploads/pate-patouille-rpe-bretigny.jpg"
 imageAlt: "Enfant jouant avec de la pâte à patouille à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/pate-patouille-rpe-bretigny/"
+url: "https://celine-assmat-bretigny.fr/posts/collectivite-rpe/pate-patouille-rpe-bretigny/"
 ---
 
 
@@ -128,5 +128,5 @@ Ajoutez un peu de colorant ou de cacao pour varier les textures et stimuler enco
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>

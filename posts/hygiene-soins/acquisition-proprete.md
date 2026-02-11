@@ -16,7 +16,7 @@ date: 2024-11-24
 category: "HYGIÈNE / SOINS"
 featuredImage: "/images/uploads/pot.jpg"
 imageAlt: "Enfant sur le pot à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/hygiene-soins/acquisition-proprete/"
+url: "https://celine-assmat-bretigny.fr/posts/hygiene-soins/acquisition-proprete/"
 ---
 
 
@@ -198,7 +198,7 @@ Si je devais résumer cet article en trois mots, ce seraient : observation, conf
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

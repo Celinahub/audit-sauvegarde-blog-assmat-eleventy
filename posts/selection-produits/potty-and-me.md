@@ -16,7 +16,7 @@ date: 2024-11-28
 category: "SELECTION PRODUITS"
 featuredImage: "/images/uploads/potty-and-me.jpg"
 imageAlt: "Magalie Kangni présente le pot écologique MyPottyTraining pour accompagner l’acquisition de la propreté de manière durable et hygiénique"
-url: "https://chubert91assmat.netlify.app/posts/selection-produits/potty-and-me/"
+url: "https://celine-assmat-bretigny.fr/posts/selection-produits/potty-and-me/"
 ---
 
 
@@ -119,7 +119,7 @@ Le pot MyPottyTraining est conçu pour faciliter la vie des parents et des assis
 
 Pour plus de **conseils sur l’acquisition de la propreté**, en tant qu’assistante maternelle agréée à Brétigny-sur-Orge, je vous accompagne vers une transition réussie vers le pot grâce à cet article :
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/posts/hygiene-soins/acquisition-proprete/" target="_blank" class="btn btn-primary btn-article">Découvrez les conseils et étapes clés →</a>
+  <a href="/posts/hygiene-soins/acquisition-proprete/" target="_blank" class="btn btn-primary btn-article">Découvrez les conseils et étapes clés →</a>
 </div>
 
 <br><br>
@@ -258,7 +258,7 @@ Rendez-vous sur Ulule et participez à cette aventure écologique qui fera la di
 ---
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/posts/hygiene-soins/acquisition-proprete/" target="_blank" class="btn btn-primary btn-article">Je veux réussir l’acquisition de la propreté avec des conseils adaptés  →</a>
+  <a href="/posts/hygiene-soins/acquisition-proprete/" target="_blank" class="btn btn-primary btn-article">Je veux réussir l’acquisition de la propreté avec des conseils adaptés  →</a>
 </div>
 
 <div class="highlighted-note">
@@ -266,7 +266,7 @@ Rendez-vous sur Ulule et participez à cette aventure écologique qui fera la di
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

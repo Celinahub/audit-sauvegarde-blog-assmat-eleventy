@@ -15,7 +15,7 @@ date: 2025-06-17
 category: "PETITE ENFANCE BRETIGNY-91" 
 featuredImage: "/images/uploads/mediatheque-bretigny.jpg"
 imageAlt: "Enfants à la médathèque à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/"
+url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/"
 ---
 
 
@@ -313,5 +313,5 @@ Ces idées de balades peuvent aussi inspirer les parents qui recherchent une ass
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Contactez-moi dès maintenant pour échanger ensemble →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Contactez-moi dès maintenant pour échanger ensemble →</a>
 </div>

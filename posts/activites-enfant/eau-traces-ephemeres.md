@@ -17,7 +17,7 @@ date: 2025-08-01
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/activite-trace-eau-ete-bretigny.jpg"
 imageAlt: "Dessin de traces au pinceau à l'eau à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/activites-enfant/eau-traces-ephemeres/"
+url: "https://celine-assmat-bretigny.fr/posts/activites-enfant/eau-traces-ephemeres/"
 ---
 
 <br>
@@ -160,5 +160,5 @@ Vous n'avez pas de piscine mais vous souhaitez une activité rafraîchissante et
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>

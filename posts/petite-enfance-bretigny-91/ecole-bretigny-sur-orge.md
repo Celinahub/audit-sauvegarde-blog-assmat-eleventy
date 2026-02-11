@@ -17,7 +17,7 @@ date: 2025-01-21
 category: "PETITE ENFANCE BRETIGNY-91" 
 featuredImage: "/images/uploads/ecole-bretigny-sur-orge.jpg"
 imageAlt: "Enfant rentrant à l’école maternelle de Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/ecole-bretigny-sur-orge/"
+url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/ecole-bretigny-sur-orge/"
 ---
 
 
@@ -52,13 +52,13 @@ L'inscription peut parfois être source de pression, notamment concernant l'acqu
 
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/posts/hygiene-soins/acquisition-proprete/" target="_blank" class="btn btn-primary btn-article">Je consulte l'article sur l'acquisition de la propreté →</a>
+  <a href="/posts/hygiene-soins/acquisition-proprete/" target="_blank" class="btn btn-primary btn-article">Je consulte l'article sur l'acquisition de la propreté →</a>
 </div>
 
 <br>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/posts/selection-produits/clipp/" target="_blank" class="btn btn-primary btn-article">Je consulte l'article sur Clipp Tétine →</a>
+  <a href="/posts/selection-produits/clipp/" target="_blank" class="btn btn-primary btn-article">Je consulte l'article sur Clipp Tétine →</a>
 </div>
 
 <br><br>
@@ -166,7 +166,7 @@ Avant de nouvelles aventures à l'école, votre enfant a encore beaucoup à expl
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

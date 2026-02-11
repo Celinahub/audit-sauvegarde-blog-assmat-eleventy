@@ -1,13 +1,13 @@
 {
   "title": "Céline Hubert - Assistante Maternelle",
-  "url": "https://chubert91assmat.netlify.app/",
+  "url": "https://celine-assmat-bretigny.fr/",
   "language": "fr",
   "description": "Assistante maternelle à Brétigny-sur-Orge, Céline Hubert vous accueille avec bienveillance.",
   "feed": {
     "subtitle": "Les derniers articles de mon blog",
     "filename": "atom.xml",
     "path": "/feed/atom.xml",
-    "id": "https://chubert91assmat.netlify.app/feed/atom.xml"
+    "id": "https://celine-assmat-bretigny.fr/feed/atom.xml"
   },
   "author": {
     "name": "Céline Hubert",

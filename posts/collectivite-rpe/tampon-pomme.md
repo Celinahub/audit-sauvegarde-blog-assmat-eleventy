@@ -15,7 +15,7 @@ date: 2024-10-20
 category: "LA COLLECTIVITE GRÂCE AU RPE"
 featuredImage: "/images/uploads/tampon-pomme.jpg"
 imageAlt: "Activité peinture à l'aide de pommes au rpe à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/tampon-pomme/"
+url: "https://celine-assmat-bretigny.fr/posts/collectivite-rpe/tampon-pomme/"
 ---
 
 
@@ -161,7 +161,7 @@ Cette initiative combine découverte sensorielle, créativité et exploration al
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

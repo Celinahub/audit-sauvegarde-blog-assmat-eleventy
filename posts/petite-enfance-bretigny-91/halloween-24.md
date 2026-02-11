@@ -15,7 +15,7 @@ date: 2024-10-24
 category: "PETITE ENFANCE BRETIGNY-91"
 featuredImage: "/images/uploads/halloween.-bretigny-24.jpg"
 imageAlt: "Nuit d'Halloween à Brétigny-sur-Orge avec citrouilles et décorations Día de los Muertos au parc du Carouge"
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/halloween-24/"
+url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/halloween-24/"
 ---
 
 
@@ -162,5 +162,5 @@ Pour des parents soucieux d’éveiller leurs enfants à la curiosité et à l�
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>

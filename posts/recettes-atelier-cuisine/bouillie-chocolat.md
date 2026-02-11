@@ -15,7 +15,7 @@ date: 2024-11-22
 category: "RECETTES / ATELIER CUISINE"
 featuredImage: "/images/uploads/recette-bouillie-chocolat.jpg"
 imageAlt: "Recette de la bouillie au chocolat un dessert fait maison à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/bouillie-chocolat/"
+url: "https://celine-assmat-bretigny.fr/posts/recettes-atelier-cuisine/bouillie-chocolat/"
 ---
 
 
@@ -30,7 +30,7 @@ Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comme
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/faq/" target="_blank" class="btn btn-primary btn-article">Tout savoir sur l’indemnité de repas →</a>
+  <a href="/faq/" target="_blank" class="btn btn-primary btn-article">Tout savoir sur l’indemnité de repas →</a>
 </div>
 
 ---
@@ -85,10 +85,10 @@ Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comme
   "@context": "https://schema.org/",
   "@type": "Recipe",
   "name": "Bouillie au chocolat maison",
-  "image": "https://chubert91assmat.netlify.app/images/uploads/recette-bouillie-chocolat.jpg",
+  "image": "https://celine-assmat-bretigny.fr/images/uploads/recette-bouillie-chocolat.jpg",
   "author": {
     "@type": "Person",
-    "name": "Chubert91 Assmat"
+    "name": "Assistante maternelle à Brétigny - Chez Céline"
   },
   "datePublished": "2024-11-22",
   "description": "Recette rapide et économique de bouillie au chocolat maison, idéale pour enfants. Facile à préparer avec seulement 3 ingrédients.",
@@ -179,5 +179,5 @@ Bon appétit!
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>

@@ -15,7 +15,7 @@ date: 2025-12-02
 category: "RECETTES / ATELIER CUISINE"
 featuredImage: "/images/uploads/recette-lasagne-bolognaise-assmat-bretigny.jpg"
 imageAlt: "Lasagnes à la bolognaise familiales (recette pour jeunes enfants) à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/lasagnes-bolognaise-faciles-enfants/"
+url: "https://celine-assmat-bretigny.fr/posts/recettes-atelier-cuisine/lasagnes-bolognaise-faciles-enfants/"
 ---
 
 <br>
@@ -33,7 +33,7 @@ Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comme
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/faq/" target="_blank" class="btn btn-primary btn-article">Tout savoir sur l’indemnité de repas →</a>
+  <a href="/faq/" target="_blank" class="btn btn-primary btn-article">Tout savoir sur l’indemnité de repas →</a>
 </div>
 
 <br>
@@ -153,10 +153,10 @@ En tant qu’**assistante maternelle à Brétigny-sur-Orge en Essonne**, je prop
   "@context": "https://schema.org/",
   "@type": "Recipe",
   "name": "Lasagnes bolognaises préférées des enfants",
-  "image": "https://chubert91assmat.netlify.app/images/uploads/recette-lasagne-bolognaise-assmat-bretigny.jpg",
+  "image": "https://celine-assmat-bretigny.fr/images/uploads/recette-lasagne-bolognaise-assmat-bretigny.jpg",
   "author": {
     "@type": "Person",
-    "name": "Céline Hubert - Assistante maternelle Brétigny-sur-Orge"
+    "name": "Assistante maternelle à Brétigny - Chez Céline"
   },
   "datePublished": "2025-12-02",
   "description": "Lasagnes bolognaises maison avec légumes cachés (carotte !) par assistante maternelle à Brétigny-sur-Orge. Version saine, facile à congeler pour familles pressées.",
@@ -276,7 +276,7 @@ En tant qu’**assistante maternelle à Brétigny-sur-Orge en Essonne**, je prop
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

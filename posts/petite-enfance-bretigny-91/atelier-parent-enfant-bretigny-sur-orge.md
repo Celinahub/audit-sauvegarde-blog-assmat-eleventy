@@ -18,7 +18,7 @@ date: 2025-10-08
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/main-dans-la-main-bretigny-91.jpg"
 imageAlt: "Moment de partage autour d'une activite parents-enfants à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/main-dans-la-main-bretigny-91/"
+url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/main-dans-la-main-bretigny-91/"
 ---
 
 
@@ -93,7 +93,7 @@ Ces ateliers et lectures pour bébés à Brétigny-sur-Orge offrent une expérie
 Ces moments partagés contribuent à renforcer le lien parent-enfant dans un cadre sécurisant et stimulant.
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/" target="_blank" class="btn btn-primary btn-article">Découvrez nos lieux préférés à Brétigny →</a>
+  <a href="/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/" target="_blank" class="btn btn-primary btn-article">Découvrez nos lieux préférés à Brétigny →</a>
 </div>
 
 ---
@@ -196,5 +196,5 @@ Ces moments partagés contribuent à renforcer le lien parent-enfant dans un cad
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Contactez-moi dès maintenant pour en discuter →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Contactez-moi dès maintenant pour en discuter →</a>
 </div>

@@ -14,7 +14,7 @@ date: 2025-11-03
 category: "PETITE ENFANCE BRETIGNY-91"
 featuredImage: "/images/uploads/avenir-metier-assistante-maternelle-bretigny91.jpg"
 imageAlt: "Transmissions avec un parent chez une assistante maternelle à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/avenir-metier-assistante-maternelle-bretigny91/"
+url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/avenir-metier-assistante-maternelle-bretigny91/"
 ---
 
 
@@ -89,7 +89,7 @@ C’est là que les parents peuvent devenir acteurs du changement : en évoquant
 Vous ne le connaissez peut-être pas encore : ce dispositif mériterait d’être bien plus connu ! On vous explique pourquoi:
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/posts/entreprises/cesu-prefinances/" target="_blank" class="btn btn-primary btn-article"> J'économise avec les CESU pré-financés ! →</a>
+  <a href="/posts/entreprises/cesu-prefinances/" target="_blank" class="btn btn-primary btn-article"> J'économise avec les CESU pré-financés ! →</a>
 </div>
 
 ---
@@ -385,7 +385,7 @@ Car derrière chaque assistante maternelle, il y a une professionnelle investie 
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

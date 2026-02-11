@@ -16,7 +16,7 @@ date: 2024-11-23
 category: "ENTREPRISES"
 featuredImage: "/images/uploads/cesu.jpg"
 imageAlt: "Cesu-préfinancés acceptés mode de garde à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/entreprises/cesu-prefinances/"
+url: "https://celine-assmat-bretigny.fr/posts/entreprises/cesu-prefinances/"
 ---
 
 
@@ -70,7 +70,7 @@ Le CESU préfinancé joue un rôle clé pour aider les familles à surmonter les
 
 Pour comprendre comment les parents deviennent des acteurs essentiels de l’avenir des assistantes maternelles grâce au CESU, découvrez notre article 
 <div class="button-wrapper">
- <a href="https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/avenir-metier-assistante-maternelle-bretigny/" target="_blank" class="btn btn-primary btn-article"> Parents, porteurs de l’avenir des assistantes maternelles →</a>
+ <a href="/posts/petite-enfance-bretigny-91/avenir-metier-assistante-maternelle-bretigny/" target="_blank" class="btn btn-primary btn-article"> Parents, porteurs de l’avenir des assistantes maternelles →</a>
 </div>
 
 <br>
@@ -297,7 +297,7 @@ Il offre aussi des avantages fiscaux et sociaux aux entreprises qui le mettent e
 
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

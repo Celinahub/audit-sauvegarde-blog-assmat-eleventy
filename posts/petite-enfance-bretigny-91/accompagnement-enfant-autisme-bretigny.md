@@ -16,7 +16,7 @@ date: 2025-09-21
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/espace-snoezelen-bretigny.jpg"
 imageAlt: "Assistante maternelle à Brétigny-sur-Orge qui accompagne un enfant avec autisme en proposant un espace calme"
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/accompagnement-enfant-autisme-bretigny/"
+url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/accompagnement-enfant-autisme-bretigny/"
 ---
 
 
@@ -106,7 +106,7 @@ Chaque enfant autiste est unique, mais certains défis reviennent fréquemment d
 
 Pour plus de **conseils sur l’acquisition de la propreté**, en tant qu’assistante maternelle agréée à Brétigny-sur-Orge, je vous accompagne vers une transition réussie vers le pot grâce à cet article :
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/posts/hygiene-soins/acquisition-proprete/" target="_blank" class="btn btn-primary btn-article">Découvrez les conseils et étapes clés →</a>
+  <a href="/posts/hygiene-soins/acquisition-proprete/" target="_blank" class="btn btn-primary btn-article">Découvrez les conseils et étapes clés →</a>
 </div>
 
 <br>
@@ -368,5 +368,5 @@ Besoin d’un conseil ou d’un accompagnement sur-mesure ? Contacte le CRAIF,
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>

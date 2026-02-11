@@ -16,7 +16,7 @@ date: 2025-09-15
 category: "PETITE ENFANCE BRETIGNY-91"
 featuredImage: "/images/uploads/referentiel-national-qualite-accueil-bretigny-91.jpg"
 imageAlt: "Assistante maternelle en promenade raconte se qu'elle pense du référentiel petite enfance à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/polemique-referentiel-petite-enfance/"
+url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/polemique-referentiel-petite-enfance/"
 ---
 
 
@@ -299,6 +299,6 @@ Le bien-être des enfants naît avant tout du lien, du partage et de la présenc
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 

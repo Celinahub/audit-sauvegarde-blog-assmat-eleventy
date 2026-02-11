@@ -14,7 +14,7 @@ date: 2025-02-06
 category: "RECETTES / ATELIER CUISINE"
 featuredImage: "/images/uploads/recette-petit-sale-lentilles.jpg"
 imageAlt: "Recette du petit salé aux lentilles fait maison à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/petit-sale-aux-lentilles/"
+url: "https://celine-assmat-bretigny.fr/posts/recettes-atelier-cuisine/petit-sale-aux-lentilles/"
 ---
 
 
@@ -29,7 +29,7 @@ Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comme
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/faq/" target="_blank" class="btn btn-primary btn-article">Tout savoir sur l’indemnité de repas →</a>
+  <a href="/faq/" target="_blank" class="btn btn-primary btn-article">Tout savoir sur l’indemnité de repas →</a>
 </div>
 
 <br>
@@ -135,10 +135,10 @@ En tant qu’**assistante maternelle à Brétigny-sur-Orge**, je veille à propo
   "@context": "https://schema.org/",
   "@type": "Recipe",
   "name": "Petit salé aux lentilles",
-  "image": "https://chubert91assmat.netlify.app/images/uploads/recette-petit-sale-lentilles.jpg",
+  "image": "https://celine-assmat-bretigny.fr/images/uploads/recette-petit-sale-lentilles.jpg",
   "author": {
     "@type": "Person",
-    "name": "Chubert91 Assmat"
+    "name": "Assistante maternelle à Brétigny - Chez Céline"
   },
   "datePublished": "2025-02-06",
   "description": "Recette familiale et équilibrée de petit salé aux lentilles, idéale pour un repas complet qui plaît aux enfants.",
@@ -215,7 +215,7 @@ En tant qu’**assistante maternelle à Brétigny-sur-Orge**, je veille à propo
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

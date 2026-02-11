@@ -14,7 +14,7 @@ date: 2025-03-11
 category: "PETITE ENFANCE BRETIGNY-91" 
 featuredImage: "/images/uploads/mode-de-garde-bretigny91.jpg"
 imageAlt: "Enfants chez une assistante maternelle à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/petite-enfance-bretigny-91/choix-mode-de-garde-bretigny/"
+url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/choix-mode-de-garde-bretigny/"
 ---
 
 
@@ -349,7 +349,7 @@ Vous souhaitez en savoir plus sur mon mode d’accueil et discuter de vos besoin
 <br>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Contactez-moi dès maintenant pour échanger ensemble →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Contactez-moi dès maintenant pour échanger ensemble →</a>
 </div>
 
 <br>
@@ -379,7 +379,7 @@ Le choix du mode d’accueil dépend de plusieurs critères :
 Comparez instantanément et gratuitement les restes à charge des trois modes d’accueil (assistante maternelle, crèche, autre solution) à Brétigny-sur-Orge, réunis pour la première fois sur une seule page. 
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/simulateur-cout-creche-assistante-maternelle/" target="_blank" class="btn btn-primary btn-article">Calculez et comparez les tarifs assistante maternelle vs crèche →</a>
+  <a href="/simulateur-cout-creche-assistante-maternelle/" target="_blank" class="btn btn-primary btn-article">Calculez et comparez les tarifs assistante maternelle vs crèche →</a>
 </div>
 
 <br>
@@ -475,7 +475,7 @@ Le choix du mode de garde est une décision influencée par de nombreux facteurs
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

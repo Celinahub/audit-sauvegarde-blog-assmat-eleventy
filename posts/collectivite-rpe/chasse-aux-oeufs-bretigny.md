@@ -15,7 +15,7 @@ date: 2025-04-29
 category: "LA COLLECTIVITE GRÂCE AU RPE" 
 featuredImage: "/images/uploads/chasse-aux-oeufs-rpe-bretigny.jpg"
 imageAlt: "Récolte de la chasse aux oeufs à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/collectivite-rpe/chasse-aux-oeufs-bretigny/"
+url: "https://celine-assmat-bretigny.fr/posts/collectivite-rpe/chasse-aux-oeufs-bretigny/"
 ---
 
 
@@ -150,7 +150,7 @@ C’est aussi un moment qui nourrit la relation adulte-enfant par l’accompagne
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 <br>

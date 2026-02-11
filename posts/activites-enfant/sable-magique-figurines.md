@@ -18,7 +18,7 @@ date: 2024-10-07
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/sable-magique.jpg"
 imageAlt: "Manipulation du sable magique à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/activites-enfant/sable-magique-figurines/"
+url: "https://celine-assmat-bretigny.fr/posts/activites-enfant/sable-magique-figurines/"
 ---
 
 
@@ -198,7 +198,7 @@ Le sable magique se conserve longtemps à condition de le garder dans un contena
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

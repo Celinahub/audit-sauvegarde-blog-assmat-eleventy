@@ -21,7 +21,7 @@ date: 2024-12-22
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/sapin-surprise-noel-bretigny91.jpg"
 imageAlt: "Sapin surprise fabriqué par les enfants à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/activites-enfant/sapin-surprise-noel-bretigny91/"
+url: "https://celine-assmat-bretigny.fr/posts/activites-enfant/sapin-surprise-noel-bretigny91/"
 ---
 
 
@@ -162,7 +162,7 @@ Et vous, quelles activités créatives réalisez-vous avec vos enfants pour Noë
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

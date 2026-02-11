@@ -7,7 +7,7 @@ const path = require("path");
 const htmlMinifier = require("html-minifier-terser"); // Plugin de minification HTML
 
 // URL de base centralisée
-const BASE_URL = "https://chubert91assmat.netlify.app";
+const BASE_URL = "https://celine-assmat-bretigny.fr";
 
 // Fonction pour gérer le shortcode d'image
 async function imageShortcode(src, alt = "", sizes = "100vw", width = 300, height = null, loading = "lazy", fetchpriority = "auto", className = "") {

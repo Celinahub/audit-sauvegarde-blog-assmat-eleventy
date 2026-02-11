@@ -14,7 +14,7 @@ date: 2025-12-18
 category: "RECETTES / ATELIER CUISINE"
 featuredImage: "/images/uploads/sables-noel-assmat-bretigny.jpg"
 imageAlt: "Recette des sablés de noel fait maison avec les enfants à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/petit-sable-noel-enfants/"
+url: "https://celine-assmat-bretigny.fr/posts/recettes-atelier-cuisine/petit-sable-noel-enfants/"
 ---
 
 <br>
@@ -34,7 +34,7 @@ Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comme
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/faq/" target="_blank" class="btn btn-primary btn-article">Tout savoir sur l’indemnité de repas →</a>
+  <a href="/faq/" target="_blank" class="btn btn-primary btn-article">Tout savoir sur l’indemnité de repas →</a>
 </div>
 
 <br>
@@ -175,10 +175,10 @@ Contrairement aux sablés trop secs habituels, ceux-ci sont délicieux ! Les enf
   "@context": "https://schema.org/",
   "@type": "Recipe",
   "name": "Sablés de Noël avec les petits lutins",
-  "image": "https://chubert91assmat.netlify.app/images/uploads/sables-noel-assmat-bretigny.jpg",
+  "image": "https://celine-assmat-bretigny.fr/images/uploads/sables-noel-assmat-bretigny.jpg",
   "author": {
     "@type": "Person",
-    "name": "Céline Hubert, assistante maternelle à Brétigny-sur-Orge"
+    "name": "Assistante maternelle à Brétigny - Chez Céline"
   },
   "datePublished": "2025-12-18",
   "description": "Recette de sablés de Noël faits maison, adaptée aux tout-petits en atelier cuisine chez une assistante maternelle à Brétigny-sur-Orge.",
@@ -290,7 +290,7 @@ Contrairement aux sablés trop secs habituels, ceux-ci sont délicieux ! Les enf
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

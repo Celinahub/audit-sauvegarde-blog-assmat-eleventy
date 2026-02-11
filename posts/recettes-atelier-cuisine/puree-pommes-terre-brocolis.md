@@ -14,7 +14,7 @@ date: 2025-10-22
 category: "RECETTES / ATELIER CUISINE"
 featuredImage: "/images/uploads/recette-puree-brocolis-pomme-de-terre.jpg"
 imageAlt: "Recette de la purée brocolis et pomme de terre fait maison à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/recettes-atelier-cuisine/recette-puree-brocolis-pomme-de-terre/"
+url: "https://celine-assmat-bretigny.fr/posts/recettes-atelier-cuisine/recette-puree-brocolis-pomme-de-terre/"
 ---
 
 
@@ -32,7 +32,7 @@ Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comme
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/faq/" target="_blank" class="btn btn-primary btn-article">Tout savoir sur l’indemnité de repas →</a>
+  <a href="/faq/" target="_blank" class="btn btn-primary btn-article">Tout savoir sur l’indemnité de repas →</a>
 </div>
 
 <br>
@@ -140,10 +140,10 @@ En tant qu’**assistante maternelle à Brétigny-sur-Orge en Essonne**, j'essai
   "@context": "https://schema.org/",
   "@type": "Recipe",
   "name": "Purée pommes de terre et brocolis",
-  "image": "https://chubert91assmat.netlify.app/images/uploads/recette-puree-brocolis-pomme-de-terre.jpg",
+  "image": "https://celine-assmat-bretigny.fr/images/uploads/recette-puree-brocolis-pomme-de-terre.jpg",
   "author": {
     "@type": "Person",
-    "name": "Chubert91 Assmat"
+    "name": "Assistante maternelle à Brétigny - Chez Céline"
   },
   "datePublished": "2025-10-22",
   "description": "Recette familiale et équilibrée de purée pommes de terre et brocolis, idéale pour faire aimer les légumes aux enfants.",
@@ -256,7 +256,7 @@ En tant qu’**assistante maternelle à Brétigny-sur-Orge en Essonne**, j'essai
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
 

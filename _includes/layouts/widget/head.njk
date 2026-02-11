@@ -8,7 +8,7 @@
 <meta property="og:title" content="{{ title or metadata.title }}">
 <meta property="og:description" content="{{ description or metadata.description }}">
 <meta property="og:image" content="{{ image or pageImages[page.url] or metadata.socialImage | absoluteUrl }}">
-<meta property="og:url" content="{{ page.url | absoluteUrl }}">
+<meta property="og:url" content="{{ url or page.url | absoluteUrl('https://celine-assmat-bretigny.fr') }}">
 <meta property="og:site_name" content="{{ metadata.title }}">
 <meta property="og:type" content="website">
 <meta name="pinterest-rich-pin" content="true">
@@ -27,7 +27,8 @@
 <meta name="theme-color" content="#F8F9F6">
 
 <!-- Canonical URL -->
-<link rel="canonical" href="{{ page.url | absoluteUrl('https://chubert91assmat.netlify.app') }}">
+<link rel="canonical" href="{{ url or page.url | absoluteUrl('https://celine-assmat-bretigny.fr') }}">
+
 
 <!-- Lien vers les styles Bootstrap et CSS personnalisés -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">

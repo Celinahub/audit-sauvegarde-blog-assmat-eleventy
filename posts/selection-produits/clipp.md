@@ -16,7 +16,7 @@ date: 2024-10-18
 category: "SELECTION PRODUITS"
 featuredImage: "/images/uploads/clipp-tetine.jpg"
 imageAlt: "La tétine Clipp avec collerettes empilables pour arrêter la tétine à Brétigny-sur-Orge"
-url: "https://chubert91assmat.netlify.app/posts/selection-produits/clipp/"
+url: "https://celine-assmat-bretigny.fr/posts/selection-produits/clipp/"
 ---
 
 
@@ -157,6 +157,6 @@ La tétine avec l'ajout progressif de collerettes a été acceptée. J'ai espac�
 </div>
 
 <div class="button-wrapper">
-  <a href="https://chubert91assmat.netlify.app/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
 
