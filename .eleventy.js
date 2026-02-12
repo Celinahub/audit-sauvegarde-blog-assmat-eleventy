@@ -216,6 +216,7 @@ eleventyConfig.addFilter("truncateWords", function (content, numWords) {
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("google0b7250a45fd279a1.html");
   eleventyConfig.addPassthroughCopy("google4fe795a8d3aa5648.html");
+  eleventyConfig.addPassthroughCopy("BingSiteAuth.xml");
   eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("tarteaucitron");
   eleventyConfig.addPassthroughCopy("presentation-assistante-maternelle-agreee.webp");
