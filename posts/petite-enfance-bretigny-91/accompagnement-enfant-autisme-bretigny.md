@@ -187,7 +187,7 @@ Un exemple simple d’aménagement proposé chez moi : une tente calme avec des 
 
 Au Relais Petite Enfance (RPE) de Brétigny-sur-Orge, les enfants ont pu découvrir un espace Snoezelen, spécialement conçu pour favoriser l’éveil et le bien-être.
 
-Les nouvelles recommandations de la Haute Autorité de santé (HAS) précisent toutefois que l’<a href="https://fr.wikipedia.org/wiki/Snoezelen/" target="_blank" class="style-liens">approche Snoezelen</a> ne fait pas partie des interventions recommandées spécifiquement pour le TSA, faute de preuves suffisantes. Elle peut rester un temps de détente ou de découverte sensorielle, mais ne remplace pas les interventions développementales et comportementales préconisées.
+Les nouvelles recommandations de la Haute Autorité de santé (HAS) précisent toutefois que l’<a href="https://fr.wikipedia.org/wiki/Snoezelen" target="_blank" class="style-liens">approche Snoezelen</a> ne fait pas partie des interventions recommandées spécifiquement pour le TSA, faute de preuves suffisantes. Elle peut rester un temps de détente ou de découverte sensorielle, mais ne remplace pas les interventions développementales et comportementales préconisées.
 
 Bénéfices observés pour les enfants :
 
