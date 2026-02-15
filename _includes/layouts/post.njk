@@ -9,8 +9,14 @@ bodyClass: "blog-posts-page"
   <h1 class="poppins-bold-titre-h1 text-center">{{ title }}</h1>
 
   <div class="meta-info">
-    <p>{{ category }} - {{ date | date("dd MMMM yyyy") }}</p>
-  </div>
+  <p>
+    {{ category }} - {{ date | date("dd MMMM yyyy") }}
+    {% if lastModified and lastModified != date %}
+      <br><small>(Mis à jour: {{ lastModified | date("dd MMMM yyyy") }})</small>
+    {% endif %}
+  </p>
+</div>
+
 
   <div class="content-wrapper">
     {% image featuredImage, imageAlt, '(min-width: 1024px) 100vw, (min-width: 768px) 75vw, 50vw' %}
@@ -54,21 +60,17 @@ bodyClass: "blog-posts-page"
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-
   "headline": "{{ title | truncate(110) | safe }}",
   "url": "{{ url | default(site.url ~ page.url) | replace('#gsc.tab=0','') }}",
   "image": "{{ site.url }}{{ featuredImage | safe }}",
-
   "description": "{{ description | safe }}",
-  "datePublished": "{{ date | date('yyyy-MM-dd') }}",
-  "dateModified": "{{ date | date('yyyy-MM-dd') }}",
+  "datePublished": "{{ date | dateToRfc3339 }}",
+  "dateModified": "{{ lastModified | dateModified | default(date | dateToRfc3339) }}",
   "articleSection": "{{ category | safe }}",
-
   "author": {
     "@type": "Person",
     "name": "Céline Hubert"
   },
-
   "publisher": {
     "@type": "Organization",
     "name": "Chubert Assmat Brétigny Blog",
@@ -78,9 +80,7 @@ bodyClass: "blog-posts-page"
       "url": "https://celine-assmat-bretigny.fr/images/presentation/rpe-bretigny.jpg"
     }
   },
-
   "keywords": "{{ tags | join(', ') }}",
-
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ url | default(site.url ~ page.url) | replace('#gsc.tab=0','') }}"

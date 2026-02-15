@@ -13,6 +13,7 @@ tags:
   - soutien parental
   - éveil enfant
 date: 2025-09-21
+lastModified: 2026-02-15
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/espace-snoezelen-bretigny.jpg"
 imageAlt: "Assistante maternelle à Brétigny-sur-Orge qui accompagne un enfant avec autisme en proposant un espace calme"
@@ -25,6 +26,8 @@ url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/accompa
 Accompagner un jeune enfant avec un trouble du spectre de l’autisme soulève souvent des questions pour les parents, surtout lorsqu’ils constatent que leur enfant ne communique ou ne joue pas comme les autres. 
 En tant qu’assistante maternelle à Brétigny-sur-Orge, j’ai suivi une formation spécialisée avec "Planète Enfance" pour mieux comprendre et soutenir ces enfants. 
 Voici l’essentiel de ce que j’ai appris, présenté sous forme d’aperçu clair et pratique.
+
+<p><em>Mise à jour le 15 février 2026 avec les dernières recommandations HAS sur Snoezelen et CAA.</em></p>
 
 
 <br>
@@ -84,6 +87,9 @@ Il est important de préciser qu’un seul signe isolé (par exemple un enfant q
 L’assistante maternelle a un rôle d’observation. Elle n’établit aucun diagnostic mais peut repérer des comportements inhabituels, les noter factuellement et en parler avec bienveillance aux parents. Si nécessaire, elle oriente la famille vers les professionnels de santé (pédiatre, PMI, ORL, etc.) pour approfondir.
 L’important est d’écouter, soutenir et informer sans alarmer, tout en restant dans le cadre professionnel.
 
+L'assistante maternelle peut aussi participer au PAI (Projet d'Accueil Individualisé) en lien avec SESSAD/CMP.
+
+
 ---
 
 ### **<span id="diagnostic">3. Comment se déroule le diagnostic d’un TSA ?</span>** 
@@ -135,6 +141,8 @@ Chaque enfant est unique, mais certains aménagements peuvent les aider :
 
 L’accompagnement doit se construire en lien avec les parents et, si nécessaire, avec des institutions spécialisées (PMI, CAMPS, MDPH, associations).
 
+Dans certains cas, les professionnels peuvent proposer une communication alternative et améliorée (CAA). La méthode Makaton, une méthode mêlant le langage, le signe et les pictogrammes ou des supports visuels sur tablette, qui permettent à l'enfant d'exprimer ses besoins autrement que par la parole. Les recommandations de la HAS rappellent que la CAA peut être introduite très tôt, sans prérequis et qu'elle constitue un pilier important du projet d'accompagnement de l'enfant autiste. De mon côté, en tant qu'assistante maternelle, je ne mets pas ces outils en place moi-même mais je peux les utiliser au quotidien si l'équipe qui suit l'enfant ( orthophoniste, SESSAD etc ...) en recommande l'usage et accompagne la famille dans leur mise en oeuvre.
+
 Chez Céline, assistante maternelle à Brétigny-sur-Orge nous veillons à respecter cette routine pour rassurer l'enfant, **vous trouverez un exemple de journée type en pictogrammes (vignettes de routine) et une minuterie visuelle:**
 
 <div class="button-wrapper">
@@ -178,9 +186,10 @@ Un exemple simple d’aménagement proposé chez moi : une tente calme avec des 
 ### **<span id="snoezelen">6. Snoezelen au RPE de Brétigny-sur-Orge</span>** 
 
 Au Relais Petite Enfance (RPE) de Brétigny-sur-Orge, les enfants ont pu découvrir un espace Snoezelen, spécialement conçu pour favoriser l’éveil et le bien-être.
-Cet espace sensoriel, apprécié notamment par les enfants avec un trouble du spectre de l’autisme (TSA), combine lumières douces, textures variées et ambiance apaisante.
 
-Bénéfices observés pour les enfants TSA :
+Les nouvelles recommandations de la Haute Autorité de santé (HAS) précisent toutefois que l’<a href="https://fr.wikipedia.org/wiki/Snoezelen/" target="_blank" class="style-liens">approche Snoezelen</a> ne fait pas partie des interventions recommandées spécifiquement pour le TSA, faute de preuves suffisantes. Elle peut rester un temps de détente ou de découverte sensorielle, mais ne remplace pas les interventions développementales et comportementales préconisées.
+
+Bénéfices observés pour les enfants :
 
 - Diminution du stress et des angoisses,
 - Meilleure régulation émotionnelle,
@@ -344,7 +353,7 @@ Besoin d’un conseil ou d’un accompagnement sur-mesure ? Contacte le CRAIF,
 </script>
 
 
----
+
 
 
 
@@ -370,3 +379,4 @@ Besoin d’un conseil ou d’un accompagnement sur-mesure ? Contacte le CRAIF,
 <div class="button-wrapper">
   <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
 </div>
+

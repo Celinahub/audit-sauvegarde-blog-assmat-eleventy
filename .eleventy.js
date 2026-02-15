@@ -173,7 +173,10 @@ module.exports = function(eleventyConfig) {
     return format(new Date(date), "EEE, dd MMM yyyy HH:mm:ss 'GMT'xxx", { locale: fr });
   });
 
-
+  eleventyConfig.addFilter("dateModified", (date) => {
+  if (!date) return ""; // Retourne vide si non définie
+  return format(new Date(date), "yyyy-MM-dd'T'HH:mm:ssxxx"); // ISO 8601 pour schema.org
+  });
 
 
 
