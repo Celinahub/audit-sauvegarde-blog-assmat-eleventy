@@ -1,1 +1,6 @@
-https://chubert91assmat.netlify.app/* https://celine-assmat-bretigny.fr/:splat  301!
+# Migration ancien domaine (sur chubert91assmat.netlify.app)
+https://chubert91assmat.netlify.app/*    https://celine-assmat-bretigny.fr/:splat    301!
+
+# Nounou → page locale (sur celine-assmat-bretigny.fr)
+# AVANT: /nounou*     /assistante-maternelle-bretigny-sur-orge/     301!
+/nounou*          /assistante-maternelle-bretigny-sur-orge/     301!
