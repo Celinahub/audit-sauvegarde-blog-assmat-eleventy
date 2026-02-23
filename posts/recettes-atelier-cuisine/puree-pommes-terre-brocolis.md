@@ -50,6 +50,10 @@ Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comme
 
 ---
 
+## Purée pommes de terre et brocolis adoptée par les enfants 
+
+<br>
+
 ### **<span id="informations">1. Informations pratiques</span>**  
 
 - **Nombre de personnes** : 6  

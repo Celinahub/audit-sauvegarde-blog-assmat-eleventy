@@ -35,7 +35,7 @@ Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comme
 
 ---
 
-### **Ingrédients pour une bouillie au chocolat maison (5 pots)**  
+## **Ingrédients pour une bouillie au chocolat maison (5 pots)**  
 - 1 litre de lait  
 - 2 cuillères à soupe bombées de maïzena  
 - 4 cuillères à soupe bombées de chocolat en poudre Poulain (boîte orange)  

@@ -39,6 +39,10 @@ Quand le thermomètre grimpe, trouver une activité pour enfant qui allie fraîc
 
 ---
 
+## Les traces éphémères au pinceau à l’eau est une bonne idée pour amuser les enfants
+
+<br>
+
 ### <span id="creatif">1. Une activité créative</span>
 
 - Le support est multiple : que ce soit un mur ou une terrasse, l'enfant ne sera pas limité par la taille de son "espace d'expression".

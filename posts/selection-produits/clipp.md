@@ -39,6 +39,10 @@ Arrêter la tétine est une étape importante dans la vie de votre enfant, mais 
 
 ---
 
+## Comment arrêter la tétine en douceur?
+
+<br>
+
 ### **<span id="arret">1. Comment arrêter la tétine ?</span>**
 
 L'arrêt de la tétine est une grande étape pour un enfant. Passé un certain âge, l'utilisation intensive de la tétine peut causer des dommages sur le développement buccodentaire et freine le développement du langage. 

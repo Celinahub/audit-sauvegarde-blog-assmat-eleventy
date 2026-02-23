@@ -48,6 +48,12 @@ Les décorations, loin d’être effrayantes, invitaient à l’exploration et �
   <a href="#questions" class="styled-link-sommaire">• Foire aux questions (FAQ)</a>
 </div>
 
+---
+
+## La nuit d’Halloween à Brétigny-sur-Orge
+
+<br>
+
 
 ### **<span id="decouverte">1. Une Découverte Sensorielle</span>** 
 

@@ -44,8 +44,9 @@ Devenir propre est une grande étape pour les enfants… et pour les parents ! M
 ---
 
 
+## Le 1er pot écologique breveté pour faciliter l’acquisition de la propreté
 
-<br><br>
+<br>
 
 
 ### **<span id="environement">1. MyPottyTraining : Une acquisition respectueuse de l'environnement</span>** 

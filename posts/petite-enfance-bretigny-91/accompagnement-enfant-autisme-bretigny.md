@@ -50,6 +50,9 @@ Voici l’essentiel de ce que j’ai appris, présenté sous forme d’aperçu c
 
 ---
 
+## Accompagner un enfant TSA chez l'assistante maternelle
+
+<br>
 
 ### **<span id="signes">1. Les premiers signes qui peuvent alerter</span>** 
 

@@ -41,6 +41,10 @@ Le Sable Magique : Une Activité Ludique et Sensorielle pour les Tout-Petits: je
 
 ---
 
+## Le sable magique est une valeure sûre pour amuser les enfants
+
+<br>
+
 ### **<span id="sable">1. Qu'est ce que le sable magique ?</span>** 
 
 Le sable magique également appelé sable lunaire ou sable à modeler, est une matière unique aux grains très fins et compacts. Il est doux au toucher, se tient bien sans être collant, et permet de créer facilement des formes, des châteaux, ou encore des empreintes.

@@ -39,6 +39,10 @@ Vous cherchez une activité parent-enfant à Brétigny-sur-Orge pour partager un
 
 ---
 
+## Des évènements parent-enfant proposés par la ville de Brétigny-sur-Orge
+
+<br>
+
 ### **<span id="atelier">1. Atelier Parents-Enfants « Main dans la main »</span>** 
 
 Proposé par le Centre Socioculturel de Brétigny-sur-Orge, cet atelier accompagne les enfants de 0 à 3 ans et leurs parents. Chaque jeudi matin, les familles sont invitées à participer à des activités d’éveil, des jeux libres, des comptines et des moments de partage entre parents.

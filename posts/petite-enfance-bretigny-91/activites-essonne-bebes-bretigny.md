@@ -68,6 +68,10 @@ Si vous êtes jeunes parents ou en recherche d’une assistante maternelle atten
 
 ---
 
+## Des idées d'activités gratuites en Essonne avec bébé
+
+<br>
+
 ### **<span id="parcs">1. Les parcs pour bouger et s’amuser</span>** 
 
 <br>

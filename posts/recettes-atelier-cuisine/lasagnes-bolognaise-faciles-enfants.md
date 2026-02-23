@@ -50,6 +50,9 @@ Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comme
 </div>
 
 ---
+## Recette lasagnes bolognaises pour enfants 
+
+<br>
 
 ### **<span id="informations">1. Informations pratiques</span>**  
 

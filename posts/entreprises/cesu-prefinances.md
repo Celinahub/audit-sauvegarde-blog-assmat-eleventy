@@ -50,6 +50,9 @@ Ce dispositif permet à votre employeur de contribuer au financement de la garde
 
 ---
 
+## CESU préfinancés : réduire le reste à charge du mode de garde
+
+<br>
 
 ### **<span id="cesu-prefinance">1. Qu’est-ce que le CESU préfinancé ?</span>** 
 

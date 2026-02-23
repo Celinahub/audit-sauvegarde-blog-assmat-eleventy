@@ -46,6 +46,10 @@ Pour en savoir plus, consultez la foire aux questions, rubrique : <strong> Comme
 </div>
 
 ---
+## Petit salé aux lentilles approuvé par les enfants 
+
+<br>
+
 
 ### **<span id="informations">1. Informations pratiques</span>**  
 

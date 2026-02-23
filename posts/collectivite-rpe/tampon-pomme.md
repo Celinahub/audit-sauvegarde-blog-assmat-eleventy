@@ -31,6 +31,12 @@ Cette activité est un clin d’œil à la **semaine du goût**, qui s’est dé
   <a href="#questions" class="styled-link-sommaire">• Foire aux questions (FAQ)</a>
 </div>
 
+---
+
+## La semaine du goût à Brétigny-sur-Orge : peindre avec des pommes
+
+<br>
+
 
 ### **<span id="semaine">1. Qu'est ce que la semaine du goût ?</span>** 
 

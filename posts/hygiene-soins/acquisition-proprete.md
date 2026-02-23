@@ -40,6 +40,10 @@ L’acquisition de la propreté est une étape clé dans le développement de ch
 
 ---
 
+## L'acquisition de la propreté : quand proposer le pot?
+
+<br>
+
 ### **<span id="proposer">1. Quand et comment proposer le pot ou le réducteur ?</span>**
 
 L'acquisition de la propreté est une étape importante dans le développement de l’enfant, au même titre que la marche ou le langage. Chaque enfant progresse à son propre rythme, et il est essentiel de lui faire confiance. Voici les signaux à observer et les meilleures pratiques pour l’accompagner dans cette transition.

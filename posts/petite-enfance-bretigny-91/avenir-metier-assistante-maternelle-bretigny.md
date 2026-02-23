@@ -45,6 +45,9 @@ Heureusement, un levier existe,le CESU préfinancé, et les parents ont le pouvo
 
 ---
 
+## Parents, porteurs de l'avenir des assistantes maternelles
+
+<br>
 
 ### **<span id="metier">1. Parents, porteurs de l’avenir des assistantes maternelles</span>** 
 

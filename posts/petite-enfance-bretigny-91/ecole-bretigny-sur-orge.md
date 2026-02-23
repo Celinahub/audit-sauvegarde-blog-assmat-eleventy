@@ -45,6 +45,10 @@ C’est une question que chaque parent se pose à l’approche de la rentrée sc
 
 ---
 
+## A Brétigny, votre enfant est-il prêt pour l’école ?
+
+<br>
+
 ### **<span id="autonomie">1. Accompagner votre enfant vers l’autonomie</span>** 
 
 L'inscription peut parfois être source de pression, notamment concernant l'acquisition de la propreté ou le sevrage de la tétine. Pour vous accompagner dans cette période de transition, je vous propose les articles suivants:
