@@ -2,7 +2,13 @@
 <title>{{ title or metadata.title }}</title>
 <meta name="description" content="{{ description or metadata.description }}">
 <meta name="keywords" content="{{ tags or 'blog, articles, ' ~ metadata.title | safe }}">
-<meta name="robots" content="index, follow">
+
+{# ⚡ Robots : index sur la page principale, noindex sur les pages paginées #}
+{% if pagination and pagination.pageNumber > 0 %}
+  <meta name="robots" content="noindex, follow">
+{% else %}
+  <meta name="robots" content="index, follow">
+{% endif %}
 
 <!-- Open Graph Metadata (Facebook, LinkedIn, Pinterest) -->
 <meta property="og:title" content="{{ title or metadata.title }}">
