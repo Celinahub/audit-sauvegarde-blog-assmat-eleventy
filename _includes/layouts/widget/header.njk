@@ -5,7 +5,10 @@
 
 
 <div class="header-banniere-container">
-        <h1 class="poppins-bold-titre-banniere">{{ site.title | default("Le Journal des petits chez Céline") }}</h1>
+
+<h1 class="poppins-bold-titre-banniere">
+  {{ title | default(site.title) }}
+</h1>
         <a href="{{ '/contact/' | url }}" class="btn btn-action-primary-a" aria-label="Accédez au formulaire de contact pour reserver une place">
             Rejoignez notre quotidien. Contactez-moi ! →
         </a>
