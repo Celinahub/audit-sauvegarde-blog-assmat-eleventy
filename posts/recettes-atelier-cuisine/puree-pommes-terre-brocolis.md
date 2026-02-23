@@ -14,7 +14,7 @@ date: 2025-10-22
 category: "RECETTES / ATELIER CUISINE"
 featuredImage: "/images/uploads/recette-puree-brocolis-pomme-de-terre.jpg"
 imageAlt: "Recette de la purée brocolis et pomme de terre fait maison à Brétigny-sur-Orge"
-url: "https://celine-assmat-bretigny.fr/posts/recettes-atelier-cuisine/recette-puree-brocolis-pomme-de-terre/"
+url: "https://celine-assmat-bretigny.fr/posts/recettes-atelier-cuisine/puree-pommes-terre-brocolis/"
 ---
 
 

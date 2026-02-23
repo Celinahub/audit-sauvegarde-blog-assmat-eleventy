@@ -19,7 +19,7 @@ date: 2025-08-04
 category: "LA COLLECTIVITE GRÂCE AU RPE"
 featuredImage: "/images/uploads/pate-patouille-rpe-bretigny.jpg"
 imageAlt: "Enfant jouant avec de la pâte à patouille à Brétigny-sur-Orge"
-url: "https://celine-assmat-bretigny.fr/posts/collectivite-rpe/pate-patouille-rpe-bretigny/"
+url: "https://celine-assmat-bretigny.fr/posts/collectivite-rpe/recette-pate-a-patouille/"
 ---
 
 

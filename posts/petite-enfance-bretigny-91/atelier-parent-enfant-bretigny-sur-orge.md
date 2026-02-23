@@ -18,7 +18,7 @@ date: 2025-10-08
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/main-dans-la-main-bretigny-91.jpg"
 imageAlt: "Moment de partage autour d'une activite parents-enfants à Brétigny-sur-Orge"
-url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/main-dans-la-main-bretigny-91/"
+url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/atelier-parent-enfant-bretigny-sur-orge/"
 ---
 
 

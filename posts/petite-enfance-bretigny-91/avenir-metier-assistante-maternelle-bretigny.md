@@ -14,7 +14,7 @@ date: 2025-11-03
 category: "PETITE ENFANCE BRETIGNY-91"
 featuredImage: "/images/uploads/avenir-metier-assistante-maternelle-bretigny91.jpg"
 imageAlt: "Transmissions avec un parent chez une assistante maternelle à Brétigny-sur-Orge"
-url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/avenir-metier-assistante-maternelle-bretigny91/"
+url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/avenir-metier-assistante-maternelle-bretigny/"
 ---
 
 
