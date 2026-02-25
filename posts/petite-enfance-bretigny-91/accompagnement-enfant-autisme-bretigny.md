@@ -15,7 +15,7 @@ tags:
 date: 2025-09-21
 lastModified: 2026-02-15
 category: "ACTIVITÉS POUR ENFANT"
-featuredImage: "/images/uploads/espace-snoezelen-bretigny.jpg"
+featuredImage: "/images/uploads/jeux-sensoriels-bretigny.jpg"
 imageAlt: "Assistante maternelle à Brétigny-sur-Orge qui accompagne un enfant avec autisme en proposant un espace calme"
 url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/accompagnement-enfant-autisme-bretigny/"
 ---
@@ -204,6 +204,12 @@ Ces ateliers Snoezelen organisés par le RPE inspirent aussi les assistantes mat
 {% image "/images/uploads/espace-snoezelen-sensoriel-bretigny.jpg", "Espace Snoezelen objets lumineux proposés lors d'un atelier au RPE de Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
 
 {% image "/images/uploads/espace-snoezelen-autisme-bretigny.jpg", "Espace Snoezelen lumière diffuse proposée lors d'un atelier au RPE de Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
+
+{% image "/images/uploads/espace-snoezelen-petite-enfance-bretigny.jpg", "Table lumineuse Snoezelen au RPE de Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
+
+{% image "/images/uploads/espace-snoezelen-petite-enfance-rpe-bretigny.jpg", "Tube sensoriel Snoezelen au RPE de Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
+
+{% image "/images/uploads/cabane-snoezelen-petite-enfance-rpe-bretigny.jpg", "Cabane Snoezelen au RPE de Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
 
 ---
 
