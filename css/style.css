@@ -1214,6 +1214,36 @@ h2, h3 {
  }
  
 
+ /* Style pour les liens sur fond sombre (section présentation) */
+.style-liens-blanc {
+    color: #ffffff; /* Force le blanc */
+    text-decoration: underline; /* Garde le soulignement pour l'accessibilité */
+    text-underline-offset: 4px; /* Espace un peu le trait du texte pour la lisibilité */
+    transition: all 0.3s ease;
+}
+
+.style-liens-blanc:hover {
+    color: rgba(255, 255, 255, 0.8); /* Effet de transparence au survol */
+    text-decoration: none;
+}
+
+/* Style pour le lien des avis (sans soulignement mais avec gras) */
+.styled-link-white {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.styled-link-white:hover {
+    color: #ffffff;
+    transform: translateX(5px); /* Petit mouvement vers la droite au survol */
+    transition: transform 0.3s ease;
+}
+
+
+
+
 
 
 /* Styles pour la section accompagnement-petite-enfance */
@@ -5808,7 +5838,7 @@ body.rss-info-page {
 }
 
 .styled-input:focus {
-  background-color: #FDFCF7 !important; /* Force la couleur même au focus */
+  background-color: #FDFCF7; /* Force la couleur même au focus */
   border-bottom: 2px solid #103653;
   outline: none;
   box-shadow: none;
@@ -6040,6 +6070,16 @@ body.rss-info-page {
    }
 }
 
+
+.highlight-box-maillage {
+    background-color: #f4f7f6;
+    border-radius: 15px;
+    padding: 1.5rem; /* Équivalent du p-4 de Bootstrap mais plus précis */
+    margin-top: 3rem; /* Équivalent du mt-5 */
+}
+
+
+
 /* Styles pour la section FAQ simulateur */
 
 #faq-simulateur-section {
@@ -6141,6 +6181,99 @@ body.rss-info-page {
    padding-left: 10px;
    padding-right: 10px;
  }
+
+
+
+.nounou-bretigny-text-space {
+   background-color: #F8F9F6;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start; /* aligne tout à gauche */
+   justify-content: center;
+   padding: 20px;
+   box-sizing: border-box;
+   text-align: left; /* texte aligné à gauche */
+
+}
+
+
+
+
+.nounou-bretigny-item {
+   height: 100%; /* Assure que le contenu remplit toute la hauteur */
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+
+
+.nounou-bretigny-image {
+   height: 100%; /* S'assure que l'image prend toute la hauteur disponible */
+   padding: 0px; /* espace entre l'image */
+   text-align: center;
+   padding: 0;
+}
+
+
+/* Variante pour le simulateur (bouton secondaire) */
+.btn-outline-secondary-custom {
+  color: #103653; 
+  background-color: transparent;
+  border: 1px solid #103653;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 5px 10px;
+  transition: all 0.3s ease; /* Pour un survol fluide */
+}
+
+.btn-outline-secondary-custom:hover {
+  background-color: rgba(16, 54, 83, 0.05); /* Un gris-bleu très léger au survol */
+  color: #103653;
+  border-color: #103653;
+}
+
+/* Adaptation mobile pour la cohérence */
+@media (max-width: 768px) {
+  .btn-outline-secondary-custom {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-outline-secondary-custom {
+    width: 100%;
+  }
+}
+
+
+
+/* Style de la signature Céline */
+.signature-bloc {
+  background-color: #f9fbfb; /* Un fond très légèrement bleuté/gris pour encadrer la signature */
+  padding: 15px;
+  border-radius: 12px;
+  display: inline-flex; /* Pour que le bloc ne prenne que la largeur nécessaire */
+  align-items: center;
+}
+
+.signature-photo {
+  border: 3px solid #ffffff; /* Un petit liseré blanc autour de la photo */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Une ombre douce pour donner du relief */
+  object-fit: cover;
+}
+
+.fw-semibold {
+  color: #103653; /* Rappel de ta couleur principale pour ton prénom */
+  font-size: 1.1rem;
+}
+
+.text-muted.small {
+  color: #5a768a; /* Un gris-bleu plus doux pour le titre */
+}
+
 
 
 
