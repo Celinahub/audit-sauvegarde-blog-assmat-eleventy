@@ -3113,13 +3113,11 @@ font-size: 0.75rem; /* Taille de la police relative */
 }
 
 .legende-couleurs {
-    .icone-legende {
         vertical-align: middle;
         width: 28px;
         height: 28px;
         flex-shrink: 0;
     }
-}
 
 @media (max-width: 767.98px) {
     .legende-couleurs .col-12 {
