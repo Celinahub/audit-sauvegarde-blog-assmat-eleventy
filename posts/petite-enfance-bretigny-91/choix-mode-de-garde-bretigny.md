@@ -307,7 +307,8 @@ Tarif libre, défini ensemble. Aide mensuelle CMG versée par la CAF, en fonctio
 
 ### **<span id="differenciation">Ce qui me différencie des autres modes d'accueil à Brétigny-sur-Orge</span>** 
 
-![Assistante maternelle à Brétigny-sur-Orge – Promenade en extérieur, découverte de la nature avec les enfants](/images/uploads/promenade-bretigny91.jpg)
+{% image "/images/uploads/promenade-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – Promenade en extérieur, découverte de la nature avec les enfants", "(min-width: 1024px) 100vw, 50vw" %}
+
 
 Ce qui fait la différence dans **mon mode d’accueil à Brétigny-sur-Orge**, c’est avant tout **l’environnement familial en maison individuelle avec un jardin** que j'offre. Votre enfant aura l’opportunité de rencontrer **mes trois enfants**, favorisant des interactions plus riches que celles du **"parler bébé"**, grâce à la diversité des âges. Un aspect **unique**, qui **n'existe pas en crèche**.
 
@@ -360,7 +361,10 @@ Vous souhaitez en savoir plus sur mon mode d’accueil et discuter de vos besoin
 
 <br>
 
-![Assistante maternelle à Brétigny-sur-Orge – Decouverte des escargots, découverte de la nature avec les enfants](/images/uploads/decouverte-bretigny91.jpg)
+
+{% image "/images/uploads/decouverte-bretigny91.jpg", "Assistante maternelle à Brétigny-sur-Orge – Decouverte des escargots, découverte de la nature avec les enfants", "(min-width: 1024px) 100vw, 50vw" %}
+
+
 
 ---
 
