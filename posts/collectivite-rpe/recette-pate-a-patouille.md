@@ -111,6 +111,37 @@ Ajoutez un peu de colorant ou de cacao pour varier les textures et stimuler enco
 
 ## Envie d’autres idées d’activités à faire à la maison ?
 
+<hr>
+
+<div class="container my-5">
+    <h3 class="poppins-bold-balise-p mb-4">D'autres activités proposées par le Relais Petite Enfance :</h3>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+           <a href="/posts/collectivite-rpe/tampon-pomme/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/tampon-pomme.jpg" class="card-img-top recipe-card-img" alt="Sablés de Noël faits maison avec les enfants à Brétigny">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Peindre avec des pommes : semaine du goût</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a href="/posts/collectivite-rpe/chasse-aux-oeufs-bretigny/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/chasse-aux-oeufs-rpe-bretigny.jpg" class="card-img-top recipe-card-img" alt="Sablés de Noël faits maison avec les enfants à Brétigny">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">La chasse aux œufs : les sens en éveil</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+
 <div class="button-wrapper">
   <a href="/projet-accueil/#activites" target="_blank" class="btn btn-primary btn-article">Consultez mes activités pour les tout-petits →</a>
 </div>
