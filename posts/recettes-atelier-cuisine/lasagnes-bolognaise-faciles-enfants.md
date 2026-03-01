@@ -265,7 +265,35 @@ En tant qu’**assistante maternelle à Brétigny-sur-Orge en Essonne**, je prop
 }
 </script>
 
----
+<hr>
+
+<div class="container my-5">
+    <h3 class="poppins-bold-balise-p mb-4">D'autres recettes qui plaisent aux enfants :</h3>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <a href="/posts/recettes-atelier-cuisine/bouillie-chocolat/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/recette-bouillie-chocolat.jpg" class="card-img-top recipe-card-img" alt="Recette de bouillie au chocolat pour le goûter des enfants">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Bouillie au chocolat</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a href="/posts/recettes-atelier-cuisine/petit-sable-noel-enfants/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/sables-noel-assmat-bretigny.jpg" class="card-img-top recipe-card-img" alt="Sablés de Noël faits maison avec les enfants à Brétigny">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Sablés de Noël petits lutins</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
 
 <a href="https://www.marmiton.org/recettes/recette_lasagnes-a-la-bolognaise_18215.aspx" target="_blank" rel="noopener noreferrer" class="styled-link-article">
     Retrouvez cette recette sur marmiton.org

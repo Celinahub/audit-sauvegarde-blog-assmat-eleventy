@@ -152,6 +152,38 @@ Vous n'avez pas de piscine mais vous souhaitez une activité rafraîchissante et
 
 ### Envie d'autres idées créatives pour occuper vos enfants ?
 
+
+<hr>
+
+<div class="container my-5">
+    <h3 class="poppins-bold-balise-p mb-4">D'autres activités faciles à proposer aux enfants :</h3>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+          <a href="/posts/collectivite-rpe/recette-pate-a-patouille/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/pate-patouille-rpe-bretigny.jpg" class="card-img-top recipe-card-img" alt="Recette de la pâte à patouille proposée par le RPE à Brétigny">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Pâte à patouille : activité sensorielle à Brétigny</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a href="/posts/activites-enfant/sable-magique-figurines/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/sable-magique.jpg" class="card-img-top recipe-card-img" alt="Sable magique fabriqué avec les enfants à Brétigny">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Sable Magique : Activité Ludique et Sensorielle</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+
 <div class="button-wrapper">
   <a href="/projet-accueil/#activites" target="_blank" class="btn btn-primary btn-article">Consultez toutes mes activités pour les tout-petits →</a>
 </div>

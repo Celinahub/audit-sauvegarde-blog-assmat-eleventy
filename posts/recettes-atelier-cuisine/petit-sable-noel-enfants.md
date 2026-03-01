@@ -284,7 +284,35 @@ Contrairement aux sablés trop secs habituels, ceux-ci sont délicieux ! Les enf
 
 
 
----
+<hr>
+
+<div class="container my-5">
+    <h3 class="poppins-bold-balise-p mb-4">D'autres recettes qui plaisent aux enfants :</h3>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <a href="/posts/recettes-atelier-cuisine/bouillie-chocolat/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/recette-bouillie-chocolat.jpg" class="card-img-top recipe-card-img" alt="Recette de bouillie au chocolat pour le goûter des enfants">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Bouillie au chocolat</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a href="/posts/recettes-atelier-cuisine/petit-sable-noel-enfants/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/recette-petit-sale-lentilles.jpg" class="card-img-top recipe-card-img" alt="Petit salé aux lentilles proposés aux enfants à Brétigny">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Petit salé aux lentilles</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
 
 
 

@@ -140,7 +140,7 @@ En complément des berceaux d’entreprise ou places en crèche réservées par 
 <br>
 
 
-### **<span id="demarches">6. Quelles sont les démarches pour en profiter ?</span>**
+### **<span id="demarches">5. Quelles sont les démarches pour en profiter ?</span>**
 
 **Côté Parent-Employeur:**
 
@@ -156,11 +156,11 @@ En complément des berceaux d’entreprise ou places en crèche réservées par 
 - <strong>1. Être affiliée au CRCESU (Centre de Remboursement CESU):</strong> Sans cette affiliation, elle ne peut pas recevoir le virement des CESU préfinancés,
 - <strong>2. Informer le parent de son numéro d’affiliation CRCESU:</strong> Ce numéro sert pour valider et recevoir les virements,
 - <strong>3. Comparer le total perçu avec le salaire dû:</strong> Si le CESU ne couvre pas toute la somme, demander au parent de payer le complément par un autre moyen,
-- <strong>5. Veiller à ce que le parent fasse la déclaration sur Pajemploi:</strong> Pour que les cotisations Sociales soient payées et le contrat respecté,
+- <strong>4. Veiller à ce que le parent fasse la déclaration sur Pajemploi:</strong> Pour que les cotisations Sociales soient payées et le contrat respecté,
 <br>
 
 
-### **<span id="organismes">7. Quels sont les principaux organismes agréés pour émettre des CESU préfinancés?</span>**
+### **<span id="organismes">6. Quels sont les principaux organismes agréés pour émettre des CESU préfinancés?</span>**
 
 Vous recevrez vos CESU via un des organismes spécialisés agréés. Voici les principaux : 
 
@@ -173,7 +173,7 @@ Vous recevrez vos CESU via un des organismes spécialisés agréés. Voici les p
 
 <br>
 
-### **<span id="pajemploi">8. Comment déclarer le CESU préfinancé avec ou sans Pajemploi+</span>**
+### **<span id="pajemploi">7. Comment déclarer le CESU préfinancé avec ou sans Pajemploi+</span>**
 
 Lorsque vous utilisez Pajemploi+, il est necessaire de noter le montant payé en CESU préfinancé dans la déclaration comme un acompte. Cela permet que cette somme soit déduite du virement que Pajemploi effectue à l'assistante maternelle. Sans cette mention, vous risqueriez un double paiement puisque le virement indiquerait la totalité du salaire sans tenir compte du paiement déjà effectué en CESU préfinancé.
 
@@ -190,7 +190,7 @@ Cette précision est importante pour éviter tout problème lors du calcul et ve
 <br>
 
 
-### **<span id="a-retenir">9. À retenir</span>**
+### **<span id="a-retenir">8. À retenir</span>**
 
 Le CESU préfinancé est un véritable coup de pouce pour réduire vos frais de garde, simplifier vos démarches et améliorer l’équilibre entre vie professionnelle et vie familiale.
 
@@ -224,7 +224,7 @@ Il offre aussi des avantages fiscaux et sociaux aux entreprises qui le mettent e
 
 ---
 
-### **<span id="questions">10. Foire aux questions (FAQ)</span>**
+### **<span id="questions">9. Foire aux questions (FAQ)</span>**
 
 
 
@@ -294,7 +294,35 @@ Il offre aussi des avantages fiscaux et sociaux aux entreprises qui le mettent e
 }
 </script>
 
----
+<hr>
+
+<div class="container my-5">
+    <h3 class="poppins-bold-balise-p mb-4">Parents, soutenez l'accueil individuel chez une assistante maternelle à Brétigny:</h3>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+          <a href="/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/mediatheque-bretigny.jpg" class="card-img-top recipe-card-img" alt="Sorties extérieures variées proposées à votre enfant à Brétigny-sur-Orge">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Un accueil tourné vers l'extérieur à Brétigny</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a href="/posts/petite-enfance-bretigny-91/avenir-metier-assistante-maternelle-bretigny/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/avenir-metier-assistante-maternelle-bretigny91.jpg" class="card-img-top recipe-card-img" alt="Assistante maternelle à Brétigny avec un accompagnement individuel proposant un espace calme">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Parents, porteurs de l’avenir des assistantes maternelles</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
 
   <p>Découvrons ensemble comment optimiser vos aides et sécuriser la garde de votre enfant à Brétigny-sur-Orge</p>
 

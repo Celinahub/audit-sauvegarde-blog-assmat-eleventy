@@ -380,6 +380,35 @@ Besoin d’un conseil ou d’un accompagnement sur-mesure ? Contacte le CRAIF,
   Parents ou professionnels, savoir passer le relais, c’est agir avec bienveillance et responsabilité pour le bien-être de l’enfant.</p>
 </div>
 
+<hr>
+
+<div class="container my-5">
+    <h3 class="poppins-bold-balise-p mb-4">Mon accompagnemnt vers l'autonomie de votre enfant à Brétigny:</h3>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+          <a href="/posts/petite-enfance-bretigny-91/ecole-bretigny-sur-orge/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/ecole-bretigny-sur-orge.jpg" class="card-img-top recipe-card-img" alt="Inscription de votre enfant à l’école maternelle de Brétigny-sur-Orge">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Votre enfant est-il prêt pour l’école ?</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a href="/posts/hygiene-soins/acquisition-proprete/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/pot.jpg" class="card-img-top recipe-card-img" alt="Enfant sur le pot, acquisition de la propreté à Brétigny-sur-Orge">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">L'acquisition de la propreté : conseils et étapes clés</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
 
 <div class="highlighted-note">
   <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>

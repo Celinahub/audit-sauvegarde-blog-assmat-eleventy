@@ -16,7 +16,7 @@ tags:
 date: 2025-01-21
 category: "PETITE ENFANCE BRETIGNY-91" 
 featuredImage: "/images/uploads/ecole-bretigny-sur-orge.jpg"
-imageAlt: "Enfant rentrant à l’école maternelle de Brétigny-sur-Orge"
+imageAlt: "Accompagnement de l'enfant vers l'autonomie pour la rentrée scolaire à Brétigny-sur-Orge"
 url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/ecole-bretigny-sur-orge/"
 ---
 
@@ -162,7 +162,35 @@ Avant de nouvelles aventures à l'école, votre enfant a encore beaucoup à expl
 </script>
 
 
----
+<hr>
+
+<div class="container my-5">
+    <h3 class="poppins-bold-balise-p mb-4">Comment accompagner l'autonomie de votre enfant pour la rentrée ?</h3>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+          <a href="/posts/selection-produits/clipp/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/clipp-tetine.jpg" class="card-img-top recipe-card-img" alt="La tétine Clipp avec collerettes empilables pour arrêter la tétine à Brétigny-sur-Orge">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Clipp Tétine : Un Sevrage en Douceur pour Enfants</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a href="/posts/hygiene-soins/acquisition-proprete/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/pot.jpg" class="card-img-top recipe-card-img" alt="Enfant sur le pot, acquisition de la propreté à Brétigny-sur-Orge">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">L'acquisition de la propreté : conseils et étapes clés</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
 
 
 <div class="highlighted-note">

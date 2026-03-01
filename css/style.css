@@ -4688,7 +4688,22 @@ html {
  }
  
  
+/* Style pour les cartes de maillage interne */
+.recipe-card {
+    border-radius: 15px;
+    overflow: hidden; /* Pour que l'image respecte l'arrondi du haut */
+}
 
+.recipe-card-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.recipe-card-body {
+    border-radius: 0 0 15px 15px;
+    background-color: #f8f9fa; /* Correspond à bg-light de Bootstrap */
+}
 
  
  /* Styles pour la TYPO des cards cote droit blog */

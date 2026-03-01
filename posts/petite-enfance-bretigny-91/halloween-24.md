@@ -160,7 +160,35 @@ Pour des parents soucieux d’éveiller leurs enfants à la curiosité et à l�
 </script>
 
 
----
+<hr>
+
+<div class="container my-5">
+    <h3 class="poppins-bold-balise-p mb-4">Les évènements saisonniers proposées par la ville de Brétigny :</h3>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+           <a href="/posts/collectivite-rpe/chasse-aux-oeufs-bretigny/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/chasse-aux-oeufs-rpe-bretigny.jpg" class="card-img-top recipe-card-img" alt="Récolte de la chasse aux oeufs à Brétigny-sur-Orge au Parc du Carouge">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">La chasse aux œufs : les sens en éveil</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a href="/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/mediatheque-bretigny.jpg" class="card-img-top recipe-card-img" alt="Sorties extérieures variées proposées à votre enfant à Brétigny-sur-Orge">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Nos sorties variées à l'extérieur à Brétigny</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
 
 
 <div class="highlighted-note">

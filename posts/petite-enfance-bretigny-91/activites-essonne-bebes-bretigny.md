@@ -309,8 +309,36 @@ Ces idées de balades peuvent aussi inspirer les parents qui recherchent une ass
 
 
 
+<hr>
 
-<br>
+<div class="container my-5">
+    <h3 class="poppins-bold-balise-p mb-4">D'autres idées d'activités à partager avec votre enfant à Brétigny:</h3>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+          <a href="/posts/petite-enfance-bretigny-91/atelier-parent-enfant-bretigny-sur-orge/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/main-dans-la-main-bretigny-91.jpg" class="card-img-top recipe-card-img" alt="Ateliers parents-enfant proposé par la ville de Brétigny">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Parent-Enfant à Brétigny-sur-Orge | Activités Bébé 0-3 ans</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a href="/posts/petite-enfance-bretigny-91/halloween-24/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/halloween.-bretigny-24.jpg" class="card-img-top recipe-card-img" alt="Nuit d'Halloween à Brétigny-sur-Orge au parc du Carouge">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Halloween à Brétigny : Citrouilles et Día de los Muertos</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
+
 
 <div class="highlighted-note">
   <p><strong>Envie d’en savoir plus ?</strong> Vous cherchez une assistante maternelle à Brétigny-sur-Orge qui propose des sorties régulières et un accueil chaleureux pour votre bébé ou votre tout-petit ?</p>

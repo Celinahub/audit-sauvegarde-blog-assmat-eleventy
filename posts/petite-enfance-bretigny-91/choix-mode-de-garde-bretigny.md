@@ -466,8 +466,36 @@ Je conseille de visiter les structures et de rencontrer les professionnels avant
 
 Le choix du mode de garde est une décision influencée par de nombreux facteurs : budget, besoins spécifiques de l’enfant, flexibilité et proximité. Chaque famille a des priorités différentes, et il n’existe pas de solution idéale pour tout le monde. L’essentiel est de trouver une option qui vous permettra de reprendre le travail en toute sérénité, tout en garantissant le bien-être de votre enfant.
 
----
 
+<hr>
+
+<div class="container my-5">
+    <h3 class="poppins-bold-balise-p mb-4">Les atouts de l'accueil individuel chez une assistante maternelle à Brétigny:</h3>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+          <a href="/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/mediatheque-bretigny.jpg" class="card-img-top recipe-card-img" alt="Sorties extérieures variées proposées à votre enfant à Brétigny-sur-Orge">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Nos sorties variées à l'extérieur à Brétigny</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a href="/posts/petite-enfance-bretigny-91/accompagnement-enfant-autisme-bretigny/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/jeux-sensoriels-bretigny.jpg" class="card-img-top recipe-card-img" alt="Assistante maternelle à Brétigny avec un accompagnement individuel proposant un espace calme">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Assistante maternelle à Brétigny: accompagner un enfant TSA</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
 
 
 <div class="highlighted-note">
