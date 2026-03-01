@@ -10,7 +10,6 @@ bodyClass: "bg-white accueil"
 eleventyNavigation:
   key: Accueil
   order: 1
----
 
 # =========================
 # JSON-LD : FAQ (SEO)
@@ -43,41 +42,45 @@ jsonldFAQ:
 # =========================
 # JSON-LD : Activité locale
 # =========================
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ChildCare",
-  "@id": "https://celine-assmat-bretigny.fr/#business",
-  "name": "Assistante maternelle agréée - chez Céline",
-  "url": "https://celine-assmat-bretigny.fr/",
-  "image": "https://celine-assmat-bretigny.fr/presentation-assistante-maternelle-agreee.webp",
-  "logo": "https://celine-assmat-bretigny.fr/images/navbar/logo-navbar-paint.png",
-  "description": "Assistante maternelle agréée proposant un accueil personnalisé pour les enfants à Brétigny-sur-Orge. Une alternative chaleureuse et professionnelle à la crèche.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "30 Bis Av. Lucien Clause",
-    "addressLocality": "Brétigny-sur-Orge",
-    "addressRegion": "Île-de-France",
-    "postalCode": "91220",
-    "addressCountry": "FR"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 48.609,
-    "longitude": 2.25
-  },
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday"],
-    "opens": "07:15",
-    "closes": "18:45"
-  }],
-  "hasMap": "https://www.google.com/maps/place/30+Bis+Av.+Lucien+Clause,+Brétigny-sur-Orge",
-  "priceRange": "€",
-  "sameAs": ["https://g.page/r/CQsVBcwjVgVtEBM/review"]
-}
-</script>
+jsonldBusiness:
+  "@context": "https://schema.org"
+  "@type": "ChildCare"
+  "@id": "https://celine-assmat-bretigny.fr/#business"
+  name: "Assistante maternelle agréée - chez Céline"
+  url: "https://celine-assmat-bretigny.fr/"
+  image: "https://celine-assmat-bretigny.fr/presentation-assistante-maternelle-agreee.webp"
+  logo: "https://celine-assmat-bretigny.fr/images/navbar/logo-navbar-paint.png"
+  description: "Assistante maternelle agréée proposant un accueil personnalisé pour les enfants à Brétigny-sur-Orge. Une alternative chaleureuse et professionnelle à la crèche."
 
+  address:
+    "@type": "PostalAddress"
+    streetAddress: "30 Bis Av. Lucien Clause"
+    addressLocality: "Brétigny-sur-Orge"
+    addressRegion: "Île-de-France"
+    postalCode: "91220"
+    addressCountry: "FR"
+
+  geo:
+    "@type": "GeoCoordinates"
+    latitude: 48.609
+    longitude: 2.25
+
+  openingHoursSpecification:
+    - "@type": "OpeningHoursSpecification"
+      dayOfWeek:
+        - Monday
+        - Tuesday
+        - Thursday
+        - Friday
+      opens: "07:15"
+      closes: "18:45"
+
+  hasMap: "https://www.google.com/maps/place/30+Bis+Av.+Lucien+Clause,+Brétigny-sur-Orge"
+  priceRange: "€"
+
+  sameAs:
+    - "https://g.page/r/CQsVBcwjVgVtEBM/review"
+---
 
 
   
