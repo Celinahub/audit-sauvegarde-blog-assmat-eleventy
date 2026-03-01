@@ -1,127 +1,66 @@
 ---
 layout: layouts/base.njk
 title: "Assistante maternelle à Brétigny-sur-Orge – Chez Céline"
-description: "Assistante maternelle agréée à Brétigny-sur-Orge (Essonne). Maison avec jardin près du RER C, accueil familial qui se distingue de la crèche."
+description: "Assistante maternelle agréée à Brétigny-sur-Orge. Accueil personnalisé en maison avec jardin, proche RER C. Alternative chaleureuse à la crèche."
 url: "https://celine-assmat-bretigny.fr/"
-image: "presentation-assistante-maternelle-agreee.jpg"
+image: "presentation-assistante-maternelle-agreee.webp"
 permalink: "/"
-bodyClass: "bg-white accueil"
 eleventyNavigation:
   key: Accueil
   order: 1
+
+jsonldBusiness:
+  "@context": "https://schema.org"
+  "@type": ["LocalBusiness","ChildCare"]
+  "@id": "https://celine-assmat-bretigny.fr/#business"
+  "name": "Assistante maternelle agréée - chez Céline"
+  "description": "Assistante maternelle agréée proposant un accueil personnalisé et sécurisé pour les enfants à Brétigny-sur-Orge."
+  "url": "https://celine-assmat-bretigny.fr/"
+  "image": "https://celine-assmat-bretigny.fr/presentation-assistante-maternelle-agreee.webp"
+  "priceRange": "€€"
+  "address":
+    "@type": "PostalAddress"
+    "streetAddress": "30 Bis Av. Lucien Clause"
+    "addressLocality": "Brétigny-sur-Orge"
+    "addressRegion": "Île-de-France"
+    "postalCode": "91220"
+    "addressCountry": "FR"
+  "geo":
+    "@type": "GeoCoordinates"
+    "latitude": 48.609
+    "longitude": 2.25
+  "openingHoursSpecification":
+    - "@type": "OpeningHoursSpecification"
+      "dayOfWeek": ["Monday","Tuesday","Thursday","Friday"]
+      "opens": "07:15"
+      "closes": "18:45"
+
+jsonldFAQ:
+  "@context": "https://schema.org"
+  "@type": "FAQPage"
+  "mainEntity":
+    - "@type": "Question"
+      "name": "Quels sont les avantages d'une assistante maternelle à Brétigny-sur-Orge ?"
+      "acceptedAnswer":
+        "@type": "Answer"
+        "text": "Agréée à Brétigny-sur-Orge, proche de la gare RER C et du parc Clause-Bois Badeau. Accueil individuel, calme et sécurisé, plus chaleureux qu'en crèche. Sorties régulières au parc et au Relais Petite Enfance. Activités d’éveil variées et adaptées à chaque âge. Accueil nomade : moins d’écrans, plus de mouvement. Démarches simplifiées pour les parents. Tarif accessible avec reste à charge optimisé."
+    - "@type": "Question"
+      "name": "Puis-je visiter avant de réserver ?"
+      "acceptedAnswer":
+        "@type": "Answer"
+        "text": "Oui, lors d'un premier rendez-vous je propose une visite du lieu d'accueil avant toute réservation afin de vous assurer que l'environnement correspond aux besoins de votre enfant et de votre famille. Cette visite permet d'établir un premier contact et de discuter du projet d'accueil."
+    - "@type": "Question"
+      "name": "Êtes-vous accessible depuis Plessis-Pâté ou Saint-Michel-sur-Orge ?"
+      "acceptedAnswer":
+        "@type": "Answer"
+        "text": "Oui, mon domicile est situé à quelques minutes de ces communes en voiture ou en bus."
+    - "@type": "Question"
+      "name": "Est-ce que vous accueillez aussi des enfants de Saint-Germain-lès-Arpajon ?"
+      "acceptedAnswer":
+        "@type": "Answer"
+        "text": "Oui, j'accueille des familles des villes voisines comme Saint-Germain-lès-Arpajon ou Le Plessis-Pâté."
 ---
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
 
-    {
-      "@type": "ChildCare",
-      "@id": "https://celine-assmat-bretigny.fr/#childcare",
-      "name": "Assistante maternelle agréée - Chez Céline",
-      "description": "Assistante maternelle agréée proposant un accueil personnalisé et sécurisé pour les enfants à Brétigny-sur-Orge. Alternative chaleureuse et professionnelle à la crèche.",
-      "url": "https://celine-assmat-bretigny.fr/",
-      "image": "https://celine-assmat-bretigny.fr/images/photo-accueil.jpg",
-      "priceRange": "€€",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "22 Rue du Parc",
-        "addressLocality": "Brétigny-sur-Orge",
-        "postalCode": "91220",
-        "addressRegion": "Île-de-France",
-        "addressCountry": "FR"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "48.6100",
-        "longitude": "2.3050"
-      },
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Brétigny-sur-Orge"
-        },
-        {
-          "@type": "City",
-          "name": "Le Plessis-Pâté"
-        },
-        {
-          "@type": "City",
-          "name": "Saint-Michel-sur-Orge"
-        },
-        {
-          "@type": "City",
-          "name": "Saint-Germain-lès-Arpajon"
-        }
-      ],
-      "sameAs": [
-        "https://g.page/r/CQsVBcwjVgVtEBM/review"
-      ],
-      "parentOrganization": {
-        "@type": "Organization",
-        "@id": "https://celine-assmat-bretigny.fr/#organization",
-        "name": "Céline Hubert - Assistante Maternelle Agréée",
-        "url": "https://celine-assmat-bretigny.fr/"
-      }
-    },
-
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://celine-assmat-bretigny.fr/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Accueil",
-          "item": "https://celine-assmat-bretigny.fr/"
-        }
-      ]
-    },
-
-    {
-      "@type": "FAQPage",
-      "@id": "https://celine-assmat-bretigny.fr/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Quels sont les avantages d'une assistante maternelle à Brétigny-sur-Orge ?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Une assistante maternelle offre un accueil personnalisé et sécurisé à Brétigny-sur-Orge, souvent plus souple et chaleureux qu'en crèche. Céline est agréée et proche de la gare RER C et du parc Clause-Bois Badeau."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Puis-je visiter avant de réserver ?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Oui, un premier rendez-vous permet de visiter le lieu d'accueil avant toute réservation afin de vérifier qu'il correspond aux besoins de votre enfant."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Êtes-vous accessible depuis Le Plessis-Pâté ou Saint-Michel-sur-Orge ?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Oui, le domicile est situé à quelques minutes de ces communes en voiture ou en bus."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Accueillez-vous des enfants de Saint-Germain-lès-Arpajon ?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Oui, des familles des villes voisines comme Saint-Germain-lès-Arpajon, Le Plessis-Pâté et Saint-Michel-sur-Orge sont accueillies."
-          }
-        }
-      ]
-    }
-
-  ]
-}
-</script>
-
-  
 <!-- Icône de défilement vers le haut utilisant une image SVG -->
 <a href="#portrait" class="scroll-to-top">
     <img class="rocket-icon" src="../images/rocket-svgrepo-com.svg" alt="Icône de fusée pour remonter en haut de la page" />
