@@ -3,6 +3,7 @@ layout: layouts/post.njk
 title: "Parents, porteurs de l’avenir des assistantes maternelles"
 description: "Parents, agissez pour l’avenir des assistantes maternelles grâce au CESU préfinancé : un levier simple et efficace à faire connaître."
 tags: 
+  - petite-enfance-bretigny-91
   - assistante maternelle
   - CESU préfinancé
   - mode de garde
@@ -379,8 +380,36 @@ L’avenir des assistantes maternelles dépend aussi de la parole des parents.
 Chaque question posée à un service RH, chaque discussion autour du CESU préfinancé, chaque témoignage compte.
 Car derrière chaque assistante maternelle, il y a une professionnelle investie et derrière chaque parent, il y a un potentiel ambassadeur d’un mode de garde humain, souple et profondément précieux.
 
----
 
+<hr>
+
+<div class="container my-5">
+    <h3 class="poppins-bold-balise-p mb-4">Parents, soutenez l'accueil individuel chez une assistante maternelle à Brétigny:</h3>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+          <a href="/posts/petite-enfance-bretigny-91/activites-essonne-bebes-bretigny/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/mediatheque-bretigny.jpg" class="card-img-top recipe-card-img" alt="Sorties extérieures variées proposées à votre enfant à Brétigny-sur-Orge">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">Un accueil tourné vers l'extérieur à Brétigny</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a href="/posts/entreprises/cesu-prefinances/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm border-0 recipe-card">
+                    <img src="/images/uploads/cesu.jpg" class="card-img-top recipe-card-img" alt="Cesu-préfinancés acceptés mode de garde à Brétigny-sur-Orge">
+                    <div class="card-body recipe-card-body">
+                        <p class="card-text poppins-bold-balise-p text-center text-dark">CESU préfinancés : j'économise!</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
 
 
 <div class="highlighted-note">
