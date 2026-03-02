@@ -351,8 +351,10 @@ jsonldFAQ:
 
 
 <!-- Résultat -->
+<div id="pdf-content">
 <div id="result-box" class="alert mt-4 d-none" role="alert">
   <div id="result-message"></div>
+  </div>
 </div>
 
 <button id="btn-pdf" class="btn btn-simu mt-3 d-none">Télécharger le PDF</button>
@@ -1460,7 +1462,7 @@ if (profil === 1) {
   const recapSaisie = `
     <div class="recap-saisie mb-4">
     <div class="anti-coupure">
-      <div class="html2pdf__page-break"></div>
+      
      
 
 <h3 class="poppins-bold-titre-h3">Vos données de simulation</h3>
@@ -1537,7 +1539,7 @@ document.getElementById("btn-reset").classList.remove("d-none");
   const recapSaisie = `
     <div class="recap-saisie mb-4">
         <div class="anti-coupure">
-     <div class="html2pdf__page-break"></div>
+   
       <h3>Vos données de simulation</h3>
      
       <ul class="list-unstyled">
@@ -1608,7 +1610,7 @@ document.getElementById("btn-reset").classList.remove("d-none");
   const recapSaisie = `
     <div class="recap-saisie mb-4">
         <div class="anti-coupure">
-     <div class="html2pdf__page-break"></div>
+  
       <h3>Vos données de simulation</h3>
      
       <ul class="list-unstyled">
@@ -1777,21 +1779,28 @@ document.getElementById("btn-pdf").addEventListener("click", function () {
   }
 
  const opt = {
-  margin: [5, 5, 5, 5],
+  margin: [8, 8, 8, 8],
   filename: 'estimation-CMG.pdf',
-  image: { type: 'jpeg', quality: 0.95 },
+  image: { type: 'jpeg', quality: 1 },
   html2canvas: { 
-    scale: 2,
+    scale: 2.5,
     letterRendering: true,
-    logging: true
+    logging: false,
+    scrollY: 0
   },
   jsPDF: { 
-    unit: 'mm', 
-    format: 'a4', 
-    orientation: 'portrait' 
+    unit: 'mm',
+    format: 'a4',
+    orientation: 'portrait',
+    compress: true
   },
-  pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+  pagebreak: { mode: ['css', 'legacy'] }
 };
+
+html2pdf()
+  .set(opt)
+  .from(document.getElementById('pdf-content'))
+  .save();
 
 // Force un "reflow" du DOM
 element.offsetHeight;
