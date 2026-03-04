@@ -12,7 +12,7 @@ eleventyNavigation:
 permalink: "/assistante-maternelle-bretigny-sur-orge/"
 bodyClass: "bg-white page-locale-bretigny"
 
-# FAQ spécifique à cette page
+# FAQ spécifique à cette page (JSON-LD)
 jsonldFAQ:
   "@context": "https://schema.org"
   "@type": "FAQPage"
@@ -22,11 +22,24 @@ jsonldFAQ:
       acceptedAnswer:
         "@type": "Answer"
         text: "Oui, mon emplacement facilite le combo école-nounou. À 5 min d'Aimé Césaire, l'itinéraire piéton est direct, permettant un gain de temps précieux pour les fratries avant de rejoindre les axes routiers ou le train."
+    
     - "@type": "Question"
       name: "Peut-on choisir une assistante maternelle à Brétigny après un accouchement à la maternité d’Arpajon ?"
       acceptedAnswer:
         "@type": "Answer"
         text: "Absolument. La liaison entre la maternité d'Arpajon et Brétigny se fait via la D152. Choisir mon accueil, c'est s'assurer une reprise du travail fluide grâce à une localisation sur l'axe principal de l'Essonne, évitant les zones de congestion."
+    
+    - "@type": "Question"
+      name: "Comment rejoindre la gare routière de Brétigny depuis votre accueil ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "La gare routière de Brétigny est accessible en moins de 10 minutes à pied. Cette proximité immédiate vous permet de profiter de l'ensemble des arrêts et des lignes de bus desservant l'écoquartier, facilitant vos correspondances avec le RER C ou les trains TER pour vos trajets quotidiens."
+    
+    - "@type": "Question"
+      name: "Le réseau de transport est-il adapté aux horaires de bureau ?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Oui, le réseau de transports en commun propose des horaires fréquents durant les heures de pointe. Que vous preniez le train tôt le matin ou rentriez en fin de journée, mon emplacement dans l'écoquartier Clause-Bois Badeau reste un relais stratégique du lundi au vendredi pour votre organisation."
 ---
 
 
@@ -635,19 +648,14 @@ Et mon <a href="{{ '/' | url }}" class="style-liens"><strong>accueil au quotidie
 <div class="row mt-5">
     <div class="col-md-10 offset-md-1 pt-5 border-top"> 
         
-        <h2 class="poppins-bold-titre-h2 mb-3">Une organisation familiale optimisée par la géographie</h2>
-
-
-         <p class="poppins-regular-balise-p">
-        La <strong>mobilité quotidienne</strong> est le premier défi des parents en Île-de-France. Mon domicile est un <strong>nœud de communication</strong> local qui simplifie la <strong>logistique familiale</strong>. Que vous veniez du Plessis-Pâté ou de Saint-Germain-lès-Arpajon, vous bénéficiez d'une <strong>accessibilité routière</strong> fluide. Ce <strong>maillage territorial</strong> entre le quartier Clause, la gare et les écoles transforme une contrainte de transport en un <strong>avantage stratégique</strong>, vous offrant jusqu'à 30 minutes de <strong>gain de temps</strong> par jour sur vos déplacements.
-    </p>
+        <h2 class="poppins-bold-titre-h2 mb-3">Une implantation stratégique pour votre logistique quotidienne</h2>
         
         <p class="poppins-regular-balise-p">
-            Choisir mon accueil à Brétigny-sur-Orge, c'est opter pour une <strong>stratégie de mobilité</strong> intelligente. L'<strong>écoquartier Clause-Bois Badeau</strong> offre un maillage parfait entre les zones piétonnes sécurisées et les <strong>axes routiers</strong> majeurs de l'Essonne (N104, D19). 
+            Optimiser ses déplacements à Brétigny-sur-Orge devient simple grâce à une <strong>stratégie de mobilité</strong> efficace. L'<strong>écoquartier Clause-Bois Badeau</strong> offre un maillage parfait entre les zones piétonnes sécurisées et les <strong>axes routiers</strong> majeurs de l'Essonne (N104, D19). Ce véritable <strong>relais</strong> de proximité facilite l'accès à la <strong>gare routière</strong> et aux différents <strong>arrêts</strong> de bus du secteur.
         </p>
         
         <p class="poppins-regular-balise-p">
-            Cette localisation privilégiée permet de réduire drastiquement votre <strong>temps de parcours</strong> global. En évitant les congestions du centre-ville, vous optimisez votre logistique quotidienne et profitez d'un environnement où chaque <strong>itinéraire</strong> est pensé pour la sécurité des poussettes et le bien-être des tout-petits.
+            Cette <strong>proximité géographique</strong> permet de réduire drastiquement votre <strong>temps de parcours</strong> global vers les <strong>gares</strong>. En évitant les congestions, vous fluidifiez votre organisation, que vous utilisiez le <strong>RER</strong> ou une <strong>navette</strong> locale. Chaque <strong>itinéraire</strong> est configuré pour la sécurité des poussettes et le confort des trajets urbains, du <strong>lundi au vendredi</strong>, pour une transition fluide entre votre domicile et votre lieu de travail.
         </p>
 
         <div class="mt-4">
@@ -732,6 +740,40 @@ Certaines questions reviennent également chez les futurs parents, notamment au 
           </div>
         </div>
       </div>
+
+
+
+
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="assmat-quartier-accueil-heading-3">
+    <button class="accordion-button collapsed poppins-bold-balise-p" type="button" data-bs-toggle="collapse" data-bs-target="#assmat-quartier-accueil-collapse-3" aria-expanded="false" aria-controls="assmat-quartier-accueil-collapse-3">
+      Comment rejoindre la gare routière de Brétigny depuis votre accueil ?
+    </button>
+  </h2>
+  <div id="assmat-quartier-accueil-collapse-3" class="accordion-collapse collapse" data-bs-parent="#AssmatQuartierAccueil">
+    <div class="accordion-quartier-accueil-body poppins-regular-balise-p">
+      La <strong>gare routière</strong> de Brétigny est accessible en moins de 10 minutes à pied. Cette proximité immédiate vous permet de profiter de l'ensemble des <strong>arrêts</strong> et des <strong>lignes de bus</strong> desservant l'écoquartier, facilitant vos correspondances avec le <strong>RER C</strong> ou les trains <strong>TER</strong> pour vos trajets quotidiens.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="assmat-quartier-accueil-heading-4">
+    <button class="accordion-button collapsed poppins-bold-balise-p" type="button" data-bs-toggle="collapse" data-bs-target="#assmat-quartier-accueil-collapse-4" aria-expanded="false" aria-controls="assmat-quartier-accueil-collapse-4">
+      Le réseau de transport est-il adapté aux horaires de bureau ?
+    </button>
+  </h2>
+  <div id="assmat-quartier-accueil-collapse-4" class="accordion-collapse collapse" data-bs-parent="#AssmatQuartierAccueil">
+    <div class="accordion-quartier-accueil-body poppins-regular-balise-p">
+      Oui, le réseau de <strong>transports en commun</strong> propose des <strong>horaires</strong> fréquents durant les heures de pointe. Que vous preniez le train tôt le matin ou rentriez en fin de journée, mon emplacement dans l'écoquartier Clause-Bois Badeau reste un <strong>relais</strong> stratégique du <strong>lundi au vendredi</strong> pour votre organisation.
+    </div>
+  </div>
+</div>
+
+
+
+
 
 
 
