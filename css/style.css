@@ -3112,19 +3112,20 @@ font-size: 0.75rem; /* Taille de la police relative */
    margin: 0;
 }
 
-.legende-couleurs {
-        vertical-align: middle;
-        width: 28px;
-        height: 28px;
-        flex-shrink: 0;
-    }
+/* Style pour les icônes de la légende */
+.legende-couleurs .icone-legende {
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
 
+/* Espacement sur mobile */
 @media (max-width: 767.98px) {
     .legende-couleurs .col-12 {
         margin-bottom: 0.75rem;
     }
 }
-
 /* Styles spécifiques de la ligne verticale en pointillé et de l'espacement du contenu */
 .routine-info {
    flex: 1;
