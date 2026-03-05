@@ -91,20 +91,25 @@ jsonldFAQ:
             <div class="col-md-6 p-0 d-flex align-items-center">
                 <div class="simulateur-garde-enfants-item">
                     <div class="simulateur-garde-enfants-text-space p-4">
-                        <div class="description-atout-services">
-                        <h1 class="poppins-bold-titre-h1">Assistante maternelle ou crèche à Brétigny : comparez le coût réel et les aides 2026</h1>
-                        <hr class="horizontal-line">
-                        
-                            <p class="poppins-regular-balise-p">{{ aProposDescription | default("Le budget est souvent la première source de stress pour les parents. À Brétigny-sur-Orge, le reste à charge d'une assistante maternelle est pourtant souvent identique à celui d'une crèche grâce aux aides de la CAF. Comparez les tarifs réels et les allocations pour votre mode de garde.") }}</p>
-                            
-                            <!-- Bouton "lien interne" -->
- <a href="#comparer-creche-assistante-maternelle" class="btn btn-action-primary">
-   Calculer mon reste à charge réel →
-  </a>
+                       <div class="description-atout-services">
+    <h1 class="poppins-bold-titre-h1">Assistante maternelle ou crèche à Brétigny : comparez le coût réel et les aides 2026</h1>
+    <hr class="horizontal-line">
+    
+    <p class="poppins-regular-balise-p">
+        {{ aProposDescription | default("Le budget est souvent la première source de stress pour les parents. À Brétigny-sur-Orge, le reste à charge d'une assistante maternelle est pourtant souvent identique à celui d'une crèche grâce aux aides de la CAF. Comparez les tarifs réels et les allocations pour votre mode de garde.") }}
+    </p>
 
-
-
-                        </div>
+    <p class="poppins-regular-balise-p text-start mb-5">
+        Envie de découvrir mon univers ? 
+        <a href="{{ '/' | url }}" class="style-liens">
+            <strong>Consultez ma présentation d'assistante maternelle à Brétigny-sur-Orge.</strong>
+        </a>
+    </p>
+    
+    <a href="#comparer-creche-assistante-maternelle" class="btn btn-action-primary">
+        Calculer mon reste à charge réel →
+    </a>
+</div>
                     </div>
                 </div>
             </div>
