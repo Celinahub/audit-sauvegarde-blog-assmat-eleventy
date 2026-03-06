@@ -24,6 +24,16 @@ url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/choix-m
 
 Le congé maternité est une période de grands changements, durant laquelle chaque membre de la famille doit trouver sa place dans une nouvelle organisation. À son terme, une question essentielle se pose : quel mode de garde choisir pour une reprise du travail en toute sérénité ?
 
+<div class="highlighted-note my-4">
+  <p class="poppins-regular-balise-p text-start mb-3">
+    Si vous recherchez une assistante maternelle à Brétigny-sur-Orge, je vous invite à 
+    <a href="/assistante-maternelle-bretigny-sur-orge/" target="_blank" rel="noopener" class="style-liens">
+      <strong>découvrir mon environnement d’accueil et mes informations pratiques</strong>
+    </a>.
+  </p>
+</div>
+
+
 Heureusement, plusieurs solutions existent, chacune avec ses avantages et ses inconvénients. Voici un aperçu des options les plus courantes pour vous aider à faire le meilleur choix pour votre enfant.
 
 <br>
@@ -344,14 +354,31 @@ Je suis **une professionnelle qualifiée**, titulaire d’un **CAP AEPE**, et je
 
 
 
-
-Vous souhaitez en savoir plus sur mon mode d’accueil et discuter de vos besoins ? 
-
 <br>
 
-<div class="button-wrapper">
-  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Contactez-moi dès maintenant pour échanger ensemble →</a>
+
+<div class="highlighted-note my-4">
+  <p class="poppins-regular-balise-p text-start mb-3">
+    Si vous recherchez une assistante maternelle à Brétigny-sur-Orge, je vous invite à 
+    <a href="/projet-accueil/" target="_blank" rel="noopener" class="style-liens">
+      <strong>découvrir mon projet d'accueil</strong>
+    </a> pour en savoir plus sur mon organisation.
+  </p>
+  
+  <p class="mb-4">
+    Vous souhaitez vérifier mes <strong>disponibilités</strong> ou échanger sur votre recherche ?
+  </p>
+
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" rel="noopener" class="btn btn-primary btn-article">
+    Me contacter pour échanger →
+  </a>
 </div>
+
+
+
+
+
+
 
 <br>
 
@@ -383,7 +410,7 @@ Le choix du mode d’accueil dépend de plusieurs critères :
 Comparez instantanément et gratuitement les restes à charge des trois modes d’accueil (assistante maternelle, crèche, autre solution) à Brétigny-sur-Orge, réunis pour la première fois sur une seule page. 
 
 <div class="button-wrapper">
-  <a href="/simulateur-cout-creche-assistante-maternelle/" target="_blank" class="btn btn-primary btn-article">Calculez et comparez les tarifs assistante maternelle vs crèche →</a>
+  <a href="/simulateur-cout-creche-assistante-maternelle/" target="_blank" rel="noopener" class="btn btn-primary btn-article">Calculez et comparez les tarifs assistante maternelle vs crèche →</a>
 </div>
 
 <br>
@@ -503,11 +530,12 @@ Le choix du mode de garde est une décision influencée par de nombreux facteurs
 
 
 <div class="highlighted-note">
-  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
-</div>
-
-<div class="button-wrapper">
-  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+  <p class="mb-4">
+    Si vous souhaitez échanger sur votre <strong>recherche de mode de garde</strong> ou vérifier mes <strong>disponibilités</strong>, n'hésitez pas à me contacter directement.
+  </p>
+  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" rel="noopener" class="btn btn-primary btn-article">
+    Me contacter pour échanger →
+  </a>
 </div>
 
 
