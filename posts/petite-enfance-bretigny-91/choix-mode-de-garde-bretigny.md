@@ -357,21 +357,24 @@ Je suis **une professionnelle qualifiée**, titulaire d’un **CAP AEPE**, et je
 <br>
 
 
-<div class="highlighted-note my-4">
-  <p class="poppins-regular-balise-p text-start mb-3">
+<div class="highlighted-note d-flex flex-column gap-4 my-5 p-4 p-md-5">
+  
+  <p class="poppins-regular-balise-p text-start m-0">
     Si vous recherchez une assistante maternelle à Brétigny-sur-Orge, je vous invite à 
     <a href="/projet-accueil/" target="_blank" rel="noopener" class="style-liens">
       <strong>découvrir mon projet d'accueil</strong>
     </a> pour en savoir plus sur mon organisation.
   </p>
-  
-  <p class="mb-4">
+
+  <p class="m-0">
     Vous souhaitez vérifier mes <strong>disponibilités</strong> ou échanger sur votre recherche ?
   </p>
 
-  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" rel="noopener" class="btn btn-primary btn-article">
-    Me contacter pour échanger →
-  </a>
+  <div class="pt-2"> <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" rel="noopener" class="btn btn-primary btn-article px-4 py-2">
+      Me contacter pour échanger →
+    </a>
+  </div>
+
 </div>
 
 
@@ -529,13 +532,18 @@ Le choix du mode de garde est une décision influencée par de nombreux facteurs
 <hr>
 
 
-<div class="highlighted-note">
-  <p class="mb-4">
+<div class="highlighted-note d-flex flex-column gap-4 my-5 p-4 p-md-5">
+  
+  <p class="mb-0 lh-lg">
     Si vous souhaitez échanger sur votre <strong>recherche de mode de garde</strong> ou vérifier mes <strong>disponibilités</strong>, n'hésitez pas à me contacter directement.
   </p>
-  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" rel="noopener" class="btn btn-primary btn-article">
-    Me contacter pour échanger →
-  </a>
+
+  <div class="mt-2">
+    <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" rel="noopener" class="btn btn-primary btn-article px-4 py-2">
+      Me contacter pour échanger →
+    </a>
+  </div>
+
 </div>
 
 
