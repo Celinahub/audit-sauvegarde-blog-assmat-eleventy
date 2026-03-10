@@ -74,6 +74,15 @@ L’essentiel est de rester **patient** et d’éviter de créer une pression ex
 - **Encouragez sans forcer** : félicitez ses essais, même s’ils ne sont pas toujours réussis.
 - **Adaptez-vous à son rythme** : si une régression survient, rassurez votre enfant et laissez-lui du temps.
 
+<div class="highlighted-note my-4">
+  <p class="poppins-regular-balise-p text-start mb-3">
+    Pour découvrir comment j'intègre concrètement ces principes de bienveillance au quotidien, je vous invite à consulter 
+    <a href="/projet-accueil/" target="_blank" rel="noopener" class="style-liens">
+      <strong>mon projet d'accueil et mon approche éducative.</strong>
+    </a>.
+  </p>
+</div>
+
 
 ### **<span id="regression">4. Une régression ou une stagnation peut survenir</span>**
 
@@ -224,15 +233,26 @@ Si je devais résumer cet article en trois mots, ce seraient : observation, conf
 
 <hr>
 
-
-<div class="highlighted-note">
-  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+<div class="highlighted-note my-4">
+    <p class="poppins-regular-balise-p text-start mb-3">
+        L'acquisition de l'autonomie est facilitée par un environnement calme et sécurisé. Je vous invite à découvrir mon 
+        <a href="/assistante-maternelle-bretigny-sur-orge/" target="_blank" rel="noopener" class="style-liens">
+            <strong>cadre d’accueil au cœur de l’écoquartier de Brétigny-sur-Orge</strong>
+        </a>, un emplacement stratégique pensé pour simplifier votre organisation quotidienne et vos trajets vers le RER C.
+    </p>
+    
+    <p class="poppins-regular-balise-p text-start mb-0">
+        <strong>Besoin d'une assistante maternelle à Brétigny ?</strong> Que ce soit pour une rentrée immédiate ou pour les mois à venir, je reste à l’écoute de votre projet de garde.
+    </p>
 </div>
 
-<div class="button-wrapper">
-  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+<div class="button-wrapper mt-4">
+    <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">
+        Échangeons ensemble dès maintenant →
+    </a>
 </div>
 
+<hr>
 
 ---
 
