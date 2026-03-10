@@ -24,13 +24,6 @@ url: "https://celine-assmat-bretigny.fr/posts/petite-enfance-bretigny-91/activit
 
 Vous habitez Brétigny-sur-Orge ou ses environs et vous cherchez des idées de sorties adaptées à un bébé ou un tout-petit ?
 
-<div class="button-wrapper">
-  <a href="/posts/petite-enfance-bretigny-91/atelier-parent-enfant-bretigny-sur-orge/" class="btn btn-primary btn-article">
-Partagez un moment unique avec votre enfant à Brétigny →
-  </a>
-</div>
-
-<br>
 
 En tant qu’assistante maternelle agréée à Brétigny, je propose chaque jour aux enfants que j’accueille des promenades et activités pensées pour leur bien-être, leur éveil et leur sécurité.
 
@@ -45,7 +38,7 @@ En tant qu’assistante maternelle agréée à Brétigny, je propose chaque jour
 
 <div class="button-wrapper">
   <a href="/posts/petite-enfance-bretigny-91/choix-mode-de-garde-bretigny/#differenciation" class="btn btn-primary btn-article">
-    Découvrez mon approche pédagoqique →
+    Découvrez mon approche pédagogique →
   </a>
 </div>
 
@@ -54,6 +47,15 @@ En tant qu’assistante maternelle agréée à Brétigny, je propose chaque jour
 
 Dans cet article, je vous partage mes coins préférés à Brétigny et en Essonne : parcs accessibles en poussette, médiathèque, centre équestre… autant de lieux testés et approuvés avec les enfants.
 Si vous êtes jeunes parents ou en recherche d’une assistante maternelle attentive et active, ces idées pourraient aussi vous inspirer pour vos propres balades en famille !
+
+<div class="highlighted-note my-4">
+  <p class="poppins-regular-balise-p text-start mb-3">
+    Si vous recherchez une assistante maternelle à Brétigny-sur-Orge, je vous invite à 
+    <a href="/assistante-maternelle-bretigny-sur-orge/" target="_blank" rel="noopener" class="style-liens">
+      <strong>découvrir mon cadre d’accueil et mon organisation quotidienne</strong>
+    </a>.
+  </p>
+</div>
 
 
 <div id="sommaire">
