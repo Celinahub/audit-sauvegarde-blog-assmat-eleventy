@@ -254,7 +254,7 @@ Si je devais résumer cet article en trois mots, ce seraient : observation, conf
 
 <hr>
 
----
+
 
 Photo par Charles De Luvio sur Unsplash, utilisée sous la licence Unsplash.
 

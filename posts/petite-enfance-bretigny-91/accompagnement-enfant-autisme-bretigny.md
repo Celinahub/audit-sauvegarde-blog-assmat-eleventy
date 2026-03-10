@@ -113,6 +113,13 @@ Chaque enfant autiste est unique, mais certains défis reviennent fréquemment d
 - **Sieste :** les transitions vers le repos peuvent être plus délicates et nécessiter une attention particulière aux signes non verbaux,
 - **Acquisition de la propreté :** le moment où l’enfant se sent prêt peut être plus difficile à repérer et se manifester différemment selon chacun.
 
+<p class="poppins-regular-balise-p">
+    Pour compenser ces difficultés, j'ai aménagé mon domicile afin d'offrir un environnement prévisible et apaisant. 
+    Découvrez mon <a href="/assistante-maternelle-bretigny-sur-orge/" class="style-liens"><strong>cadre d’accueil et les atouts de mon emplacement</strong></a>, 
+    pensés pour sécuriser l'enfant tout en optimisant votre organisation et vos trajets quotidiens.
+</p>
+
+
 Pour plus de **conseils sur l’acquisition de la propreté**, en tant qu’assistante maternelle agréée à Brétigny-sur-Orge, je vous accompagne vers une transition réussie vers le pot grâce à cet article :
 <div class="button-wrapper">
   <a href="/posts/hygiene-soins/acquisition-proprete/" target="_blank" class="btn btn-primary btn-article">Découvrez les conseils et étapes clés →</a>
@@ -409,12 +416,23 @@ Besoin d’un conseil ou d’un accompagnement sur-mesure ? Contacte le CRAIF,
 </div>
 
 <hr>
-
-<div class="highlighted-note">
-  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+<div class="highlighted-note my-4">
+    <p class="poppins-regular-balise-p text-start mb-3">
+        L'acquisition de l'autonomie, particulièrement pour un enfant TSA, est facilitée par un environnement calme et sécurisé. 
+        Je vous invite à découvrir mon 
+        <a href="/assistante-maternelle-bretigny-sur-orge/" target="_blank" rel="noopener" class="style-liens">
+            <strong>cadre d’accueil au cœur de l’écoquartier de Brétigny-sur-Orge</strong>
+        </a>, un emplacement stratégique pensé pour simplifier votre organisation quotidienne.
+    </p>
+    
+    <p class="poppins-regular-balise-p text-start mb-0">
+        <strong>Besoin d'une assistante maternelle attentive à Brétigny ?</strong> Que ce soit pour une rentrée immédiate ou pour les mois à venir, je reste à l’écoute de votre projet de garde.
+    </p>
 </div>
 
-<div class="button-wrapper">
-  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+<div class="button-wrapper mt-4">
+    <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">
+        Échangeons ensemble dès maintenant →
+    </a>
 </div>
 

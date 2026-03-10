@@ -24,6 +24,16 @@ url: "https://celine-assmat-bretigny.fr/posts/selection-produits/clipp/"
 
 Arrêter la tétine est une étape importante dans la vie de votre enfant, mais elle peut aussi susciter de nombreuses questions et inquiétudes. Comment accompagner son enfant en douceur ? Existe-t-il des solutions simples pour un sevrage sans conflit ? Découvrez la méthode progressive Clipp, une tétine innovante pensée pour aider petits et grands à franchir ce cap sereinement, tout en respectant le rythme de chacun.
 
+
+<div class="highlighted-note my-4">
+  <p class="poppins-regular-balise-p text-start mb-3">
+    En tant qu'assistante maternelle, j'intègre cette approche de bienveillance dans 
+    <a href="/projet-accueil/" target="_blank" rel="noopener" class="style-liens">
+      <strong>mon projet d'accueil</strong>
+    </a>où l'autonomie et le respect du rythme de l'enfant sont au cœur de mes priorités.
+  </p>
+</div>
+
 <br>
 
 <div id="sommaire">
@@ -80,6 +90,15 @@ L'enfant adopte sa nouvelle tétine sans collerette additionnelle, semblable à 
 ### **<span id="experience">5. Mon expérience produit</span>**
 
 La tétine avec l'ajout progressif de collerettes a été acceptée. J'ai espacé de 15 jours la fixation d'une nouvelle collerette. La tétine commençais à être délaissée. Un soir la tétine a été perdue et la nuit s'est très bien passée. La tétine retrouvée nous l'avons caché et le manque ne s'est pas fait sentir!
+
+<div class="highlighted-note my-4">
+  <p class="poppins-regular-balise-p text-start mb-3">
+    C'est cette même attention aux détails que je porte dans l'aménagement de mon
+    <a href="/assistante-maternelle-bretigny-sur-orge/" target="_blank" rel="noopener" class="style-liens">
+      <strong>cadre d'accueil à Brétigny-sur-Orge</strong>
+    </a>, afin d'offrir aux enfants un espace sécurisant propice à ces grandes étapes de croissance.
+  </p>
+</div>
 
 ---
 
@@ -155,12 +174,21 @@ La tétine avec l'ajout progressif de collerettes a été acceptée. J'ai espac�
 ---
 
 
-
-<div class="highlighted-note">
-  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
+<hr>
+<div class="highlighted-note my-4">
+    <p class="poppins-regular-balise-p text-start mb-3">
+        Le sevrage de la tétine est une étape vers l'autonomie, facilitée par un environnement serein. Je vous invite à découvrir mon 
+        <a href="/assistante-maternelle-bretigny-sur-orge/" target="_blank" rel="noopener" class="style-liens">
+            <strong>cadre d’accueil au cœur de l’écoquartier de Brétigny-sur-Orge</strong>
+        </a>, un emplacement pensé pour simplifier vos trajets vers le RER C et votre organisation quotidienne.
+    </p>
+    <p class="poppins-regular-balise-p text-start mb-0">
+        <strong>Besoin d'une assistante maternelle à Brétigny ?</strong> Que ce soit pour une rentrée immédiate ou pour les mois à venir, je reste à l’écoute de votre projet de garde.
+    </p>
 </div>
 
-<div class="button-wrapper">
-  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
+<div class="button-wrapper mt-4">
+    <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">
+        Échangeons ensemble dès maintenant →
+    </a>
 </div>
-
