@@ -1205,6 +1205,31 @@ h2, h3 {
    }
 
 
+.hero-dispo{
+font-size:1.1rem;
+font-weight:500;
+}
+
+.hero-reassurance{
+font-size:0.9rem;
+color:#6c757d;
+}
+
+.hero-text{
+max-width:1050px;
+margin:auto;
+}
+
+@media (min-width:768px){
+
+.hero-text{
+margin-left:8%;
+margin-right:0;
+}
+
+}
+
+
 /* Styles pour la section presentation-celine */
 
 #presentation-celine {
@@ -4566,6 +4591,8 @@ font-size: 0.75rem; /* Taille de la police relative */
        width: 100%; /* Les boutons occupent toute la largeur du conteneur */
    }
 }
+
+
 
 /* Styles pour une image dans la page article.md*/
 .article-content img {
