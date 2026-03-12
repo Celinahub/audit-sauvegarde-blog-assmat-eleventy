@@ -15,6 +15,7 @@ tags:
   - figurines
   - éveil de l'imagination
 date: 2024-10-07
+lastModified: 2026-03-12
 category: "ACTIVITÉS POUR ENFANT"
 featuredImage: "/images/uploads/sable-magique.jpg"
 imageAlt: "Manipulation du sable magique à Brétigny-sur-Orge"
@@ -25,6 +26,34 @@ url: "https://celine-assmat-bretigny.fr/posts/activites-enfant/sable-magique-fig
 <br>
 
 Le Sable Magique : Une Activité Ludique et Sensorielle pour les Tout-Petits: je propose régulièrement aux enfants de 2 ans le sable magique. Facile à manipuler, amusant et durable, il offre une expérience riche en découvertes sensorielles.
+
+<em>Mise à jour le 12 mars 2026 suite au rappel de nouveaux jouets à base de sable, vendus chez GIFI, Action, Auchan encore rappelés partout en France.</em>
+
+<div class="rappel-conso-box">
+    <p><strong>⚠️ Consultez les fiches officielles de rappel :</strong></p>
+    <ul class="list-unstyled">
+        <li class="mb-2">
+            <a href="https://rappel.conso.gouv.fr/fiche-rappel/21349/Interne" class="style-liens" target="_blank" rel="noopener">
+                Fiche de rappel : Kit de sable magique (GIFI / Action)
+            </a>
+        </li>
+        <li>
+            <a href="https://rappel.conso.gouv.fr/fiche-rappel/21577/Interne" class="style-liens" target="_blank" rel="noopener">
+                Fiche de rappel : Sable à modeler (Auchan et autres)
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="mt-4 poppins-regular-balise-p">
+    <p>
+        Face à ces rappels, je privilégie toujours des alternatives sûres pour l'éveil des enfants. 
+        Vous pouvez découvrir ma démarche éducative dans 
+        <a href="/projet-accueil/" class="style-liens">mon projet d’accueil</a> 
+        ou en apprendre plus sur mon profil d'
+        <a href="/assistante-maternelle-bretigny-sur-orge/" class="style-liens">assistante maternelle à Brétigny-sur-Orge</a>.
+    </p>
+</div>
 
 
 <br><br>
@@ -41,7 +70,7 @@ Le Sable Magique : Une Activité Ludique et Sensorielle pour les Tout-Petits: je
 
 ---
 
-## Le sable magique est une valeure sûre pour amuser les enfants
+## Le sable magique est une valeur sûre pour amuser les enfants
 
 <br>
 
@@ -93,6 +122,8 @@ Le sable magique se conserve longtemps à condition de le garder dans un contena
 - 1 tasse (ou mesure) d’huile végétale (olive, tournesol, jojoba, amande douce… selon ce que vous avez)
 - Optionnel : colorants alimentaires ou craies colorées râpées pour ajouter de la couleur
 
+{% image "/images/uploads/recette-sable-magique-bretigny.jpg", "Ingrédients pour réaliser du sable magique – Activité comestible et sans risques adaptées aux enfants à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
+
 ### Préparation :
 1. Dans un grand récipient, versez 7 tasses de farine. 
 2. Ajoutez 1 tasse d’huile végétale.  
@@ -100,6 +131,11 @@ Le sable magique se conserve longtemps à condition de le garder dans un contena
 4. Si vous voulez colorer le sable, râpez des craies ou ajoutez quelques gouttes de colorant alimentaire, puis mélangez bien pour répartir la couleur.
 5. Conservez votre sable magique dans un contenant hermétique pour qu’il reste souple et prêt à l’emploi.
 
+{% image "/images/uploads/sable-magique-maison-bretigny.jpg", "Sable magique texture – Activité adaptée aux enfants à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
+
+{% image "/images/uploads/recette-sable-manipulation-enfance-bretigny.jpg", "Sable magique fabriqué maison – Manipulation à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
+
+{% image "/images/uploads/recette-sable-manipulation-petite-enfance-bretigny.jpg", "Sable magique fabriqué maison – Manipulation petite enfance à Brétigny-sur-Orge", "(min-width: 1024px) 100vw, 50vw" %}
 
 ---
 
@@ -110,7 +146,7 @@ Le sable magique se conserve longtemps à condition de le garder dans un contena
   <dd>Dès 18-24 mois, avec surveillance et selon la motricité de l’enfant.</dd>
 
   <dt><strong>Le sable magique est-il toxique ?</strong></dt>
-  <dd>Non, il est conçu pour les enfants, mieux vaut vérifier l’emballage et éviter l’ingestion.</dd>
+  <dd>En principe non, car il est conçu pour les enfants. Cependant, la prudence est de mise suite aux récents rappels de produits industriels (GIFI, Action, Auchan) pour non-conformité. Je recommande de privilégier des marques certifiées ou, pour une sécurité totale, d'utiliser ma recette maison à base d'ingrédients alimentaires (farine et huile) partagée plus haut.</dd>
 
   <dt><strong>Comment nettoyer après l’activité ?</strong></dt>
   <dd>Grâce à sa texture, le sable ne colle pas. Un coup de balayette suffit pour nettoyer la zone.</dd>
@@ -139,7 +175,7 @@ Le sable magique se conserve longtemps à condition de le garder dans un contena
       "name": "Le sable magique est-il toxique ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Non, il est conçu pour les enfants, mieux vaut vérifier l’emballage et éviter l’ingestion."
+        "text": "En principe non, car il est conçu pour les enfants. Cependant, la prudence est de mise suite aux récents rappels de produits industriels (GIFI, Action, Auchan) pour non-conformité. Je recommande de privilégier des marques certifiées ou, pour une sécurité totale, d'utiliser ma recette maison à base d'ingrédients alimentaires (farine et huile) partagée plus haut."
       }
     },
     {
@@ -209,32 +245,26 @@ Le sable magique se conserve longtemps à condition de le garder dans un contena
 <hr>
 
 
-<div class="button-wrapper">
-   <a href="/projet-accueil/#activites" target="_blank" class="btn btn-primary btn-article">Consultez mes activités pour les tout-petits →</a>
+<div class="highlighted-note my-4">
+    <p class="poppins-regular-balise-p text-start mb-3">
+        Le sable magique est un merveilleux support pour la motricité fine, l'éveil sensoriel et l'imaginaire des tout-petits. 
+        C'est avec cette même attention portée au développement de l'enfant que je reçois les familles dans mon 
+        <a href="/assistante-maternelle-bretigny-sur-orge/" class="style-liens">
+            cadre d’accueil à Brétigny-sur-Orge
+        </a>.
+    </p>
+    
+    <p class="poppins-regular-balise-p text-start mb-0">
+        <strong>Besoin d'une assistante maternelle pour votre enfant ?</strong> 
+        Je reste disponible pour discuter de votre projet de garde et vous présenter mon organisation au quotidien.
+    </p>
 </div>
 
-<br>
-
-<div class="button-wrapper">
- <a href="/posts/collectivite-rpe/recette-pate-a-patouille/" target="_blank" class="btn btn-primary btn-article">Consultez la recette de la pâte à patouille →</a>
+<div class="button-wrapper mt-4">
+    <a href="/contact/" class="btn btn-primary btn-article">
+        Échangeons ensemble dès maintenant →
+    </a>
 </div>
-
-
-
-
-
-
-
-<br>
-
-<div class="highlighted-note">
-  <p><strong>Besoin d'une assistante maternelle à Brétigny-sur-Orge ?</strong> Je reste à l’écoute de vos besoins, même pour les mois à venir.</p>
-</div>
-
-<div class="button-wrapper">
-  <a href="https://celine-assmat-bretigny.fr/contact/" target="_blank" class="btn btn-primary btn-article">Échangeons ensemble dès maintenant →</a>
-</div>
-
 
 
 
