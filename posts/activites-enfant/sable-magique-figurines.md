@@ -33,13 +33,8 @@ Le Sable Magique : Une Activité Ludique et Sensorielle pour les Tout-Petits: je
     <p><strong>⚠️ Consultez les fiches officielles de rappel :</strong></p>
     <ul class="list-unstyled">
         <li class="mb-2">
-            <a href="https://rappel.conso.gouv.fr/fiche-rappel/21349/Interne" class="style-liens" target="_blank" rel="noopener">
-                Fiche de rappel : Kit de sable magique (GIFI / Action)
-            </a>
-        </li>
-        <li>
-            <a href="https://rappel.conso.gouv.fr/fiche-rappel/21577/Interne" class="style-liens" target="_blank" rel="noopener">
-                Fiche de rappel : Sable à modeler (Auchan et autres)
+            <a href="https://rappel.conso.gouv.fr/categorie/109/1" class="style-liens" target="_blank" rel="noopener">
+                Fiches de rappel : Jeux de sable / sable magique (GIFI / Action / HEMA / Auchan et autres)
             </a>
         </li>
     </ul>
