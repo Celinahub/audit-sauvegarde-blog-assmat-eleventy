@@ -287,7 +287,9 @@
    margin-bottom: 50px; /* Ajoutez de l'espace entre les éléments */
 }
 
-
+.paragraphe-spacing {
+  margin-bottom: 1rem; /* ou 1.5rem selon l’espace souhaité */
+}
 
 
 
@@ -1212,22 +1214,11 @@ font-weight:500;
 
 .hero-reassurance{
 font-size:0.9rem;
-color:#6c757d;
+font-weight: 400;
+color:#495057;
 }
 
-.hero-text{
-max-width:1050px;
-margin:auto;
-}
 
-@media (min-width:768px){
-
-.hero-text{
-margin-left:8%;
-margin-right:0;
-}
-
-}
 
 
 /* Styles pour la section presentation-celine */
