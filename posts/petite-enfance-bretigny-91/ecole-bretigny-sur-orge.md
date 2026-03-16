@@ -107,7 +107,7 @@ Avant de nouvelles aventures à l'école, votre enfant a encore beaucoup à expl
 
 <dl>
   <dt><strong>Mon enfant doit-il être propre pour l’entrée en maternelle ?</strong></dt>
-  <dd>La propreté est encouragée mais pas obligatoire. L’école accueille tous les enfants dès 3 ans, même si l’apprentissage est encore en cours.</dd>
+  <dd>La propreté est encouragée mais pas obligatoire. L’école accueille tous les enfants dès 3 ans, même si l’acquisition est encore en cours.</dd>
 
   <dt><strong>Comment préparer mon enfant à se séparer de moi ?</strong></dt>
   <dd>Habituez-le à de petites séparations, parlez-lui du déroulement de sa journée avec des étapes simples et rassurantes, et précisez toujours qui viendra le chercher en fin de journée (papa ou maman).</dd>
@@ -130,7 +130,7 @@ Avant de nouvelles aventures à l'école, votre enfant a encore beaucoup à expl
       "name": "Mon enfant doit-il être propre pour l’entrée en maternelle ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "La propreté est encouragée mais pas obligatoire. L’école accueille tous les enfants dès 3 ans, même si l’apprentissage est encore en cours."
+        "text": "La propreté est encouragée mais pas obligatoire. L’école accueille tous les enfants dès 3 ans, même si l’acquisition est encore en cours."
       }
     },
     {
