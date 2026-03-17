@@ -1,25 +1,31 @@
 {
   "title": "Céline Hubert - Assistante Maternelle",
-  "url": "https://celine-assmat-bretigny.fr/",
+  "url": "https://celine-assmat-bretigny.fr",
   "language": "fr",
   "description": "Assistante maternelle à Brétigny-sur-Orge, Céline Hubert vous accueille avec bienveillance.",
+
+
   "feed": {
     "subtitle": "Les derniers articles de mon blog",
     "filename": "atom.xml",
     "path": "/feed/atom.xml",
     "id": "https://celine-assmat-bretigny.fr/feed/atom.xml"
   },
+
   "author": {
-  "name": "Céline Hubert",
+    "name": "Céline Hubert",
     "instagram": "https://www.instagram.com/celine.assmat.bretigny91/",
     "facebook": "https://www.facebook.com/celine.assmat.bretigny/",
     "linkedin": "https://www.linkedin.com/in/celinehubertch/",
     "pinterest": "https://fr.pinterest.com/celine_assmat_bretigny/"
   },
-  "socialImage": "https://celine-assmat-bretigny.fr/images/presentation/rpe-bretigny.jpg",
+
+  "socialImage": "/images/presentation/rpe-bretigny.jpg",
+
   "pageImages": {
-    "projet-accueil": "https://celine-assmat-bretigny.fr/images/presentation/parc-bretigny.jpg"
+    "/projet-accueil/": "/images/presentation/parc-bretigny.jpg"
   },
+
   "navigation": [
     { "title": "ASSISTANTE MATERNELLE À BRÉTIGNY-SUR-ORGE", "url": "/" },
     { "title": "PROJET D'ACCUEIL", "url": "/projet-accueil/" },
