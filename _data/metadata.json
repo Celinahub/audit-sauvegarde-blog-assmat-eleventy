@@ -16,9 +16,9 @@
     "linkedin": "https://www.linkedin.com/in/celinehubertch/",
     "pinterest": "https://fr.pinterest.com/celine_assmat_bretigny/"
   },
-  "socialImage": "/presentation/rpe-bretigny.jpg",
+  "socialImage": "https://celine-assmat-bretigny.fr/images/presentation/rpe-bretigny.jpg",
   "pageImages": {
-    "projet-accueil": "/presentation/parc-bretigny.jpg"
+    "projet-accueil": "https://celine-assmat-bretigny.fr/images/presentation/parc-bretigny.jpg"
   },
   "navigation": [
     { "title": "ASSISTANTE MATERNELLE À BRÉTIGNY-SUR-ORGE", "url": "/" },
