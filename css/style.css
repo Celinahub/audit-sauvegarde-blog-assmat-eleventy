@@ -1218,7 +1218,12 @@ font-weight: 400;
 color:#495057;
 }
 
-
+.hero-availability-info {
+    color: #495057; /* Gris anthracite bien contrasté */
+    line-height: 1.4;
+    display: block;
+    margin-top: 5px;
+}
 
 
 /* Styles pour la section presentation-celine */
