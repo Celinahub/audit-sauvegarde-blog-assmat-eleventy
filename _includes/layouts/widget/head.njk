@@ -1,7 +1,7 @@
 <!-- SEO Metadata -->
 <title>{{ title or metadata.title }}</title>
 <meta name="description" content="{{ description or metadata.description }}">
-<meta name="keywords" content="{{ tags or 'blog, articles, ' ~ metadata.title | safe }}">
+
 
 {# ⚡ Robots : index sur la page principale, noindex sur les pages paginées #}
 {% if pagination and pagination.pageNumber > 0 %}
@@ -19,7 +19,12 @@
 <meta property="og:image" content="{{ socialImg | absoluteUrl(metadata.url) }}">
 <meta property="og:url" content="{{ url or page.url | absoluteUrl(metadata.url) }}">
 <meta property="og:site_name" content="{{ metadata.title }}">
-<meta property="og:type" content="article">
+{# Vérifie si l'URL contient /blog/ OU /posts/ #}
+{% if "/blog/" in page.url or "/posts/" in page.url %}
+  <meta property="og:type" content="article">
+{% else %}
+  <meta property="og:type" content="website">
+{% endif %}
 <meta name="pinterest-rich-pin" content="true">
 
 <!-- Twitter Metadata -->
