@@ -133,6 +133,26 @@ Si les assistantes maternelles disparaissent, la pression retombe sur les commun
 - **Peut entraîner une hausse importante :** Créer une place en crèche coûte une fortune en construction, entretien et personnel public,
 - **L'impact :** Pour financer ces bâtiments, la mairie n'a que deux leviers : l'endettement ou la **hausse de la taxe foncière**. Que vous soyez parent ou non, l'existence des assistantes maternelles protège votre pouvoir d'achat.
 
+
+
+
+<div class="highlighted-note border-start border-primary border-4 ps-3 py-3 bg-light my-4">
+<p class="mb-2"><strong>Mon analyse : Pourquoi vos impôts n'augmentent pas</strong></p>
+<p class="poppins-regular-balise-p">
+La Ville de Brétigny-sur-Orge souligne dans son budget 2025 maintenir ses <a href="https://www.bretigny91.fr/10-ans-sans-augmentation-des-taux-dimposition-communaux/" class="style-liens" target="_blank" rel="noopener"><strong>taux d'imposition inchangés depuis 2014</strong></a>. En tant que professionnelle, je constate que ce modèle de stabilité repose aussi sur un pilier méconnu : l'accueil individuel.
+
+• <strong>Économie d'infrastructure :</strong> Contrairement au collectif (crèches) qui nécessite des investissements publics massifs en bâtiments et personnel, l'assistante maternelle finance son propre lieu d'accueil.
+
+• <strong>Pression fiscale maîtrisée :</strong> Chaque place en accueil individuel est une économie directe de construction pour la ville, aidant ainsi à préserver votre taxe foncière.
+</p>
+</div>
+
+<p class="poppins-regular-balise-p">
+En clair, si l'offre d'accueil individuel s'effondrait, la mairie devrait financer de nouveaux bâtiments collectifs. Pour cela, elle n’aurait que deux leviers : l’endettement ou la <strong>hausse de la fiscalité locale</strong>. Que vous soyez parent ou non, l’existence des assistantes maternelles est donc un atout majeur pour le budget de tous les Brétignolais.
+</p>
+
+<br>
+
 {% image "/images/uploads/Infographie-abattement-fiscal-assmat-essonne.jpg", "Infographie comparative : coût crèche municipale vs assistante maternelle et rôle de l'abattement fiscal comme bouclier tarifaire.", "(min-width: 1024px) 100vw, 50vw" %}
 
 <div class="highlighted-note important">
