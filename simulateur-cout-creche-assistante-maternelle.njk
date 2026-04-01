@@ -48,7 +48,7 @@ jsonldFAQ:
       name: "Quels tarifs sont pris en compte pour les micro-crèches ?"
       acceptedAnswer:
         "@type": "Answer"
-        text: "Les micro-crèches appliquent librement leurs tarifs, généralement entre 9 € et 10 € de l’heure pour la première tranche, avec un tarif dégressif selon le nombre d’heures. Le simulateur utilise une fourchette réaliste pour l’Essonne, mais le tarif précis dépend de chaque établissement."
+        text: "Les micro-crèches appliquent librement leurs tarifs, généralement entre 9 € et 10 € de l’heure pour la première tranche, avec un tarif dégressif selon le nombre d’heures. Le simulateur utilise une fourchette réaliste pour l’Essonne, mais le tarif précis dépend de chaque établissement. Pour vérifier les montants officiels du Complément de mode de garde, consultez le barème officiel du CMG – CAF : https://www.caf.fr/professionnels/offres-et-services/accompagnement-des-allocataires/bareme-complement-de-mode-de-garde"
     - "@type": "Question"
       name: "Où trouver les simulateurs officiels CAF et URSSAF ?"
       acceptedAnswer:
@@ -1325,7 +1325,7 @@ function updateTauxComplet() {
   // Message alerte
   const alerte = document.getElementById("alertePlafondCMG");
   if ((salaireNet > 0) && ((salaireComplet * tauxHoraireNet) / salaireNet > 8.09)) {
-    alerte.textContent = "Le plafond CMG de 8 €/h est atteint. Le CMG reste versé, seule la part au-delà du plafond reste à votre charge. Pour une estimation exacte, consultez le simulateur officiel URSSAF (notre simulateur ne prend pas en compte les montants au-delà du plafond).";
+    alerte.textContent = "Le plafond CMG de 8,09 €/h est atteint. Le CMG reste versé, seule la part au-delà du plafond reste à votre charge. Pour une estimation exacte, consultez le simulateur officiel URSSAF (notre simulateur ne prend pas en compte les montants au-delà du plafond).";
     alerte.classList.remove("d-none");
   } else {
     alerte.textContent = "";
@@ -1379,7 +1379,7 @@ form.addEventListener("submit", function (e) {
   if (tauxCompletAffiche >= 8.09) {
     if (alerte) {
       alerte.textContent =
-        "⚠️ Le plafond CMG de 8 €/h est atteint. Le CMG reste versé, seule la part au-delà du plafond reste à votre charge. Pour une estimation exacte, consultez le simulateur officiel URSSAF (notre simulateur ne prend pas en compte les montants au-delà du plafond).";
+        "⚠️ Le plafond CMG de 8,09 €/h est atteint. Le CMG reste versé, seule la part au-delà du plafond reste à votre charge. Pour une estimation exacte, consultez le simulateur officiel URSSAF (notre simulateur ne prend pas en compte les montants au-delà du plafond).";
 
       alerte.classList.remove("d-none");
       alerte.classList.add("alert", "alert-warning", "visible");
