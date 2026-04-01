@@ -4706,6 +4706,18 @@ html {
      margin-bottom: 0.5rem;
    }
  }
+
+
+ .faq-list dd {
+    margin-bottom: 25px; /* Espace entre une réponse et la question suivante */
+    margin-left: 0;      /* Optionnel : aligne la réponse sur la question */
+  }
+
+  /* pour rendre les questions un peu plus distinctes */
+  .faq-list dt {
+    color: #2c3e50;
+    font-size: 1.1rem;
+  }
  
 /* Style pour introduction cartes evenement dates actualisees article chasse aux oeufs*/
 
@@ -5709,6 +5721,25 @@ body.rss-info-page {
    margin-bottom: 30px; /* Marge en bas du titre */
 }
 
+.info-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #e8f5e9;
+  color: #3a7a5b;
+  border: 1px solid #b7dfc8;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+
+  margin: 10px 0 20px 0; /* plus d’air en bas */
+
+}
+
+.info-badge i {
+  font-size: 0.9rem;
+}
 
 
 
