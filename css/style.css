@@ -5741,7 +5741,39 @@ body.rss-info-page {
   font-size: 0.9rem;
 }
 
+/* Conteneur principal du disclaimer */
+.disclaimer-container {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0; /* Ligne de séparation discrète */
+}
 
+/* Style du texte général */
+.disclaimer-simulation {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem; /* Plus petit que le corps de texte */
+    line-height: 1.5;
+    color: #6c757d; /* Gris typique Bootstrap text-muted */
+    font-style: italic;
+}
+
+/* Focus spécifique sur la mention crédit d'impôt */
+.disclaimer-impots {
+    margin-top: 0.75rem;
+    padding: 0.8rem;
+    background-color: #f8f9fa; /* Fond gris très léger pour le distinguer */
+    border-radius: 8px;
+    border-left: 3px solid #ffc107; /* Rappel de votre couleur "action/gold" */
+    color: #495057;
+    font-style: normal; /* On repasse en normal pour la lisibilité de l'info */
+}
+
+/* Optimisation pour l'export PDF (évite que le disclaimer soit coupé en deux) */
+@media print {
+    .disclaimer-container {
+        break-inside: avoid;
+    }
+}
 
 /* Styles pour la section conseil-expert-cmg */
  #conseil-expert-cmg {

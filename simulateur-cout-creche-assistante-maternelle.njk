@@ -91,30 +91,29 @@ jsonldFAQ:
             <div class="col-md-6 p-0 d-flex align-items-center">
                 <div class="simulateur-garde-enfants-item">
                     <div class="simulateur-garde-enfants-text-space p-4">
-                       <div class="description-atout-services">
-
-
-<div class="info-badge">
-  <i class="bi bi-patch-check-fill"></i>
-  Actualisé au 1er avril 2026 (Barèmes CAF)
-</div>
-
-
-    <h1 class="poppins-bold-titre-h1">Assistante maternelle ou crèche à Brétigny : comparez le coût réel et les aides 2026</h1>
+                      <div class="description-atout-services">
+    <!-- Un titre qui pose la question que tout le monde se pose -->
+    <h1 class="poppins-bold-titre-h1">La crèche est-elle vraiment moins chère à Brétigny ?</h1>
     <hr class="horizontal-line">
     
+    <!-- Un texte court qui va droit au but -->
     <p class="poppins-regular-balise-p">
-    <strong>La crèche est-elle vraiment moins chère?</strong> J'ai créé cet outil pour vous aider à y voir clair. Contrairement aux simulateurs nationaux, il compare en <strong>1 clic</strong> les 3 modes d'accueil locaux pour 2026. Le budget est souvent la première source de stress pour les parents. À Brétigny-sur-Orge, le reste à charge d'une assistante maternelle est pourtant souvent identique à celui d'une crèche grâce aux aides de la CAF. Comparez les tarifs réels et les allocations pour votre mode de garde.
+        Ne laissez plus le budget décider pour vous. Grâce à la <strong>réforme CMG</strong>, le reste à charge d'une assistante maternelle est souvent <strong>identique à celui d'une crèche</strong>. 
+    </p>
+    
+    <p class="poppins-regular-balise-p">
+        Comparez en <strong>1 clic</strong> les tarifs réels et vos aides CAF personnalisées.
     </p>
 
-    <p class="poppins-regular-balise-p text-start mb-5">
+<p class="poppins-regular-balise-p text-start mb-5">
         Envie de découvrir mon univers ? 
         <a href="{{ '/' | url }}" class="style-liens">
             <strong>Consultez ma présentation d'assistante maternelle à Brétigny-sur-Orge.</strong>
         </a>
     </p>
-    
-    <a href="#comparer-creche-assistante-maternelle" class="btn btn-action-primary">
+
+    <!-- Le bouton doit être très visible -->
+    <a href="#comparer-creche-assistante-maternelle" class="btn btn-action-primary py-3 px-4">
         Calculer mon reste à charge réel →
     </a>
 </div>
@@ -705,8 +704,8 @@ jsonldFAQ:
                 <div class="col-lg-5">
                     <div class="card-bleu-fonce p-3 rounded shadow-sm h-100 d-flex flex-column justify-content-center text-center">
 
-                        <span class="poppins-bold-titre-blanc-h1">382 € / mois CMG</span>
-                        <span class="small opacity-90">C'est votre aide réelle lissée (exemple basé sur 3 ans d'accueil: 263€ + 682€ + 201€ = 1 146€ / 3 = 382€ de CMG moyenne).</span>
+                        <span class="poppins-bold-titre-blanc-h1">390 € / mois CMG</span>
+                        <span class="small opacity-90">C'est votre aide réelle lissée (exemple basé sur 3 ans d'accueil: 272€ + 687€ + 211€ = 1 170€ / 3 = 390€ de CMG moyenne).</span>
                     </div>
                 </div>
             </div>
@@ -720,7 +719,7 @@ jsonldFAQ:
     <small class="d-block text-muted">
       Année 1 - <a href="#exemple-situation-b" class="style-liens text-decoration-none">Situation B</a>
     </small>
-    <strong>263 €</strong> d'aide
+    <strong>272 €</strong> d'aide
     <div class="poppins-regular-balise-p small mt-1">En couple avec 1 enfant</div>
   </div>
 </div>
@@ -730,7 +729,7 @@ jsonldFAQ:
                            <small class="d-block text-muted">
       Année 2 - <a href="#exemple-situation-a" class="style-liens text-decoration-none">Situation A</a>
     </small>
-                            <strong>682 €</strong> d'aide
+                            <strong>687 €</strong> d'aide
                            <div class="poppins-regular-balise-p small mt-1">Année de transition (congé parental ou temps partiel)</div>
                         </div>
                     </div>
@@ -740,7 +739,7 @@ jsonldFAQ:
                              <small class="d-block text-muted">
       Année 3 - <a href="#exemple-situation-c" class="style-liens text-decoration-none">Situation C</a>
     </small>
-                            <strong>201 €</strong> d'aide
+                            <strong>211 €</strong> d'aide
                             <div class="poppins-regular-balise-p small mt-1">Reprise d'activité à plein temps</div>
                         </div>
                     </div>
@@ -1507,6 +1506,20 @@ const contenuCommunHTML = `
 
   N'hésitez pas à me contacter pour discuter ensemble de votre situation :
   <br><a href="/contact/" class="btn btn-action-primary mt-3 d-inline-block">Discutons ensemble de vos besoins →</a><br><br>
+
+
+  <div class="disclaimer-container">
+    <div class="disclaimer-simulation">
+      <p><strong>Note importante :</strong> Cette simulation intègre la réforme du CMG (mise à jour du 1er avril 2026). 
+      Les montants sont des estimations indicatives. Le calcul définitif de vos droits est réalisé exclusivement par votre caisse de référence (CAF ou MSA).</p>
+      
+      <p class="disclaimer-impots">
+        <i class="fas fa-piggy-bank"></i> <strong>Bon à savoir :</strong> Le reste à charge affiché ne déduit pas le 
+        <strong>Crédit d'Impôt de 50%</strong> (plafonnée à 3 500 € de dépenses par enfant et par an). 
+        Votre effort financier réel après avantage fiscal sera donc sensiblement inférieur.
+      </p>
+    </div>
+  </div>
 `;
 
 
