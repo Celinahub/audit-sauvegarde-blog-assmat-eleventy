@@ -295,7 +295,7 @@ Pourtant, aujourd’hui, il se vide : trop de responsabilités, parfois des dema
 
 ---
 
-### **<span id="consequences">8. Les conséquences pour la société</span>**
+### **<span id="consequences">9. Les conséquences pour la société</span>**
 
 Moins d’assistantes maternelles, c’est :
 
@@ -309,7 +309,7 @@ Et à terme :
 
 ---
 
-### **<span id="disparition">9. Et si les assistantes maternelles disparaissaient ? Trois modèles… trois impacts très différents</span>**
+### **<span id="disparition">10. Et si les assistantes maternelles disparaissaient ? Trois modèles… trois impacts très différents</span>**
 
 Si l’accueil individuel venait à disparaître, les familles se tourneraient vers deux alternatives :
 - les crèches municipales
@@ -476,7 +476,7 @@ Le rapport récent de l’Inspection générale des affaires sociales (IGAS) sou
 
 ---
 
-### **<span id="conclusion">9. Conclusion : un levier économique sous-estimé</span>**
+### **<span id="conclusion">11. Conclusion : un levier économique sous-estimé</span>**
 
 L’abattement fiscal n’est pas un privilège<br>
 C’est un outil d’équilibre
@@ -529,7 +529,7 @@ Mais s’il disparaît, son coût deviendra visible pour tout le monde, parents 
 
 
 
-### **<span id="questions">10. Foire aux questions (FAQ)</span>**
+### **<span id="questions">12. Foire aux questions (FAQ)</span>**
 
 <br>
 
