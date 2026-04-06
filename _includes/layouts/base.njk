@@ -107,9 +107,9 @@ tarteaucitron.services.youtube = {
 {% include "layouts/widget/head.njk" %} <!-- Inclusion des métadonnées  -->
 {% include "layouts/widget/breadcrumb-schema.njk" %} <!-- JSON-LD Fil d'Ariane SEO -->
 
-{% if jsonldBusiness %}
+{% if jsonld %}
 <script type="application/ld+json">
-{{ jsonldBusiness | dump | safe }}
+{{ jsonld | dump | safe }}
 </script>
 {% endif %}
 
@@ -118,7 +118,6 @@ tarteaucitron.services.youtube = {
 {{ jsonldFAQ | dump | safe }}
 </script>
 {% endif %}
-
 
 </head>
 <body class="{{ bodyClass or '' }}">

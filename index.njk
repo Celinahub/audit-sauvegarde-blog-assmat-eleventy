@@ -5,19 +5,21 @@ description: "Assistante maternelle agréée à Brétigny-sur-Orge. Accueil pers
 url: "https://celine-assmat-bretigny.fr/"
 image: "presentation-assistante-maternelle-agreee.webp"
 permalink: "/"
+
 eleventyNavigation:
   key: Accueil
   order: 1
 
-jsonldBusiness:
+jsonld:
   "@context": "https://schema.org"
-  "@type": ["LocalBusiness","ChildCare"]
+  "@type": "ChildCare"
   "@id": "https://celine-assmat-bretigny.fr/#business"
   "name": "Assistante maternelle agréée - chez Céline"
-  "description": "Assistante maternelle agréée proposant un accueil personnalisé et sécurisé pour les enfants à Brétigny-sur-Orge."
   "url": "https://celine-assmat-bretigny.fr/"
   "image": "https://celine-assmat-bretigny.fr/presentation-assistante-maternelle-agreee.webp"
-  "priceRange": "€€"
+  "logo": "https://celine-assmat-bretigny.fr/images/navbar/logo-navbar-paint.png"
+  "description": "Assistante maternelle agréée proposant un accueil personnalisé pour les enfants à Brétigny-sur-Orge. Une alternative chaleureuse et professionnelle à la crèche."
+ 
   "address":
     "@type": "PostalAddress"
     "streetAddress": "30 Bis Av. Lucien Clause"
@@ -25,15 +27,53 @@ jsonldBusiness:
     "addressRegion": "Île-de-France"
     "postalCode": "91220"
     "addressCountry": "FR"
+
   "geo":
     "@type": "GeoCoordinates"
     "latitude": 48.609
     "longitude": 2.25
+
   "openingHoursSpecification":
     - "@type": "OpeningHoursSpecification"
       "dayOfWeek": ["Monday","Tuesday","Thursday","Friday"]
       "opens": "07:15"
       "closes": "18:45"
+
+  "hasMap": "https://maps.google.com/?q=30+Bis+Av.+Lucien+Clause+Brétigny-sur-Orge"
+
+  "priceRange": "€€"
+
+  "sameAs":
+    - "https://g.page/r/CQsVBcwjVgVtEBM/review"
+    - "https://www.facebook.com/celine.assmat.bretigny/"
+    - "https://www.instagram.com/celine.assmat.bretigny91/"
+    - "https://fr.pinterest.com/celine_assmat_bretigny/"
+
+  "areaServed":
+    - "@type": "Place"
+      "name": "Brétigny-sur-Orge"
+    - "@type": "Place"
+      "name": "Le Plessis-Pâté"
+    - "@type": "Place"
+      "name": "Saint-Michel-sur-Orge"
+    - "@type": "Place"
+      "name": "Saint-Germain-lès-Arpajon"
+
+  "makesOffer":
+    "@type": "Offer"
+    "itemOffered":
+      "@type": "Service"
+      "name": "Accueil d'enfants à domicile"
+      "serviceType": "Assistante maternelle agréée"
+      "areaServed":
+        "@type": "Place"
+        "name": "Brétigny-sur-Orge"
+
+  "knowsAbout":
+    - "petite enfance"
+    - "éveil de l'enfant"
+    - "assistante maternelle agréée"
+    - "garde d'enfants à domicile"
 
 jsonldFAQ:
   "@context": "https://schema.org"
@@ -43,22 +83,25 @@ jsonldFAQ:
       "name": "Quels sont les avantages d'une assistante maternelle à Brétigny-sur-Orge ?"
       "acceptedAnswer":
         "@type": "Answer"
-        "text": "Agréée à Brétigny-sur-Orge, proche de la gare RER C et du parc Clause-Bois Badeau. Accueil individuel, calme et sécurisé, plus chaleureux qu'en crèche. Sorties régulières au parc et au Relais Petite Enfance. Activités d’éveil variées et adaptées à chaque âge. Accueil nomade : moins d’écrans, plus de mouvement. Démarches simplifiées pour les parents. Tarif accessible avec reste à charge optimisé."
+        "text": "Faire appel à une assistante maternelle à Brétigny-sur-Orge, c'est offrir à votre enfant un accueil individualisé dans un cadre familial et sécurisé. Située à deux pas de la gare RER C et du parc Clause-Bois Badeau, je propose un quotidien riche en découvertes grâce aux sorties régulières et aux activités au Relais Petite Enfance, tout en garantissant un rythme calme, sans écrans, et adapté à chaque âge."
+
     - "@type": "Question"
       "name": "Puis-je visiter avant de réserver ?"
       "acceptedAnswer":
         "@type": "Answer"
-        "text": "Oui, lors d'un premier rendez-vous je propose une visite du lieu d'accueil avant toute réservation afin de vous assurer que l'environnement correspond aux besoins de votre enfant et de votre famille. Cette visite permet d'établir un premier contact et de discuter du projet d'accueil."
+        "text": "Oui, lors d'un premier rendez-vous je propose une visite du lieu d'accueil avant toute réservation afin de vous assurer que l'environnement correspond aux besoins de votre enfant et de votre famille."
+
     - "@type": "Question"
       "name": "Êtes-vous accessible depuis Plessis-Pâté ou Saint-Michel-sur-Orge ?"
       "acceptedAnswer":
         "@type": "Answer"
-        "text": "Oui, mon domicile est situé à quelques minutes de ces communes en voiture ou en bus. C'est un mode d'accueil pratique pour les parents travaillant à Brétigny-sur-Orge ou transitant par la gare."
+        "text": "Oui, mon domicile est situé à quelques minutes de ces communes en voiture ou en bus."
+
     - "@type": "Question"
       "name": "Est-ce que vous accueillez aussi des enfants de Saint-Germain-lès-Arpajon ?"
       "acceptedAnswer":
         "@type": "Answer"
-        "text": "Absolument. J'accompagne régulièrement des familles de Saint-Germain-lès-Arpajon ou du Plessis-Pâté qui recherchent une assistante maternelle agréée offrant un cadre plus calme qu'en structure collective."
+        "text": "Absolument. J'accompagne régulièrement des familles de ces communes."
 ---
 
 <!-- Icône de défilement vers le haut utilisant une image SVG -->
@@ -736,7 +779,7 @@ Réponse généralement sous 24h • Jardin • Sorties quotidiennes • RER C 8
         </h2>
         <div id="faq-collapse-1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
           <div class="accordion-body poppins-regular-balise-p">
-         Agréée à Brétigny-sur-Orge, proche de la gare RER C et du parc Clause-Bois Badeau.
+         Choisir une assistante maternelle agréée à Brétigny-sur-Orge, c'est offrir à votre enfant un cadre familial sécurisé et stimulant. Idéalement située proche du RER C et du parc Clause-Bois Badeau, je propose un accueil personnalisé avec :
            <ul class="liste-avantages">
               <li>
                 <img src="{{ '/images/presentation/accueil-cocoon-bretigny.svg' | url }}" class="rencontre-icon" alt="Icône accueil cocoon" loading="lazy">
@@ -900,55 +943,6 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ChildCare",
-  "@id": "https://celine-assmat-bretigny.fr/#business",
-  "name": "Assistante maternelle agréée - chez Céline",
-  "url": "https://celine-assmat-bretigny.fr/",
-  "image": "https://celine-assmat-bretigny.fr/presentation-assistante-maternelle-agreee.webp",
-  "logo": "https://celine-assmat-bretigny.fr/images/navbar/logo-navbar-paint.png",
-  "description": "Assistante maternelle agréée proposant un accueil personnalisé pour les enfants à Brétigny-sur-Orge. Une alternative chaleureuse et professionnelle à la crèche.",
-  
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "30 Bis Av. Lucien Clause",
-    "addressLocality": "Brétigny-sur-Orge",
-    "addressRegion": "Île-de-France",
-    "postalCode": "91220",
-    "addressCountry": "FR"
-  },
-
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 48.609,
-    "longitude": 2.25
-  },
-
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "07:15",
-      "closes": "18:45"
-    }
-  ],
-
-  "hasMap": "https://www.google.com/maps/place/30+Bis+Av.+Lucien+Clause,+Brétigny-sur-Orge",
-
-  "priceRange": "€",
-
-  "sameAs": [
-    "https://g.page/r/CQsVBcwjVgVtEBM/review"
-  ]
-}
-</script>
 
 
 
