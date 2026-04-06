@@ -12,14 +12,15 @@ eleventyNavigation:
 
 jsonld:
   "@context": "https://schema.org"
-  "@type": "ChildCare"
+  "@type": "LocalBusiness"
   "@id": "https://celine-assmat-bretigny.fr/#business"
   "name": "Assistante maternelle agréée - chez Céline"
   "url": "https://celine-assmat-bretigny.fr/"
   "image": "https://celine-assmat-bretigny.fr/presentation-assistante-maternelle-agreee.webp"
   "logo": "https://celine-assmat-bretigny.fr/images/navbar/logo-navbar-paint.png"
   "description": "Assistante maternelle agréée proposant un accueil personnalisé pour les enfants à Brétigny-sur-Orge. Une alternative chaleureuse et professionnelle à la crèche."
- 
+  "additionalType": "https://schema.org/ChildCare"
+
   "address":
     "@type": "PostalAddress"
     "streetAddress": "30 Bis Av. Lucien Clause"
@@ -51,13 +52,13 @@ jsonld:
 
   "areaServed":
     - "@type": "Place"
-      "name": "Brétigny-sur-Orge"
+      "name": "Brétigny-sur-Orge, garde d’enfants"
     - "@type": "Place"
-      "name": "Le Plessis-Pâté"
+      "name": "Le Plessis-Pâté, assistante maternelle"
     - "@type": "Place"
-      "name": "Saint-Michel-sur-Orge"
+      "name": "Saint-Michel-sur-Orge, accueil enfant"
     - "@type": "Place"
-      "name": "Saint-Germain-lès-Arpajon"
+      "name": "Saint-Germain-lès-Arpajon, nounou agréée"
 
   "makesOffer":
     "@type": "Offer"
@@ -80,28 +81,41 @@ jsonldFAQ:
   "@type": "FAQPage"
   "mainEntity":
     - "@type": "Question"
+      "@id": "https://celine-assmat-bretigny.fr/#faq-q1"
       "name": "Quels sont les avantages d'une assistante maternelle à Brétigny-sur-Orge ?"
       "acceptedAnswer":
         "@type": "Answer"
         "text": "Faire appel à une assistante maternelle à Brétigny-sur-Orge, c'est offrir à votre enfant un accueil individualisé dans un cadre familial et sécurisé. Située à deux pas de la gare RER C et du parc Clause-Bois Badeau, je propose un quotidien riche en découvertes grâce aux sorties régulières et aux activités au Relais Petite Enfance, tout en garantissant un rythme calme, sans écrans, et adapté à chaque âge."
 
     - "@type": "Question"
+      "@id": "https://celine-assmat-bretigny.fr/#faq-q2"
       "name": "Puis-je visiter avant de réserver ?"
       "acceptedAnswer":
         "@type": "Answer"
         "text": "Oui, lors d'un premier rendez-vous je propose une visite du lieu d'accueil avant toute réservation afin de vous assurer que l'environnement correspond aux besoins de votre enfant et de votre famille."
 
     - "@type": "Question"
+      "@id": "https://celine-assmat-bretigny.fr/#faq-q3"
       "name": "Êtes-vous accessible depuis Plessis-Pâté ou Saint-Michel-sur-Orge ?"
       "acceptedAnswer":
         "@type": "Answer"
         "text": "Oui, mon domicile est situé à quelques minutes de ces communes en voiture ou en bus."
 
     - "@type": "Question"
+      "@id": "https://celine-assmat-bretigny.fr/#faq-q4"
       "name": "Est-ce que vous accueillez aussi des enfants de Saint-Germain-lès-Arpajon ?"
       "acceptedAnswer":
         "@type": "Answer"
         "text": "Absolument. J'accompagne régulièrement des familles de ces communes."
+
+jsonldBreadcrumb:
+  "@context": "https://schema.org"
+  "@type": "BreadcrumbList"
+  "itemListElement":
+    - "@type": "ListItem"
+      "position": 1
+      "name": "Accueil"
+      "item": "https://celine-assmat-bretigny.fr/"
 ---
 
 <!-- Icône de défilement vers le haut utilisant une image SVG -->
