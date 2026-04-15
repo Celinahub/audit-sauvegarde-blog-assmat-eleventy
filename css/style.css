@@ -1208,8 +1208,27 @@ h2, h3 {
 
 
 .hero-dispo{
-font-size:1.1rem;
-font-weight:500;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.hero-dispo-badge{
+  display: inline-flex;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #fff1f1;
+  color: #b00020;
+  font-size: 0.9rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.hero-dispo-text{
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #8b1a1a;
 }
 
 .hero-reassurance{
